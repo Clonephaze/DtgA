@@ -1,0 +1,33 @@
+# Site settings
+title: My GitHub Pages Site
+description: A description of your site
+theme: jekyll-theme-primer
+
+# GitHub Pages settings
+remote_theme: primer/github-pages
+
+# Build settings
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Exclude files and folders from the build
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - README.md
+  - LICENSE
+
+# Markdown settings
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    css_class: highlight
+
+# GitHub metadata
+github:
+  is_project_page: false
