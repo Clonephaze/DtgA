@@ -1,2 +1,13 @@
 .DtgA-Text-Color {color: #84ffe0 !important; }
 .navbar-height {height: 50px;}
+.navbar-nav {
+    border-bottom: 2px solid #383f45;
+    border-left: 2px solid #383f45;
+    border-right: 2px solid #383f45;
+  }
+  
+  @media (min-width: 768px) {
+    .navbar-nav {
+      border: none;
+    }
+  }
