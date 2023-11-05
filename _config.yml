@@ -1,15 +1,15 @@
 # Site settings
 title: My GitHub Pages Site
 description: A description of your site
-theme: jekyll-theme-primer
 
 # GitHub Pages settings
-remote_theme: primer/github-pages
+remote_theme: pages-themes/architect@v0.2.0
 
 # Build settings
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
+  - jekyll-remote-theme
 
 # Exclude files and folders from the build
 exclude:
