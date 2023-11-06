@@ -7,12 +7,9 @@
 .navbar-nav {
     border-bottom: 2px solid #383f45;
     border-left: 2px solid #383f45;
-    border-right: 2px solid #383f45;
-  }
-  
-  @media (min-width: 768px) {
-    .navbar-nav {
-      border: none;
-    }
-  }
-
+    border-right: 2px solid #383f45;}
+.navbar {z-index: 1000;}
+.spoiler-text {display: none;}
+.spoiler-text.show {display: block;}
+@media (min-width: 768px) {
+    .navbar-nav {border: none;}}

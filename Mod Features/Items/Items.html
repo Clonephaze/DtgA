@@ -3,17 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dangerous to go Alone!</title>
+    <title>DtgA Items</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="../../css/DtgA-Custom.css">
-<body>
+<body class="DtgA-Text-Color">
     <div class="container-fluid"> 
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark navbar-height">
-            <a class="navbar-brand" href="#" style="max-width: 175px;">
+            <a class="navbar-brand" href="..\..\index.html" style="max-width: 175px;">
                 <img src="../../DtgA-logo_Final-Gapless.png" alt="Dangerous To Go Alone" class="img-fluid" style="max-height: 50px;" >
             </a>
                 
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse bg-dark" id="navbarNavDropdown">
@@ -34,28 +34,299 @@
                             <a class="dropdown-item DtgA-Text-Color" href="..\Spells\Spells.html">Spells</a>
                             <a class="dropdown-item DtgA-Text-Color" href="..\Monsters\Monsters.html">Monsters</a>
                             <a class="dropdown-item DtgA-Text-Color" href="..\NPCs\NPCs.html">NPCs</a>
-                            <a class="dropdown-item DtgA-Text-Color" href="..\locations\Locations.html">Locations</a>
+                            <a class="dropdown-item DtgA-Text-Color" href="..\Locations\Locations.html">Locations</a>
                             <a class="dropdown-item DtgA-Text-Color" href="..\Changes to Game\ChangesToGame.html">Changes to Game</a>
                             <!-- Add more parts as necessary -->
                         </div>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link DtgA-Text-Color" href="..\..\Known Issues\KnownIssues.html">Known Issues</a>
+                        <a class="nav-link DtgA-Text-Color" href="../../Known Issues/KnownIssues.html">Known Issues</a>
                     </li>
                     
                 </ul>
             </div>
         </nav>
     </div>
-    <div></div>
+    <div class="position-fixed top-0 end-0 d-none d-md-block" style="margin-top: 75px; margin-right: 10px;">
+        <div class="list-group">
+         <a href="#Gadgets" class="list-group-item list-group-item-action DtgA-Text-Color">Gadgets</a>
+         <a href="#Weapons" class="list-group-item list-group-item-action DtgA-Text-Color">Weapons</a>
+         <a href="#KeyItems" class="list-group-item list-group-item-action DtgA-Text-Color">Key Items</a>
+         <a href="#Consumables" class="list-group-item list-group-item-action DtgA-Text-Color">Consumables</a>
+         <!-- Add more links as necessary -->
+        </div>
+       </div>
+    <h2 class="text-center fw-bold" id="Gadgets">Gadgets</h2>
+    <div class="container" id="Gadget-Cards">
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+          <div class="col">
+            <div class="card h-100 DtgA-Text-Color">
+              <img src="ItemFlintStrike.png" class="img-fluid rounded text-center mx-auto d-block" alt="Flintstrike Logo" style="max-width: 235px;">
+              <div class="card-body">
+                <h5 class="card-title">Flint Strike</h5>
+                <p class="card-text">Flint Strike is a gadget used to light fires, can be used to light bundles of wood or any other flamable object. Useful for making campfires!</p>
+                <p class="card-text"><small class="text-body-secondary"><details><summary>Location</summary> Can be found in the Old Man's Hut on Hope's Rise (the plateau).</details></small></p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 DtgA-Text-Color">
+              <img src="ItemPlaceholder.png" class="rounded text-center mx-auto d-block" alt="Flintstrike Logo" style="max-width: 235px;">
+              <div class="card-body">
+                <h5 class="card-title">Slingshot</h5>
+                <p class="card-text">Arrows are scarce with DtgA, and thats where the slingshot comes in. It fires pebbles, so youll never be without ammo! It doesnt hit hard, but it can break ice, and even move small objects.</p>
+                <p class="card-text"><small class="text-body-secondary"><details><summary>Location</summary> Can be found at the newly added ruins below the shrine in the snowy mountains on Hope's Rise.</details></small></p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 DtgA-Text-Color">
+              <img src="ItemPlaceholder.png" class="img-fluid rounded text-center mx-auto d-block" alt="Flintstrike Logo" style="max-width: 235px;">
+              <div class="card-body">
+                <h5 class="card-title">Cannon</h5>
+                <p class="card-text">Introducing the Cannon, the game's most powerful weapon by a long shot. With its unlimited bomb arrows, enhanced explosion radius, and physics-based projectiles, this weapon can easily take down even the toughest enemies and send objects flying. Will eventually rely on Powder Kegs as ammo. Just remember to avoid firing it in the rain unless you like pain.</p>
+                <p class="card-text"><small class="text-body-secondary"><details><summary>Location</summary> Can be found in the newly added cave next to the Woodland Stable pond.</details></small></p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 DtgA-Text-Color">
+              <img src="ItemPlaceholder.png" class="img-fluid rounded text-center mx-auto d-block" alt="Flintstrike Logo" style="max-width: 235px;">
+              <div class="card-body">
+                <h5 class="card-title">Silver Gauntlents</h5>
+                <p class="card-text">A classic Zelda item, with a fresh twist. No longer just for lifting hefty rocks, these gauntlets now allow you to manipulate any physics object as if it were as light as a Boko fang. Originating from a cleverly-named giant who was cursed by a goddess, these gauntlets come with a lore-friendly backstory that explains their flawed hitbox - they can't interact with enemies, only physics objects.</p>
+                <p class="card-text"><small class="text-body-secondary"><details><summary>Location</summary> Can be found in the Lanayru Promenade.</details></small></p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 DtgA-Text-Color">
+              <img src="ItemPlaceholder.png" class="img-fluid rounded text-center mx-auto d-block" alt="Flintstrike Logo" style="max-width: 235px;">
+              <div class="card-body">
+                <h5 class="card-title">Golden Gauntlents</h5>
+                <p class="card-text">Struggling with the Silver Gauntlets? Meet the Golden Gauntlets. Blessed by the goddess Din, they turn gold and gain new powers. Now, they can move physics objects and unleash invisible Lynel flames on enemies. It's a bug-turned-feature moment. Plus, they've been ReAnimated for a new look.</p>
+                <p class="card-text"><small class="text-body-secondary"><details><summary>Location</summary><!-- TODO --></details></small></p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 DtgA-Text-Color">
+              <img src="ItemPlaceholder.png" class="img-fluid rounded text-center mx-auto d-block" alt="Flintstrike Logo" style="max-width: 235px;">
+              <div class="card-body">
+                <h5 class="card-title">Twilight Spinner</h5>
+                <p class="card-text">Like shield surfing on a spinning top. This device propels you in any direction you desire, even uphill. The Spinner doesn't just transport you; it offers a whirlwind adventure that redefines motion in the game. Be sure to start shield surfing first, THEN equip the Spinner.</p>
+                <p class="card-text"><small class="text-body-secondary"><details><summary>Location</summary>Can be found in the newly added farthest west ruins in Gerudo Desert.</details></small></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    <h2 class="text-center fw-bold" style="margin-top: 20px;" id="Weapons">Weapons</h2>
+    <div class="container" id="Gadget-Cards">
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+          <div class="col">
+            <div class="card h-100 DtgA-Text-Color">
+              <img src="ItemPlaceholder.png" class="img-fluid rounded text-center mx-auto d-block" alt="Flintstrike Logo" style="max-width: 235px;">
+              <div class="card-body">
+                <h5 class="card-title">placeholder</h5>
+                <p class="card-text">placeholder</p>
+                <p class="card-text"><small class="text-body-secondary"><details><summary>Location</summary> placeholder</details></small></p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 DtgA-Text-Color">
+              <img src="ItemPlaceholder.png" class="rounded text-center mx-auto d-block" alt="Flintstrike Logo" style="max-width: 235px;">
+              <div class="card-body">
+                <h5 class="card-title">placeholder</h5>
+                <p class="card-text">placeholder</p>
+                <p class="card-text"><small class="text-body-secondary"><details><summary>Location</summary> placeholder</details></small></p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 DtgA-Text-Color">
+              <img src="ItemPlaceholder.png" class="img-fluid rounded text-center mx-auto d-block" alt="Flintstrike Logo" style="max-width: 235px;">
+              <div class="card-body">
+                <h5 class="card-title">placeholder</h5>
+                <p class="card-text">placeholder</p>
+                <p class="card-text"><small class="text-body-secondary"><details><summary>Location</summary> placeholder</details></small></p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 DtgA-Text-Color">
+              <img src="ItemPlaceholder.png" class="img-fluid rounded text-center mx-auto d-block" alt="Flintstrike Logo" style="max-width: 235px;">
+              <div class="card-body">
+                <h5 class="card-title">placeholder</h5>
+                <p class="card-text">placeholder.</p>
+                <p class="card-text"><small class="text-body-secondary"><details><summary>Location</summary> placeholder</details></small></p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 DtgA-Text-Color">
+              <img src="ItemPlaceholder.png" class="img-fluid rounded text-center mx-auto d-block" alt="Flintstrike Logo" style="max-width: 235px;">
+              <div class="card-body">
+                <h5 class="card-title">placeholder</h5>
+                <p class="card-text">placeholder.</p>
+                <p class="card-text"><small class="text-body-secondary"><details><summary>Location</summary>placeholder</details></small></p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 DtgA-Text-Color">
+              <img src="ItemPlaceholder.png" class="img-fluid rounded text-center mx-auto d-block" alt="Flintstrike Logo" style="max-width: 235px;">
+              <div class="card-body">
+                <h5 class="card-title">placeholder</h5>
+                <p class="card-text">placeholder</p>
+                <p class="card-text"><small class="text-body-secondary"><details><summary>Location</summary>placeholder</details></small></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    <h2 class="text-center fw-bold" style="margin-top: 20px;" id="KeyItems">Key Items</h2>
+    <div class="container" id="Gadget-Cards">
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+          <div class="col">
+            <div class="card h-100 DtgA-Text-Color">
+              <img src="ItemPlaceholder.png" class="img-fluid rounded text-center mx-auto d-block" alt="Flintstrike Logo" style="max-width: 235px;">
+              <div class="card-body">
+                <h5 class="card-title">placeholder</h5>
+                <p class="card-text">placeholder</p>
+                <p class="card-text"><small class="text-body-secondary"><details><summary>Location</summary> placeholder</details></small></p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 DtgA-Text-Color">
+              <img src="ItemPlaceholder.png" class="rounded text-center mx-auto d-block" alt="Flintstrike Logo" style="max-width: 235px;">
+              <div class="card-body">
+                <h5 class="card-title">placeholder</h5>
+                <p class="card-text">placeholder</p>
+                <p class="card-text"><small class="text-body-secondary"><details><summary>Location</summary> placeholder</details></small></p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 DtgA-Text-Color">
+              <img src="ItemPlaceholder.png" class="img-fluid rounded text-center mx-auto d-block" alt="Flintstrike Logo" style="max-width: 235px;">
+              <div class="card-body">
+                <h5 class="card-title">placeholder</h5>
+                <p class="card-text">placeholder</p>
+                <p class="card-text"><small class="text-body-secondary"><details><summary>Location</summary> placeholder</details></small></p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 DtgA-Text-Color">
+              <img src="ItemPlaceholder.png" class="img-fluid rounded text-center mx-auto d-block" alt="Flintstrike Logo" style="max-width: 235px;">
+              <div class="card-body">
+                <h5 class="card-title">placeholder</h5>
+                <p class="card-text">placeholder.</p>
+                <p class="card-text"><small class="text-body-secondary"><details><summary>Location</summary> placeholder</details></small></p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 DtgA-Text-Color">
+              <img src="ItemPlaceholder.png" class="img-fluid rounded text-center mx-auto d-block" alt="Flintstrike Logo" style="max-width: 235px;">
+              <div class="card-body">
+                <h5 class="card-title">placeholder</h5>
+                <p class="card-text">placeholder.</p>
+                <p class="card-text"><small class="text-body-secondary"><details><summary>Location</summary>placeholder</details></small></p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 DtgA-Text-Color">
+              <img src="ItemPlaceholder.png" class="img-fluid rounded text-center mx-auto d-block" alt="Flintstrike Logo" style="max-width: 235px;">
+              <div class="card-body">
+                <h5 class="card-title">placeholder</h5>
+                <p class="card-text">placeholder</p>
+                <p class="card-text"><small class="text-body-secondary"><details><summary>Location</summary>placeholder</details></small></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <h2 class="text-center fw-bold" style="margin-top: 20px;" id="Consumables">Consumables</h2>
+    <div class="container" id="Gadget-Cards">
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+          <div class="col">
+            <div class="card h-100 DtgA-Text-Color">
+              <img src="ItemPlaceholder.png" class="img-fluid rounded text-center mx-auto d-block" alt="Flintstrike Logo" style="max-width: 235px;">
+              <div class="card-body">
+                <h5 class="card-title">placeholder</h5>
+                <p class="card-text">placeholder</p>
+                <p class="card-text"><small class="text-body-secondary"><details><summary>Location</summary> placeholder</details></small></p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 DtgA-Text-Color">
+              <img src="ItemPlaceholder.png" class="rounded text-center mx-auto d-block" alt="Flintstrike Logo" style="max-width: 235px;">
+              <div class="card-body">
+                <h5 class="card-title">placeholder</h5>
+                <p class="card-text">placeholder</p>
+                <p class="card-text"><small class="text-body-secondary"><details><summary>Location</summary> placeholder</details></small></p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 DtgA-Text-Color">
+              <img src="ItemPlaceholder.png" class="img-fluid rounded text-center mx-auto d-block" alt="Flintstrike Logo" style="max-width: 235px;">
+              <div class="card-body">
+                <h5 class="card-title">placeholder</h5>
+                <p class="card-text">placeholder</p>
+                <p class="card-text"><small class="text-body-secondary"><details><summary>Location</summary> placeholder</details></small></p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 DtgA-Text-Color">
+              <img src="ItemPlaceholder.png" class="img-fluid rounded text-center mx-auto d-block" alt="Flintstrike Logo" style="max-width: 235px;">
+              <div class="card-body">
+                <h5 class="card-title">placeholder</h5>
+                <p class="card-text">placeholder.</p>
+                <p class="card-text"><small class="text-body-secondary"><details><summary>Location</summary> placeholder</details></small></p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 DtgA-Text-Color">
+              <img src="ItemPlaceholder.png" class="img-fluid rounded text-center mx-auto d-block" alt="Flintstrike Logo" style="max-width: 235px;">
+              <div class="card-body">
+                <h5 class="card-title">placeholder</h5>
+                <p class="card-text">placeholder.</p>
+                <p class="card-text"><small class="text-body-secondary"><details><summary>Location</summary>placeholder</details></small></p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 DtgA-Text-Color">
+              <img src="ItemPlaceholder.png" class="img-fluid rounded text-center mx-auto d-block" alt="Flintstrike Logo" style="max-width: 235px;">
+              <div class="card-body">
+                <h5 class="card-title">placeholder</h5>
+                <p class="card-text">placeholder</p>
+                <p class="card-text"><small class="text-body-secondary"><details><summary>Location</summary>placeholder</details></small></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-    <script>
-        var navbarToggler = document.querySelector(".navbar-toggler");
-        var navbarCollapse = document.querySelector(".navbar-collapse");
-    
-        navbarToggler.addEventListener("click", function () {
-            navbarCollapse.classList.toggle("show");
+    <Script>document.querySelectorAll('.list-group-item').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+            e.preventDefault();
+     
+            document.querySelector(this.getAttribute('href')).scrollIntoView({
+                behavior: 'smooth'
+            });
         });
-    </script>
+     });
+    </Script>
+     
 </body>
 </html>
