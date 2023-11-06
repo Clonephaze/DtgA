@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dangerous to go Alone!</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/DtgA-Custom.css">
+<body>
+    <div class="container-fluid"> 
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark navbar-height">
+            <a class="navbar-brand" href="#" style="max-width: 175px;">
+                <img src="../DtgA-logo_Final-Gapless.png" alt="Dangerous To Go Alone" class="img-fluid" style="max-height: 50px;" >
+            </a>
+                
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse bg-dark" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link DtgA-Text-Color" href="../index.html">Home <span class="sr-only"></span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link DtgA-Text-Color" href="GettingsStarted.html">Getting Started</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle DtgA-Text-Color" id="navbarDropdownMenuLink" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Mod Features
+                        </a>
+                        <div class="dropdown-menu DtgA-Text-Color" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item DtgA-Text-Color" href="..\Mod Features\New Mechanics\NewMechanics.html">New Mechanics</a>
+                            <a class="dropdown-item DtgA-Text-Color" href="..\Mod Features\Items\Items.html">Items</a>
+                            <a class="dropdown-item DtgA-Text-Color" href="..\Mod Features\Spells\Spells.html">Spells</a>
+                            <a class="dropdown-item DtgA-Text-Color" href="..\Mod Features\Monsters\Monsters.html">Monsters</a>
+                            <a class="dropdown-item DtgA-Text-Color" href="..\Mod Features\NPCs\NPCs.html">NPCs</a>
+                            <a class="dropdown-item DtgA-Text-Color" href="..\Mod Features\Locations\Locations.html">Locations</a>
+                            <a class="dropdown-item DtgA-Text-Color" href="..\Mod Features\Changes to Game\ChangesToGame.html">Changes to Game</a>
+                            <!-- Add more parts as necessary -->
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link DtgA-Text-Color" href="..\Known Issues\KnownIssues.html">Known Issues</a>
+                    </li>
+                    
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <div class="container mt-4 DtgA-Text-Color">
+        <h1>Getting Started with the Mod</h1>
+        <p>To get started playing with this mod, you will need to follow these steps:</p>
+        <ol>
+            <li>Make sure you have a copy of the Breath of the Wild.</li>
+            <li><a href="https://cemu.info"> Download and install Cemu</a>, a Wii U emulator.</li>
+            <li>Download the DtgA mod files, you will need Reborn Reforged AND ReAnimated.</li>
+            <li><a href="https://gamebanana.com/mods/307644">Download the Collision actors mod.</a></li>
+            <li><a href="https://github.com/NiceneNerd/BCML/releases/latest"> Install BCML (Breath of the Wild Cemu Mod Loader)</a> to manage and load the mod.</li>
+            <li>Open BCML and run through its configuration process. When complete click the plus button to install each individual mod file. Ensure Collison actors is placed above all DtgA files.</li>
+            <li>Use BCML to launch Cemu and configure your graphic pack settings. Turn on "extended memory" and "fps++", these are required for the mod to work properly.</li>
+            <li>Launch the game through BCML, and enjoy your journey!</li>
+        </ol>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script>
+        var navbarToggler = document.querySelector(".navbar-toggler");
+        var navbarCollapse = document.querySelector(".navbar-collapse");
+    
+        navbarToggler.addEventListener("click", function () {
+            navbarCollapse.classList.toggle("show");
+        });
+    </script>
+</body>
+</html>
