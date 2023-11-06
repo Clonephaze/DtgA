@@ -1,4 +1,8 @@
 .DtgA-Text-Color {color: #84ffe0 !important; }
+.custom-button-text-color {color: #84ffe0 !important;}
+.custom-button-color {
+    background-color: #4F5961 !important;
+    border-color: #4F5961 !important;}
 .navbar-height {height: 50px;}
 .navbar-nav {
     border-bottom: 2px solid #383f45;
@@ -11,3 +15,4 @@
       border: none;
     }
   }
+
