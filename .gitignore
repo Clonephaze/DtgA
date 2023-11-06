@@ -30,6 +30,7 @@
 nbproject
 Thumbs.db
 /.vscode/
+*.backup
 # Local Netlify folder
 .netlify
 
