@@ -1,74 +1,75 @@
 [
+
   {
       "title": "Flint Strike",
       "description": "Flint Strike is a gadget used to light fires, can be used to light bundles of wood or any other flamable object. Useful for making campfires!",
-      "imageSrc": "Icons/ItemFlintStrike.png",
+      "imageSrc": ["Icons/ItemFlintStrike.png", "Icons/ItemFlintStrike.png"],
       "location": "Can be found in the Old Man's Hut on Hope's Rise (the plateau)."
   },
   {
       "title": "Slingshot",
       "description": "Arrows are scarce with DtgA, and thats where the slingshot comes in. It fires pebbles, so youll never be without ammo! It doesnt hit hard, but it can break ice, and even move small objects.",
-      "imageSrc": "Icons/Slingshot.png",
+      "imageSrc": ["Icons/Slingshot.png"],
       "location": "Can be found at the newly added ruins below the shrine in the snowy mountains on Hope's Rise."
   },
   {
       "title": "Cannon",
       "description": "Introducing the Cannon, the game's most powerful weapon by a long shot. With its unlimited bomb arrows, enhanced explosion radius, and physics-based projectiles, this weapon can easily take down even the toughest enemies and send objects flying. Will eventually rely on Powder Kegs as ammo. Just remember to avoid firing it in the rain unless you like pain.",
-      "imageSrc": "Icons/Cannon.png",
+      "imageSrc": ["Icons/Cannon.png"],
       "location": "Can be found in the newly added cave next to the Woodland Stable pond."
   },
   {
       "title": "Silver Gauntlents",
       "description": "A classic Zelda item, with a fresh twist. No longer just for lifting hefty rocks, these gauntlets now allow you to manipulate any physics object as if it were as light as a Boko fang. Originating from a cleverly-named giant who was cursed by a goddess, these gauntlets come with a lore-friendly backstory that explains their flawed hitbox - they can't interact with enemies, only physics objects.",
-      "imageSrc": "Icons/SilverGauntlents.png",
+      "imageSrc": ["Icons/SilverGauntlents.png"],
       "location": "Can be found in the Lanayru Promenade."
   },
   {
       "title": "Golden Gauntlents",
       "description": "Struggling with the Silver Gauntlets? Meet the Golden Gauntlets. Blessed by the goddess Din, they turn gold and gain new powers. Now, they can move physics objects and unleash invisible Lynel flames on enemies. It's a bug-turned-feature moment. Plus, they've been ReAnimated for a new look.",
-      "imageSrc": "Icons/GoldenGauntlents.png",
+      "imageSrc": ["Icons/GoldenGauntlents.png"],
       "location": "<!-- TODO -->"
   },
   {
       "title": "Twilight Spinner",
       "description": "Like shield surfing on a spinning top. This device propels you in any direction you desire, even uphill. The Spinner doesn't just transport you; it offers a whirlwind adventure that redefines motion in the game. Be sure to start shield surfing first, THEN equip the Spinner.",
-      "imageSrc": "Icons/TwilightSpinner.png",
+      "imageSrc": ["Icons/TwilightSpinner.png"],
       "location": "Can be found in the newly added farthest west ruins in Gerudo Desert."
   },
   {
       "title": "Iron Boots",
       "description": "Meet the Iron Boots, simple yet unique. Equip and activate their ZAction when already in water to sink. Start in shallow water, keep moving, then press and hold Activate. To stop, click the Left Analog Stick while swimming or use another ZAction on land. Future builds will auto-end the action.",
-      "imageSrc": "Icons/IronBoots.png",
+      "imageSrc": ["Icons/IronBoots.png"],
       "location": "Can be found at the Hylian Waterworks, a new structure built at the Lake Hylia Inlet."
   },
   {
       "title": "Dive Boots (Unimplemented)",
       "description": "The Dive Boots - a faster, resource-flipped version of the Iron Boots. No excuses here, all the Iron Boots rules apply. Equip and activate their ZAction when already in water to sink. Start in shallow water, keep moving, then press and hold Activate. To stop, click the Left Analog Stick while swimming or use another ZAction on land. Future builds will auto-end the action.",
-      "imageSrc": "Icons/DiveBoots.png",
+      "imageSrc": ["Icons/DiveBoots.png"],
       "location": "CANNOT YET BE FOUND"
   },
   {
       "title": "Hover Boots",
       "description": "Just like in Ocarina of Time, these boots create an invisible platform beneath you once worn. The platform extends about 20 feet in all directions and lasts for approximately five seconds. The precise duration may be updated later, but for now, let's go with five seconds.",
-      "imageSrc": "Icons/HoverBoots.png",
+      "imageSrc": ["Icons/HoverBoots.png"],
       "location": "Can be found at the Hylian Royal Crypt at Saninindindin Park, located atop Safula Hill in the Hyrule Ridge."
   },
   {
       "title": "Hookshot",
       "description": "The Hookshot - perhaps a misnomer, as \"Link Catapult\" might be a more fitting name. We've taken the hookshot model, attached a large physics object to an arrow, and made it invisible. Fire the Hookshot, and an unseen metal bowl scoops you up, propelling you about 30 feet forward. But if you aim directly upwards... well, you'll see.",
-      "imageSrc": "Icons/HookShot.png",
+      "imageSrc": ["Icons/HookShot.png"],
       "location": "Can be found atop Dueling Peaks, in the newly added Dueling Monastery."
   },
   {
       "title": "Generator",
       "description": "The Generator - a game-changer in controlling enemy movement. Simply don the full rubber armor set, equip this gadget, and draw your sword. Witness as your shield expands, creating a massive electrical field around you. Initially intended for puzzle creation, it currently serves as a tool for causing chaos at your leisure. Enjoy the mayhem!",
-      "imageSrc": "Icons/Generator.png",
+      "imageSrc": ["Icons/Generator.png"],
       "location": "Can be found outside of the gate to Fort Hateno Keep."
   },
   {
       "title": "Gust Jar",
       "description": "The Gust Jar - a prototype gadget with a triple punch. It spawns an updraft tornado, perfect for glider escapes and dodging Bokos. It also generates mini-tornadoes that harm enemies (ear-friendly sound effect coming soon). Lastly, it houses a friendly, spinning rock Octorok that pulls in nearby weapons, even causing boomerangs to circle indefinitely. In the future, expect this tornado to follow you.",
-      "imageSrc": "Icons/GustJar.png",
+      "imageSrc": ["Icons/GustJar.png"],
       "location": "Can be found at the newly added Hebra Mansion on the Hebra Frozen River"
   }
 ]
