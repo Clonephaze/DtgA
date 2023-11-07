@@ -14,7 +14,7 @@
     {
         "title": "Claymore",
         "description": "An unbreakable and upgradable claymore. Visit the blacksmith in the castle ruins to upgrade it.",
-        "imageSrc": ["Icons/largeSword1.png", "Icons/largeSword2.png", "Icons/largeSword3.png", "Icons/largeSword4.png", "Icons/largeSword5.png", "Icons/largeSword6.png", "Icons/largeSword7.png"],
+        "imageSrc": ["Icons/LargeSword1.png", "Icons/LargeSword2.png", "Icons/LargeSword3.png", "Icons/LargeSword4.png", "Icons/LargeSword5.png", "Icons/LargeSword6.png", "Icons/LargeSword7.png"],
         "location": "Can be found in the western shrine of Hope's Rise. (The Great Plateau Cryonis Shrine)."
     },
     {
