@@ -3,7 +3,7 @@
   {
       "title": "Flint Strike",
       "description": "Flint Strike is a gadget used to light fires, can be used to light bundles of wood or any other flamable object. Useful for making campfires!",
-      "imageSrc": ["Icons/ItemFlintStrike.png", "Icons/ItemFlintStrike.png"],
+      "imageSrc": ["Icons/ItemFlintStrike.png"],
       "location": "Can be found in the Old Man's Hut on Hope's Rise (the plateau)."
   },
   {
