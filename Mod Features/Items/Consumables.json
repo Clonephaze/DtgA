@@ -1,1 +1,86 @@
-[]
+[
+    {
+        "title": "Powder Keg",
+        "description": "Portable exploding barrels! Drop them from your inventory to pick them up to place or throw them. Can be exploded with the Slingshot.",
+        "imageSrc": ["Icons/PowderKeg.png"],
+        "location": "Can be found in chests around Hyrule."
+    },
+    {
+        "title": "Portable Paraglider",
+        "description": "A portable paraglider that can be dropped from your inventory, when you pick them up you can jump off a cliff and glide.",
+        "imageSrc": ["Icons/Paraglider.png"],
+        "location": "Can be found in chests around Hyrule."
+    },
+    {
+        "title": "Heart Piece",
+        "description": "Can be exchanged 5 at a time with the goddess statues around Hyrule for more health.",
+        "imageSrc": ["Icons/HeartPiece.png"],
+        "location": "Can be found in chests around Hyrule."
+    },
+    {
+        "title": "Estus Flask",
+        "description": "Fills a portion of your Yellow Stamina Wheel, allowing the Lost One (you) to regenerate Stamina.",
+        "imageSrc": ["Icons/EstusFlask.png"],
+        "location": "Can be gained by resting at a campfire after recivieving the Divine Vessel from the Old Man."
+    },
+    {
+        "title": "Cracked Pot (Fire)",
+        "description": "Fire",
+        "imageSrc": ["Icons/CrackedPot(Fire).png"],
+        "location": "Can be crafted at the alchemy tables found in towns and the Shrine of Resurrection."
+    },
+    {
+        "title": "Cracked Pot (Water)",
+        "description": "Water",
+        "imageSrc": ["Icons/CrackedPot(Water).png"],
+        "location": "Can be crafted at the alchemy tables found in towns and the Shrine of Resurrection."
+    },
+    {
+        "title": "Cracked Pot (Ice)",
+        "description": "Ice",
+        "imageSrc": ["Icons/CrackedPot(Ice).png"],
+        "location": "Can be crafted at the alchemy tables found in towns and the Shrine of Resurrection."
+    },
+    {
+        "title": "Cracked Pot (Earth)",
+        "description": "Earth",
+        "imageSrc": ["Icons/CrackedPot(Earth).png"],
+        "location": "Can be crafted at the alchemy tables found in towns and the Shrine of Resurrection."
+    },
+    {
+        "title": "Cracked Pot (Air)",
+        "description": "Air",
+        "imageSrc": ["Icons/CrackedPot(Air).png"],
+        "location": "Can be crafted at the alchemy tables found in towns and the Chapel of Resurrection."
+    },
+    {
+        "title": "Cracked Pot (Shock)",
+        "description": "Shock",
+        "imageSrc": ["Icons/CrackedPot(Shock).png"],
+        "location": "Can be crafted at the alchemy tables found in towns and the Chapel of Resurrection."
+    },
+    {
+        "title": "Cracked Pot (Metal)",
+        "description": "Metal",
+        "imageSrc": ["Icons/CrackedPot(Metal).png"],
+        "location": "Can be crafted at the alchemy tables found in towns and the Chapel of Resurrection."
+    },
+    {
+        "title": "Cracked Pot (Holy)",
+        "description": "Holy",
+        "imageSrc": ["Icons/CrackedPot(Holy).png"],
+        "location": "Can be crafted at the alchemy tables found in towns and the Chapel of Resurrection."
+    },
+    {
+        "title": "Cracked Pot (Dark)",
+        "description": "Dark",
+        "imageSrc": ["Icons/CrackedPot(Dark).png"],
+        "location": "Can be crafted at the alchemy tables found in towns and the Chapel of Resurrection."
+    },
+    {
+        "title": "Cracked Pot (Wood)",
+        "description": "Wood",
+        "imageSrc": ["Icons/CrackedPot(Wood).png"],
+        "location": "Can be crafted at the alchemy tables found in towns and the Chapel of Resurrection."
+    }
+]

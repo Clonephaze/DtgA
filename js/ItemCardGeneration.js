@@ -87,5 +87,6 @@ function generateCards(jsonFileName, containerId, sectionName) {
 
 generateCards('Gadgets.json', 'Gadget-Cards-generated', 'gadgets');
 generateCards('KeyItems.json', 'KeyItem-Cards-generated', 'key-items');
-generateCards('Consumables.json', 'Consumable-Cards-generated', 'consumables');
+generateCards('Souls.json', 'Souls-Cards-generated', 'souls');
 generateCards('Weapons.json', 'Weapon-Cards-generated', 'weapons');
+generateCards('Consumables.json', 'Consumable-Cards-generated', 'consumables');

@@ -38,19 +38,19 @@
   },
   {
       "title": "Iron Boots",
-      "description": "Meet the Iron Boots, simple yet unique. Equip and activate their ZAction when already in water to sink. Start in shallow water, keep moving, then press and hold Activate. To stop, click the Left Analog Stick while swimming or use another ZAction on land. Future builds will auto-end the action.",
+      "description": "Meet the Iron Boots, simple yet unique. Equip and activate their ZAction (Activate (A) + move) when already in water to sink. Start in shallow water, keep moving, then press and hold Activate. To stop, click the Left Analog Stick while swimming or use another ZAction on land. Future builds will auto-end the action. Remove with Crouch (L3) + Move.",
       "imageSrc": ["Icons/IronBoots.png"],
       "location": "Can be found at the Hylian Waterworks, a new structure built at the Lake Hylia Inlet."
   },
   {
       "title": "Dive Boots (Unimplemented)",
-      "description": "The Dive Boots - a faster, resource-flipped version of the Iron Boots. No excuses here, all the Iron Boots rules apply. Equip and activate their ZAction when already in water to sink. Start in shallow water, keep moving, then press and hold Activate. To stop, click the Left Analog Stick while swimming or use another ZAction on land. Future builds will auto-end the action.",
+      "description": "The Dive Boots - a faster, resource-flipped version of the Iron Boots. No excuses here, all the Iron Boots rules apply. Equip and activate their ZAction (Dpad Down + move) when already in water to sink. Start in shallow water, keep moving, then press and hold Activate. To stop, click the Left Analog Stick while swimming or use another ZAction on land. Future builds will auto-end the action. Remove with Crouch (L3) + Move.",
       "imageSrc": ["Icons/DiveBoots.png"],
       "location": "CANNOT YET BE FOUND"
   },
   {
       "title": "Hover Boots",
-      "description": "Just like in Ocarina of Time, these boots create an invisible platform beneath you once worn. The platform extends about 20 feet in all directions and lasts for approximately five seconds. The precise duration may be updated later, but for now, let's go with five seconds.",
+      "description": "Just like in Ocarina of Time, these boots create an invisible platform beneath you once worn. The platform extends about 20 feet in all directions and lasts for approximately five seconds. The precise duration may be updated later, but for now, let's go with five seconds. Remove with Crouch (L3) + Move.",
       "imageSrc": ["Icons/HoverBoots.png"],
       "location": "Can be found at the Hylian Royal Crypt at Saninindindin Park, located atop Safula Hill in the Hyrule Ridge."
   },

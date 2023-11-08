@@ -1,31 +1,31 @@
 [
     {
         "title": "Axe",
-        "description": "An unbreakable and upgradable axe. Visit the blacksmith in the castle ruins to upgrade it.",
-        "imageSrc": ["Icons/WoodAxe1.png", "Icons/WoodAxe2.png", "Icons/WoodAxe3.png", "Icons/WoodAxe4.png", "Icons/WoodAxe5.png", "Icons/WoodAxe6.png", "Icons/WoodAxe7.png"],
+        "description": "An unbreakable and upgradable axe. Visit the blacksmith in the castle ruins to upgrade it. Will degrade to previous upgrade after about 100 hits until upgraded with it's respective boss soul.",
+        "imageSrc": ["Icons/WoodAxe1.png", "Icons/WoodAxe2.png", "Icons/WoodAxe3.png", "Icons/WoodAxe4.png", "Icons/WoodAxe5.png", "Icons/WoodAxe7.png"],
         "location": "Can be found the eastern shrine of Hope's Rise. (The Great Plateau Bomb Shrine)."
     },
     {
         "title" : "Sword",
-        "description": "An unbreakable and upgradable sword. Visit the blacksmith in the castle ruins to upgrade it.",
+        "description": "An unbreakable and upgradable sword. Visit the blacksmith in the castle ruins to upgrade it. Will degrade to previous upgrade after about 100 hits until upgraded with it's respective boss soul.",
         "imageSrc": ["Icons/Sword1.png", "Icons/Sword2.png", "Icons/Sword3.png", "Icons/Sword4.png", "Icons/Sword5.png"],
         "location": "Can be found in the southern shrine of Hope's Rise. (The Great Plateau Stasis Shrine)."
     },
     {
         "title": "Claymore",
-        "description": "An unbreakable and upgradable claymore. Visit the blacksmith in the castle ruins to upgrade it.",
+        "description": "An unbreakable and upgradable claymore. Visit the blacksmith in the castle ruins to upgrade it. Will degrade to previous upgrade after about 100 hits until upgraded with it's respective boss soul.",
         "imageSrc": ["Icons/LargeSword1.png", "Icons/LargeSword2.png", "Icons/LargeSword3.png", "Icons/LargeSword4.png", "Icons/LargeSword5.png", "Icons/LargeSword6.png", "Icons/LargeSword7.png"],
         "location": "Can be found in the western shrine of Hope's Rise. (The Great Plateau Cryonis Shrine)."
     },
     {
         "title": "Spear",
-        "description": "An unbreakable and upgradable spear. Visit the blacksmith in the castle ruins to upgrade it.",
+        "description": "An unbreakable and upgradable spear. Visit the blacksmith in the castle ruins to upgrade it. Will degrade to previous upgrade after about 100 hits until upgraded with it's respective boss soul.",
         "imageSrc": ["Icons/Spear1.png", "Icons/Spear2.png", "Icons/Spear3.png", "Icons/Spear4.png", "Icons/Spear5.png", "Icons/Spear6.png", "Icons/Spear7.png"],
         "location": "Can be found in the northern shrine of Hope's Rise. (The Great Plateau Magnesis Shrine)."
     },
     {
         "title": "Bow",
-        "description": "An unbreakable and upgradable bow. Visit the blacksmith in the castle ruins to upgrade it.",
+        "description": "An unbreakable and upgradable bow. Visit the blacksmith in the castle ruins to upgrade it. Will degrade to previous upgrade after about 100 hits until upgraded with it's respective boss soul.",
         "imageSrc": ["Icons/Bow1.png", "Icons/Bow2.png", "Icons/Bow3.png", "Icons/Bow4.png", "Icons/Bow5.png", "Icons/Bow6.png", "Icons/Bow7.png"],
         "location": "Can be found in the Temple of Time of Hope's Rise. (The Great Plateau)."
     }

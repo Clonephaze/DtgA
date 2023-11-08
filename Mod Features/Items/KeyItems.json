@@ -1,1 +1,26 @@
-[]
+[
+    {
+        "title": "Magic Pouch",
+        "description": "A magical pouch that contains all your found gadgets! Call it with Crouch (L3) + Activate (A).",
+        "imageSrc": ["Icons/MagicPouch.png"],
+        "location": "Can be found in the Shrine of Resurrection."
+    },
+    {
+        "title": "Coiled Sword",
+        "description": "A shimmering, serpentine sword that trades rupees to upgrade your stats. Call it with Crouch (L3) + Attack (X).",
+        "imageSrc": ["Icons/CoiledSword.png"],
+        "location": "Can be found in the Shrine of Resurrection."
+    },
+    {
+        "title": "Spellbook",
+        "description": "A tome that containing the knowledge of a great spellcaster. Read it (switch your active spell crystal) with Activate (A) + Dpad Down.",
+        "imageSrc": ["Icons/Spellbook.png"],
+        "location": "Can be found in the Shrine of Resurrection."
+    },
+    {
+        "title": "Twilight Mirror",
+        "description": "This magic mirror can be used to summon all npc characters that have decided to join you on your journey. Call it with Crouch (L3) + Jump (Y).",
+        "imageSrc": ["Icons/TwilightMirror.png"],
+        "location": "Can be found in the Shrine of Resurrection."
+    }
+]
