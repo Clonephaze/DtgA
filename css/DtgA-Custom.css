@@ -11,6 +11,17 @@
 .navbar {z-index: 1000;}
 .spoiler-text {display: none;}
 .spoiler-text.show {display: block;}
+.social-media-buttons a {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+ }
+ 
+ .social-media-buttons a:hover {
+    opacity: 0.7;
+ }
 @media (min-width: 768px) {
     .navbar-nav {border: none;}}
 .sticky-top {

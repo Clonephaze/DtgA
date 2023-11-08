@@ -3,7 +3,7 @@
         "title": "Magic Pouch",
         "description": "A magical pouch that contains all your found gadgets! Call it with Crouch (L3) + Activate (A).",
         "imageSrc": ["Icons/MagicPouch.png"],
-        "location": "Can be found in the Shrine of Resurrection."
+        "location": "Can be found in the Northern Shrine on Hope's Rise."
     },
     {
         "title": "Coiled Sword",
