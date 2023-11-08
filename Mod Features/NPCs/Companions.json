@@ -1,0 +1,93 @@
+[
+    {
+        "title": "Mipha",
+        "description": "One of the many who can decide to join you on your adventure.",
+        "imageSrc": ["Icons/Mipha.png"],
+        "location": "TODO"
+    },
+    {
+        "title": "Daruk",
+        "description": "One of the many who can decide to join you on your adventure.",
+        "imageSrc": ["Icons/Daruk.png"],
+        "location": "TODO"
+    },
+    {
+        "title": "Urbosa",
+        "description": "One of the many who can decide to join you on your adventure.",
+        "imageSrc": ["Icons/Urbosa.png"],
+        "location": "TODO"
+    },
+    {
+        "title": "Revali",
+        "description": "One of the many who can decide to join you on your adventure.",
+        "imageSrc": ["Icons/Revali.png"],
+        "location": "TODO"
+    },
+    
+    {
+        "title": "Sidon",
+        "description": "One of the many who can decide to join you on your adventure.",
+        "imageSrc": ["Icons/Sidon.png"],
+        "location": "TODO"
+    },
+    {
+        "title": "Riju",
+        "description": "One of the many who can decide to join you on your adventure.",
+        "imageSrc": ["Icons/Riju.png"],
+        "location": "TODO"
+    },
+    {
+        "title": "Teba",
+        "description": "One of the many who can decide to join you on your adventure.",
+        "imageSrc": ["Icons/Teba.png"],
+        "location": "TODO"
+    },
+    {
+        "title": "Yunobo",
+        "description": "One of the many who can decide to join you on your adventure.",
+        "imageSrc": ["Icons/Yunobo.png"],
+        "location": "TODO"
+    },
+    {
+        "title": "Paya",
+        "description": "One of the many who can decide to join you on your adventure.",
+        "imageSrc": ["Icons/Paya.png"],
+        "location": "TODO"
+    },
+    {
+        "title": "Rhoam",
+        "description": "One of the many who can decide to join you on your adventure.",
+        "imageSrc": ["Icons/Rhoam.png"],
+        "location": "TODO"
+    },
+    {
+        "title": "Purah",
+        "description": "One of the many who can decide to join you on your adventure.",
+        "imageSrc": ["Icons/Purah.png"],
+        "location": "TODO"
+    },
+    {
+        "title": "Robbie",
+        "description": "One of the many who can decide to join you on your adventure.",
+        "imageSrc": ["Icons/Robbie.png"],
+        "location": "TODO"
+    },
+    {
+        "title": "Hestu",
+        "description": "One of the many who can decide to join you on your adventure.",
+        "imageSrc": ["Icons/Hestu.png"],
+        "location": "TODO"
+    },
+    {
+        "title": "Beedle",
+        "description": "One of the many who can decide to join you on your adventure.",
+        "imageSrc": ["Icons/Beedle.png"],
+        "location": "TODO"
+    },
+    {
+        "title": "Maz Koshia",
+        "description": "One of the many who can decide to join you on your adventure.",
+        "imageSrc": ["Icons/MazKoshia.png"],
+        "location": "TODO"
+    }
+]

@@ -1,0 +1,8 @@
+[
+    {
+        "title": "The Castle Town Blacksmith", 
+        "description": "The Blacksmith is an npc that can upgrade your unbreakable weapons using the power of souls you find around Hyrule. The power of these souls will degrade until you upgrade the weapon with a boss soul, so until then you will degrade in levels around 100 hits.",
+        "imageSrc": ["Icons/Blacksmith.png"],
+        "location": "Can be found around the south-east section of the Castle Town ruins."
+    }
+]

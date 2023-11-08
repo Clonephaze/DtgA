@@ -27,7 +27,7 @@ function generateCards(jsonFileName, containerId, sectionName) {
           let img = document.createElement('img');
           img.src = image;
           img.className = 'd-block w-100 mx-auto';
-          img.alt = 'ItemIcon';
+          img.alt = 'Missing Icon';
           img.style = 'max-width: 235px;';
           
           carouselItem.appendChild(img);
@@ -90,4 +90,6 @@ generateCards('KeyItems.json', 'KeyItem-Cards-generated', 'key-items');
 generateCards('Souls.json', 'Souls-Cards-generated', 'souls');
 generateCards('Weapons.json', 'Weapon-Cards-generated', 'weapons');
 generateCards('Consumables.json', 'Consumable-Cards-generated', 'consumables');
+generateCards('Companions.json', 'Companion-Cards-generated', 'companions');
 generateCards('LostSouls.json', 'LostSouls-Cards-generated', 'lost-souls');
+generateCards('Vendors.json', 'Vendors-Cards-generated', 'vendors');

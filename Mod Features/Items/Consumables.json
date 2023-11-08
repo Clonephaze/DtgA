@@ -1,30 +1,30 @@
 [
     {
-        "title": "Powder Keg",
-        "description": "Portable exploding barrels! Drop them from your inventory to pick them up to place or throw them. Can be exploded with the Slingshot.",
-        "imageSrc": ["Icons/PowderKeg.png"],
-        "location": "Can be found in chests around Hyrule."
-    },
-    {
-        "title": "Portable Paraglider",
-        "description": "A portable paraglider that can be dropped from your inventory, when you pick them up you can jump off a cliff and glide.",
-        "imageSrc": ["Icons/Paraglider.png"],
-        "location": "Can be found in chests around Hyrule."
-    },
-    {
         "title": "Heart Piece",
         "description": "Can be exchanged 5 at a time with the goddess statues around Hyrule for more health.",
         "imageSrc": ["Icons/HeartPiece.png"],
         "location": "Can be found in chests around Hyrule."
     },
     {
-        "title": "Estus Flask",
-        "description": "Fills a portion of your Yellow Stamina Wheel, allowing the Lost One (you) to regenerate Stamina.",
+        "title": "Devine Vessel",
+        "description": "A vessel strong enough to contain a portion of Hylia's Light, allowing the Lost One (you) to journey off Hope's Rise. Fills a portion of your Yellow Stamina Wheel, allowing the Lost One (you) to regenerate Stamina. Starts with 5 uses and scales with Endurance.",
         "imageSrc": ["Icons/EstusFlask.png"],
-        "location": "Can be gained by resting at a campfire after recivieving the Divine Vessel from the Old Man."
+        "location": "Can be refilled by resting at a campfire after recivieving it from the Old Man."
     },
     {
-        "title": "Balloon",
+        "title": "Goron Powder Keg",
+        "description": "Portable exploding barrels! Drop them from your inventory to pick them up to place or throw them. Can be exploded with the Slingshot.",
+        "imageSrc": ["Icons/PowderKeg.png"],
+        "location": "Can be found in chests around Hyrule."
+    },
+    {
+        "title": "Deployable Paraglider",
+        "description": "A temporary paraglider that can be dropped from your inventory, when you pick them up you can jump off a cliff and glide. Good for a few flights, but they break easy so be careful.",
+        "imageSrc": ["Icons/Paraglider.png"],
+        "location": "Can be found in chests around Hyrule."
+    },
+    {
+        "title": "Metal Balloon",
         "description": "These balloons act like Octo Balloons, but these don't pop! Make your flying dreams come true.",
         "imageSrc": ["Icons/Balloon.png"],
         "location": "Can be found in chests around Hyrule."
