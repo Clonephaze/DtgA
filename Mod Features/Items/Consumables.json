@@ -24,6 +24,12 @@
         "location": "Can be gained by resting at a campfire after recivieving the Divine Vessel from the Old Man."
     },
     {
+        "title": "Balloon",
+        "description": "These balloons act like Octo Balloons, but these don't pop! Make your flying dreams come true.",
+        "imageSrc": ["Icons/Balloon.png"],
+        "location": "Can be found in chests around Hyrule."
+    },
+    {
         "title": "Cracked Pot (Fire)",
         "description": "A bomb that explodes with fire, burning nearby enemies.",
         "imageSrc": ["Icons/CrackedPot(Fire).png"],
