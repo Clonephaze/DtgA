@@ -14,7 +14,7 @@
     {
         "title": "Spellbook",
         "description": "A tome that containing the knowledge of a great spellcaster. Read it (switch your active spell crystal) with Activate (A) + Dpad Down.",
-        "imageSrc": ["Icons/Spellbook.png"],
+        "imageSrc": ["Icons/SpellBook.png"],
         "location": "Can be found in the Shrine of Resurrection."
     },
     {
