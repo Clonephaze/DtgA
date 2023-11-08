@@ -4,5 +4,17 @@
         "description": "The Blacksmith is an npc that can upgrade your unbreakable weapons using the power of souls you find around Hyrule. The power of these souls will degrade until you upgrade the weapon with a boss soul, so until then you will degrade in levels around 100 hits.",
         "imageSrc": ["Icons/Blacksmith.png"],
         "location": "Can be found around the south-east section of the Castle Town ruins."
+    },
+    {
+        "title": "The Lamp Vendor",
+        "description": "The Lamp Vendor is an npc that sells 4 unique lamps. (Will expand upon this information when the character is released.)",
+        "imageSrc": ["Icons/LampVendor.png"],
+        "location": "TODO"
+    },
+    {
+        "title": "Potion Vendor",
+        "description": "The Potion Vendor is an npc that sells 3 new potions, 3 new elixirs, and 9 resins to enchant your weapon. (Will expand upon this information when the character is released.)",
+        "imageSrc": ["Icons/PotionVendor.png"],
+        "location": "TODO"
     }
 ]
