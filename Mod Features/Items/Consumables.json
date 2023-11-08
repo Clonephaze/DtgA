@@ -57,36 +57,36 @@
         "title": "Cracked Pot (Air)",
         "description": "A bomb that explodes with a large gust of wind, knocking back and damaging nearby enemies.",
         "imageSrc": ["Icons/CrackedPot(Air).png"],
-        "location": "Can be crafted at the alchemy tables found in towns and the Chapel of Resurrection."
+        "location": "Can be crafted at the alchemy tables found in towns and the Shrine of Resurrection."
     },
     {
         "title": "Cracked Pot (Shock)",
         "description": "A bomb that explodes and shoots balls of electricity all around, shocking and stunning nearby enemies.",
         "imageSrc": ["Icons/CrackedPot(Shock).png"],
-        "location": "Can be crafted at the alchemy tables found in towns and the Chapel of Resurrection."
+        "location": "Can be crafted at the alchemy tables found in towns and the Shrine of Resurrection."
     },
     {
         "title": "Cracked Pot (Metal)",
         "description": "A bomb that explodes and sends giant spiked balls flying, dealing massive damage to nearby enemies (and you).",
         "imageSrc": ["Icons/CrackedPot(Metal).png"],
-        "location": "Can be crafted at the alchemy tables found in towns and the Chapel of Resurrection."
+        "location": "Can be crafted at the alchemy tables found in towns and the Shrine of Resurrection."
     },
     {
         "title": "Cracked Pot (Holy)",
         "description": "Holy",
         "imageSrc": ["Icons/CrackedPot(Holy).png"],
-        "location": "Can be crafted at the alchemy tables found in towns and the Chapel of Resurrection."
+        "location": "Can be crafted at the alchemy tables found in towns and the Shrine of Resurrection."
     },
     {
         "title": "Cracked Pot (Dark)",
         "description": "Dark",
         "imageSrc": ["Icons/CrackedPot(Dark).png"],
-        "location": "Can be crafted at the alchemy tables found in towns and the Chapel of Resurrection."
+        "location": "Can be crafted at the alchemy tables found in towns and the Shrine of Resurrection."
     },
     {
         "title": "Cracked Pot (Wood)",
         "description": "Wood",
         "imageSrc": ["Icons/CrackedPot(Wood).png"],
-        "location": "Can be crafted at the alchemy tables found in towns and the Chapel of Resurrection."
+        "location": "Can be crafted at the alchemy tables found in towns and the Shrine of Resurrection."
     }
 ]
