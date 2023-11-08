@@ -25,19 +25,19 @@
     },
     {
         "title": "Cracked Pot (Fire)",
-        "description": "Fire",
+        "description": "A bomb that explodes with fire, burning nearby enemies.",
         "imageSrc": ["Icons/CrackedPot(Fire).png"],
         "location": "Can be crafted at the alchemy tables found in towns and the Shrine of Resurrection."
     },
     {
         "title": "Cracked Pot (Water)",
-        "description": "Water",
+        "description": "A bomb that explodes with water, wetting nearby enemies.",
         "imageSrc": ["Icons/CrackedPot(Water).png"],
         "location": "Can be crafted at the alchemy tables found in towns and the Shrine of Resurrection."
     },
     {
         "title": "Cracked Pot (Ice)",
-        "description": "Ice",
+        "description": "A bomb that explodes with ice, freezing nearby enemies.",
         "imageSrc": ["Icons/CrackedPot(Ice).png"],
         "location": "Can be crafted at the alchemy tables found in towns and the Shrine of Resurrection."
     },
@@ -49,19 +49,19 @@
     },
     {
         "title": "Cracked Pot (Air)",
-        "description": "Air",
+        "description": "A bomb that explodes with a large gust of wind, knocking back and damaging nearby enemies.",
         "imageSrc": ["Icons/CrackedPot(Air).png"],
         "location": "Can be crafted at the alchemy tables found in towns and the Chapel of Resurrection."
     },
     {
         "title": "Cracked Pot (Shock)",
-        "description": "Shock",
+        "description": "A bomb that explodes and shoots balls of electricity all around, shocking and stunning nearby enemies.",
         "imageSrc": ["Icons/CrackedPot(Shock).png"],
         "location": "Can be crafted at the alchemy tables found in towns and the Chapel of Resurrection."
     },
     {
         "title": "Cracked Pot (Metal)",
-        "description": "Metal",
+        "description": "A bomb that explodes and sends giant spiked balls flying, dealing massive damage to nearby enemies (and you).",
         "imageSrc": ["Icons/CrackedPot(Metal).png"],
         "location": "Can be crafted at the alchemy tables found in towns and the Chapel of Resurrection."
     },
