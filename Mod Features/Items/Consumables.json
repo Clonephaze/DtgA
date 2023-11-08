@@ -79,14 +79,15 @@
     },
     {
         "title": "Cracked Deo Pot",
-        "description": "(TODO)",
+        "description": "This strange pot seems to house the power of Hylia. Has a 25% chance to duplicate.",
         "imageSrc": ["Icons/CrackedPot(Holy).png"],
         "location": "Can be crafted at the alchemy tables found in towns and the Shrine of Resurrection. Needs: 1 Pot, 1 Blue Chuchu Jelly, 1 Star Fragment, and 250 Rupees."
     },
     {
         "title": "Cracked Entro Pot",
-        "description": "(TODO)",
+        "description": "A cracked pot imbued with the power of Entro",
         "imageSrc": ["Icons/CrackedPot(Dark).png"],
         "location": "Can be crafted at the alchemy tables found in towns and the Shrine of Resurrection. Needs: 1 Pot, 1 Blue Chuchu Jelly, 25 Fairy, and 1,000 Rupees."
     }
+    
 ]
