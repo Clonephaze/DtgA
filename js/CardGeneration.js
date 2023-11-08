@@ -90,3 +90,4 @@ generateCards('KeyItems.json', 'KeyItem-Cards-generated', 'key-items');
 generateCards('Souls.json', 'Souls-Cards-generated', 'souls');
 generateCards('Weapons.json', 'Weapon-Cards-generated', 'weapons');
 generateCards('Consumables.json', 'Consumable-Cards-generated', 'consumables');
+generateCards('LostSouls.json', 'LostSouls-Cards-generated', 'lost-souls');

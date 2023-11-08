@@ -13,3 +13,10 @@
 .spoiler-text.show {display: block;}
 @media (min-width: 768px) {
     .navbar-nav {border: none;}}
+.sticky-top {
+  background-color: #212529;
+  padding: 10px;
+  margin-bottom: 20px;
+  z-index: 998;
+}
+.list-group {z-index: 999;}
