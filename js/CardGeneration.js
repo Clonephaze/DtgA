@@ -12,6 +12,8 @@ function generateCards(jsonFileName, containerId, sectionName) {
         
         let card = document.createElement('div');
         card.className = 'card h-100 DtgA-Text-Color';
+        card.style.borderRadius = '20px';
+        card.style.borderColor = 'white';
         
         let carousel = document.createElement('div');
         carousel.className = 'carousel slide';
@@ -61,11 +63,11 @@ function generateCards(jsonFileName, containerId, sectionName) {
         cardBody.className = 'card-body';
         
         let cardTitle = document.createElement('h5');
-        cardTitle.className = 'card-title';
+        cardTitle.className = 'card-title DtgA-Text-Color';
         cardTitle.textContent = item.title;
         
         let cardText = document.createElement('p');
-        cardText.className = 'card-text';
+        cardText.className = 'card-text DtgA-Text-Color-Body';
         cardText.textContent = item.description;
         
         let cardLocation = document.createElement('p');
@@ -94,4 +96,4 @@ generateCards('Companions.json', 'Companion-Cards-generated', 'companions');
 generateCards('LostSouls.json', 'LostSouls-Cards-generated', 'lost-souls');
 generateCards('Vendors.json', 'Vendors-Cards-generated', 'vendors');
 generateCards('Bosses.json', 'Boss-Cards-generated', 'bosses');
-generateCards('CommonEnemies.json', 'Enemy-Cards-generated', 'enemies');
+generateCards('CommonEnemies.json', 'Enemy-Cards-generated', 'enemies'); 
