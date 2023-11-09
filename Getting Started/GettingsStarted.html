@@ -1,13 +1,17 @@
+<!-- Using bootstrap 5.3.x -->
 <!DOCTYPE html>
 <html lang="en" data-bs-theme="dark">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dangerous to go Alone!</title>
+    <title>Getting Started</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <link rel="stylesheet" href="../css/DtgA-Custom.css">
+</head>
 <body>
     <div class="container-fluid"> 
+      <header>  
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark navbar-height">
             <a class="navbar-brand" href="..\index.html" style="max-width: 175px;">
                 <img src="../DtgA-logo_Final-Gapless.png" alt="Dangerous To Go Alone" class="img-fluid" style="max-height: 50px;" >
@@ -45,21 +49,83 @@
                 </ul>
             </div>
         </nav>
+      </header>
     </div>
-    <div class="container mt-4 DtgA-Text-Color">
-        <h1>Getting Started with the Mod</h1>
-        <p>To get started playing with this mod, you will need to follow these steps:</p>
-        <ol>
-            <li>Make sure you have a copy of the Breath of the Wild.</li>
-            <li><a href="https://cemu.info"> Download and install Cemu</a>, a Wii U emulator.</li>
-            <li>Download the DtgA mod files, you will need Reborn Reforged AND ReAnimated.</li>
-            <li><a href="https://gamebanana.com/mods/307644">Download the Collision actors mod.</a></li>
-            <li><a href="https://github.com/NiceneNerd/BCML/releases/latest"> Install BCML (Breath of the Wild Cemu Mod Loader)</a> to manage and load the mod.</li>
-            <li>Open BCML and run through its configuration process. When complete click the plus button to install each individual mod file. Ensure Collison actors is placed above all DtgA files.</li>
-            <li>Use BCML to launch Cemu and configure your graphic pack settings. Turn on "extended memory" and "fps++", these are required for the mod to work properly.</li>
-            <li>Launch the game through BCML, and enjoy your journey!</li>
-        </ol>
-    </div>
+    <main class="DtgA-Text-Color">
+        <div class="container" id="Installation">
+            <h1 class="text-center">Installation</h1>
+        </div>
+        <!-- <li class="list-group-item DtgA-Text-Color"><a class="DtgA-Text-Color" href="https://cemu.info"> </a>, a Wii U emulator.</li>
+        <li class="list-group-item DtgA-Text-Color"><a class="DtgA-Text-Color" href="https://gamebanana.com/mods/307644">Download the Collision actors mod.</a></li>
+        <li class="list-group-item DtgA-Text-Color">Download the DtgA mod files, you will need at least the 3 main modules, Reborn Reforged AND ReAnimated, and the optional new DLC module RePopulated. </li>
+        <li class="list-group-item DtgA-Text-Color"><a class="DtgA-Text-Color" href="https://github.com/NiceneNerd/BCML/releases/latest"> Install BCML (Breath of the Wild Cemu Mod Loader)</a> to manage and load the mod.</li>
+        <li class="list-group-item DtgA-Text-Color">Open BCML and run through its configuration process. If you need help with this process you can find instructions <a class="DtgA-Text-Color" href="https://github.com/NiceneNerd/BCML#setup">here.</a></li>
+        <li class="list-group-item DtgA-Text-Color">When complete click the plus button to install each individual mod file, starting with Collison actors to make sure it has a higher priority than the DtgA files.</li>
+        <li class="list-group-item DtgA-Text-Color">Launch the game through BCML and make sure to configure your graphic pack settings in Cemu. Be sure to turn on "extended memory" and "fps++" as they are necessary for the mod to work properly.</li>
+        <li class="list-group-item DtgA-Text-Color">If you would like the full experience of DtgA then make sure to click "Play DtgA the way Zoey intended"</li> -->
+        <div class="container mx-2 col-sm-12">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="list-group">
+                        <div class="list-group-item DtgA-Text-Color d-flex justify-content-between align-items-center">
+                           <div>
+                               <div class="d-flex w-100 justify-content-between" style="margin-bottom: 20px;">
+                                   <h4 class="mb-1">Establishing Cemu Install</h4>
+                               </div>
+                               <p class="mb-1">Make sure you have a valid and working copy of the Breath of the Wild. We cannot legaly tell you how to do this.</p>
+                               <p class="mb-1">Download and install Cemu, link is to the right.</p>
+                               <p class="mb-1">Open the Cemu application, click File -> Install game title, update or DLC. Open the folder containing the game, open the Meta folder and select meta.xml.</p>
+                               <p class="mb-1">Launch your game and make sure it works before installing any mods.</p>
+                           </div>
+                           <a class="btn btn-primary custom-button-color" href="https://cemu.info" style="width: 125px;">
+                               <i class="fas fa-download DtgA-Text-Color"> Cemu</i>
+                           </a>
+                        </div>
+                        <div class="list-group-item DtgA-Text-Color d-flex justify-content-between align-items-center">
+                            <div>
+                                <div class="d-flex w-100 justify-content-between" style="margin-bottom: 20px;">
+                                    <h4 class="mb-1">Installing and setting up BCML</h4>
+                                </div>
+                            <p class="mb-1">Make sure you have the lastest x64 Visual C++ installed, link is to the right.</p>
+                            <p class="mb-1">Install python 3.8.10, link is to the right.</p>
+                            <p class="mb-1">Open Command Prompt, press Win+R and enter "cmd".</p>
+                            <p class="mb-1">Type "pip install BCML" and press enter. BCML will be installed for you.</p>
+                            <p class="mb-1">Open BCML by typing "bcml" and press enter.</p>
+                            <p class="mb-1">BCML will run through a setup wizard with you, follow its instructions.</p>
+                            </div>
+                            <div class="d-flex flex-column">
+                                <a class="btn btn-primary custom-button-color" style="margin-bottom: 10px; width: 125px" href="https://aka.ms/vs/17/release/vc_redist.x64.exe">
+                                    <i class="fas fa-download DtgA-Text-Color"> Visual C++</i>
+                                </a>
+                                <a class="btn btn-primary custom-button-color" style="width: 125px;" href="https://www.python.org/downloads/release/python-3810/">
+                                    <i class="fas fa-download DtgA-Text-Color"> Python</i>
+                                </a>
+                            </div>
+                        </div>
+                        <!-- make a new list group item here -->
+                        <div class="list-group-item DtgA-Text-Color d-flex justify-content-between align-items-center">
+                            <div>
+                                <div class="d-flex w-100 justify-content-between" style="margin-bottom: 20px;">
+                                    <h4 class="mb-1">Downloading and Installing Required Mods</h4>
+                                </div>
+                            <p class="mb-1">Download the Collision Actors mod, <strong>required</strong> for DtgA, link is to the right.</p>
+                            <p class="mb-1">Download the DtgA modules Reborn, Reforged, and Reanimated. You can find the download links on our Home page.</p>
+                            <p class="mb-1">Optionally, you can download the RePopulated (DtgA's first DLC module!) mod file as well if you would like that content too. </p>
+                            <p class="mb-1">Open BCML if it's not already open, and click the plus button in the bottom right hand corner to install all downloaded mods.</p>
+                            <p class="mb-1">In BCML the highest mod has the highest priority. Ensure Collision Actors is higher than DtgA mods.</p>
+                            <p class="mb-1">You can now launch your game from BCML and play! Choose "Play DtgA the way Zoey intended" in the main menu to get the full experience.</p>
+                            </div>
+                                <a class="btn btn-primary custom-button-color" href="https://gamebanana.com/mods/307642" style="width: 125px;">
+                                    <i class="fas fa-download DtgA-Text-Color"> Actors</i>
+                                </a>
+
+                    </div>
+                </div>
+            </div>
+         </div>
+         
+        
+    </main>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
     <script>
         var navbarToggler = document.querySelector(".navbar-toggler");
@@ -70,4 +136,17 @@
         });
     </script>
 </body>
+<footer style="margin-top: 75px;">
+    <div class="mx-auto text-center">
+        <container class="DtgA-Text-Color">Dangerous To Go Alone.</container>
+    </div>
+    <div class="social-media-buttons mx-auto text-center">
+        <!-- GitHub, TODO change to Zoey's GitHub -->
+        <a href="https://github.com/Clonephaze/Dangerous-to-go-Alone" class="fab fa-github" style="color: grey;"></a>
+        <!-- Discord -->
+        <a href="https://discord.gg/Zg2TgbAcTQ" class="fab fa-discord" style="color: grey;"></a>
+        <!-- Patreon -->
+        <a href="https://www.patreon.com/ZoeyEule" class="fab fa-patreon" style="color: grey;"></a>
+    </div>
+</footer>
 </html>
