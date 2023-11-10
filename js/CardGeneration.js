@@ -11,7 +11,7 @@ function generateCards(jsonFileName, containerId, sectionName) {
         col.className = 'col';
         
         let card = document.createElement('div');
-        card.className = 'card h-100 DtgA-Text-Color';
+        card.className = 'card item-card h-100 DtgA-Text-Color';
         card.style.borderRadius = '20px';
         card.style.borderColor = 'white';
         

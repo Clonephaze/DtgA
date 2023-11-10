@@ -1,6 +1,6 @@
 # Site settings
-title: My GitHub Pages Site
-description: A description of your site
+title: DtgA Website
+description: A welcome and wiki site for DtgA
 
 # GitHub Pages settings
 remote_theme: pages-themes/architect@v0.2.0
@@ -13,10 +13,6 @@ plugins:
 
 # Exclude files and folders from the build
 exclude:
-  - Gemfile
-  - Gemfile.lock
-  - node_modules
-  - vendor
   - README.md
   - LICENSE
 
@@ -30,4 +26,4 @@ kramdown:
 
 # GitHub metadata
 github:
-  is_project_page: false
+  is_project_page: true
