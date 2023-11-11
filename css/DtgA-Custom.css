@@ -5,24 +5,11 @@
 /* Custom text colors used across the site */
 .DtgA-Text-Color {color: #84ffe0 !important; }
 .DtgA-Text-Color-Body {color: #b9b9b9  !important; }
-/* Defines the parallax logo for home page */ 
-.parallaxLogo {
-    /* Set a specific height */
-    min-height: 100vh;
-    /* Create the parallax scrolling effect */
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 995;
+/* Home Logo */
+.HomeLogoContainer {
     width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
- }
+    text-align: center;
+  }
  .HomeLogo {
      max-width: 100%;
  }
@@ -31,49 +18,14 @@
          max-width: 1173px;
      }
  }
- .HomeContent {
-    background-image: linear-gradient(to bottom, rgba(156, 150, 150, 0.25) 0%, rgba(255,255,255,0) 5%);
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-     margin-top: 100vh;
-     z-index: 996;
-     background-color: #212529;
+ .HomeButtons {
+/* Custom button colors */
+    border-color: #84ffe0 !important;
+    border-width: 2px;
+    border-radius: 250px;
+    width: 200px;
+    height: 75px;
  }
- .HomeCard {
-     color: #84ffe0;
-     border-color: #84ffe0;
-     border-radius: 20px;
-     border-top-left-radius: 20px;
-     border-top-right-radius: 20px;
-     border-width: 5px;
-     border-left-width: 8px;
-     border-right-width: 8px;
- }
- .HomeSubCard {
-    border-radius: 20px;
-    border-width: 3px;
-    z-index: 999;
-    transition: transform 0.2s ease;
- }
- .HomeSubCard:hover {
-    transform: scale(1.05);
- }
- .particle {
-    position: absolute;
-    width: 10px;
-    height: 10px;
-    background: white;
-    border-radius: 50%;
-}
-@keyframes float {
-    0% { transform: translate(0, 0px); }
-    50% { transform: translate(0, 15px); }
-    100% { transform: translate(0, -0px); }  
-}
-
-.particle {
-    animation: float 3s infinite ease-in-out;
-}
 /* Custom button colors */
 .custom-button-text-color {color: #84ffe0 !important;}
 .custom-button-color {

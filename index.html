@@ -8,7 +8,8 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <link rel="stylesheet" href="css/DtgA-Custom.css">
-    <style>body {overflow-x: hidden;}</style>
+    <!--make the background black-->
+    <style>body {background-color: black;}</style>
         
 </head>
 <body>
@@ -31,15 +32,15 @@
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle DtgA-Text-Color" id="navbarDropdownMenuLink" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                Mod Features
+                                Wiki
                             </a>
                             <div class="dropdown-menu DtgA-Text-Color" aria-labelledby="navbarDropdownMenuLink">
-                                <a class="dropdown-item DtgA-Text-Color" href="Mod Features\New Mechanics\NewMechanics.html">New Mechanics</a>
-                                <a class="dropdown-item DtgA-Text-Color" href="Mod Features\Items\Items.html">Items</a>
-                                <a class="dropdown-item DtgA-Text-Color" href="Mod Features\Spells\Spells.html">Spells</a>
-                                <a class="dropdown-item DtgA-Text-Color" href="Mod Features\Enemies\Enemies.html">Enemies</a>
-                                <a class="dropdown-item DtgA-Text-Color" href="Mod Features\NPCs\NPCs.html">NPCs</a>
-                                <a class="dropdown-item DtgA-Text-Color" href="Mod Features\Locations\Locations.html">Locations</a>
+                                <a class="dropdown-item DtgA-Text-Color" href="Wiki\New Mechanics\NewMechanics.html">New Mechanics</a>
+                                <a class="dropdown-item DtgA-Text-Color" href="Wiki\Items\Items.html">Items</a>
+                                <a class="dropdown-item DtgA-Text-Color" href="Wiki\Spells\Spells.html">Spells</a>
+                                <a class="dropdown-item DtgA-Text-Color" href="Wiki\Enemies\Enemies.html">Enemies</a>
+                                <a class="dropdown-item DtgA-Text-Color" href="Wiki\NPCs\NPCs.html">NPCs</a>
+                                <a class="dropdown-item DtgA-Text-Color" href="Wiki\Locations\Locations.html">Locations</a>
                                 <!-- Add more parts as necessary -->
                             </div>
                         </li>
@@ -52,38 +53,46 @@
             </nav>
         </div>
     </header>
-    <div class="parallaxLogo object-fit-contain" style="background-color: black;">
-        <div id="particles-js" style="position: absolute; width: 100%; height: 100%;"></div>
-        <img class="HomeLogo" src="DtgA-logo_Final-Gapless.png" alt="logo" >
-    </div>
-    <Main class="row container-fluid home-container-fluid" style="width: auto; ">
-        <div class="HomeContent">
-            <div class="row">
-                <div class="col">
-                    <div class="button"></div>
+    <div id="particles-js" style="position: absolute; width: 100%; height: 100%; z-index: -1;"></div> 
+    <main class="d-flex flex-column align-items-center justify-content-start" style="height: 100vh;">
+        <div class="row d-flex justify-content-center align-items-center" style="height: 100vh;">
+            <div class="row container">
+                <div class="HomeLogoContainer">
+                    <img class="HomeLogo" src="DtgA-logo_Final-Gapless.png" alt="logo">
+                </div>
+            </div>
+            <div class="row" style="width: 80%;">
+                <div class="col d-flex justify-content-center align-items-center" style="margin-bottom: 10px;">
+                    <!-- TODO ABOUT PAGE -->
+                    <a href="About/About.html">
+                        <button type="button" class="btn HomeButtons DtgA-Text-Color fw-bold">DtgA?</button>
+                    </a>
+                </div>
+                <div class="col d-flex justify-content-center align-items-center" style="margin-bottom: 10px;">
+                    <a href="Getting Started/GettingsStarted.html">
+                        <button type="button" class="btn HomeButtons DtgA-Text-Color fw-bold">Downloads</button>
+                    </a>
+                </div>
+                <div class="col d-flex justify-content-center align-items-center" style="margin-bottom: 10px;">
+                    <div class="col d-flex justify-content-center align-items-center" >
+                    <!-- TODO WIKI PAGE-->
+                    <a href="Wiki/Wiki.html">
+                        <button type="button" class="btn HomeButtons DtgA-Text-Color fw-bold">Wiki</button>
+                    </a>
                 </div>
             </div>
             
-            <div class="col" style="margin-top: 95vh;">
-                <div class="jumbotron DtgA-Text-Color text-center">
-                    <a class="btn btn-primary btn-lg custom-button-text-color custom-button-color" href="https://www.patreon.com/posts/weekly-releases-84298518?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=postshare_fan&utm_content=join_link" role="button">Download Latest Public Release Here</a>
-                    <div class="my-4">
-                    <a class="btn btn-primary btn-lg custom-button-text-color custom-button-color" href="https://www.patreon.com/ZoeyEule/posts?filters[all_patrons]=true" role="button">Download Latest Patreon Supporter Release Here</a>
-                </div>
             </div>
-        </div>
-        <div class="mx-auto text-center">
-            <container class="DtgA-Text-Color">Dangerous To Go Alone.</container>
+         </div>
         </div>
         <div class="social-media-buttons mx-auto text-center">
-            <!-- GitHub, TODO change to Zoey's GitHub -->
             <a href="https://github.com/Clonephaze/Dangerous-to-go-Alone" class="fab fa-github" style="color: grey;"></a>
             <!-- Discord -->
             <a href="https://discord.gg/Zg2TgbAcTQ" class="fab fa-discord" style="color: grey;"></a>
             <!-- Patreon -->
             <a href="https://www.patreon.com/ZoeyEule" class="fab fa-patreon" style="color: grey;"></a>
         </div>
-    </Main>
+    </main>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
     <script src="js/CustomParticles.js"></script>
