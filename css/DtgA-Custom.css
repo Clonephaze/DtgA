@@ -25,6 +25,17 @@
     border-radius: 250px;
     width: 200px;
     height: 75px;
+    transition: transform 0.2s ease, background-color 0.2s ease, -webkit-text-fill-color 0.2s ease;
+ }
+ .HomeButtons:hover {
+    background-color: #84ffe0 !important;
+    border-color: #84ffe0 !important;
+    -webkit-text-fill-color: black;
+    border-width: 2px;
+    border-radius: 250px;
+    width: 200px;
+    height: 75px;
+    transform: scale(1.1);
  }
 /* Custom button colors */
 .custom-button-text-color {color: #84ffe0 !important;}
