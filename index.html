@@ -8,22 +8,19 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <link rel="stylesheet" href="css/DtgA-Custom.css">
-    <!--make the background black-->
     <style>body {background-color: black;}</style>
         
 </head>
 <body>
-    <header> 
-        <div class="home-container-fluid NavContainer">
-            <nav class="navbar navbar-expand-lg navbar-dark bg-dark navbar-height">
+    <header style="background-color: black;"> 
+            <nav class="navbar navbar-expand-lg navbar-height">
                 <a class="navbar-brand" href="#" style="max-width: 175px;">
                 </a>
-                    
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+                    <i class="fas fa-bars HomeBars"></i>
                 </button>
-                <div class="collapse navbar-collapse bg-dark" id="navbarNavDropdown">
-                    <ul class="navbar-nav">
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav home-navbar-nav">
                         <li class="nav-item active">
                             <a class="nav-link DtgA-Text-Color" href="index.html">Home <span class="sr-only"></span></a>
                         </li>
@@ -34,7 +31,7 @@
                             <a class="nav-link dropdown-toggle DtgA-Text-Color" id="navbarDropdownMenuLink" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 Wiki
                             </a>
-                            <div class="dropdown-menu DtgA-Text-Color" aria-labelledby="navbarDropdownMenuLink">
+                            <div class="dropdown-menu DtgA-Text-Color home-dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                                 <a class="dropdown-item DtgA-Text-Color" href="Wiki\New Mechanics\NewMechanics.html">New Mechanics</a>
                                 <a class="dropdown-item DtgA-Text-Color" href="Wiki\Items\Items.html">Items</a>
                                 <a class="dropdown-item DtgA-Text-Color" href="Wiki\Spells\Spells.html">Spells</a>
@@ -51,48 +48,51 @@
                     </ul>
                 </div>
             </nav>
-        </div>
+        
     </header>
-    
-    <main class="d-flex flex-column align-items-center justify-content-start" style="height: 100vh;">
-        <div class="row d-flex justify-content-center align-items-center" style="height: 100vh;">
-            <div class="row container">
-                <div class="HomeLogoContainer">
-                    <img class="HomeLogo" src="DtgA-logo_Final-Gapless.png" alt="logo">
+    <main class="overflow-hidden">
+        <div class="overflow-y-hidden" id="particles-js" style="position: fixed; width: 100vw; height: 100vh; z-index: 0;"></div> 
+        <div class="d-flex flex-column align-items-center justify-content-start">
+            <div class="row d-flex justify-content-center align-items-center">
+                <div class="row container">
+                    <div class="HomeLogoContainer">
+                        <img class="HomeLogo" src="DtgA-logo_Final-Gapless.png" alt="logo">
+                    </div>
+                </div>
+                <div class="container" style="width: 80%; box-sizing: border-box; margin-top: 20vh;">
+                    <div class="row">
+                        <div class="col d-flex justify-content-center align-items-center" style="margin-bottom: 10px;">
+                            <!-- TODO ABOUT PAGE -->
+                            <a href="About/About.html">
+                                <button type="button" class="btn HomeButtons DtgA-Text-Color fw-bold" style="z-index: 1; position: relative;" id="AboutButton">ABOUT</button>
+                            </a>
+                        </div>
+                        <div class="col d-flex justify-content-center align-items-center" style="margin-bottom: 10px; ">
+                            <a href="Getting Started/GettingsStarted.html">
+                                <button type="button" class="btn HomeButtons DtgA-Text-Color fw-semibold" style="z-index: 1; position: relative;" id="DownloadButton">DOWNLOADS</button>
+                            </a>
+                        </div>
+                        <div class="col d-flex justify-content-center align-items-center" style="margin-bottom: 10px;">
+                            <div class="col d-flex justify-content-center align-items-center" >
+                            <!-- TODO WIKI PAGE-->
+                            <a href="Wiki/Wiki.html">
+                                <button type="button" class="btn HomeButtons DtgA-Text-Color fw-bold" style="z-index: 1; position: relative;" id="WikiButton">WIKI</button>
+                            </a>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="row" style="width: 80%;">
-                <div class="col d-flex justify-content-center align-items-center" style="margin-bottom: 10px;">
-                    <!-- TODO ABOUT PAGE -->
-                    <a href="About/About.html">
-                        <button type="button" class="btn HomeButtons DtgA-Text-Color fw-bold" style="z-index: 1; position: relative;">ABOUT</button>
-                    </a>
-                </div>
-                <div class="col d-flex justify-content-center align-items-center" style="margin-bottom: 10px;">
-                    <a href="Getting Started/GettingsStarted.html">
-                        <button type="button" class="btn HomeButtons DtgA-Text-Color fw-bold" style="z-index: 1; position: relative;">DOWNLOADS</button>
-                    </a>
-                </div>
-                <div class="col d-flex justify-content-center align-items-center" style="margin-bottom: 10px;">
-                    <div class="col d-flex justify-content-center align-items-center" >
-                    <!-- TODO WIKI PAGE-->
-                    <a href="Wiki/Wiki.html">
-                        <button type="button" class="btn HomeButtons DtgA-Text-Color fw-bold" style="z-index: 1; position: relative;">WIKI</button>
-                    </a>
+            </div>
+            <div class="container">
+                <div class="social-media-buttons mx-auto text-center">
+                    <a href="https://github.com/Clonephaze/Dangerous-to-go-Alone" class="fab fa-github" style="color: grey; z-index: 1; position: relative;" target="_blank"></a>
+                    <!-- Discord -->
+                    <a href="https://discord.gg/Zg2TgbAcTQ" class="fab fa-discord" style="color: grey; z-index: 1; position: relative;" target="_blank"></a>
+                    <!-- Patreon -->
+                    <a href="https://www.patreon.com/ZoeyEule" class="fab fa-patreon" style="color: grey; z-index: 1; position: relative;" target="_blank"></a>
                 </div>
             </div>
-            
-            </div>
-         </div>
-        </div>
-        <div class="social-media-buttons mx-auto text-center">
-            <a href="https://github.com/Clonephaze/Dangerous-to-go-Alone" class="fab fa-github" style="color: grey; z-index: 1; position: relative;" target="_blank"></a>
-            <!-- Discord -->
-            <a href="https://discord.gg/Zg2TgbAcTQ" class="fab fa-discord" style="color: grey; z-index: 1; position: relative;" target="_blank"></a>
-            <!-- Patreon -->
-            <a href="https://www.patreon.com/ZoeyEule" class="fab fa-patreon" style="color: grey; z-index: 1; position: relative;" target="_blank"></a>
-        </div>
-        <div id="particles-js" style="position: absolute; width: 100%; height: 100%; z-index: 0;"></div> 
+        </div>   
     </main>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
     <script>
@@ -101,6 +101,16 @@
 
         navbarToggler.addEventListener("click", function () {
             navbarCollapse.classList.toggle("show");
+        });
+    </script>
+    <script>
+        var navbarCollapse = document.querySelector(".navbar-collapse");
+    
+        document.addEventListener('click', function(event) {
+            var isClickInside = navbarCollapse.contains(event.target);
+            if (!isClickInside) {
+                navbarCollapse.classList.remove('show');
+            }
         });
     </script>
     <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
