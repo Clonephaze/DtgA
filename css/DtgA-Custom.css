@@ -86,6 +86,11 @@
 .navbar-toggler {
     border-color: #84ffe050;
 }
+
+.home-dropdown-item:hover {
+    background-color: rgba(128, 128, 128, 0.1);
+    
+}
 /* Defines how the Social Media Buttons look */
 .social-media-buttons a {
     padding: 20px;
