@@ -78,11 +78,14 @@
   margin-bottom: 20px;
   z-index: 998;
 }
+#tableOfContents {
+    z-index: 999;
+}
 /* Fixes getting started page from having z-index issues */
-.list-group {z-index: 999;}
+.list-group {z-index: 996;}
 /* Gives the cards a pop effect */
 .item-card {
-    z-index: 999;
+    z-index: 997;
     transition: transform 0.2s ease;
 }
 .item-card:hover {
