@@ -162,13 +162,26 @@
     padding-left: 10px;
     
 }
+.DtgA-section-title {
+    font-family: "ZeldaFont";
+}
 /* Fixes getting started page from having z-index issues */
 .list-group {z-index: 996;}
 /* Gives the cards a pop effect */
 .item-card {
     z-index: 997;
+    border-color: rgba(133, 255, 224, 0.8);
+    border-radius: 20px;
+    border-width: 2px;
     transition: transform 0.2s ease;
 }
 .item-card:hover {
-    transform: scale(1.08);
+    transform: scale(1.03);
+}
+.item-card-image {
+/* radial gradient background, starts strong in the middle and fades to the sides */
+    background-image: radial-gradient(rgba( 133, 255, 224, 0.10) 20%, transparent 75%);
+}
+.item-card-title {
+    font-family: "ZeldaFont";
 }

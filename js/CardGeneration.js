@@ -12,8 +12,6 @@ function generateCards(jsonFileName, containerId, sectionName) {
         
         let card = document.createElement('div');
         card.className = 'card item-card h-100 DtgA-Text-Color';
-        card.style.borderRadius = '20px';
-        card.style.borderColor = 'white';
         
         let carousel = document.createElement('div');
         carousel.className = 'carousel slide';
@@ -28,7 +26,7 @@ function generateCards(jsonFileName, containerId, sectionName) {
           
           let img = document.createElement('img');
           img.src = image;
-          img.className = 'd-block w-100 mx-auto';
+          img.className = 'd-block w-100 mx-auto item-card-image';
           img.alt = 'Missing Icon';
           img.style = 'max-width: 235px;';
           
@@ -62,8 +60,8 @@ function generateCards(jsonFileName, containerId, sectionName) {
         let cardBody = document.createElement('div');
         cardBody.className = 'card-body';
         
-        let cardTitle = document.createElement('h5');
-        cardTitle.className = 'card-title DtgA-Text-Color';
+        let cardTitle = document.createElement('h3');
+        cardTitle.className = 'card-title item-card-title DtgA-Text-Color ';
         cardTitle.textContent = item.title;
         
         let cardText = document.createElement('p');
