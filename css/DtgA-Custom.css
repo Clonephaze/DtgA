@@ -1,3 +1,6 @@
+:root {
+    --DtgA-Border-Color: rgba(133, 255, 225, 0.459);
+}
 .NavContainer {
     padding-left: 0%;
     padding-right: 0%;
@@ -49,7 +52,7 @@
 .custom-button-text-color {color: #84ffe0 !important;}
 .custom-button-GS {
     background-color: rgba(0, 0, 0, 0.1) !important;
-    border-color: #84ffe070 !important;
+    border-color: var(--DtgA-Border-Color) !important;
     border-radius: 10px;
     transition: transform 0.2s ease, background-color 0.2s ease, -webkit-text-fill-color 0.2s ease;
 }
@@ -59,14 +62,14 @@
     transform: scale(1.05);
 }
 .list-group-GS {
-    border-color: #84ffe050 !important;
+    border-color: var(--DtgA-Border-Color) !important;
     border-width: 2px;
 }
 .GS-card {
-    border-color: #84ffe050 !important;
+    border-color: var(--DtgA-Border-Color) !important;
     border-radius: 10px;
     border-width: 2px;
-    width: 646px;
+    width: 640px;
 }
 /* Custom navbar details*/
 .navbar-height {height: 50px;}
@@ -147,9 +150,17 @@
   margin-bottom: 20px;
   z-index: 998;
 }
+.TOC-container {
+    border-radius: 10px;
+}
+.TOC-item {
+    border-color: var(--DtgA-Border-Color);
+    border-width: 2px;
+}
 #tableOfContents {
     z-index: 999;
     padding-left: 10px;
+    
 }
 /* Fixes getting started page from having z-index issues */
 .list-group {z-index: 996;}
