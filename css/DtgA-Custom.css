@@ -61,6 +61,21 @@
 }
 .home-dropdown-menu {
     background-color: rgba(0, 0, 0, 0.85);
+    border-radius: 20px;
+    border-color: #84ffe050;
+}
+.home-dropdown-item:hover {
+    background-color: rgba(128, 128, 128, 0.1);
+}
+.home-dropdown-item-top:hover {
+    background-color: rgba(128, 128, 128, 0.1);
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+.home-dropdown-item-bottom:hover {
+    background-color: rgba(128, 128, 128, 0.1);
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
 }
  /*Switches how the navbar looks for mobile devices*/
 @media (min-width: 768px) {
@@ -87,10 +102,6 @@
     border-color: #84ffe050;
 }
 
-.home-dropdown-item:hover {
-    background-color: rgba(128, 128, 128, 0.1);
-    
-}
 /* Defines how the Social Media Buttons look */
 .social-media-buttons a {
     padding: 20px;
