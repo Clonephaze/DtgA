@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <link rel="stylesheet" href="../css/DtgA-Custom.css">
 </head>
-<body>
+<body class="overflow-x-hidden">
     <div class="container-fluid"> 
       <header>  
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark navbar-height">
@@ -18,7 +18,7 @@
             </a>
                 
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <i class="fa-solid fa-bars"></i>
+                <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse bg-dark" id="navbarNavDropdown">
                 <ul class="navbar-nav">
@@ -57,43 +57,46 @@
          <!-- Add more links as necessary, add ids as blank div elemnts above each h1 heading -->
         </div>
        </div>
-    <main class="DtgA-Text-Color">
-        <div id="Downloads"></div>
-        <h2 class="text-center fw-semibold sticky-top" style="margin-top: 20px; margin-bottom: 10px;">Downloads</h2>
-        <div id="Downloads"></div>
-            <div class="container col-sm-12 d-flex justify-content-center align-items-center">
-                <div class="row justify-content-center align-items-center text-center mx-auto">
-                    <ul class="list-group list-group-horizontal text-center">
-                        <li class="list-group-item DtgA-Text-Color" style="width: 200px;"> 
-                            <div class="container">DtgA ReForged</div>
-                            <a href="https://www.patreon.com/posts/weekly-releases-84298518?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=postshare_fan&utm_content=join_link" class="DtgA-Text-Color fas fa-download" id="ReForgedPublic"> 0.76 (Public)</a>
-                            <a href="https://www.patreon.com/posts/woo-weekly-11-or-92506177?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=postshare_fan&utm_content=join_link" class="DtgA-Text-Color fas fa-download" id="ReForgedSupporter"> 0.77 (Supporter)</a>
-                        </li>
-                        <li class="list-group-item DtgA-Text-Color" style="width: 200px;">
-                            <div class="container">DtgA ReBorn</div>
-                            <a href="https://www.patreon.com/posts/weekly-releases-84298518?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=postshare_fan&utm_content=join_link" class="DtgA-Text-Color fas fa-download" id="ReBornPublic"> 0.36 (Public)</a>
-                            <a href="https://www.patreon.com/posts/woo-weekly-11-or-92506177?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=postshare_fan&utm_content=join_link" class="DtgA-Text-Color fas fa-download" id="ReBornSupporter">0.48 (Supporter)</a>
-                        </li>
-                        <li class="list-group-item DtgA-Text-Color" style="width: 200px;">
-                            <div class="container">DtgA ReAnimated</div>
-                            <a href="https://www.patreon.com/posts/weekly-releases-84298518?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=postshare_fan&utm_content=join_link" class="DtgA-Text-Color fas fa-download" id="ReAnimatedPublic"> 0.85 (Public)</a>
-                            <a href="https://www.patreon.com/posts/woo-weekly-11-or-92506177?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=postshare_fan&utm_content=join_link" class="DtgA-Text-Color fas fa-download" id="ReAnimatedSupporter"> 0.85 (Supporter)</a>
-                        </li>
-                        <li class="list-group-item DtgA-Text-Color" style="width: 320px;">
-                            <div class="container">DtgA DLC (Optional, Supporter Only)</div>
-                            <a href="https://www.patreon.com/posts/woo-weekly-11-or-92506177?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=postshare_fan&utm_content=join_link" class="DtgA-Text-Color fas fa-download" id="RePopulated"> RePopulated 0.37</a>
-                        </li>
-                    </ul>
+    <main class="DtgA-Text-Color GS-page">
+        <div id="Downloads"><h2 class="text-center fw-semibold sticky-top" style="margin-top: 20px; margin-bottom: 10px;">Downloads</h2></div>
+            <div class="d-flex justify-content-center">
+                <div class="row row-cols-1 row-cols-md-2 g-2 justify-content-center">
+                    <div class="card GS-card" style="max-width: 90vw; margin-right: 5px;">
+                        <div class="card-body text-center">
+                            <h5 class="card-title DtgA-Text-Color text-center fw-semibold">DtgA Reforged</h5>
+                            <div class="btn custom-button-GS"><a href="https://www.patreon.com/posts/weekly-releases-84298518?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=postshare_fan&utm_content=join_link" class="DtgA-Text-Color fas fa-download" id="ReForgedPublic"> 0.76 (Public)</a></div>
+                            <div class="btn custom-button-GS"><a href="https://www.patreon.com/posts/woo-weekly-11-or-92506177?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=postshare_fan&utm_content=join_link" class="DtgA-Text-Color fas fa-download" id="ReForgedSupporter"> 0.77 (Supporter)</a></div>
+                        </div>
+                    </div>
+                    <div class="card GS-card" style="max-width: 90vw;">
+                        <div class="card-body text-center">
+                            <h5 class="card-title DtgA-Text-Color text-center fw-semibold">DtgA ReBorged</h5>
+                            <div class="btn custom-button-GS"><a href="https://www.patreon.com/posts/weekly-releases-84298518?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=postshare_fan&utm_content=join_link" class="DtgA-Text-Color fas fa-download" id="ReBornPublic"> 0.36 (Public)</a></div>
+                            <div class="btn custom-button-GS"><a href="https://www.patreon.com/posts/woo-weekly-11-or-92506177?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=postshare_fan&utm_content=join_link" class="DtgA-Text-Color fas fa-download" id="ReBornSupporter"> 0.48 (Supporter)</a></div>
+                        </div>
+                    </div>
+                    <div class="card GS-card" style="max-width: 90vw; margin-right: 5px;">
+                        <div class="card-body text-center">
+                            <h5 class="card-title DtgA-Text-Color text-center fw-semibold">DtgA ReAnimated</h5>
+                            <div class="btn custom-button-GS"><a href="https://www.patreon.com/posts/weekly-releases-84298518?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=postshare_fan&utm_content=join_link" class="DtgA-Text-Color fas fa-download" id="ReAnimatedPublic"> 0.85 (Public)</a></div>
+                            <div class="btn custom-button-GS"><a href="https://www.patreon.com/posts/woo-weekly-11-or-92506177?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=postshare_fan&utm_content=join_link" class="DtgA-Text-Color fas fa-download" id="ReAnimatedSupporter"> 0.85 (Supporter)</a></div>
+                        </div>
+                    </div>
+                    <div class="card GS-card" style="max-width: 90vw;">
+                        <div class="card-body text-center">
+                            <h5 class="card-title DtgA-Text-Color text-center fw-semibold">DtgA DLC (Optional, Supporter Only)</h5>
+                            <div class="btn custom-button-GS"><a href="https://www.patreon.com/posts/woo-weekly-11-or-92506177?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=postshare_fan&utm_content=join_link" class="DtgA-Text-Color fas fa-download" id="RePopulated"> RePopulated 0.37</a></div>
+                        </div>
+                    </div>
                 </div>
             </div>
-        
-        <h2 class="text-center fw-semibold sticky-top" style="margin-top: 20px; margin-bottom: 10px;">Installation</h2>
-        <div id="Installation"></div>
+        </div>
+        <div id="Installation"><h2 class="text-center fw-semibold sticky-top" style="margin-top: 20px; margin-bottom: 10px;">Installation</h2></div>
             <div class="container col-sm-12">
                 <div class="row">
                     <div class="col-md-12">
-                        <div class="list-group">
-                            <div class="list-group-item DtgA-Text-Color d-flex justify-content-between align-items-center">
+                        <div class="list-group" style="border-radius: 10px;">
+                            <div class="list-group-item list-group-GS DtgA-Text-Color d-flex justify-content-between align-items-center">
                             <div class="DtgA-Text-Color-Body">
                                 <div class="d-flex w-100 justify-content-between DtgA-Text-Color" style="margin-bottom: 20px;">
                                     <h4 class="mb-1">Establishing Cemu Install</h4>
@@ -103,11 +106,11 @@
                                 <p class="mb-1">Open the Cemu application, click File -> Install game title, update or DLC. Open the folder containing the game, open the Meta folder and select meta.xml.</p>
                                 <p class="mb-1">Launch your game and make sure it works before installing any mods.</p>
                             </div>
-                            <a class="btn btn-primary custom-button-color" href="https://cemu.info" target="_blank" style="width: 125px;">
+                            <a class="btn btn-primary custom-button-GS" href="https://cemu.info" target="_blank" style="width: 125px;">
                                 <i class="fas fa-download DtgA-Text-Color"> Cemu Installation</i>
                             </a>
                             </div>
-                            <div class="list-group-item DtgA-Text-Color d-flex justify-content-between align-items-center">
+                            <div class="list-group-item list-group-GS DtgA-Text-Color d-flex justify-content-between align-items-center">
                                 <div class="DtgA-Text-Color-Body">
                                     <div class="d-flex w-100 justify-content-between DtgA-Text-Color" style="margin-bottom: 20px;">
                                         <h4 class="mb-1">Installing and setting up BCML</h4>
@@ -120,16 +123,16 @@
                                 <p class="mb-1">BCML will run through a setup wizard with you, follow its instructions.</p>
                                 </div>
                                 <div class="d-flex flex-column">
-                                    <a class="btn btn-primary custom-button-color" style="margin-bottom: 10px; width: 125px" href="https://aka.ms/vs/17/release/vc_redist.x64.exe" target="_blank">
+                                    <a class="btn btn-primary custom-button-GS" style="margin-bottom: 10px; width: 125px" href="https://aka.ms/vs/17/release/vc_redist.x64.exe" target="_blank">
                                         <i class="fas fa-download DtgA-Text-Color"> Visual C++ Installation</i>
                                     </a>
-                                    <a class="btn btn-primary custom-button-color" style="width: 125px;" href="https://www.python.org/downloads/release/python-3810/" target="_blank">
+                                    <a class="btn btn-primary custom-button-GS" style="width: 125px;" href="https://www.python.org/downloads/release/python-3810/" target="_blank">
                                         <i class="fas fa-download DtgA-Text-Color"> Python Installation</i>
                                     </a>
                                 </div>
                             </div>
                             <!-- make a new list group item here -->
-                            <div class="list-group-item DtgA-Text-Color d-flex justify-content-between align-items-center">
+                            <div class="list-group-item DtgA-Text-Color list-group-GS d-flex justify-content-between align-items-center">
                                 <div class="DtgA-Text-Color-Body">
                                     <div class="d-flex w-100 justify-content-between DtgA-Text-Color"  style="margin-bottom: 20px;">
                                         <h4 class="mb-1">Downloading and Installing Required Mods</h4>
@@ -141,7 +144,7 @@
                                 <p class="mb-1">In BCML the highest mod has the highest priority. Ensure Collision Actors is higher than DtgA mods.</p>
                                 <p class="mb-1">You can now launch your game from BCML and play! Choose "Play DtgA the way Zoey intended" in the main menu to get the full experience.</p>
                                 </div>
-                                    <a class="btn btn-primary custom-button-color" href="https://gamebanana.com/mods/307642" target="_blank" style="width: 125px;">
+                                    <a class="btn btn-primary custom-button-GS" href="https://gamebanana.com/mods/307642" target="_blank" style="width: 125px;">
                                         <i class="fas fa-download DtgA-Text-Color"> Collision Actors </i>
                                     </a>
                             </div>
@@ -155,8 +158,8 @@
             <div class="container col-sm-12">
                 <div class="row">
                     <div class="col">
-                        <div class="list-group">
-                            <div class="list-group-item DtgA-Text-Color d-flex justify-content-between align-items-center">
+                        <div class="list-group list-group-HS" style="border-radius: 10px;">
+                            <div class="list-group-item DtgA-Text-Color list-group-GS d-flex justify-content-between align-items-center">
                                 <div class="DtgA-Text-Color-Body">
                                     <div class="d-flex w-100 justify-content-between DtgA-Text-Color" style="margin-bottom: 20px;">
                                         <h4 class="mb-1">Wait! It's Dangerous to go Alone, take this. </h4>

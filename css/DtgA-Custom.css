@@ -47,9 +47,27 @@
  }
 /* Custom button colors */
 .custom-button-text-color {color: #84ffe0 !important;}
-.custom-button-color {
-    background-color: #4F5961 !important;
-    border-color: #4F5961 !important;}
+.custom-button-GS {
+    background-color: rgba(0, 0, 0, 0.1) !important;
+    border-color: #84ffe070 !important;
+    border-radius: 10px;
+    transition: transform 0.2s ease, background-color 0.2s ease, -webkit-text-fill-color 0.2s ease;
+}
+.custom-button-GS:hover {
+    background-color: #84ffe0 !important;
+    -webkit-text-fill-color: black;
+    transform: scale(1.05);
+}
+.list-group-GS {
+    border-color: #84ffe050 !important;
+    border-width: 2px;
+}
+.GS-card {
+    border-color: #84ffe050 !important;
+    border-radius: 10px;
+    border-width: 2px;
+    width: 646px;
+}
 /* Custom navbar details*/
 .navbar-height {height: 50px;}
     
