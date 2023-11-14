@@ -1,9 +1,32 @@
 :root {
     --DtgA-Border-Color: rgba(133, 255, 225, 0.5);
 }
+#DtgA-navbar {
+    background-color:  rgba(32, 36, 40, 0.98);
+    background-image: linear-gradient(to top, rgba( 133, 255, 224, 0.07), rgba( 133, 255, 224, 0) 75%);
+    border-radius: 0 0 12px 12px;
+    border-radius: 0 0 12px 12px;
+    z-index: 999;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+    max-height: 70px;
+}
+@media (max-width: 991px) {
+    #DtgA-navbar {
+        max-height: fit-content;
+    }
+    .custom-navbar-dropdown {
+        text-align: right;
+        padding-right: 10px;
+        background-color: rgb(0, 0, 0, 0.1);
+    }
+    
+} 
 .NavContainer {
     padding-left: 0%;
     padding-right: 0%;
+}
+.navbar-nav {
+    text-align: right;
 }
 /* Custom text colors used across the site */
 .DtgA-Text-Color {color: #84ffe0 !important; }
@@ -14,27 +37,7 @@
     font-style: normal;
     font-weight: normal;
 }
- .HomeButtons {
-    /* Custom button colors */
-    border-color: #84ffe0 !important;
-    border-width: 4px;
-    border-radius: 250px;
-    height: 75px;
-    width: 220px;
-    font-family: "ZeldaFont";
-    font-size: 30px;
-    transition: transform 0.2s ease, background-color 0.2s ease, -webkit-text-fill-color 0.2s ease;
-}
-.HomeButtons:hover {
-    background-color: #84ffe0 !important;
-    border-color: #84ffe0 !important;
-    -webkit-text-fill-color: black;
-    border-width: 2px;
-    border-radius: 250px;
-    width: 220px;
-    height: 75px;
-    transform: scale(1.1);
- }
+
 /* Custom button colors */
 .custom-button-text-color {color: #84ffe0 !important;}
 .custom-button-GS {
@@ -59,14 +62,9 @@
     width: 640px;
 }
 /* Custom navbar details*/
-.navbar-height {height: 50px;}
+
     
 .navbar {z-index: 1010;}
-.navbar-nav {
-    border-bottom: 2px solid #84ffe050;
-    border-left: 2px solid #84ffe050;
-    padding-left: 5px;
-}
 .navbar-toggler {
     border-color: #84ffe050;
     border-radius: 10px;
@@ -75,52 +73,6 @@
 .navbar-toggler:focus {
     outline: none;
     box-shadow: none;
-}
-.home-dropdown-menu {
-    background-color: rgba(0, 0, 0, 0.85);
-    border-radius: 20px;
-    border-color: #84ffe050;
-}
-.home-dropdown-item:hover {
-    background-color: rgba(128, 128, 128, 0.1);
-}
-.home-dropdown-item-top:hover {
-    background-color: rgba(128, 128, 128, 0.1);
-    border-top-left-radius: 8px;
-    border-top-right-radius: 8px;
-}
-.home-dropdown-item-bottom:hover {
-    background-color: rgba(128, 128, 128, 0.1);
-    border-bottom-left-radius: 8px;
-    border-bottom-right-radius: 8px;
-}
- /*Switches how the navbar looks for mobile devices*/
-@media (min-width: 768px) {
-    .navbar-nav {
-        border: none;
-    }}
-.navbar-nav {
-    text-align: right;
-    padding-right: 10px;
-}
-
-@media (max-width: 767px) {
-    .home-navbar-nav {
-        background-color: rgba(0, 0, 0, 0.85);
-        border-bottom: 2px solid #84ffe050;
-    }
-    .home-dropdown-menu {
-        background-color: rgba(0, 0, 0, 0);
-        text-align: right;
-        padding-right: 10px;
-    }
-    .custom-navbar-dropdown {
-        text-align: right;
-        padding-right: 10px;
-    }
-}
-.HomeBars {
-    color: #84ffe0;
 }
 .navbar-toggler {
     border-color: #84ffe050;
@@ -139,13 +91,13 @@
  }
 /* Made to have section titles stick to the top of the page */ 
 .sticky-top {
-  background-color: #212529;
   padding: 10px;
   margin-bottom: 20px;
   z-index: 998;
 }
 .TOC-container {
     border-radius: 10px;
+    box-shadow: 0.5rem 1rem rgba( 133, 255, 224, 0.15);
 }
 .TOC-item {
     border-color: var(--DtgA-Border-Color);

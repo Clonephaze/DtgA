@@ -11,7 +11,7 @@ function generateCards(jsonFileName, containerId, sectionName) {
         col.className = 'col';
         
         let card = document.createElement('div');
-        card.className = 'card item-card h-100 DtgA-Text-Color';
+        card.className = 'card item-card h-100 DtgA-Text-Color shadow-lg';
         
         let carousel = document.createElement('div');
         carousel.className = 'carousel slide';
