@@ -8,25 +8,12 @@
 /* Custom text colors used across the site */
 .DtgA-Text-Color {color: #84ffe0 !important; }
 .DtgA-Text-Color-Body {color: #b9b9b9  !important; }
-/* Home Logo */
-.HomeLogoContainer {
-    width: 100%;
-    text-align: center;
-  }
- .HomeLogo {
-     max-width: 100%;
- }
- @media (min-width: 1173px) {
-     .HomeLogo {
-         max-width: 1173px;
-     }
- }
- @font-face {
+@font-face {
     font-family: 'ZeldaFont';
     src: url(../Fonts/TheWildBreathOfZelda-15Lv.ttf) format('truetype');
     font-style: normal;
     font-weight: normal;
- }
+}
  .HomeButtons {
     /* Custom button colors */
     border-color: #84ffe0 !important;
