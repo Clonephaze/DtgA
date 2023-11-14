@@ -1,6 +1,7 @@
 # Site settings
 title: DtgA Website
 description: A welcome and wiki site for DtgA
+base-url: /DtgA
 
 # GitHub Pages settings
 remote_theme: pages-themes/architect@v0.2.0
