@@ -87,44 +87,8 @@
     <script src="../../js/bootstrap.bundle.min.js"></script>
     <script src="../../js/CardGeneration.js"></script>
     <script src="../../js/Custom-NavBarToggler.js"></script>
-    <script>
-      document.addEventListener('DOMContentLoaded', (event) => {
-        setTimeout(() => {
-          const carousels = document.querySelectorAll('.carousel');
-          carousels.forEach((carousel) => {
-            var instance = new bootstrap.Carousel(carousel, {
-              wrap: true,
-              touch: true
-            });
-          });
-        }, 1000);
-      });
-    </script>
-    <Script>document
-      .querySelectorAll('.list-group-item')
-      .forEach(anchor => {anchor.addEventListener('click', function (e)
-       {e.preventDefault();document.querySelector(this.getAttribute('href')).scrollIntoView({behavior: 'smooth'});}
-       );});
-      </Script>
-    <script>
-      // Get the table of contents element
-      const tableOfContents = document.getElementById('tableOfContents');
-
-      // Function to update the class based on screen width
-      function updateTableOfContentsClass() {
-        const screenWidth = window.innerWidth;
-
-        if (screenWidth >= 1580) {
-          tableOfContents.className = 'list-group position-fixed top-0 end-0';
-        } else {
-          tableOfContents.className = 'list-group container text-center mx-auto';
-        }
-      }
-
-      // Call the function on page load and whenever the window is resized
-      window.addEventListener('load', updateTableOfContentsClass);
-      window.addEventListener('resize', updateTableOfContentsClass);
-    </script>    
+    <script src="../../js/CustomCarouselBehavior.js"></script>
+    <Script src="../../js/ToC.js"></script>    
 </body>
 <footer style="margin-top: 75px;">
   <div class="mx-auto text-center">
@@ -132,7 +96,7 @@
   </div>
   <div class="social-media-buttons mx-auto text-center">
       <!-- GitHub, TODO change to Zoey's GitHub -->
-      <a href="https://github.com/Clonephaze/Dangerous-to-go-Alone" aria-label="GitHub" class="lab la-github" style="color: grey;"></a>
+      <a href="https://github.com/Clonephaze/DtgA" aria-label="GitHub" class="lab la-github" style="color: grey;"></a>
       <!-- Discord -->
       <a href="https://discord.gg/Zg2TgbAcTQ" aria-label="Discord" class="lab la-discord" style="color: grey;"></a>
       <!-- Patreon -->
