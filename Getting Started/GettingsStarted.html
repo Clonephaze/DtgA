@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="../Fonts/LineAwesome1.3.0/css/line-awesome.css">
     <link rel="stylesheet" href="../css/DtgA-Custom.css">
 </head>
-<body class="DtgA-Text-Color">
+<body>
     <div class="container-fluid pt-1 pb-1 sticky-top" id="DtgA-navbar"> 
         <nav class="navbar navbar-expand-lg navbar-dark">
             <a class="navbar-brand" href="../index.html" style="max-width: 175px;">
@@ -21,17 +21,18 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav">
-                    <li class="nav-item active">
-                        <a class="nav-link DtgA-Text-Color" href="../index.html">Home <span class="sr-only"></span></a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html">Home <span class="sr-only"></span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link DtgA-Text-Color" href="../About/About.html">About</a>
+                        <a class="nav-link" href="../About/About.html">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link DtgA-Text-Color" href="GettingsStarted.html">Getting Started</a>
+                        <a class="nav-link" href="GettingsStarted.html">Getting Started</a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle DtgA-Text-Color" id="navbarDropdownMenuLink" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <!-- text color changes on menu open without this style tag -->
+                        <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: var(--DtgA-Text-Color);">
                             Wiki
                         </a>
                         <div class="dropdown-menu custom-navbar-dropdown DtgA-Text-Color" aria-labelledby="navbarDropdownMenuLink">
@@ -45,7 +46,7 @@
                         </div>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link DtgA-Text-Color" href="../Known Issues/KnownIssues.html">Known Issues</a>
+                        <a class="nav-link" href="../Known Issues/KnownIssues.html">Known Issues</a>
                     </li>
                     
                 </ul>
@@ -62,63 +63,65 @@
          <!-- Add more links as necessary, add ids as blank div elemnts above each h1 heading -->
         </div>
     </div>
-    <main class="DtgA-Text-Color GS-page overflow-x-hidden">
-        <div id="Downloads"><h2 class="text-center fw-semibold DtgA-section-title" style="margin-top: 20px; margin-bottom: 10px;">Downloads</h2></div>
-            <div class="d-flex justify-content-center">
-                <div class="row row-cols-1 row-cols-md-2 g-2 justify-content-center">
-                    <div class="card GS-card" style="max-width: 90vw; margin-right: 5px;">
+    <main class="GS-page overflow-x-hidden" style="padding-bottom: 20px;">
+        <div id="Downloads"><h2 class="text-center DtgA-section-title" style="margin-top: 20px; margin-bottom: 10px;">Downloads</h2></div>
+        <div class="container">
+            <div class="row g-2">
+                <div class="col-md-6">
+                    <div class="card my-2 GetSta-card">
                         <div class="card-body text-center">
-                            <h5 class="card-title DtgA-Text-Color text-center fw-semibold">DtgA Reforged</h5>
-                            <div class="btn custom-button-GS"><i href="https://www.patreon.com/posts/weekly-releases-84298518?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=postshare_fan&utm_content=join_link" class="DtgA-Text-Color las as la-cloud-download-alt" id="ReForgedPublic"> 0.76 (Public)</i></div>
-                            <div class="btn custom-button-GS"><i href="https://www.patreon.com/posts/woo-weekly-11-or-92506177?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=postshare_fan&utm_content=join_link" class="DtgA-Text-Color las as la-cloud-download-alt" id="ReForgedSupporter"> 0.77 (Supporter)</i></div>
+                            <h5 class="card-title text-center GetSta-title">DtgA ReForged</h5>
+                            <div class="btn GetSta-card-button"><i href="https://www.patreon.com/posts/weekly-releases-84298518?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=postshare_fan&utm_content=join_link" class="DtgA-Text-Color las as la-cloud-download-alt" id="ReForgedPublic"> 0.76 (Public)</i></div>
+                            <div class="btn GetSta-card-button"><i href="https://www.patreon.com/posts/woo-weekly-11-or-92506177?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=postshare_fan&utm_content=join_link" class="DtgA-Text-Color las as la-cloud-download-alt" id="ReForgedSupporter"> 0.77 (Supporter)</i></div>
                         </div>
                     </div>
-                    <div class="card GS-card" style="max-width: 90vw;">
+                    <div class="card my-2 GetSta-card">
                         <div class="card-body text-center">
-                            <h5 class="card-title DtgA-Text-Color text-center fw-semibold">DtgA ReBorged</h5>
-                            <div class="btn custom-button-GS"><i href="https://www.patreon.com/posts/weekly-releases-84298518?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=postshare_fan&utm_content=join_link" class="DtgA-Text-Color las as la-cloud-download-alt" id="ReBornPublic"> 0.36 (Public)</i></div>
-                            <div class="btn custom-button-GS"><i href="https://www.patreon.com/posts/woo-weekly-11-or-92506177?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=postshare_fan&utm_content=join_link" class="DtgA-Text-Color las as la-cloud-download-alt" id="ReBornSupporter"> 0.48 (Supporter)</i></div>
+                            <h5 class="card-title text-center GetSta-title">DtgA ReBorn</h5>
+                            <div class="btn GetSta-card-button"><i href="https://www.patreon.com/posts/weekly-releases-84298518?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=postshare_fan&utm_content=join_link" class="DtgA-Text-Color las as la-cloud-download-alt" id="ReBornPublic"> 0.36 (Public)</i></div>
+                            <div class="btn GetSta-card-button"><i href="https://www.patreon.com/posts/woo-weekly-11-or-92506177?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=postshare_fan&utm_content=join_link" class="DtgA-Text-Color las as la-cloud-download-alt" id="ReBornSupporter"> 0.48 (Supporter)</i></div>
+                        </div>
+                    </div> 
+                </div>
+                <div class="col-md-6">
+                    <div class="card my-2 GetSta-card">
+                        <div class="card-body text-center">
+                            <h5 class="card-title text-center GetSta-title">DtgA ReAnimated</h5>
+                            <div class="btn GetSta-card-button"><i href="https://www.patreon.com/posts/weekly-releases-84298518?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=postshare_fan&utm_content=join_link" class="DtgA-Text-Color las as la-cloud-download-alt" id="ReAnimatedPublic"> 0.85 (Public)</i></div>
+                            <div class="btn GetSta-card-button"><i href="https://www.patreon.com/posts/woo-weekly-11-or-92506177?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=postshare_fan&utm_content=join_link" class="DtgA-Text-Color las as la-cloud-download-alt" id="ReAnimatedSupporter"> 0.85 (Supporter)</i></div>
                         </div>
                     </div>
-                    <div class="card GS-card" style="max-width: 90vw; margin-right: 5px;">
+                    <div class="card my-2 GetSta-card">
                         <div class="card-body text-center">
-                            <h5 class="card-title DtgA-Text-Color text-center fw-semibold">DtgA ReAnimated</h5>
-                            <div class="btn custom-button-GS"><i href="https://www.patreon.com/posts/weekly-releases-84298518?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=postshare_fan&utm_content=join_link" class="DtgA-Text-Color las as la-cloud-download-alt" id="ReAnimatedPublic"> 0.85 (Public)</i></div>
-                            <div class="btn custom-button-GS"><i href="https://www.patreon.com/posts/woo-weekly-11-or-92506177?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=postshare_fan&utm_content=join_link" class="DtgA-Text-Color las as la-cloud-download-alt" id="ReAnimatedSupporter"> 0.85 (Supporter)</i></div>
-                        </div>
-                    </div>
-                    <div class="card GS-card" style="max-width: 90vw;">
-                        <div class="card-body text-center">
-                            <h5 class="card-title DtgA-Text-Color text-center fw-semibold">DtgA DLC (Optional, Supporter Only)</h5>
-                            <div class="btn custom-button-GS"><i href="https://www.patreon.com/posts/woo-weekly-11-or-92506177?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=postshare_fan&utm_content=join_link" class="DtgA-Text-Color las as la-cloud-download-alt" id="RePopulated"> RePopulated 0.37</i></div>
+                            <h5 class="card-title text-center GetSta-title">DtgA DLC (Optional, Supporter Only)</h5>
+                            <div class="btn GetSta-card-button"><i href="https://www.patreon.com/posts/woo-weekly-11-or-92506177?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=postshare_fan&utm_content=join_link" class="DtgA-Text-Color las as la-cloud-download-alt" id="RePopulated"> RePopulated 0.37</i></div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <div id="Installation"><h2 class="text-center fw-semibold DtgA-section-title" style="margin-top: 20px; margin-bottom: 10px;">Installation</h2></div>
+        <div id="Installation"><h2 class="text-center DtgA-section-title" style="margin-top: 20px; margin-bottom: 10px;">Installation</h2></div>
             <div class="container col-sm-12">
                 <div class="row">
                     <div class="col-md-12">
                         <div class="list-group" style="border-radius: 10px;">
-                            <div class="list-group-item list-group-GS DtgA-Text-Color d-flex justify-content-between align-items-center">
+                            <div class="list-group-item GetSta-list-group-container DtgA-Text-Color d-flex justify-content-between align-items-center">
                             <div class="DtgA-Text-Color-Body">
                                 <div class="d-flex w-100 justify-content-between DtgA-Text-Color" style="margin-bottom: 20px;">
-                                    <h4 class="mb-1">Establishing Cemu Install</h4>
+                                    <h4 class="mb-1 GetSta-title">Establishing Cemu Install</h4>
                                 </div>
                                 <p class="mb-1">Make sure you have a valid and working copy of the Breath of the Wild. We cannot legaly tell you how to do this.</p>
                                 <p class="mb-1">Download and install Cemu, link is to the right.</p>
                                 <p class="mb-1">Open the Cemu application, click File -> Install game title, update or DLC. Open the folder containing the game, open the Meta folder and select meta.xml.</p>
                                 <p class="mb-1">Launch your game and make sure it works before installing any mods.</p>
                             </div>
-                            <a class="btn btn-primary custom-button-GS" href="https://cemu.info" target="_blank" style="width: 125px;">
+                            <a class="btn btn-primary GetSta-card-button" href="https://cemu.info" target="_blank" style="width: 125px;">
                                 <i class="las as la-cloud-download-alt DtgA-Text-Color"> Cemu Installation</i>
                             </a>
                             </div>
-                            <div class="list-group-item list-group-GS DtgA-Text-Color d-flex justify-content-between align-items-center">
+                            <div class="list-group-item GetSta-list-group-container DtgA-Text-Color d-flex justify-content-between align-items-center">
                                 <div class="DtgA-Text-Color-Body">
                                     <div class="d-flex w-100 justify-content-between DtgA-Text-Color" style="margin-bottom: 20px;">
-                                        <h4 class="mb-1">Installing and setting up BCML</h4>
+                                        <h4 class="mb-1 GetSta-title">Installing and setting up BCML</h4>
                                     </div>
                                 <p class="mb-1">Make sure you have the lastest x64 Visual C++ installed, link is to the right.</p>
                                 <p class="mb-1">Install python 3.8.10, link is to the right.</p>
@@ -128,19 +131,19 @@
                                 <p class="mb-1">BCML will run through a setup wizard with you, follow its instructions.</p>
                                 </div>
                                 <div class="d-flex flex-column">
-                                    <a class="btn btn-primary custom-button-GS" style="margin-bottom: 10px; width: 125px" href="https://aka.ms/vs/17/release/vc_redist.x64.exe" target="_blank">
+                                    <a class="btn btn-primary GetSta-card-button" style="margin-bottom: 10px; width: 125px" href="https://aka.ms/vs/17/release/vc_redist.x64.exe" target="_blank">
                                         <i class="las as la-cloud-download-alt DtgA-Text-Color"> Visual C++ Installation</i>
                                     </a>
-                                    <a class="btn btn-primary custom-button-GS" style="width: 125px;" href="https://www.python.org/downloads/release/python-3810/" target="_blank">
+                                    <a class="btn btn-primary GetSta-card-button" style="width: 125px;" href="https://www.python.org/downloads/release/python-3810/" target="_blank">
                                         <i class="las as la-cloud-download-alt DtgA-Text-Color"> Python Installation</i>
                                     </a>
                                 </div>
                             </div>
                             <!-- make a new list group item here -->
-                            <div class="list-group-item DtgA-Text-Color list-group-GS d-flex justify-content-between align-items-center">
+                            <div class="list-group-item DtgA-Text-Color GetSta-list-group-container d-flex justify-content-between align-items-center">
                                 <div class="DtgA-Text-Color-Body">
                                     <div class="d-flex w-100 justify-content-between DtgA-Text-Color"  style="margin-bottom: 20px;">
-                                        <h4 class="mb-1">Downloading and Installing Required Mods</h4>
+                                        <h4 class="mb-1 GetSta-title">Downloading and Installing Required Mods</h4>
                                     </div>
                                 <p class="mb-1">Download the Collision Actors mod, <strong>required</strong> for DtgA, link is to the right.</p>
                                 <p class="mb-1">Download the DtgA modules Reborn, Reforged, and Reanimated. The download links can be found at the top of the page.</p>
@@ -149,7 +152,7 @@
                                 <p class="mb-1">In BCML the highest mod has the highest priority. Ensure Collision Actors is higher than DtgA mods.</p>
                                 <p class="mb-1">You can now launch your game from BCML and play! Choose "Play DtgA the way Zoey intended" in the main menu to get the full experience.</p>
                                 </div>
-                                    <a class="btn btn-primary custom-button-GS" href="https://gamebanana.com/mods/307642" target="_blank" style="width: 125px;">
+                                    <a class="btn btn-primary GetSta-card-button" href="https://gamebanana.com/mods/307642" target="_blank" style="width: 125px;">
                                         <i class="las as la-cloud-download-alt DtgA-Text-Color"> Collision Actors </i>
                                     </a>
                             </div>
@@ -159,15 +162,15 @@
             </div>
             
         <div id="WhatToKnow"></div>
-        <h2 class="text-center fw-semibold DtgA-section-title" style="margin-top: 20px; margin-bottom: 10px;">What You Should Know</h2>
+        <h2 class="text-center DtgA-section-title" style="margin-top: 20px; margin-bottom: 10px;">What You Should Know</h2>
             <div class="container col-sm-12">
                 <div class="row">
                     <div class="col">
                         <div class="list-group list-group-HS" style="border-radius: 10px;">
-                            <div class="list-group-item DtgA-Text-Color list-group-GS d-flex justify-content-between align-items-center">
+                            <div class="list-group-item DtgA-Text-Color GetSta-list-group-container d-flex justify-content-between align-items-center">
                                 <div class="DtgA-Text-Color-Body">
                                     <div class="d-flex w-100 justify-content-between DtgA-Text-Color" style="margin-bottom: 20px;">
-                                        <h4 class="mb-1">Wait! It's Dangerous to go Alone, take this. </h4>
+                                        <h4 class="mb-1 GetSta-title">Wait! It's Dangerous to go Alone, take this. </h4>
                                     </div>
                                 <p class="mb-1">DtgA is an absolutely massive mod that changes a LOT of the game, we'll go over what you should know first here, visit the New Mechanics page to learn more. (TODO)</p>
                                     <ul>
@@ -195,7 +198,7 @@
     <script src="../js/Custom-NavBarToggler.js"></script>
     <script src="../js/ToC.js"></script>       
 </body>
-<footer class="overflow-x-hidden" style="margin-top: 75px;">
+<footer class="overflow-x-hidden">
     <div class="mx-auto text-center">
         <container class="DtgA-Text-Color">Dangerous To Go Alone.</container>
     </div>

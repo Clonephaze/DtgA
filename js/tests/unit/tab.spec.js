@@ -975,7 +975,7 @@ describe('Tab', () => {
     it('selecting a dropdown tab does not activate another', () => {
       const nav1 = [
         '<ul class="nav nav-tabs" id="nav1">',
-        '  <li class="nav-item active"><a class="nav-link" href="#home" data-bs-toggle="tab">Home</a></li>',
+        '  <li class="nav-item"><a class="nav-link" href="#home" data-bs-toggle="tab">Home</a></li>',
         '  <li class="nav-item dropdown">',
         '    <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#">Dropdown</a>',
         '    <div class="dropdown-menu">',
@@ -986,7 +986,7 @@ describe('Tab', () => {
       ].join('')
       const nav2 = [
         '<ul class="nav nav-tabs" id="nav2">',
-        '  <li class="nav-item active"><a class="nav-link" href="#home" data-bs-toggle="tab">Home</a></li>',
+        '  <li class="nav-item"><a class="nav-link" href="#home" data-bs-toggle="tab">Home</a></li>',
         '  <li class="nav-item dropdown">',
         '    <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#">Dropdown</a>',
         '    <div class="dropdown-menu">',

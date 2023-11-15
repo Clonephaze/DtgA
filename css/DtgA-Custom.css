@@ -1,5 +1,9 @@
 :root {
     --DtgA-Border-Color: rgba(133, 255, 225, 0.5);
+    --DtgA-Text-Color: rgba(132, 255, 224, 1) !important;
+    --DtgA-BoxShadow-green: 4px 4px 4px 1px rgba(133, 255, 225, 0.1);
+    --DtgA-BoxShadow-green-hover: 4px 4px 6px rgba(133, 255, 225, 0.19);
+
 }
 #DtgA-navbar {
     background-color:  rgba(32, 36, 40, 0.96);
@@ -42,6 +46,22 @@
     font-family: "ZeldaFont";
     text-transform: uppercase;
     font-weight: 500;
+    color: var(--DtgA-Text-Color);
+    z-index: 1000;
+}
+.nav-link:focus {
+    color: var(--DtgA-Text-Color);
+}
+.nav-item {
+    color: rgba(132, 255, 224, 1) !important;
+}
+@media (min-width: 991px) {
+    .nav-item:hover {
+        background-image: radial-gradient(ellipse closest-side, rgba( 133, 255, 224, 0.08)40%, transparent 90%);
+    }
+    .nav-link:hover {
+        color: rgba(132, 255, 224, 1)
+    }
 }
 #tableOfContents {
     margin-top: 90px; 
@@ -50,7 +70,7 @@
     padding-left: 10px;
 }
 /* Custom text colors used across the site */
-.DtgA-Text-Color {color: #84ffe0 !important; }
+.DtgA-Text-Color {color: var(--DtgA-Text-Color)}
 .DtgA-Text-Color-Body {color: #b9b9b9  !important; }
 @font-face {
     font-family: 'ZeldaFont';
@@ -61,26 +81,64 @@
 
 /* Custom button colors */
 .custom-button-text-color {color: #84ffe0 !important;}
-.custom-button-GS {
+/* GetSta button effects - Dtga Color BG
+.GetSta-card-button {
     background-color: rgba(0, 0, 0, 0.1) !important;
     border-color: var(--DtgA-Border-Color) !important;
     border-radius: 10px;
     transition: transform 0.2s ease, background-color 0.2s ease, -webkit-text-fill-color 0.2s ease;
 }
-.custom-button-GS:hover {
+.GetSta-card-button:hover {
     background-color: #84ffe0 !important;
     -webkit-text-fill-color: black;
     transform: scale(1.05);
+} */
+/* GetSta button effects - Darker button with pop and shadow */
+.GetSta-card-button {
+    background-color: rgba(0, 0, 0, 0.1) !important;
+    border-color: var(--DtgA-Border-Color) !important;
+    border-radius: 10px;
+    box-shadow: none;
+    transition: transform 0.125s ease-out, box-shadow 0.2s ease;
 }
-.list-group-GS {
+@media (min-width: 991px) {
+    .GetSta-card-button:hover {
+        transform: scale(1.03);
+        color: rgba(133, 255, 225, 0.9);
+        box-shadow: 1px 3px 8px 3px rgba(133, 255, 225, 0.1);
+    }
+}
+
+.GetSta-list-group-container {
     border-color: var(--DtgA-Border-Color) !important;
     border-width: 2px;
+    box-shadow: var(--DtgA-BoxShadow-green), -4px 0px 6px rgba(133, 255, 225, 0.1);
+    transition: box-shadow 0.2s ease;
 }
-.GS-card {
+@media (min-width: 991px) {
+    .GetSta-list-group-container:hover {
+        box-shadow: var(--DtgA-BoxShadow-green-hover), -4px 0px 6px rgba(133, 255, 225, 0.19);
+    }
+}
+
+.GetSta-card {
     border-color: var(--DtgA-Border-Color) !important;
     border-radius: 10px;
     border-width: 2px;
-    width: 640px;
+    box-shadow: var(--DtgA-BoxShadow-green), -4px 0px 4px rgba(133, 255, 225, 0.1);
+    transition: box-shadow 0.2s ease;
+}
+@media (min-width: 991px) {
+    .GetSta-card:hover {
+    box-shadow: var(--DtgA-BoxShadow-green-hover), -4px 0px 4px rgba(133, 255, 225, 0.19);
+    }
+}
+.GetSta-title {
+    font-family: "ZeldaFont";
+    text-transform: uppercase;
+    font-size: 22px;
+    font-weight: 300;
+    color: var(--DtgA-Text-Color);
 }
 /* Custom navbar details*/
 
@@ -135,6 +193,10 @@
 
 .DtgA-section-title {
     font-family: "ZeldaFont";
+    color: var(--DtgA-Text-Color);
+    text-transform: uppercase;
+    font-size: 26px;
+    font-weight: 500;
 }
 
 /* Gives the cards a pop effect */
@@ -148,11 +210,11 @@
 
 @media (min-width: 991px) {
     .item-card {
-        transition: transform 0.2s ease, box-shadow 0.2s ease;
+        transition: transform 0.2s ease-in, box-shadow 0.3s ease;
     }
     .item-card:hover {
-        box-shadow: 4px 4px 4px 1px rgba(133, 255, 225, 0.192);
-        transform: scale(1.03);
+        box-shadow: 4px 4px 4px 1px rgba(133, 255, 225, 0.2);
+        transform: scale(1.015);
     }
 }
 .item-card-image {
@@ -161,4 +223,8 @@
 }
 .item-card-title {
     font-family: "ZeldaFont";
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--DtgA-Text-Color);
 }
