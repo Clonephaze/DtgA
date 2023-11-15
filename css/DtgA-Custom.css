@@ -98,7 +98,6 @@
 }
 .TOC-container {
     border-radius: 10px;
-    box-shadow: 0.5rem 1rem rgba( 133, 255, 224, 0.15);
 }
 .TOC-item {
     border-color: var(--DtgA-Border-Color);
