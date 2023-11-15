@@ -15,6 +15,7 @@
     border-color: var(--DtgA-Border-Color);
     border-radius: 12px;
     box-shadow: 0 2px 5px 2px rgba(0, 0, 0, 0.3);
+    transition: all 0.2s ease;
 } 
 @media (max-width: 991px) {
     #DtgA-navbar {
@@ -143,11 +144,16 @@
     border-radius: 20px;
     border-width: 2px;
     box-shadow: 4px 4px 4px 1px rgba(133, 255, 225, 0.1);
-    transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
-.item-card:hover {
-    box-shadow: 4px 4px 4px 1px rgba(133, 255, 225, 0.192);
-    transform: scale(1.03);
+
+@media (min-width: 991px) {
+    .item-card {
+        transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+    .item-card:hover {
+        box-shadow: 4px 4px 4px 1px rgba(133, 255, 225, 0.192);
+        transform: scale(1.03);
+    }
 }
 .item-card-image {
 /* radial gradient background, starts strong in the middle and fades to the sides */
