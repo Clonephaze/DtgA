@@ -44,16 +44,6 @@
 }
 .navbar-height {height: 50px;}
 .navbar {z-index: 1010;}
-@media (min-width: 768px) {
-    .navbar-nav {
-        border-bottom: 2px solid #84ffe050;
-        border-left: 2px solid #84ffe050;
-        padding-left: 5px;
-    }
-}
-.navbar-nav {
-    border: none;
-}
 
 .navbar-toggler {
     border-color: #84ffe050;
@@ -82,12 +72,18 @@
     border-bottom-left-radius: 8px;
     border-bottom-right-radius: 8px;
 }
-@media (max-width: 767px) {
+.home-navbar-nav {
+    border-bottom: 0px solid #000000;
+}
+@media (max-width: 991px) {
     .home-navbar-nav {
         background-color: rgba(0, 0, 0, 0.85);
-        border-bottom: 2px solid #84ffe050;
+        background-image: linear-gradient(to top, rgba( 133, 255, 224, 0.05)60%, rgba( 133, 255, 224, 0) 95%);
+        border-bottom-left-radius: 12px;
+        border-bottom-right-radius: 12px;
         text-align: right;
         padding-right: 10px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
     }
     .home-dropdown-menu {
         background-color: rgba(0, 0, 0, 0);
