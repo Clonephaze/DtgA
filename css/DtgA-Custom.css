@@ -2,14 +2,20 @@
     --DtgA-Border-Color: rgba(133, 255, 225, 0.5);
 }
 #DtgA-navbar {
-    background-color:  rgba(32, 36, 40, 0.98);
-    background-image: linear-gradient(to top, rgba( 133, 255, 224, 0.07), rgba( 133, 255, 224, 0) 75%);
+    background-color:  rgba(32, 36, 40, 0.96);
+    background-image: linear-gradient(to top, rgba( 133, 255, 224, 0.07)25%, transparent 75%);
     border-radius: 0 0 12px 12px;
     border-radius: 0 0 12px 12px;
     z-index: 999;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
     max-height: 70px;
 }
+.custom-navbar-dropdown {
+    background-color: rgba(33, 37, 41, 0.93);
+    border-color: var(--DtgA-Border-Color);
+    border-radius: 12px;
+    box-shadow: 0 2px 5px 2px rgba(0, 0, 0, 0.3);
+} 
 @media (max-width: 991px) {
     #DtgA-navbar {
         max-height: fit-content;
@@ -18,9 +24,12 @@
         text-align: right;
         padding-right: 10px;
         background-color: rgb(0, 0, 0, 0.1);
-    }
-    
-} 
+    }}
+.dropdown-item {
+    font-family: "ZeldaFont";
+    text-transform: uppercase;
+    font-size: 14px;
+}
 .NavContainer {
     padding-left: 0%;
     padding-right: 0%;
@@ -28,7 +37,17 @@
 .navbar-nav {
     text-align: right;
 }
-
+.nav-link {
+    font-family: "ZeldaFont";
+    text-transform: uppercase;
+    font-weight: 500;
+}
+#tableOfContents {
+    margin-top: 90px; 
+    margin-right: 10px;
+    z-index: 999;
+    padding-left: 10px;
+}
 /* Custom text colors used across the site */
 .DtgA-Text-Color {color: #84ffe0 !important; }
 .DtgA-Text-Color-Body {color: #b9b9b9  !important; }
@@ -98,30 +117,36 @@
 }
 .TOC-container {
     border-radius: 10px;
+    box-shadow: 4px 4px 4px 1px rgba(133, 255, 225, 0.1);
 }
 .TOC-item {
     border-color: var(--DtgA-Border-Color);
     border-width: 2px;
+    box-shadow: 0px 0px 0px 1px transparent;
+    transition: box-shadow 0.2s ease, background-color 0.2s ease;
+    text-transform: uppercase;
+    font-family: "ZeldaFont";
+    font-size: 16px;
 }
-#tableOfContents {
-    z-index: 999;
-    padding-left: 10px;
-    
+.TOC-item:hover {
+    box-shadow: 4px 0px 4px 1px rgba(133, 255, 225, 0.19);
 }
+
 .DtgA-section-title {
     font-family: "ZeldaFont";
 }
-/* Fixes getting started page from having z-index issues */
-.list-group {z-index: 996;}
+
 /* Gives the cards a pop effect */
 .item-card {
-    z-index: 997;
+    z-index: 997; 
     border-color: rgba(133, 255, 224, 0.8);
     border-radius: 20px;
     border-width: 2px;
-    transition: transform 0.2s ease;
+    box-shadow: 4px 4px 4px 1px rgba(133, 255, 225, 0.1);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 .item-card:hover {
+    box-shadow: 4px 4px 4px 1px rgba(133, 255, 225, 0.192);
     transform: scale(1.03);
 }
 .item-card-image {
