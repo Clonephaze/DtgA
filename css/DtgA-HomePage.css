@@ -78,15 +78,15 @@
 @media (max-width: 991px) {
     .home-navbar-nav {
         background-color: rgba(0, 0, 0, 0.85);
-        background-image: linear-gradient(to top, rgba( 133, 255, 224, 0.05)60%, rgba( 133, 255, 224, 0) 95%);
+        background-image: linear-gradient(to top, rgba( 133, 255, 224, 0.08)60%, rgba( 133, 255, 224, 0) 95%);
         border-bottom-left-radius: 12px;
         border-bottom-right-radius: 12px;
         text-align: right;
         padding-right: 10px;
-        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+        box-shadow: 0 .4rem 1rem rgba( 133, 255, 224, 0.04);
     }
     .home-dropdown-menu {
-        background-color: rgba(0, 0, 0, 0);
+        background-color: rgba(0, 0, 0, 0.05);
         text-align: right;
         padding-right: 10px;
     }
