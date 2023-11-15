@@ -1,6 +1,9 @@
 :root {
     --DtgA-Border-Color: rgba(133, 255, 225, 0.5);
 }
+#particles-js {
+    height: calc(var(--vh, 1vh) * 100);
+}
 .Home-body {
     height: calc(var(--vh, 1vh) * 100);
 }
