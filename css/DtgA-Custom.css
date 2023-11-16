@@ -5,7 +5,6 @@
     --DtgA-BoxShadow-green: 4px 4px 4px 1px rgba(133, 255, 225, 0.1);
     --DtgA-BoxShadow-green-hover: 4px 4px 6px rgba(133, 255, 225, 0.19);
 
-    --DtgA-primary: 133, 255, 225;
     /*255, 0, 255 is magenta*/
     /*0, 255, 255 is cyan*/
     /*255, 255, 0 is yellow*/
@@ -13,13 +12,11 @@
     /*50, 94, 255 is blue*/
     /*255, 78, 38 is orange*/
     /*133, 255, 225 is DtgA teal*/
+    --DtgA-primary: 133, 255, 225;
+    /*Dark grey, main mix color*/
     --DtgA-Secondary: 33, 37, 41;
-    --DtgA-primary-rgb: rgb(var(--DtgA-primary));
-    --DtgA-primary-half: rgba(var(--DtgA-primary), 0.5);
-    --DtgA-Secondary-rgb: rgb(var(--DtgA-Secondary));
-    --DtgA-Secondary-half: rgba(var(--DtgA-Secondary), 0.5);
 
-    --bs-body-bg: color-mix(in srgb, var(--DtgA-primary-half) 3%, var(--DtgA-Secondary-rgb) 90%);
+    --bs-body-bg: color-mix(in srgb, rgba(var(--DtgA-primary), 0.3) 10%, rgba(var(--DtgA-Secondary), 0.9) 90%);
 }
 
 #DtgA-navbar {
@@ -59,7 +56,7 @@
 }
 
 .dropdown-item {
-    color: var(--DtgA-primary-rgb);
+    color: rgb(var(--DtgA-primary));
     font-family: "ZeldaFont";
     text-transform: uppercase;
     font-size: 14px;
@@ -69,7 +66,7 @@
 
 @media (min-width: 991px) {
     .dropdown-item:hover {
-        color: var(--DtgA-primary-rgb);
+        color: rgb(var(--DtgA-primary));
         background-image: radial-gradient(ellipse, rgba(var(--DtgA-primary), 0.08)15%, transparent 75%);
         background-color: transparent;
     }
@@ -89,16 +86,16 @@
     font-family: "ZeldaFont";
     text-transform: uppercase;
     font-weight: 500;
-    color: var(--DtgA-primary-rgb);
+    color: rgb(var(--DtgA-primary));
     z-index: 1000;
 }
 
 .nav-link:focus {
-    color: var(--DtgA-primary-rgb);
+    color: rgb(var(--DtgA-primary));
 }
 
 .nav-item {
-    color: var(--DtgA-primary-rgb) !important;
+    color: rgb(var(--DtgA-primary));
 }
 
 @media (min-width: 991px) {
@@ -120,11 +117,12 @@
 
 /* Custom text colors used across the site */
 .DtgA-Text-Color {
-    color: var(--DtgA-primary-rgb)
+    color: rgb(var(--DtgA-primary))
 }
 
 .GetSta-body-text {
     color: rgb(186, 186, 186);
+    /* TODO - Make this a variable*/
 }
 
 @font-face {
@@ -136,18 +134,21 @@
 
 /* GetSta button effects - Darker button with pop and shadow */
 .GetSta-card-button {
+    position: relative;
     background-color: rgba(var(--DtgA-Secondary), 0.1);
     border-color: rgba(var(--DtgA-primary), 0.5);
     border-radius: 10px;
     box-shadow: none;
-    transition: transform 0.125s ease-in-out, box-shadow 0.2s ease-in;
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in;
 }
 
 @media (min-width: 991px) {
     .GetSta-card-button:hover {
-        transform: scale(1.03);
+        border-color: rgba(var(--DtgA-primary), 0.5);
+        background-color: rgba(var(--DtgA-Secondary), 0.1);
+        transform: scale(1.02) translate(0px, -2px);
         color: rgba(var(--DtgA-primary), 0.9);
-        box-shadow: 1px 3px 8px 3px rgba(var(--DtgA-primary), 0.1);
+        box-shadow: 1px 2px 3px 6px rgba(var(--DtgA-primary), 0.1);
     }
 }
 
@@ -186,7 +187,7 @@
     text-transform: uppercase;
     font-size: 22px;
     font-weight: 300;
-    color: var(--DtgA-primary-rgb);
+    color: rgb(var(--DtgA-primary));
 }
 
 /* Custom navbar details*/
@@ -197,7 +198,7 @@
 }
 
 .navbar-toggler {
-    border-color: var(--DtgA-primary-half);
+    border-color: rgba(var(--DtgA-primary), 0.5);
     border-radius: 10px;
     min-height: 4vh
 }
@@ -256,7 +257,7 @@
 
 .DtgA-section-title {
     font-family: "ZeldaFont";
-    color: var(--DtgA-primary-rgb);
+    color: rgb(var(--DtgA-primary));
     text-transform: uppercase;
     font-size: 26px;
     font-weight: 500;
@@ -278,8 +279,8 @@
     }
 
     .item-card:hover {
-        box-shadow: 0px 0px 7px 7px rgba(var(--DtgA-primary), 0.18), 0px 0px 8px 2px rgba(var(--DtgA-primary), 0.18) inset;
-        transform: scale(1.015);
+        box-shadow: 1px 2px 7px 7px rgba(var(--DtgA-primary), 0.18), 0px 0px 8px 2px rgba(var(--DtgA-primary), 0.18) inset;
+        transform: translate(-1px, -2px);
     }
 }
 
@@ -293,5 +294,5 @@
     text-transform: uppercase;
     font-size: 20px;
     font-weight: 500;
-    color: var(--DtgA-primary-rgb);
+    color: rgb(var(--DtgA-primary));
 }
