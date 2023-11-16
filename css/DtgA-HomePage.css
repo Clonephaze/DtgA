@@ -85,22 +85,18 @@
     border-radius: 20px;
     border-width: 2px;
     border-color: var(--DtgA-Border-Color);
-}
-.home-dropdown-item:hover {
-    background-color: rgba(128, 128, 128, 0.1);
-}
-.home-dropdown-item-top:hover {
-    background-color: rgba(128, 128, 128, 0.1);
-    border-top-left-radius: 8px;
-    border-top-right-radius: 8px;
-}
-.home-dropdown-item-bottom:hover {
-    background-color: rgba(128, 128, 128, 0.1);
-    border-bottom-left-radius: 8px;
-    border-bottom-right-radius: 8px;
+    background-image: transparent;
+    text-align: center;
 }
 .home-navbar-nav {
     border-bottom: 0px solid #000000;
+}
+@media (min-width: 991px) {
+    .home-dropdown-item:hover {
+        color: var(--DtgA-Text-Color);
+        background-image: radial-gradient(ellipse, rgba( 133, 255, 224, 0.15)15%, transparent 75%);
+        background-color: transparent;
+    }
 }
 @media (max-width: 991px) {
     .home-navbar-nav {
