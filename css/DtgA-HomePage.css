@@ -30,7 +30,7 @@
 }
 .HomeButtons {
     /* Custom button colors */
-    border-color: var(--DtgA-Border-Color);
+    border-color: rgba( 133, 255, 224, 0.7);
     border-width: 4px;
     border-radius: 250px;
     height: 75px;
