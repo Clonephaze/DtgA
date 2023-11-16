@@ -5,32 +5,43 @@
     --DtgA-BoxShadow-green-hover: 4px 4px 6px rgba(133, 255, 225, 0.19);
 
 }
+
 #DtgA-navbar {
-    background-color:  rgba(32, 36, 40, 0.96);
-    background-image: linear-gradient(to top, rgba( 133, 255, 224, 0.07)25%, rgba( 133, 255, 224, 0.07)50%, transparent 85%);
+    background-color: rgba(32, 36, 40, 0.96);
+    background-image: linear-gradient(to top, rgba(133, 255, 224, 0.07)25%, rgba(133, 255, 224, 0.07)50%, transparent 85%);
     border-radius: 0 0 12px 12px;
     border-radius: 0 0 12px 12px;
     z-index: 999;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
     max-height: 70px;
 }
+
 .custom-navbar-dropdown {
     background-color: rgba(33, 37, 41, 0.93);
     border-color: var(--DtgA-Border-Color);
     border-radius: 12px;
     box-shadow: 0 2px 5px 2px rgba(0, 0, 0, 0.3);
+    text-align: center;
     transition: all 0.2s ease;
-} 
+}
 
 @media (max-width: 991px) {
     #DtgA-navbar {
         max-height: fit-content;
     }
+
     .custom-navbar-dropdown {
         text-align: right;
         padding-right: 10px;
         background-color: rgb(0, 0, 0, 0.1);
-    }}
+    }
+
+    .dropdown-item:hover {
+        background-image: transparent;
+        background-color: transparent;
+    }
+}
+
 .dropdown-item {
     color: var(--DtgA-Text-Color);
     font-family: "ZeldaFont";
@@ -38,20 +49,26 @@
     font-size: 14px;
     background-image: transparent;
     background-color: transparent;
-    text-align: center;
 }
-.dropdown-item:hover {
-    color: var(--DtgA-Text-Color);
-    background-image: radial-gradient(ellipse, rgba( 133, 255, 224, 0.08)15%, transparent 75%);
-    background-color: transparent;
+
+@media (min-width: 991px) {
+    .dropdown-item:hover {
+        color: var(--DtgA-Text-Color);
+        background-image: radial-gradient(ellipse, rgba(133, 255, 224, 0.08)15%, transparent 75%);
+        background-color: transparent;
+    }
+
 }
+
 .NavContainer {
     padding-left: 0%;
     padding-right: 0%;
 }
+
 .navbar-nav {
     text-align: right;
 }
+
 .nav-link {
     font-family: "ZeldaFont";
     text-transform: uppercase;
@@ -59,29 +76,41 @@
     color: var(--DtgA-Text-Color);
     z-index: 1000;
 }
+
 .nav-link:focus {
     color: var(--DtgA-Text-Color);
 }
+
 .nav-item {
     color: rgba(132, 255, 224, 1) !important;
 }
+
 @media (min-width: 991px) {
     .nav-item:hover {
-        background-image: radial-gradient(ellipse closest-side, rgba( 133, 255, 224, 0.08)40%, transparent 90%);
+        background-image: radial-gradient(ellipse closest-side, rgba(133, 255, 224, 0.08)40%, transparent 90%);
     }
+
     .nav-link:hover {
         color: rgba(132, 255, 224, 1)
     }
 }
+
 #tableOfContents {
-    margin-top: 90px; 
+    margin-top: 90px;
     margin-right: 10px;
     z-index: 999;
     padding-left: 10px;
 }
+
 /* Custom text colors used across the site */
-.DtgA-Text-Color {color: var(--DtgA-Text-Color)}
-.DtgA-Text-Color-Body {color: #b9b9b9  !important; }
+.DtgA-Text-Color {
+    color: var(--DtgA-Text-Color)
+}
+
+.DtgA-Text-Color-Body {
+    color: #b9b9b9 !important;
+}
+
 @font-face {
     font-family: 'ZeldaFont';
     src: url(../Fonts/TheWildBreathOfZelda-15Lv.ttf) format('truetype');
@@ -90,7 +119,10 @@
 }
 
 /* Custom button colors */
-.custom-button-text-color {color: #84ffe0 !important;}
+.custom-button-text-color {
+    color: #84ffe0 !important;
+}
+
 /* GetSta button effects - Dtga Color BG
 .GetSta-card-button {
     background-color: rgba(0, 0, 0, 0.1) !important;
@@ -111,6 +143,7 @@
     box-shadow: none;
     transition: transform 0.125s ease-in-out, box-shadow 0.2s ease-in;
 }
+
 @media (min-width: 991px) {
     .GetSta-card-button:hover {
         transform: scale(1.03);
@@ -118,14 +151,17 @@
         box-shadow: 1px 3px 8px 3px rgba(133, 255, 225, 0.1);
     }
 }
+
 .GetSta-list-group {
     box-shadow: 0 0 6px 4px rgba(133, 255, 225, 0.1);
 }
+
 .GetSta-list-group-container {
     border-color: var(--DtgA-Border-Color) !important;
     border-width: 2px;
     transition: box-shadow 0.2s ease;
 }
+
 @media (min-width: 991px) {
     .GetSta-list-group-container:hover {
         box-shadow: 0 0 6px 4px rgba(133, 255, 225, 0.19), 0px 0px 8px 2px rgba(133, 255, 225, 0.13) inset;
@@ -139,11 +175,13 @@
     box-shadow: 0 0 6px 4px rgba(133, 255, 225, 0.1);
     transition: box-shadow 0.2s ease;
 }
+
 @media (min-width: 991px) {
     .GetSta-card:hover {
-    box-shadow: 0 0 6px 4px rgba(133, 255, 225, 0.19), 0px 0px 8px 2px rgba(133, 255, 225, 0.13) inset;
+        box-shadow: 0 0 6px 4px rgba(133, 255, 225, 0.19), 0px 0px 8px 2px rgba(133, 255, 225, 0.13) inset;
     }
 }
+
 .GetSta-title {
     font-family: "ZeldaFont";
     text-transform: uppercase;
@@ -151,19 +189,25 @@
     font-weight: 300;
     color: var(--DtgA-Text-Color);
 }
+
 /* Custom navbar details*/
 
-    
-.navbar {z-index: 1010;}
+
+.navbar {
+    z-index: 1010;
+}
+
 .navbar-toggler {
     border-color: #84ffe050;
     border-radius: 10px;
     min-height: 4vh
 }
+
 .navbar-toggler:focus {
     outline: none;
     box-shadow: none;
 }
+
 .navbar-toggler {
     border-color: #84ffe050;
 }
@@ -175,21 +219,25 @@
     width: 50px;
     text-align: center;
     text-decoration: none;
- }
- .social-media-buttons a:hover {
-    opacity: 0.7;
- }
-/* Made to have section titles stick to the top of the page */ 
-.sticky-top {
-  padding: 10px;
-  margin-bottom: 20px;
-  z-index: 998;
 }
+
+.social-media-buttons a:hover {
+    opacity: 0.7;
+}
+
+/* Made to have section titles stick to the top of the page */
+.sticky-top {
+    padding: 10px;
+    margin-bottom: 20px;
+    z-index: 998;
+}
+
 .TOC-container {
     border-radius: 10px;
     box-shadow: 1px 2px 4px 5px rgba(133, 255, 225, 0.1);
     text-align: center;
 }
+
 .TOC-item {
     border-color: var(--DtgA-Border-Color);
     border-width: 2px;
@@ -199,6 +247,7 @@
     font-family: "ZeldaFont";
     font-size: 16px;
 }
+
 .TOC-item:hover {
     color: rgba(132, 255, 224, 1);
     background-color: transparent;
@@ -216,7 +265,7 @@
 
 /* Gives the cards a pop effect */
 .item-card {
-    z-index: 997; 
+    z-index: 997;
     border-color: rgba(133, 255, 224, 0.8);
     border-radius: 20px;
     border-width: 2px;
@@ -227,15 +276,18 @@
     .item-card {
         transition: transform 0.2s ease-in, box-shadow 0.2s ease-in-out;
     }
+
     .item-card:hover {
         box-shadow: 0px 0px 7px 7px rgba(133, 255, 225, 0.18), 0px 0px 8px 2px rgba(133, 255, 225, 0.18) inset;
         transform: scale(1.015);
     }
 }
+
 .item-card-image {
-/* radial gradient background, starts strong in the middle and fades to the sides */
-    background-image: radial-gradient(rgba( 133, 255, 224, 0.10) 20%, transparent 75%);
+    /* radial gradient background, starts strong in the middle and fades to the sides */
+    background-image: radial-gradient(rgba(133, 255, 224, 0.10) 20%, transparent 75%);
 }
+
 .item-card-title {
     font-family: "ZeldaFont";
     text-transform: uppercase;

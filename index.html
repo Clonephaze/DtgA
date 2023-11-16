@@ -9,48 +9,54 @@
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="Fonts/LineAwesome1.3.0/css/line-awesome.css">
     <link rel="stylesheet" href="css/DtgA-HomePage.css">
-    <style>body {background-color: black;}</style>
+    <style>
+        body {
+            background-color: black;
+        }
+    </style>
 </head>
 <body class="Home-body">
-    <div class="overflow-y-hidden" id="particles-js" style="position: fixed; width: 100vw; z-index: 0;"></div> 
-    <header style="background-color: rgba(0, 0, 0, 0);"> 
-            <nav class="navbar navbar-expand-lg navbar-height" style="background-color: rgba(0, 0, 0, 0);">
-                <a class="navbar-brand" href="#" style="max-width: 175px;">
-                </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                    <i class="las la-bars HomeBars"></i>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                    <ul class="navbar-nav home-navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link" href="index.html">Home<span class="sr-only"></span></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="About/About.html">About</a>
-                        <li class="nav-item">
-                            <a class="nav-link" href="GettingStarted/GettingsStarted.html">Getting Started</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: var(--DtgA-Text-Color);">
-                                Wiki
-                            </a>
-                            <div class="dropdown-menu DtgA-Text-Color home-dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                <a class="dropdown-item DtgA-Text-Color home-dropdown-item" href="Wiki\New Mechanics\NewMechanics.html">New Mechanics</a>
-                                <a class="dropdown-item DtgA-Text-Color home-dropdown-item" href="Wiki\Items\Items.html">Items</a>
-                                <a class="dropdown-item DtgA-Text-Color home-dropdown-item" href="Wiki\Spells\Spells.html">Spells</a>
-                                <a class="dropdown-item DtgA-Text-Color home-dropdown-item" href="Wiki\Enemies\Enemies.html">Enemies</a>
-                                <a class="dropdown-item DtgA-Text-Color home-dropdown-item" href="Wiki\NPCs\NPCs.html">NPCs</a>
-                                <a class="dropdown-item DtgA-Text-Color home-dropdown-item" href="Wiki\Locations\Locations.html">Locations</a>
-                                <!-- Add more parts as necessary -->
-                            </div>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="Known Issues\KnownIssues.html">Known Issues</a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
-        
+    <div class="overflow-y-hidden" id="particles-js" style="position: fixed; width: 100vw; z-index: 0;"></div>
+    <header style="background-color: rgba(0, 0, 0, 0);">
+        <nav class="navbar navbar-expand-lg navbar-height" style="background-color: rgba(0, 0, 0, 0);">
+            <a class="navbar-brand" href="#" style="max-width: 175px;">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <i class="las la-bars HomeBars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav home-navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home<span class="sr-only"></span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="About/About.html">About</a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="GettingStarted/GettingsStarted.html">Getting Started</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"
+                            style="color: var(--DtgA-Text-Color);">
+                            Wiki
+                        </a>
+                        <div class="dropdown-menu DtgA-Text-Color home-dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item DtgA-Text-Color home-dropdown-item" href="Wiki\New Mechanics\NewMechanics.html">New Mechanics</a>
+                            <a class="dropdown-item DtgA-Text-Color home-dropdown-item" href="Wiki\Items\Items.html">Items</a>
+                            <a class="dropdown-item DtgA-Text-Color home-dropdown-item" href="Wiki\Spells\Spells.html">Spells</a>
+                            <a class="dropdown-item DtgA-Text-Color home-dropdown-item" href="Wiki\Enemies\Enemies.html">Enemies</a>
+                            <a class="dropdown-item DtgA-Text-Color home-dropdown-item" href="Wiki\NPCs\NPCs.html">NPCs</a>
+                            <a class="dropdown-item DtgA-Text-Color home-dropdown-item" href="Wiki\Locations\Locations.html">Locations</a>
+                            <!-- Add more parts as necessary -->
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Known Issues\KnownIssues.html">Known Issues</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
     </header>
     <main class="overflow-hidden">
         <div class="d-flex flex-column align-items-center justify-content-start">
@@ -70,19 +76,20 @@
                         </div>
                         <div class="col d-flex justify-content-center align-items-center" style="margin-bottom: 10px; ">
                             <a href="GettingStarted/GettingsStarted.html">
-                                <button type="button" class="btn HomeButtons DtgA-Text-Color fw-semibold" style="z-index: 1; position: relative;" id="DownloadButton">DOWNLOADS</button>
+                                <button type="button" class="btn HomeButtons DtgA-Text-Color fw-semibold" style="z-index: 1; position: relative;"
+                                    id="DownloadButton">DOWNLOADS</button>
                             </a>
                         </div>
                         <div class="col d-flex justify-content-center align-items-center" style="margin-bottom: 10px;">
-                            <div class="col d-flex justify-content-center align-items-center" >
-                            <!-- TODO WIKI PAGE-->
-                            <a href="Wiki/Wiki.html">
-                                <button type="button" class="btn HomeButtons DtgA-Text-Color fw-bold" style="z-index: 1; position: relative;" id="WikiButton">WIKI</button>
-                            </a>
+                            <div class="col d-flex justify-content-center align-items-center">
+                                <!-- TODO WIKI PAGE-->
+                                <a href="Wiki/Wiki.html">
+                                    <button type="button" class="btn HomeButtons DtgA-Text-Color fw-bold" style="z-index: 1; position: relative;" id="WikiButton">WIKI</button>
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
             </div>
             <div class="container">
                 <div class="social-media-buttons mx-auto text-center">
@@ -93,16 +100,16 @@
                     <a href="https://www.patreon.com/ZoeyEule" class="lab la-patreon" aria-label="Patreon" style="color: grey; z-index: 1; position: relative;" target="_blank"></a>
                 </div>
             </div>
-        </div>   
+        </div>
     </main>
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/Custom-NavBarToggler.js"></script>
     <script src="js/particles.min.js"></script>
     <script src="js/CustomParticles.js"></script>
     <script>window.addEventListener('resize', () => {
-        let vh = window.innerHeight * 0.01;
-        document.documentElement.style.setProperty('--vh', `${vh}px`);
-      });
+            let vh = window.innerHeight * 0.01;
+            document.documentElement.style.setProperty('--vh', `${vh}px`);
+        });
     </script>
 </body>
 </html>

@@ -2,35 +2,48 @@
     --DtgA-Border-Color: rgba(133, 255, 224, 0.5);
     --DtgA-Text-Color: rgba(133, 255, 224, 1) !important;
 }
+
 #particles-js {
     height: calc(var(--vh, 1vh) * 100);
 }
+
 .Home-body {
     height: calc(var(--vh, 1vh) * 100);
 }
-.DtgA-Text-Color {color: var(--DtgA-Text-Color) !important; }
-.DtgA-Text-Color-Body {color: #b9b9b9  !important; }
+
+.DtgA-Text-Color {
+    color: var(--DtgA-Text-Color) !important;
+}
+
+.DtgA-Text-Color-Body {
+    color: #b9b9b9 !important;
+}
+
 .HomeLogoContainer {
     width: 100%;
     text-align: center;
 }
+
 .HomeLogo {
     max-width: 100%;
 }
+
 @media (min-width: 1173px) {
     .HomeLogo {
         max-width: 1173px;
     }
 }
+
 @font-face {
     font-family: 'ZeldaFont';
     src: url(../Fonts/TheWildBreathOfZelda-15Lv.ttf) format('truetype');
     font-style: normal;
     font-weight: normal;
 }
+
 .HomeButtons {
     /* Custom button colors */
-    border-color: rgba( 133, 255, 224, 0.7);
+    border-color: rgba(133, 255, 224, 0.7);
     border-width: 4px;
     border-radius: 250px;
     height: 75px;
@@ -40,6 +53,7 @@
     background-color: rgba(133, 255, 224, 0.082);
     transition: transform 0.2s ease, border-color 0.2s ease, background-color 0.2s ease, -webkit-text-fill-color 0.2s ease, box-shadow 0.2s ease;
 }
+
 .HomeButtons:hover {
     background-color: rgba(133, 255, 224, 0.7);
     border-color: transparent !important;
@@ -52,17 +66,26 @@
     box-shadow: 0px 0px 8px rgba(133, 255, 224, 0.5);
 
 }
-.navbar-height {max-height: 70px;}
-.navbar {z-index: 1010;}
+
+.navbar-height {
+    max-height: 70px;
+}
+
+.navbar {
+    z-index: 1010;
+}
+
 .nav-link {
     color: var(--DtgA-Text-Color);
     font-family: "ZeldaFont";
     text-transform: uppercase;
     font-size: 18px;
 }
+
 .nav-link:hover {
     color: var(--DtgA-Text-Color);
 }
+
 .navbar-toggler {
     border-color: var(--DtgA-Border-Color);
     background-color: rgba(133, 255, 225, 0.05);
@@ -70,15 +93,18 @@
     border-radius: 10px;
     min-height: 4vh
 }
+
 @media (min-width: 991px) {
     .nav-item:hover {
-        background-image: radial-gradient(ellipse closest-side, rgba( 133, 255, 224, 0.12)40%, transparent 110%);
+        background-image: radial-gradient(ellipse closest-side, rgba(133, 255, 224, 0.12)40%, transparent 110%);
     }
 }
+
 .navbar-toggler:focus {
     outline: none;
     box-shadow: none;
 }
+
 .home-dropdown-menu {
     background-color: rgba(0, 0, 0, 0.85);
     box-shadow: 0px 0px 8px black;
@@ -88,43 +114,51 @@
     background-image: transparent;
     text-align: center;
 }
+
 .home-navbar-nav {
     border-bottom: 0px solid #000000;
 }
+
 @media (min-width: 991px) {
     .home-dropdown-item:hover {
         color: var(--DtgA-Text-Color);
-        background-image: radial-gradient(ellipse, rgba( 133, 255, 224, 0.15)15%, transparent 75%);
+        background-image: radial-gradient(ellipse, rgba(133, 255, 224, 0.15)15%, transparent 75%);
         background-color: transparent;
     }
 }
+
 @media (max-width: 991px) {
     .home-navbar-nav {
         background-color: rgba(0, 0, 0, 0.85);
-        background-image: linear-gradient(to top, rgba( 133, 255, 224, 0.08)60%, rgba( 133, 255, 224, 0) 95%);
+        background-image: linear-gradient(to top, rgba(133, 255, 224, 0.08)60%, rgba(133, 255, 224, 0) 95%);
         border-bottom-left-radius: 12px;
         border-bottom-right-radius: 12px;
         text-align: right;
         padding-right: 10px;
-        box-shadow: 0 .4rem 1rem rgba( 133, 255, 224, 0.04);
+        box-shadow: 0 .4rem 1rem rgba(133, 255, 224, 0.04);
     }
+
     .home-dropdown-menu {
         background-color: rgba(0, 0, 0, 0.05);
         text-align: right;
         padding-right: 10px;
         margin-left: 10px;
     }
+
     .custom-navbar-dropdown {
         text-align: right;
         padding-right: 10px;
     }
 }
+
 .HomeBars {
     color: #84ffe0;
 }
+
 .navbar-toggler {
     border-color: #84ffe050;
 }
+
 .social-media-buttons a {
     padding: 20px;
     font-size: 30px;
@@ -132,9 +166,11 @@
     text-align: center;
     text-decoration: none;
 }
+
 .social-media-buttons a:hover {
     opacity: 0.7;
 }
+
 .dropdown-item {
     font-family: "ZeldaFont";
     text-transform: uppercase;
