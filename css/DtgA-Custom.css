@@ -7,7 +7,7 @@
 }
 #DtgA-navbar {
     background-color:  rgba(32, 36, 40, 0.96);
-    background-image: linear-gradient(to top, rgba( 133, 255, 224, 0.07)25%, transparent 75%);
+    background-image: linear-gradient(to top, rgba( 133, 255, 224, 0.07)25%, rgba( 133, 255, 224, 0.07)50%, transparent 85%);
     border-radius: 0 0 12px 12px;
     border-radius: 0 0 12px 12px;
     z-index: 999;
@@ -187,19 +187,23 @@
 }
 .TOC-container {
     border-radius: 10px;
-    box-shadow: 4px 4px 4px 1px rgba(133, 255, 225, 0.1);
+    box-shadow: 1px 2px 4px 5px rgba(133, 255, 225, 0.1);
+    text-align: center;
 }
 .TOC-item {
     border-color: var(--DtgA-Border-Color);
     border-width: 2px;
-    box-shadow: 0px 0px 0px 1px transparent;
+    box-shadow: 0px 0px 0px 0px transparent;
     transition: box-shadow 0.2s ease, background-color 0.2s ease;
     text-transform: uppercase;
     font-family: "ZeldaFont";
     font-size: 16px;
 }
 .TOC-item:hover {
-    box-shadow: 4px 0px 4px 1px rgba(133, 255, 225, 0.19);
+    color: rgba(132, 255, 224, 1);
+    background-color: transparent;
+    background-image: transparent;
+    box-shadow: 1px 2px 4px 5px rgba(133, 255, 225, 0.10), 0px 0px 8px 2px rgba(133, 255, 225, 0.13) inset;
 }
 
 .DtgA-section-title {
@@ -216,7 +220,7 @@
     border-color: rgba(133, 255, 224, 0.8);
     border-radius: 20px;
     border-width: 2px;
-    box-shadow: 0 0 6px 8px rgba(133, 255, 225, 0.1);
+    box-shadow: 0 0 7px 7px rgba(133, 255, 225, 0.1);
 }
 
 @media (min-width: 991px) {
@@ -224,7 +228,7 @@
         transition: transform 0.2s ease-in, box-shadow 0.2s ease-in-out;
     }
     .item-card:hover {
-        box-shadow: 0px 0px 6px 8px rgba(133, 255, 225, 0.18);
+        box-shadow: 0px 0px 7px 7px rgba(133, 255, 225, 0.18), 0px 0px 8px 2px rgba(133, 255, 225, 0.18) inset;
         transform: scale(1.015);
     }
 }
