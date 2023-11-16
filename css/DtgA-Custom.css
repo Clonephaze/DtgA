@@ -1,14 +1,30 @@
 :root {
     --DtgA-Border-Color: rgba(133, 255, 225, 0.5);
-    --DtgA-Text-Color: rgba(132, 255, 224, 1) !important;
+    --DtgA-Text-Color: var(--DtgA-primary) !important;
+    --DtgA-Background-Color: var(--bs-body-bg);
     --DtgA-BoxShadow-green: 4px 4px 4px 1px rgba(133, 255, 225, 0.1);
     --DtgA-BoxShadow-green-hover: 4px 4px 6px rgba(133, 255, 225, 0.19);
 
+    --DtgA-primary: 255, 0, 0;
+    /*255, 0, 255 is magenta*/
+    /*0, 255, 255 is cyan*/
+    /*255, 255, 0 is yellow*/
+    /*136, 87, 255 is violet*/
+    /*50, 94, 255 is blue*/
+    /*255, 78, 38 is orange*/
+    /*133, 255, 225 is DtgA teal*/
+    --DtgA-Secondary: 33, 37, 41;
+    --DtgA-primary-rgb: rgb(var(--DtgA-primary));
+    --DtgA-primary-half: rgba(var(--DtgA-primary), 0.5);
+    --DtgA-Secondary-rgb: rgb(var(--DtgA-Secondary));
+    --DtgA-Secondary-half: rgba(var(--DtgA-Secondary), 0.5);
+
+    --bs-body-bg: color-mix(in srgb, var(--DtgA-primary-half) 3%, var(--DtgA-Secondary-rgb) 90%);
 }
 
 #DtgA-navbar {
-    background-color: rgba(32, 36, 40, 0.96);
-    background-image: linear-gradient(to top, rgba(133, 255, 224, 0.07)25%, rgba(133, 255, 224, 0.07)50%, transparent 85%);
+    background-color: var(--DtgA-Background-Color);
+    background-image: linear-gradient(to top, rgba(var(--DtgA-primary), 0.07)25%, rgba(var(--DtgA-primary), 0.07), transparent 85%);
     border-radius: 0 0 12px 12px;
     border-radius: 0 0 12px 12px;
     z-index: 999;
@@ -17,8 +33,8 @@
 }
 
 .custom-navbar-dropdown {
-    background-color: rgba(33, 37, 41, 0.93);
-    border-color: var(--DtgA-Border-Color);
+    background-color: rgba(var(--DtgA-Secondary), 0.93);
+    border-color: rgba(var(--DtgA-primary), 0.5);
     border-radius: 12px;
     box-shadow: 0 2px 5px 2px rgba(0, 0, 0, 0.3);
     text-align: center;
@@ -43,7 +59,7 @@
 }
 
 .dropdown-item {
-    color: var(--DtgA-Text-Color);
+    color: var(--DtgA-primary-rgb);
     font-family: "ZeldaFont";
     text-transform: uppercase;
     font-size: 14px;
@@ -53,8 +69,8 @@
 
 @media (min-width: 991px) {
     .dropdown-item:hover {
-        color: var(--DtgA-Text-Color);
-        background-image: radial-gradient(ellipse, rgba(133, 255, 224, 0.08)15%, transparent 75%);
+        color: var(--DtgA-primary-rgb);
+        background-image: radial-gradient(ellipse, rgba(var(--DtgA-primary), 0.08)15%, transparent 75%);
         background-color: transparent;
     }
 
@@ -73,25 +89,25 @@
     font-family: "ZeldaFont";
     text-transform: uppercase;
     font-weight: 500;
-    color: var(--DtgA-Text-Color);
+    color: var(--DtgA-primary-rgb);
     z-index: 1000;
 }
 
 .nav-link:focus {
-    color: var(--DtgA-Text-Color);
+    color: var(--DtgA-primary-rgb);
 }
 
 .nav-item {
-    color: rgba(132, 255, 224, 1) !important;
+    color: var(--DtgA-primary-rgb) !important;
 }
 
 @media (min-width: 991px) {
     .nav-item:hover {
-        background-image: radial-gradient(ellipse closest-side, rgba(133, 255, 224, 0.08)40%, transparent 90%);
+        background-image: radial-gradient(ellipse closest-side, rgba(var(--DtgA-primary), 0.08)40%, transparent 90%);
     }
 
     .nav-link:hover {
-        color: rgba(132, 255, 224, 1)
+        color: rgba(var(--DtgA-primary), 1)
     }
 }
 
@@ -104,11 +120,11 @@
 
 /* Custom text colors used across the site */
 .DtgA-Text-Color {
-    color: var(--DtgA-Text-Color)
+    color: var(--DtgA-primary-rgb)
 }
 
-.DtgA-Text-Color-Body {
-    color: #b9b9b9 !important;
+.GetSta-body-text {
+    color: rgb(186, 186, 186);
 }
 
 @font-face {
@@ -118,27 +134,10 @@
     font-weight: normal;
 }
 
-/* Custom button colors */
-.custom-button-text-color {
-    color: #84ffe0 !important;
-}
-
-/* GetSta button effects - Dtga Color BG
-.GetSta-card-button {
-    background-color: rgba(0, 0, 0, 0.1) !important;
-    border-color: var(--DtgA-Border-Color) !important;
-    border-radius: 10px;
-    transition: transform 0.2s ease, background-color 0.2s ease, -webkit-text-fill-color 0.2s ease;
-}
-.GetSta-card-button:hover {
-    background-color: #84ffe0 !important;
-    -webkit-text-fill-color: black;
-    transform: scale(1.05);
-} */
 /* GetSta button effects - Darker button with pop and shadow */
 .GetSta-card-button {
-    background-color: rgba(0, 0, 0, 0.1) !important;
-    border-color: var(--DtgA-Border-Color) !important;
+    background-color: rgba(var(--DtgA-Secondary), 0.1);
+    border-color: rgba(var(--DtgA-primary), 0.5);
     border-radius: 10px;
     box-shadow: none;
     transition: transform 0.125s ease-in-out, box-shadow 0.2s ease-in;
@@ -147,38 +146,38 @@
 @media (min-width: 991px) {
     .GetSta-card-button:hover {
         transform: scale(1.03);
-        color: rgba(133, 255, 225, 0.9);
-        box-shadow: 1px 3px 8px 3px rgba(133, 255, 225, 0.1);
+        color: rgba(var(--DtgA-primary), 0.9);
+        box-shadow: 1px 3px 8px 3px rgba(var(--DtgA-primary), 0.1);
     }
 }
 
 .GetSta-list-group {
-    box-shadow: 0 0 6px 4px rgba(133, 255, 225, 0.1);
+    box-shadow: 0 0 6px 4px rgba(var(--DtgA-primary), 0.1);
 }
 
 .GetSta-list-group-container {
-    border-color: var(--DtgA-Border-Color) !important;
+    border-color: rgba(var(--DtgA-primary), 0.5) !important;
     border-width: 2px;
     transition: box-shadow 0.2s ease;
 }
 
 @media (min-width: 991px) {
     .GetSta-list-group-container:hover {
-        box-shadow: 0 0 6px 4px rgba(133, 255, 225, 0.19), 0px 0px 8px 2px rgba(133, 255, 225, 0.13) inset;
+        box-shadow: 0 0 6px 4px rgba(var(--DtgA-primary), 0.19), 0px 0px 8px 2px rgba(var(--DtgA-primary), 0.13) inset;
     }
 }
 
 .GetSta-card {
-    border-color: var(--DtgA-Border-Color) !important;
+    border-color: rgba(var(--DtgA-primary), 0.5) !important;
     border-radius: 10px;
     border-width: 2px;
-    box-shadow: 0 0 6px 4px rgba(133, 255, 225, 0.1);
+    box-shadow: 0 0 6px 4px rgba(var(--DtgA-primary), 0.1);
     transition: box-shadow 0.2s ease;
 }
 
 @media (min-width: 991px) {
     .GetSta-card:hover {
-        box-shadow: 0 0 6px 4px rgba(133, 255, 225, 0.19), 0px 0px 8px 2px rgba(133, 255, 225, 0.13) inset;
+        box-shadow: 0 0 6px 4px rgba(var(--DtgA-primary), 0.19), 0px 0px 8px 2px rgba(var(--DtgA-primary), 0.13) inset;
     }
 }
 
@@ -187,7 +186,7 @@
     text-transform: uppercase;
     font-size: 22px;
     font-weight: 300;
-    color: var(--DtgA-Text-Color);
+    color: var(--DtgA-primary-rgb);
 }
 
 /* Custom navbar details*/
@@ -198,7 +197,7 @@
 }
 
 .navbar-toggler {
-    border-color: #84ffe050;
+    border-color: var(--DtgA-primary-half);
     border-radius: 10px;
     min-height: 4vh
 }
@@ -209,7 +208,7 @@
 }
 
 .navbar-toggler {
-    border-color: #84ffe050;
+    border-color: rgba(var(--DtgA-primary), 0.5);
 }
 
 /* Defines how the Social Media Buttons look */
@@ -234,12 +233,12 @@
 
 .TOC-container {
     border-radius: 10px;
-    box-shadow: 1px 2px 4px 5px rgba(133, 255, 225, 0.1);
+    box-shadow: 1px 2px 4px 5px rgba(var(--DtgA-primary), 0.1);
     text-align: center;
 }
 
 .TOC-item {
-    border-color: var(--DtgA-Border-Color);
+    border-color: rgba(var(--DtgA-primary), 0.5);
     border-width: 2px;
     box-shadow: 0px 0px 0px 0px transparent;
     transition: box-shadow 0.2s ease, background-color 0.2s ease;
@@ -249,15 +248,15 @@
 }
 
 .TOC-item:hover {
-    color: rgba(132, 255, 224, 1);
+    color: rgba(var(--DtgA-primary), 1);
     background-color: transparent;
     background-image: transparent;
-    box-shadow: 1px 2px 4px 5px rgba(133, 255, 225, 0.10), 0px 0px 8px 2px rgba(133, 255, 225, 0.13) inset;
+    box-shadow: 1px 2px 4px 5px rgba(var(--DtgA-primary), 0.10), 0px 0px 8px 2px rgba(var(--DtgA-primary), 0.13) inset;
 }
 
 .DtgA-section-title {
     font-family: "ZeldaFont";
-    color: var(--DtgA-Text-Color);
+    color: var(--DtgA-primary-rgb);
     text-transform: uppercase;
     font-size: 26px;
     font-weight: 500;
@@ -266,10 +265,11 @@
 /* Gives the cards a pop effect */
 .item-card {
     z-index: 997;
-    border-color: rgba(133, 255, 224, 0.8);
+    border-color: rgba(var(--DtgA-primary), 0.8);
     border-radius: 20px;
     border-width: 2px;
-    box-shadow: 0 0 7px 7px rgba(133, 255, 225, 0.1);
+    box-shadow: 0 0 7px 7px rgba(var(--DtgA-primary), 0.1);
+    background: transparent;
 }
 
 @media (min-width: 991px) {
@@ -278,14 +278,14 @@
     }
 
     .item-card:hover {
-        box-shadow: 0px 0px 7px 7px rgba(133, 255, 225, 0.18), 0px 0px 8px 2px rgba(133, 255, 225, 0.18) inset;
+        box-shadow: 0px 0px 7px 7px rgba(var(--DtgA-primary), 0.18), 0px 0px 8px 2px rgba(var(--DtgA-primary), 0.18) inset;
         transform: scale(1.015);
     }
 }
 
 .item-card-image {
     /* radial gradient background, starts strong in the middle and fades to the sides */
-    background-image: radial-gradient(rgba(133, 255, 224, 0.10) 20%, transparent 75%);
+    background-image: radial-gradient(rgba(var(--DtgA-primary), 0.1) 20%, transparent 75%);
 }
 
 .item-card-title {
@@ -293,5 +293,5 @@
     text-transform: uppercase;
     font-size: 20px;
     font-weight: 500;
-    color: var(--DtgA-Text-Color);
+    color: var(--DtgA-primary-rgb);
 }
