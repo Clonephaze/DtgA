@@ -52,7 +52,7 @@
     box-shadow: 0px 0px 8px rgba(133, 255, 224, 0.5);
 
 }
-.navbar-height {height: 50px;}
+.navbar-height {max-height: 70px;}
 .navbar {z-index: 1010;}
 .nav-link {
     color: var(--DtgA-Text-Color);
