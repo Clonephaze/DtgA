@@ -1,6 +1,6 @@
 :root {
     --DtgA-Border-Color: rgba(133, 255, 225, 0.5);
-    --DtgA-Text-Color: var(--DtgA-primary) !important;
+    --DtgA-Title-Text: var(--DtgA-primary) !important;
     --DtgA-Background-Color: var(--bs-body-bg);
     --DtgA-BoxShadow-green: 4px 4px 4px 1px rgba(133, 255, 225, 0.1);
     --DtgA-BoxShadow-green-hover: 4px 4px 6px rgba(133, 255, 225, 0.19);
@@ -15,8 +15,17 @@
     --DtgA-primary: 133, 255, 225;
     /*Dark grey, main mix color*/
     --DtgA-Secondary: 33, 37, 41;
+    --DtgA-Standard-Text: 185, 185, 185;
 
     --bs-body-bg: color-mix(in srgb, rgba(var(--DtgA-primary), 0.3) 10%, rgba(var(--DtgA-Secondary), 0.9) 90%);
+}
+
+.DtgA-Title-Text {
+    color: rgb(var(--DtgA-primary))
+}
+
+.DtgA-Standard-Text {
+    color: rgb(var(--DtgA-Standard-Text))
 }
 
 #DtgA-navbar {
@@ -115,14 +124,45 @@
     padding-left: 10px;
 }
 
-/* Custom text colors used across the site */
-.DtgA-Text-Color {
-    color: rgb(var(--DtgA-primary))
+.Theme-Menu-Btn {
+    color: rgb(var(--DtgA-primary));
+    background-color: rgba(var(--DtgA-Secondary), 0.1);
+    border-color: rgba(var(--DtgA-primary), 0.5);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-width: 2px;
+    box-shadow: 0 0 2px 4px rgba(var(--DtgA-primary), 0.1);
 }
-
-.GetSta-body-text {
-    color: rgb(186, 186, 186);
-    /* TODO - Make this a variable*/
+.Theme-Menu-Btn:hover {
+    border-color: rgba(var(--DtgA-primary), 0.5);
+    box-shadow: 0 0 2px 4px rgba(var(--DtgA-primary), 0.2);
+}
+.Theme-Menu-Btn:active {
+    color: rgba(var(--DtgA-primary), 0.5);
+    background-color: rgba(var(--DtgA-Secondary), 0.1);
+    border-color: rgba(var(--DtgA-primary), 0.5) !important;
+    border-radius: 10px;
+}
+.ThemeMenu-Button-Desktop {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 999;
+    min-width: 40px;
+    min-height: 40px;
+}
+.ThemeMenu {
+    position: absolute;
+    bottom: 0px;
+    right: 53px;
+    z-index: 1000;
+    background-color: rgba(var(--DtgA-Secondary), 0.1);
+    border-color: rgba(var(--DtgA-primary), 0.5);
+    border-radius: 10px;
+    border-width: 2px;
+    box-shadow: 0 0 2px 4px rgba(var(--DtgA-primary), 0.1), 0 0 2px 1px rgba(var(--DtgA-primary), 0.1) inset;
 }
 
 @font-face {
@@ -152,18 +192,18 @@
     }
 }
 
-.GetSta-list-group {
+.Custom-list-group {
     box-shadow: 0 0 6px 4px rgba(var(--DtgA-primary), 0.1);
 }
 
-.GetSta-list-group-container {
+.Custom-list-group-container {
     border-color: rgba(var(--DtgA-primary), 0.5) !important;
     border-width: 2px;
     transition: box-shadow 0.2s ease;
 }
 
 @media (min-width: 991px) {
-    .GetSta-list-group-container:hover {
+    .Custom-list-group-container:hover {
         box-shadow: 0 0 6px 4px rgba(var(--DtgA-primary), 0.19), 0px 0px 8px 2px rgba(var(--DtgA-primary), 0.13) inset;
     }
 }
@@ -268,7 +308,8 @@
     z-index: 997;
     border-color: rgba(var(--DtgA-primary), 0.8);
     border-radius: 20px;
-    border-width: 2px;
+    border-width: 3px;
+    border-style: solid;
     box-shadow: 0 0 7px 7px rgba(var(--DtgA-primary), 0.1);
     background: transparent;
 }
@@ -286,7 +327,7 @@
 
 .item-card-image {
     /* radial gradient background, starts strong in the middle and fades to the sides */
-    background-image: radial-gradient(rgba(var(--DtgA-primary), 0.1) 20%, transparent 75%);
+    background-image: radial-gradient(rgba(var(--DtgA-primary), 0.1) 8%, transparent 70%);
 }
 
 .item-card-title {
@@ -295,4 +336,21 @@
     font-size: 20px;
     font-weight: 500;
     color: rgb(var(--DtgA-primary));
+}
+
+.NewMech-List-Item-Title {
+    font-family: "ZeldaFont";
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 5px;
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(var(--DtgA-primary));
+}
+.NewMech-List-Item-Title-Container {
+    border-width: 4px 0 4px 0;
+    border-style: outset;
+    border-color: transparent;
+    border-image: radial-gradient(rgba(var(--DtgA-primary), 0.8) 20%, transparent 80%);
+    border-image-slice: 1; 
 }

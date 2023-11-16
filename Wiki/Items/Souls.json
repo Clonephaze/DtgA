@@ -2,79 +2,105 @@
     {
         "title": "Soul of a Frightened Soldier",
         "description": "The lingering essence of a Hylian soldier who met their end in a lightly guarded area. Their fear and determination are palpable.",
-        "imageSrc": ["Icons/SoulOfAFrightenedSoldier.png"],
+        "imageSrc": [
+            "Icons/SoulOfAFrightenedSoldier.png"
+        ],
         "location": "Given to the Lost One by fallen Hylian Soldiers in lightly guarded areas, and around Hope's Rise."
     },
     {
         "title": "Soul of a Brave Knight",
         "description": "This soul holds the bravery and valor of a fallen Hylian Knight who met their end in moderately guarded areas. It radiates an aura of courage.",
-        "imageSrc": ["Icons/SoulOfABraveKnight.png"],
+        "imageSrc": [
+            "Icons/SoulOfABraveKnight.png"
+        ],
         "location": "Given to the Lost One by fallen Hylian Knights in moderately guarded areas, and around HC."
     },
     {
         "title": "Soul of a Royal Guard",
         "description": "Imbued with the strength and loyalty of a member of the Hylian Royal Soldiers, this soul is obtained in heavily guarded areas and fortresses.",
-        "imageSrc": ["Icons/SoulOfARoyalGuard.png"],
+        "imageSrc": [
+            "Icons/SoulOfARoyalGuard.png"
+        ],
         "location": "Given to the Lost One by members of the Hylian Royal Soldiers in heavily guarded areas and fortresses."
     },
     {
         "title": "Soul of a Would Be Champion",
         "description": "This soul represents the aspirations of a Hylian Royal Guard who faced the greatest dangers. It embodies the spirit of those who dared to become champions.",
-        "imageSrc": ["Icons/SoulOfAWouldBeChampion.png"],
+        "imageSrc": [
+            "Icons/SoulOfAWouldBeChampion.png"
+        ],
         "location": "Given to the Lost One by members of the Hylian Royal Guard, only in the most dangerous areas."
     },
     {
         "title": "Soul of an Enlightened One",
         "description": "The remnants of prospective champions who fell short in impressing the Sword that Seals the Darkness. These souls are scattered across Hyrule, usually in areas heavily guarded.",
-        "imageSrc": ["Icons/SoulOfAnEnlightenedOne.png"],
+        "imageSrc": [
+            "Icons/SoulOfAnEnlightenedOne.png"
+        ],
         "location": "Given to the Lost One by prospective champions who failed to impress the Sword that Seals the Darkness. These souls scattered after their failure and can be found all over Hyrule, usually heavily guarded."
     },
     {
         "title": "Soul of the Hero's Shade",
         "description": "This soul is a memento from the first boss encounter the Lost One faces on Hope's Rise. It contains the essence of a valiant warrior who stood their ground.",
-        "imageSrc": ["Icons/SoulBoss.png"],
+        "imageSrc": [
+            "Icons/SoulBoss.png"
+        ],
         "location": "Dropped by the first boss the Lost One faces on Hope's Rise. Used to upgrade the first level of special swords added by ReForged."
     },
     {
         "title": "Soul of Darknut the Executioner",
         "description": "This soul embodies the strength and determination of Darknut, the formidable adversary at the Hyrule Castle Town Cathedral.",
-        "imageSrc": ["Icons/SoulBoss.png"],
+        "imageSrc": [
+            "Icons/SoulBoss.png"
+        ],
         "location": "Acquired by defeating Darknut at the Hyrule Castle Town Cathedral."
     },
     {
         "title": "Soul of Gallahad the Mighty",
         "description": "A testament to the might of Sir Gallahad, this soul exudes power and resilience after his defeat at Fort Hateno.",
-        "imageSrc": ["Icons/SoulBoss.png"],
+        "imageSrc": [
+            "Icons/SoulBoss.png"
+        ],
         "location": "Acquired by defeating Sir Gallahad at Fort Hateno."
     },
     {
         "title": "Soul of Robin the Swift",
         "description": "This soul carries the swiftness and agility of Sir Robin, earned by overcoming him at the ruined Hateno shooting range.",
-        "imageSrc": ["Icons/SoulBoss.png"],
+        "imageSrc": [
+            "Icons/SoulBoss.png"
+        ],
         "location": "Acquired by defeating Sir Robin at the ruined Hateno shooting range."
     },
     {
         "title": "Soul of Lancelot the Brave",
         "description": "Imbued with the bravery and valor of Sir Lancelot, this soul reflects the courage he displayed near the shrine of courage.",
-        "imageSrc": ["Icons/SoulBoss.png"],
+        "imageSrc": [
+            "Icons/SoulBoss.png"
+        ],
         "location": "Acquired by defeating Sir Lancelot near the shrine of courage."
     },
     {
         "title": "Soul of King Rhoam",
         "description": "#",
-        "imageSrc": ["Icons/SoulBoss.png"],
+        "imageSrc": [
+            "Icons/SoulBoss.png"
+        ],
         "location": "Acquired by [Please provide additional information on how to acquire this soul.]"
     },
     {
         "title": "Soul of Queen Rhoam",
         "description": "#",
-        "imageSrc": ["Icons/SoulBoss.png"],
+        "imageSrc": [
+            "Icons/SoulBoss.png"
+        ],
         "location": "Acquired by [Please provide additional information on how to acquire this soul.]"
     },
     {
         "title": "Twinsouls of Miko and Sibyl",
         "description": "These intertwined souls represent the combined strength and unity of Miko and Sibyl. They are obtained after defeating them at Sanindin Park Ruins.",
-        "imageSrc": ["Icons/SoulBoss.png"],
+        "imageSrc": [
+            "Icons/SoulBoss.png"
+        ],
         "location": "Acquired by defeating Miko and Sibyl at Sanindin Park Ruins."
     }
 ]

@@ -1,6 +1,6 @@
 :root {
     --DtgA-Border-Color: rgba(133, 255, 224, 0.5);
-    --DtgA-Text-Color: rgba(133, 255, 224, 1) !important;
+    --DtgA-Title-Text: rgba(133, 255, 224, 1) !important;
 }
 
 #particles-js {
@@ -11,11 +11,11 @@
     height: calc(var(--vh, 1vh) * 100);
 }
 
-.DtgA-Text-Color {
-    color: var(--DtgA-Text-Color) !important;
+.DtgA-Title-Text {
+    color: var(--DtgA-Title-Text) !important;
 }
 
-.GetSta-body-text {
+.DtgA-Standard-Text {
     color: #b9b9b9 !important;
 }
 
@@ -76,14 +76,14 @@
 }
 
 .nav-link {
-    color: var(--DtgA-Text-Color);
+    color: var(--DtgA-Title-Text);
     font-family: "ZeldaFont";
     text-transform: uppercase;
     font-size: 18px;
 }
 
 .nav-link:hover {
-    color: var(--DtgA-Text-Color);
+    color: var(--DtgA-Title-Text);
 }
 
 .navbar-toggler {
@@ -121,7 +121,7 @@
 
 @media (min-width: 991px) {
     .home-dropdown-item:hover {
-        color: var(--DtgA-Text-Color);
+        color: var(--DtgA-Title-Text);
         background-image: radial-gradient(ellipse, rgba(133, 255, 224, 0.15)15%, transparent 75%);
         background-color: transparent;
     }

@@ -2,92 +2,121 @@
     {
         "title": "Mipha",
         "description": "One of the many who have decided to join you on your adventure. Summon them with the Twilight Mirror!",
-        "imageSrc": ["Icons/Mipha.png"],
+        "imageSrc": [
+            "Icons/Mipha.png"
+        ],
         "location": "TODO"
     },
     {
         "title": "Daruk",
         "description": "One of the many who have decided to join you on your adventure. Summon them with the Twilight Mirror!",
-        "imageSrc": ["Icons/Daruk.png"],
+        "imageSrc": [
+            "Icons/Daruk.png"
+        ],
         "location": "TODO"
     },
     {
         "title": "Urbosa",
         "description": "One of the many who have decided to join you on your adventure. Summon them with the Twilight Mirror!",
-        "imageSrc": ["Icons/Urbosa.png"],
+        "imageSrc": [
+            "Icons/Urbosa.png"
+        ],
         "location": "TODO"
     },
     {
         "title": "Revali",
         "description": "One of the many who have decided to join you on your adventure. Summon them with the Twilight Mirror!",
-        "imageSrc": ["Icons/Revali.png"],
+        "imageSrc": [
+            "Icons/Revali.png"
+        ],
         "location": "TODO"
     },
-    
     {
         "title": "Sidon",
         "description": "One of the many who have decided to join you on your adventure. Summon them with the Twilight Mirror!",
-        "imageSrc": ["Icons/Sidon.png"],
+        "imageSrc": [
+            "Icons/Sidon.png"
+        ],
         "location": "TODO"
     },
     {
         "title": "Riju",
         "description": "One of the many who have decided to join you on your adventure. Summon them with the Twilight Mirror!",
-        "imageSrc": ["Icons/Riju.png"],
+        "imageSrc": [
+            "Icons/Riju.png"
+        ],
         "location": "TODO"
     },
     {
         "title": "Teba",
         "description": "One of the many who have decided to join you on your adventure. Summon them with the Twilight Mirror!",
-        "imageSrc": ["Icons/Teba.png"],
+        "imageSrc": [
+            "Icons/Teba.png"
+        ],
         "location": "TODO"
     },
     {
         "title": "Yunobo",
         "description": "One of the many who have decided to join you on your adventure. Summon them with the Twilight Mirror!",
-        "imageSrc": ["Icons/Yunobo.png"],
+        "imageSrc": [
+            "Icons/Yunobo.png"
+        ],
         "location": "TODO"
     },
     {
         "title": "Paya",
         "description": "One of the many who have decided to join you on your adventure. Summon them with the Twilight Mirror!",
-        "imageSrc": ["Icons/Paya.png"],
+        "imageSrc": [
+            "Icons/Paya.png"
+        ],
         "location": "TODO"
     },
     {
         "title": "Rhoam",
         "description": "One of the many who have decided to join you on your adventure. Summon them with the Twilight Mirror!",
-        "imageSrc": ["Icons/Rhoam.png"],
+        "imageSrc": [
+            "Icons/Rhoam.png"
+        ],
         "location": "TODO"
     },
     {
         "title": "Purah",
         "description": "One of the many who have decided to join you on your adventure. Summon them with the Twilight Mirror!",
-        "imageSrc": ["Icons/Purah.png"],
+        "imageSrc": [
+            "Icons/Purah.png"
+        ],
         "location": "TODO"
     },
     {
         "title": "Robbie",
         "description": "One of the many who have decided to join you on your adventure. Summon them with the Twilight Mirror!",
-        "imageSrc": ["Icons/Robbie.png"],
+        "imageSrc": [
+            "Icons/Robbie.png"
+        ],
         "location": "TODO"
     },
     {
         "title": "Hestu",
         "description": "One of the many who have decided to join you on your adventure. Summon them with the Twilight Mirror!",
-        "imageSrc": ["Icons/Hestu.png"],
+        "imageSrc": [
+            "Icons/Hestu.png"
+        ],
         "location": "TODO"
     },
     {
         "title": "Beedle",
         "description": "One of the many who have decided to join you on your adventure. Summon them with the Twilight Mirror!",
-        "imageSrc": ["Icons/Beedle.png"],
+        "imageSrc": [
+            "Icons/Beedle.png"
+        ],
         "location": "TODO"
     },
     {
         "title": "Maz Koshia",
         "description": "One of the many who have decided to join you on your adventure. Summon them with the Twilight Mirror!",
-        "imageSrc": ["Icons/MazKoshia.png"],
+        "imageSrc": [
+            "Icons/MazKoshia.png"
+        ],
         "location": "TODO"
     }
 ]

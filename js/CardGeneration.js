@@ -11,7 +11,7 @@ function generateCards(jsonFileName, containerId, sectionName) {
         col.className = 'col';
         
         let card = document.createElement('div');
-        card.className = 'card item-card h-100 DtgA-Text-Color';
+        card.className = 'card item-card h-100 DtgA-Title-Text';
         
         let carousel = document.createElement('div');
         carousel.className = 'carousel slide';
@@ -65,7 +65,7 @@ function generateCards(jsonFileName, containerId, sectionName) {
         cardTitle.textContent = item.title;
         
         let cardText = document.createElement('p');
-        cardText.className = 'card-text GetSta-body-text';
+        cardText.className = 'card-text DtgA-Standard-Text';
         cardText.textContent = item.description;
         
         let cardLocation = document.createElement('p');

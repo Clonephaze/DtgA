@@ -35,13 +35,13 @@
                         <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: rgb(var(--DtgA-primary));">
                             Wiki
                         </a>
-                        <div class="dropdown-menu custom-navbar-dropdown DtgA-Text-Color" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item DtgA-Text-Color" href="../Wiki/New Mechanics/NewMechanics.html">New Mechanics</a>
-                            <a class="dropdown-item DtgA-Text-Color" href="../Wiki/Items/Items.html">Items</a>
-                            <a class="dropdown-item DtgA-Text-Color" href="../Wiki/Spells/Spells.html">Spells</a>
-                            <a class="dropdown-item DtgA-Text-Color" href="../Wiki/Enemies/Enemies.html">Enemies</a>
-                            <a class="dropdown-item DtgA-Text-Color" href="../Wiki/NPCs/NPCs.html">NPCs</a>
-                            <a class="dropdown-item DtgA-Text-Color" href="../Wiki/Locations/Locations.html">Locations</a>
+                        <div class="dropdown-menu custom-navbar-dropdown DtgA-Title-Text" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item DtgA-Title-Text" href="../Wiki/New Mechanics/NewMechanics.html">New Mechanics</a>
+                            <a class="dropdown-item DtgA-Title-Text" href="../Wiki/Items/Items.html">Items</a>
+                            <a class="dropdown-item DtgA-Title-Text" href="../Wiki/Spells/Spells.html">Spells</a>
+                            <a class="dropdown-item DtgA-Title-Text" href="../Wiki/Enemies/Enemies.html">Enemies</a>
+                            <a class="dropdown-item DtgA-Title-Text" href="../Wiki/NPCs/NPCs.html">NPCs</a>
+                            <a class="dropdown-item DtgA-Title-Text" href="../Wiki/Locations/Locations.html">Locations</a>
                             <!-- Add more parts as necessary -->
                         </div>
                     </li>
@@ -53,13 +53,28 @@
             </div>
         </nav>
     </div>
-
+    <div id="ThemeMenuButton" class="">
+        <div class="collapse card ThemeMenu" id="ThemeMenu">
+            <div class="card-body" id="ThemeMenu-Content">
+                <div class="btn-group"> <!-- Make a series of buttons that are assigned to common colors-->
+                    <div class="btn" id="ThemeDtgA" style="color: rgb(133, 255, 225);"> Default</div>
+                    <div class="btn" id="ThemeBlue" style="color: rgb(0, 0, 255);"> Blue</div>
+                    <div class="btn" id="ThemeRed" style="color: rgb(255, 0, 0);"> Red</div>
+                    <div class="btn" id="ThemeGreen" style="color: rgb(0, 255, 0);"> Green</div>
+                    <div class="btn" id="ThemeYellow" style="color: rgb(255, 255, 0);"> Yellow</div>
+                    <div class="btn" id="ThemePurple" style="color: rgb(255, 0, 255);"> Purple</div>
+                    <div class="btn" id="ThemeOrange" style="color: rgb(255, 128, 0);"> Orange</div>
+                </div>
+            </div>
+        </div>
+    </div>
     <script src="../js/bootstrap.bundle.min.js"></script>
     <script src="../js/Custom-NavBarToggler.js"></script>
+    <script src="../../js/ThemeMenu.js"></script>
 </body>
 <footer style="margin-top: 75px;">
     <div class="mx-auto text-center">
-        <container class="DtgA-Text-Color">Dangerous To Go Alone.</container>
+        <container class="DtgA-Title-Text">Dangerous To Go Alone.</container>
     </div>
     <div class="social-media-buttons mx-auto text-center">
         <!-- GitHub, TODO change to Zoey's GitHub -->
