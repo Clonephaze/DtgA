@@ -81,6 +81,7 @@
 }
 .home-dropdown-menu {
     background-color: rgba(0, 0, 0, 0.85);
+    box-shadow: 0px 0px 8px black;
     border-radius: 20px;
     border-width: 2px;
     border-color: var(--DtgA-Border-Color);

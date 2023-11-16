@@ -99,7 +99,7 @@
     border-color: var(--DtgA-Border-Color) !important;
     border-radius: 10px;
     box-shadow: none;
-    transition: transform 0.125s ease-out, box-shadow 0.2s ease;
+    transition: transform 0.125s ease-in-out, box-shadow 0.2s ease-in;
 }
 @media (min-width: 991px) {
     .GetSta-card-button:hover {
@@ -108,16 +108,17 @@
         box-shadow: 1px 3px 8px 3px rgba(133, 255, 225, 0.1);
     }
 }
-
+.GetSta-list-group {
+    box-shadow: 0 0 6px 4px rgba(133, 255, 225, 0.1);
+}
 .GetSta-list-group-container {
     border-color: var(--DtgA-Border-Color) !important;
     border-width: 2px;
-    box-shadow: var(--DtgA-BoxShadow-green), -4px 0px 6px rgba(133, 255, 225, 0.1);
     transition: box-shadow 0.2s ease;
 }
 @media (min-width: 991px) {
     .GetSta-list-group-container:hover {
-        box-shadow: var(--DtgA-BoxShadow-green-hover), -4px 0px 6px rgba(133, 255, 225, 0.19);
+        box-shadow: 0 0 6px 4px rgba(133, 255, 225, 0.19);;
     }
 }
 
@@ -125,12 +126,12 @@
     border-color: var(--DtgA-Border-Color) !important;
     border-radius: 10px;
     border-width: 2px;
-    box-shadow: var(--DtgA-BoxShadow-green), -4px 0px 4px rgba(133, 255, 225, 0.1);
+    box-shadow: 0 0 6px 4px rgba(133, 255, 225, 0.1);
     transition: box-shadow 0.2s ease;
 }
 @media (min-width: 991px) {
     .GetSta-card:hover {
-    box-shadow: var(--DtgA-BoxShadow-green-hover), -4px 0px 4px rgba(133, 255, 225, 0.19);
+    box-shadow: 0 0 6px 4px rgba(133, 255, 225, 0.19);
     }
 }
 .GetSta-title {
@@ -205,15 +206,15 @@
     border-color: rgba(133, 255, 224, 0.8);
     border-radius: 20px;
     border-width: 2px;
-    box-shadow: 4px 4px 4px 1px rgba(133, 255, 225, 0.1);
+    box-shadow: 0 0 6px 8px rgba(133, 255, 225, 0.1);
 }
 
 @media (min-width: 991px) {
     .item-card {
-        transition: transform 0.2s ease-in, box-shadow 0.3s ease;
+        transition: transform 0.2s ease-in, box-shadow 0.2s ease-in-out;
     }
     .item-card:hover {
-        box-shadow: 4px 4px 4px 1px rgba(133, 255, 225, 0.2);
+        box-shadow: 0px 0px 6px 8px rgba(133, 255, 225, 0.18);
         transform: scale(1.015);
     }
 }
