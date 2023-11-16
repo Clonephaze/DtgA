@@ -62,7 +62,7 @@
     border-radius: 250px;
     width: 220px;
     height: 75px;
-    transform: scale(1.1);
+    transform: scale(1.05) translate(-2px, -2px);
     box-shadow: 0px 0px 8px rgba(133, 255, 224, 0.5);
 
 }
