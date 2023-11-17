@@ -35,7 +35,6 @@
     background-image: linear-gradient(to top, rgba(var(--DtgA-primary), 0.07)25%, rgba(var(--DtgA-primary), 0.07), transparent 85%);
     border-radius: 0 0 12px 12px;
     border-radius: 0 0 12px 12px;
-    z-index: 999;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
     max-height: 70px;
 }
@@ -168,18 +167,18 @@
 
 .offcanvas-body .btn {
     text-shadow: 1px 0 #000,
-            -1px 0 #000,
-            0 1px #000,
-            0 -1px #000,
-            1px 1px #000,
-            -1px -1px #000,
-            1px -1px #000,
-            -1px 1px #000;
+        -1px 0 #000,
+        0 1px #000,
+        0 -1px #000,
+        1px 1px #000,
+        -1px -1px #000,
+        1px -1px #000,
+        -1px 1px #000;
 }
 
 .ThemeColors {
     border-radius: 10px;
-    min-width 250px;
+    min-width: 250px;
     padding: 2px;
 }
 
@@ -286,7 +285,6 @@
 .sticky-top {
     padding: 10px;
     margin-bottom: 20px;
-    z-index: 998;
 }
 
 .TOC-container {
