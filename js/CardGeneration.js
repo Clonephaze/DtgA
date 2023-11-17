@@ -4,7 +4,7 @@ function generateCards(jsonFileName, containerId, sectionName) {
     .then(data => {
       let itemsContainer = document.getElementById(containerId);
       let row = document.createElement('div');
-      row.className = 'row row-cols-1 row-cols-md-3 g-4';
+      row.className = 'row row-cols-1 row-cols-md-4 g-4';
       
       data.forEach((item, index) => {
         let col = document.createElement('div');
@@ -27,7 +27,7 @@ function generateCards(jsonFileName, containerId, sectionName) {
           let img = document.createElement('img');
           img.src = image;
           img.className = 'd-block w-100 mx-auto item-card-image';
-          img.alt = 'Missing Icon';
+          img.alt = 'Item Image';
           img.style = 'max-width: 235px;';
           
           carouselItem.appendChild(img);
@@ -70,7 +70,7 @@ function generateCards(jsonFileName, containerId, sectionName) {
         
         let cardLocation = document.createElement('p');
         cardLocation.className = 'card-text';
-        cardLocation.innerHTML = `<small class="text-body-secondary"><details><summary>Location</summary> ${item.location}</details></small>`;
+        cardLocation.innerHTML = `<small class="text-body-secondary"><details><summary>Open to Reveal Location</summary> ${item.location}</details></small>`;
         
         cardBody.appendChild(cardTitle);
         cardBody.appendChild(cardText);

@@ -9,7 +9,7 @@ function handleTableOfContents() {
       const screenWidth = window.innerWidth;
   
       if (screenWidth >= 1580) {
-        tableOfContents.className = 'list-group position-fixed top-0 end-0';
+        tableOfContents.className = 'list-group position-fixed top-5 start-0';
       } else {
         tableOfContents.className = 'list-group container text-center mx-auto';
       }

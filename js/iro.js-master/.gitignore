@@ -1,0 +1,8 @@
+*.*-cache
+node_modules
+*.log
+.tmp
+docs/.vuepress/dist
+built/*
+.rpt2_cache/*
+package-lock.json

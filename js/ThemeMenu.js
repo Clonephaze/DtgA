@@ -1,40 +1,20 @@
-function handleThemeMenu() {
-    // Get the table of contents element
-    const themeMenu = document.getElementById('ThemeMenuButton');
-    const themeMenuContent = document.getElementById('ThemeMenuContent');
-
-        // Function to update the class based on screen width
-        function updateThemeMenuClass() {
-            const screenWidth = window.innerWidth;
-
-            if (screenWidth >= 1580) {
-                themeMenu.className = 'btn las la-swatchbook Theme-Menu-Btn ThemeMenu-Button-Desktop';
-            } else {
-                themeMenu.className = 'btn las la-swatchbook Theme-Menu-Btn ThemeMenu-Mobile';
+document.addEventListener('DOMContentLoaded', (event) => {
+    var colorPicker = new iro.ColorPicker("#ThemeWheel", {
+        width: 200,
+        color: "rgb(133, 255, 225)",
+        layout: [
+            {
+                component: iro.ui.Wheel,
+                options: {}
             }
-        }
+        ]
+    });
 
-        // Add a click event listener to the themeMenu button
-        themeMenu.addEventListener('click', function (event) {
-            event.stopPropagation();
-            var menu = document.getElementById('ThemeMenu');
-            menu.classList.add('show');
-        });
-
-        // Add a click event listener to the document
-        document.documentElement.addEventListener('click', function (event) {
-            if (event.target != themeMenuContent) {
-                var menu = document.getElementById('ThemeMenu');
-                menu.classList.remove('show');
-            }
-        });
-
-        window.addEventListener('load', function () {
-            updateThemeMenuClass();
-        });
-
-        window.addEventListener('resize', updateThemeMenuClass);
-}
+    colorPicker.on("color:change", function (color) {
+        var rgb = color.rgb;
+        document.documentElement.style.setProperty('--DtgA-primary', rgb.r + ',' + rgb.g + ',' + rgb.b);
+    });
+});
 
 function toggleThemeColors() {
     const themeDtgA = document.getElementById('ThemeDtgA')
@@ -44,6 +24,7 @@ function toggleThemeColors() {
     const themeYellow = document.getElementById('ThemeYellow')
     const themePurple = document.getElementById('ThemePurple')
     const themeOrange = document.getElementById('ThemeOrange')
+    const themeIndigo = document.getElementById('ThemeIndigo')
 
     themeDtgA.addEventListener('click', function () {
         document.documentElement.style.setProperty('--DtgA-primary', '133, 255, 225');
@@ -52,11 +33,11 @@ function toggleThemeColors() {
     themeBlue.addEventListener('click', function () {
         document.documentElement.style.setProperty('--DtgA-primary', '0, 0, 255');
     })
-    
+
     themeRed.addEventListener('click', function () {
         document.documentElement.style.setProperty('--DtgA-primary', '255, 0, 0');
     })
-    
+
     themeGreen.addEventListener('click', function () {
         document.documentElement.style.setProperty('--DtgA-primary', '0, 255, 0');
     })
@@ -72,8 +53,11 @@ function toggleThemeColors() {
     themeOrange.addEventListener('click', function () {
         document.documentElement.style.setProperty('--DtgA-primary', '255, 128, 0');
     })
+
+    themeIndigo.addEventListener('click', function () {
+        document.documentElement.style.setProperty('--DtgA-primary', '75, 0, 130');
+    })
 }
 
-handleThemeMenu();
 
 toggleThemeColors();
