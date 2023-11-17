@@ -139,6 +139,7 @@
 }
 
 .offcanvas {
+    z-index: 999;
     position: absolute;
     top: 80px !important;
     right: 10px !important;
@@ -191,7 +192,6 @@
 
 /* GetSta button effects - Darker button with pop and shadow */
 .GetSta-card-button {
-    position: relative;
     background-color: rgba(var(--DtgA-Secondary), 0.1);
     border-color: rgba(var(--DtgA-primary), 0.5);
     border-radius: 10px;
@@ -387,4 +387,8 @@
     border-color: transparent;
     border-image: radial-gradient(rgba(var(--DtgA-primary), 0.8) 20%, transparent 80%);
     border-image-slice: 1;
+}
+
+.GS-page .btn {
+    text-decoration: none;
 }
