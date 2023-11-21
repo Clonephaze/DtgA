@@ -8,42 +8,55 @@
         ]
     },
     {
+        "title": "Revamped Game Progression",
+        "description items": [
+        "Embark on a revitalized journey where the world of DtgA challenges you to earn your abilities.",
+        "Climbing is only possible upon discovering the Kakriko climbing claws, transforming your traversal.",
+        "Unlock the map only after vanquishing Vah Ruta, marking a milestone in your conquest.",
+        "Sheikah slate runes are now scattered across the corners of Hyrule, awaiting your retrieval.",
+        "Hunt for the paraglider hidden within the expanse of Hyrule, earning your right to soar through the skies."
+        ]
+    },
+    {
         "title": "New and Classic Enemies",
         "description items": [
             "Classic adversaries like ReDeads, Gibdos, and Skulltulas make their return.",
             "Encounter new, custom-designed bosses who bestow unique souls upon defeat.",
+            "Prepare for tougher enemies, as all have had their health pools increased in DtgA.",
             "All enemies now yield Rupees upon their demise, offering rewards for your triumphs."
+        ]
+    },
+    {
+        "title": "Weapon Expansion",
+        "description items": [
+          "With all enemies having increased health pools, you will need some tougher weapons than those you just find lying about.",
+          "Discover DtgA's collection of five unbreakable, and up-gradeable weapons. Spanning from mighty axes to versatile bows, this arsenal caters to any playstyle.",
+          "Enhance these weapons through a unique upgrade system via the Blacksmith. Utilize regular souls to enhance your weapons, albeit temporarily, while boss souls bestow permanent enhancements to your chosen weapon."
         ]
     },
     {
         "title": "Enhanced RPG Movement",
         "description items": [
             "Introducing new RPG-style movement abilities: Double Jump, Double Dodge, Dodge Roll, and Air Dash.",
+            "Master these agile maneuvers using DtgA's innovative control system.",
             "Experience an immersive over-shoulder camera perspective for heightened gameplay engagement."
         ]
     },
     {
-        "title": "Coming Soon",
+        "title": "New Items and Classic Gadgets",
         "description items": [
-            "Coming Soon"
+            "Dtga brings back nostalgic gadgets from past Zelda adventures, some slightly reimagined for BotW.",
+            "Discover an array of new additions, from elemental bombs harnessing the forces of nature to ingenious metal unpoppable balloons.",
+            "Explore a diverse inventory of custom items, each designed to enhance your journey with unique abilities and functions."
         ]
     },
     {
-        "title": "Coming Soon",
+        "title": "New Resurrection System",
         "description items": [
-            "Coming Soon"
-        ]
-    },
-    {
-        "title": "Coming Soon",
-        "description items": [
-            "Coming Soon"
-        ]
-    },
-    {
-        "title": "Coming Soon",
-        "description items": [
-            "Coming Soon"
+            "Experience a paradigm shift in death: in DtgA, defeat doesn't mark Game Over.",
+            "Upon succumbing to adversaries, you'll find yourself revived at the Shrine of Resurrection.",
+            "Embrace the cyclical nature of resurrection triggered by the blood moon, akin to your adversaries.",
+            "Reclaim your lost rupees left behind upon defeat, encouraging you to re-collect and persist in your quest."
         ]
     },
     {
