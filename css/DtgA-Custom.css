@@ -163,7 +163,14 @@
     border-radius: 10px;
     box-shadow: none;
     transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in;
+    min-height: 38px;
+    padding-top: 9px;
 }
+
+.list-group-item>.GetSta-card-button, .list-group-item>.flex-column>.GetSta-card-button {
+    max-width: 130px;
+}
+    
 
 .Custom-list-group {
     box-shadow: 0 0 6px 4px rgba(var(--DtgA-primary), 0.1);
