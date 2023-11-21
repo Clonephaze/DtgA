@@ -41,10 +41,6 @@
     height: 50px;
 }
 
-#DtgA-Navbar {
-    max-height: 70px;
-}
-
 #DtgA-navbar {
     background-color: var(--DtgA-Background-Color);
     background-image: linear-gradient(to top, rgba(var(--DtgA-primary), 0.07)25%, rgba(var(--DtgA-primary), 0.07), transparent 85%);
@@ -112,7 +108,7 @@
 
 .theme-menu-container {
     z-index: 999;
-    position: absolute;
+    position: fixed;
     top: 80px !important;
     right: 10px !important;
     max-width: 270px;
@@ -124,7 +120,6 @@
     border-style: solid !important;
     border-left: 2px solid rgba(var(--DtgA-primary), 0.5) !important;
     box-shadow: 0 0 6px 4px rgba(var(--DtgA-primary), 0.1);
-
 }
 
 .offcanvas .wheel {
@@ -336,6 +331,10 @@
         background-image: radial-gradient(ellipse closest-side, rgba(var(--DtgA-primary), 0.08)40%, transparent 90%);
     }
 
+    #DtgA-Navbar {
+        max-height: 70px;
+    }
+
     .nav-link:hover {
         color: rgba(var(--DtgA-primary), 1)
     }
@@ -383,6 +382,11 @@
 
     .ItemsPage>.itemRows {
         max-width: 90vw;
+    }
+
+    .theme-menu-container {
+        z-index: 1020;
+        background-image: color-mix(in srgb, rgba(var(--DtgA-primary), 0.15) 10%, rgba(var(--DtgA-Secondary), 0.15) 90%);
     }
 }
 
