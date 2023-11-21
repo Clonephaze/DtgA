@@ -1,3 +1,5 @@
+/*** Common CSS for all pages ***/
+
 :root {
     --DtgA-Border-Color: rgba(133, 255, 225, 0.5);
     --DtgA-Title-Text: var(--DtgA-primary) !important;
@@ -58,8 +60,6 @@
     transition: all 0.2s ease;
 }
 
-
-
 .dropdown-item {
     font-family: "ZeldaFont";
     text-transform: uppercase;
@@ -67,8 +67,6 @@
     background-image: transparent;
     background-color: transparent;
 }
-
-
 
 .NavContainer {
     padding-left: 0%;
@@ -85,8 +83,6 @@
     font-weight: 500;
     z-index: 1000;
 }
-
-
 
 #tableOfContents {
     z-index: 999;
@@ -151,50 +147,10 @@
     padding: 2px;
 }
 
-/* GetSta button effects - Darker button with pop and shadow */
-.GetSta-card-button {
-    background-color: rgba(var(--DtgA-Secondary), 0.1);
-    border-color: rgba(var(--DtgA-primary), 0.5);
-    border-radius: 10px;
-    box-shadow: none;
-    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in;
-    min-height: 38px;
-    padding-top: 9px;
+.sticky-top {
+    padding: 10px;
+    margin-bottom: 20px;
 }
-
-.list-group-item>.GetSta-card-button, .list-group-item>.flex-column>.GetSta-card-button {
-    max-width: 130px;
-}
-    
-
-.Custom-list-group {
-    box-shadow: 0 0 6px 4px rgba(var(--DtgA-primary), 0.1);
-}
-
-.Custom-list-group-container {
-    border-color: rgba(var(--DtgA-primary), 0.5) !important;
-    border-width: 2px;
-    transition: box-shadow 0.2s ease;
-}
-
-
-
-.GetSta-card {
-    border-color: rgba(var(--DtgA-primary), 0.5) !important;
-    border-radius: 10px;
-    border-width: 2px;
-    box-shadow: 0 0 6px 4px rgba(var(--DtgA-primary), 0.1);
-    transition: box-shadow 0.2s ease;
-}
-
-.GetSta-title {
-    font-family: "ZeldaFont";
-    text-transform: uppercase;
-    font-size: 22px;
-    font-weight: 400;
-}
-
-/* Custom navbar details*/
 
 
 .navbar {
@@ -216,7 +172,6 @@
     border-color: rgba(var(--DtgA-primary), 0.5);
 }
 
-/* Defines how the Social Media Buttons look */
 .social-media-buttons a {
     padding: 20px;
     font-size: 30px;
@@ -230,10 +185,16 @@
     opacity: 0.7;
 }
 
-/* Made to have section titles stick to the top of the page */
 .sticky-top {
     padding: 10px;
     margin-bottom: 20px;
+}
+
+.DtgA-section-title {
+    font-family: "ZeldaFont";
+    text-transform: uppercase;
+    font-size: 26px;
+    font-weight: 500;
 }
 
 .TOC-container {
@@ -259,14 +220,55 @@
     box-shadow: 1px 2px 4px 5px rgba(var(--DtgA-primary), 0.10), 0px 0px 8px 2px rgba(var(--DtgA-primary), 0.13) inset;
 }
 
-.DtgA-section-title {
-    font-family: "ZeldaFont";
-    text-transform: uppercase;
-    font-size: 26px;
-    font-weight: 500;
+/*** Getting Started Page Specific ***/
+
+.GetSta-card-button {
+    background-color: rgba(var(--DtgA-Secondary), 0.1);
+    border-color: rgba(var(--DtgA-primary), 0.5);
+    border-radius: 10px;
+    box-shadow: none;
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in;
+    min-height: 38px;
+    padding-top: 9px;
 }
 
-/* Gives the cards a pop effect */
+.list-group-item>.GetSta-card-button,
+.list-group-item>.flex-column>.GetSta-card-button {
+    max-width: 130px;
+}
+
+
+.Custom-list-group {
+    box-shadow: 0 0 6px 4px rgba(var(--DtgA-primary), 0.1);
+}
+
+.Custom-list-group-container {
+    border-color: rgba(var(--DtgA-primary), 0.5) !important;
+    border-width: 2px;
+    transition: box-shadow 0.2s ease;
+}
+
+.GS-page .btn {
+    text-decoration: none;
+}
+
+.GetSta-card {
+    border-color: rgba(var(--DtgA-primary), 0.5) !important;
+    border-radius: 10px;
+    border-width: 2px;
+    box-shadow: 0 0 6px 4px rgba(var(--DtgA-primary), 0.1);
+    transition: box-shadow 0.2s ease;
+}
+
+.GetSta-title {
+    font-family: "ZeldaFont";
+    text-transform: uppercase;
+    font-size: 22px;
+    font-weight: 400;
+}
+
+/*** Item/NPC/Enemy Card Style ***/
+
 .item-card {
     z-index: 997;
     border-color: rgba(var(--DtgA-primary), 0.8);
@@ -278,7 +280,6 @@
 }
 
 .item-card-image {
-    /* radial gradient background, starts strong in the middle and fades to the sides */
     background-image: radial-gradient(rgba(var(--DtgA-primary), 0.1) 8%, transparent 70%);
 }
 
@@ -299,6 +300,12 @@
     text-align: center;
 }
 
+/*** New Mechanics Page ***/
+
+.NewMech-List-Container {
+    margin-top: 20px;
+}
+
 .NewMech-List-Item-Title {
     font-family: "ZeldaFont";
     text-transform: uppercase;
@@ -306,6 +313,7 @@
     padding-top: 5px;
     font-size: 20px;
     font-weight: 500;
+    margin-top: 3px;
 }
 
 .NewMech-List-Item-Title-Container {
@@ -316,9 +324,15 @@
     border-image-slice: 1;
 }
 
-.GS-page .btn {
-    text-decoration: none;
+.NewMech-List-Item-Body {
+    margin-top: 15px;
 }
+
+.NewMech-Cols {
+    margin-top: 24px;
+}
+
+/*** Size Specific CSS ***/
 
 @media (min-width: 991px) {
     .dropdown-item:hover {
@@ -388,6 +402,12 @@
         z-index: 1020;
         background-image: color-mix(in srgb, rgba(var(--DtgA-primary), 0.15) 10%, rgba(var(--DtgA-Secondary), 0.15) 90%);
     }
+
+    .NewMech-Cols {
+        margin-top: 10px;
+    }
+
+    
 }
 
 @font-face {
