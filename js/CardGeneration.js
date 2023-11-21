@@ -84,14 +84,3 @@ function generateCards(jsonFileName, containerId, sectionName) {
     })
     .catch(error => console.error('Error:', error));
 }
-
-generateCards('Gadgets.json', 'Gadget-Cards-generated', 'gadgets');
-generateCards('KeyItems.json', 'KeyItem-Cards-generated', 'key-items');
-generateCards('Souls.json', 'Souls-Cards-generated', 'souls');
-generateCards('Weapons.json', 'Weapon-Cards-generated', 'weapons');
-generateCards('Consumables.json', 'Consumable-Cards-generated', 'consumables');
-generateCards('Companions.json', 'Companion-Cards-generated', 'companions');
-generateCards('LostSouls.json', 'LostSouls-Cards-generated', 'lost-souls');
-generateCards('Vendors.json', 'Vendors-Cards-generated', 'vendors');
-generateCards('Bosses.json', 'Boss-Cards-generated', 'bosses');
-generateCards('CommonEnemies.json', 'Enemy-Cards-generated', 'enemies'); 

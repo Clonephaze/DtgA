@@ -1,28 +1,34 @@
 :root {
     --DtgA-Border-Color: rgba(133, 255, 225, 0.5);
     --DtgA-Title-Text: var(--DtgA-primary) !important;
+    --bs-body-bg: color-mix(in srgb, rgba(var(--DtgA-primary), 0.3) 10%, rgba(var(--DtgA-Secondary), 0.9) 90%);
     --DtgA-Background-Color: var(--bs-body-bg);
-    --DtgA-BoxShadow-green: 4px 4px 4px 1px rgba(133, 255, 225, 0.1);
-    --DtgA-BoxShadow-green-hover: 4px 4px 6px rgba(133, 255, 225, 0.19);
-
-    /*255, 0, 255 is magenta*/
-    /*0, 255, 255 is cyan*/
-    /*255, 255, 0 is yellow*/
-    /*136, 87, 255 is violet*/
-    /*50, 94, 255 is blue*/
-    /*255, 78, 38 is orange*/
-    /*133, 255, 225 is DtgA teal*/
     --DtgA-primary: 133, 255, 225;
     --DtgA-primary-rgb: rgb(var(--DtgA-primary));
-    /* 33, 37, 41 is Dark grey, main mix color*/
-    /* 185, 185, 185 is light grey*/
     --DtgA-Secondary: 33, 37, 41;
     --DtgA-Standard-Text: 185, 185, 185;
-
-    --bs-body-bg: color-mix(in srgb, rgba(var(--DtgA-primary), 0.3) 10%, rgba(var(--DtgA-Secondary), 0.9) 90%);
 }
 
-.DtgA-Title-Text {
+.navbar-brand {
+    width: 175px;
+    height: 67px;
+}
+
+.navbar-brand>.navbar-icon {
+    width: 100%;
+    height: 100%;
+}
+
+.DtgA-Title-Text,
+.NewMech-List-Item-Title,
+.item-card-title,
+.DtgA-section-title,
+.GetSta-title,
+.Theme-Menu-Btn,
+.nav-item,
+.nav-link,
+.nav-link:focus,
+.dropdown-item {
     color: rgb(var(--DtgA-primary))
 }
 
@@ -30,10 +36,18 @@
     color: rgb(var(--DtgA-Standard-Text))
 }
 
+#navbar-icon {
+    width: 100px;
+    height: 50px;
+}
+
+#DtgA-Navbar {
+    max-height: 70px;
+}
+
 #DtgA-navbar {
     background-color: var(--DtgA-Background-Color);
     background-image: linear-gradient(to top, rgba(var(--DtgA-primary), 0.07)25%, rgba(var(--DtgA-primary), 0.07), transparent 85%);
-    border-radius: 0 0 12px 12px;
     border-radius: 0 0 12px 12px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
     max-height: 70px;
@@ -48,25 +62,9 @@
     transition: all 0.2s ease;
 }
 
-@media (max-width: 991px) {
-    #DtgA-navbar {
-        max-height: fit-content;
-    }
 
-    .custom-navbar-dropdown {
-        text-align: right;
-        padding-right: 10px;
-        background-color: rgb(0, 0, 0, 0.1);
-    }
-
-    .dropdown-item:hover {
-        background-image: transparent;
-        background-color: transparent;
-    }
-}
 
 .dropdown-item {
-    color: rgb(var(--DtgA-primary));
     font-family: "ZeldaFont";
     text-transform: uppercase;
     font-size: 14px;
@@ -74,14 +72,7 @@
     background-color: transparent;
 }
 
-@media (min-width: 991px) {
-    .dropdown-item:hover {
-        color: rgb(var(--DtgA-primary));
-        background-image: radial-gradient(ellipse, rgba(var(--DtgA-primary), 0.08)15%, transparent 75%);
-        background-color: transparent;
-    }
 
-}
 
 .NavContainer {
     padding-left: 0%;
@@ -96,27 +87,10 @@
     font-family: "ZeldaFont";
     text-transform: uppercase;
     font-weight: 500;
-    color: rgb(var(--DtgA-primary));
     z-index: 1000;
 }
 
-.nav-link:focus {
-    color: rgb(var(--DtgA-primary));
-}
 
-.nav-item {
-    color: rgb(var(--DtgA-primary));
-}
-
-@media (min-width: 991px) {
-    .nav-item:hover {
-        background-image: radial-gradient(ellipse closest-side, rgba(var(--DtgA-primary), 0.08)40%, transparent 90%);
-    }
-
-    .nav-link:hover {
-        color: rgba(var(--DtgA-primary), 1)
-    }
-}
 
 #tableOfContents {
     z-index: 999;
@@ -125,7 +99,6 @@
 }
 
 .Theme-Menu-Btn {
-    color: rgb(var(--DtgA-primary));
     background-color: rgba(var(--DtgA-Secondary), 0.1);
     border-color: rgba(var(--DtgA-primary), 0.5);
     border-radius: 10px;
@@ -137,12 +110,12 @@
 
 }
 
-.offcanvas {
+.theme-menu-container {
     z-index: 999;
     position: absolute;
     top: 80px !important;
     right: 10px !important;
-    max-width: 280px;
+    max-width: 270px;
     height: fit-content;
     border-radius: 20px;
     border-color: rgba(var(--DtgA-primary), 0.5);
@@ -158,6 +131,7 @@
     border-width: 3px;
 
 }
+
 
 .offcanvas-header {
     height: 20px;
@@ -182,13 +156,6 @@
     padding: 2px;
 }
 
-@font-face {
-    font-family: 'ZeldaFont';
-    src: url(../Fonts/TheWildBreathOfZelda-15Lv.ttf) format('truetype');
-    font-style: normal;
-    font-weight: normal;
-}
-
 /* GetSta button effects - Darker button with pop and shadow */
 .GetSta-card-button {
     background-color: rgba(var(--DtgA-Secondary), 0.1);
@@ -196,16 +163,6 @@
     border-radius: 10px;
     box-shadow: none;
     transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in;
-}
-
-@media (min-width: 991px) {
-    .GetSta-card-button:hover {
-        border-color: rgba(var(--DtgA-primary), 0.5);
-        background-color: rgba(var(--DtgA-Secondary), 0.1);
-        transform: scale(1.02) translate(0px, -2px);
-        color: rgba(var(--DtgA-primary), 0.9);
-        box-shadow: 1px 2px 3px 6px rgba(var(--DtgA-primary), 0.1);
-    }
 }
 
 .Custom-list-group {
@@ -218,11 +175,7 @@
     transition: box-shadow 0.2s ease;
 }
 
-@media (min-width: 991px) {
-    .Custom-list-group-container:hover {
-        box-shadow: 0 0 6px 4px rgba(var(--DtgA-primary), 0.19), 0px 0px 8px 2px rgba(var(--DtgA-primary), 0.13) inset;
-    }
-}
+
 
 .GetSta-card {
     border-color: rgba(var(--DtgA-primary), 0.5) !important;
@@ -232,18 +185,11 @@
     transition: box-shadow 0.2s ease;
 }
 
-@media (min-width: 991px) {
-    .GetSta-card:hover {
-        box-shadow: 0 0 6px 4px rgba(var(--DtgA-primary), 0.19), 0px 0px 8px 2px rgba(var(--DtgA-primary), 0.13) inset;
-    }
-}
-
 .GetSta-title {
     font-family: "ZeldaFont";
     text-transform: uppercase;
     font-size: 22px;
-    font-weight: 300;
-    color: rgb(var(--DtgA-primary));
+    font-weight: 400;
 }
 
 /* Custom navbar details*/
@@ -275,6 +221,7 @@
     width: 50px;
     text-align: center;
     text-decoration: none;
+    color: grey;
 }
 
 .social-media-buttons a:hover {
@@ -312,7 +259,6 @@
 
 .DtgA-section-title {
     font-family: "ZeldaFont";
-    color: rgb(var(--DtgA-primary));
     text-transform: uppercase;
     font-size: 26px;
     font-weight: 500;
@@ -329,30 +275,13 @@
     background: transparent;
 }
 
-@media (min-width: 991px) {
-    .item-card {
-        transition: transform 0.2s ease-out, box-shadow 0.2s ease-in-out;
-    }
-
-    .item-card:hover {
-        box-shadow: 1px 2px 7px 7px rgba(var(--DtgA-primary), 0.18), 0px 0px 8px 2px rgba(var(--DtgA-primary), 0.18) inset;
-        transform: translate(-1px, -2px);
-    }
-}
-
 .item-card-image {
     /* radial gradient background, starts strong in the middle and fades to the sides */
     background-image: radial-gradient(rgba(var(--DtgA-primary), 0.1) 8%, transparent 70%);
 }
 
-.ItemsPage>#itemRows {
+.ItemsPage>.itemRows {
     max-width: 80vw;
-}
-
-@media (max-width: 991px) {
-    .ItemsPage>#itemRows {
-        max-width: 90vw;
-    }
 }
 
 .item-card-title {
@@ -360,11 +289,10 @@
     text-transform: uppercase;
     font-size: 20px;
     font-weight: 500;
-    color: rgb(var(--DtgA-primary));
     border-width: 4px 0 4px 0;
     border-style: outset;
     border-color: transparent;
-    border-image: radial-gradient(rgba(var(--DtgA-primary), 0.6) 20%, transparent 80%);
+    border-image: radial-gradient(ellipse, rgba(var(--DtgA-primary), 0.65) 20%, transparent 80%);
     border-image-slice: 1;
     text-align: center;
 }
@@ -376,7 +304,6 @@
     padding-top: 5px;
     font-size: 20px;
     font-weight: 500;
-    color: rgb(var(--DtgA-primary));
 }
 
 .NewMech-List-Item-Title-Container {
@@ -389,4 +316,72 @@
 
 .GS-page .btn {
     text-decoration: none;
+}
+
+@media (min-width: 991px) {
+    .dropdown-item:hover {
+        color: rgb(var(--DtgA-primary));
+        background-image: radial-gradient(ellipse, rgba(var(--DtgA-primary), 0.08)15%, transparent 75%);
+        background-color: transparent;
+    }
+
+    .nav-item:hover {
+        background-image: radial-gradient(ellipse closest-side, rgba(var(--DtgA-primary), 0.08)40%, transparent 90%);
+    }
+
+    .nav-link:hover {
+        color: rgba(var(--DtgA-primary), 1)
+    }
+
+    .item-card {
+        transition: transform 0.2s ease-out, box-shadow 0.2s ease-in-out;
+    }
+
+    .item-card:hover {
+        box-shadow: 1px 2px 7px 7px rgba(var(--DtgA-primary), 0.18), 0px 0px 8px 2px rgba(var(--DtgA-primary), 0.18) inset;
+        transform: translate(-1px, -2px);
+    }
+
+    .Custom-list-group-container:hover,
+    .GetSta-card:hover {
+        box-shadow: 0 0 6px 4px rgba(var(--DtgA-primary), 0.19), 0px 0px 8px 2px rgba(var(--DtgA-primary), 0.13) inset;
+    }
+
+    .GetSta-card-button:hover {
+        border-color: rgba(var(--DtgA-primary), 0.5);
+        background-color: rgba(var(--DtgA-Secondary), 0.1);
+        transform: scale(1.02) translate(0px, -2px);
+        color: rgba(var(--DtgA-primary), 0.9);
+        box-shadow: 1px 2px 3px 6px rgba(var(--DtgA-primary), 0.1);
+    }
+
+}
+
+@media (max-width: 991px) {
+    #DtgA-navbar {
+        max-height: -moz-fit-content;
+        max-height: fit-content;
+    }
+
+    .custom-navbar-dropdown {
+        text-align: right;
+        padding-right: 10px;
+        background-color: rgb(0, 0, 0, 0.1);
+    }
+
+    .dropdown-item:hover {
+        background-image: transparent;
+        background-color: transparent;
+    }
+
+    .ItemsPage>.itemRows {
+        max-width: 90vw;
+    }
+}
+
+@font-face {
+    font-family: 'ZeldaFont';
+    src: url(../Fonts/TheWildBreathOfZelda-15Lv.ttf) format('truetype');
+    font-style: normal;
+    font-weight: normal;
 }

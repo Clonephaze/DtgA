@@ -39,4 +39,3 @@ function handleTableOfContents() {
   
   // Call the function
   handleTableOfContents();
-  
