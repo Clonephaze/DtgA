@@ -3,14 +3,15 @@
         "title": "Hopes Rise: A New Journey Begins",
         "description items": [
             "You, the hero, have transitioned from the lands of Hyrule and find yourself in Hopes Rise.",
-            "Discover the Divine Vessel, gifted by the old man, to harness portions of Hylia's light.",
-            "This vessel, replacing the paraglider as a reward from the old man, empowers you to traverse the expanse of Hyrule once more."
+            "Discover the Divine Vessel, gifted by the old man, to harness portions of Hylia's light, represented by your yellow stamina wheel.",
+            "This vessel, replacing the paraglider as a reward from the old man, empowers you to traverse the expanse of Hyrule once more.",
+            "Regain your former strength by leveling up attributes such as Vitality, Endurance, Mana, Strength, Dexterity, Agility, Wisdom, Courage, Grudge, and Faith."
         ]
     },
     {
         "title": "Revamped Game Progression",
         "description items": [
-        "Embark on a revitalized journey where the world of DtgA challenges you to earn your abilities.",
+        "Embark on a revitalized journey where  DtgA challenges you to earn your abilities.",
         "Climbing is only possible upon discovering the Kakriko climbing claws, transforming your traversal.",
         "Unlock the map only after vanquishing Vah Ruta, marking a milestone in your conquest.",
         "Sheikah slate runes are now scattered across the corners of Hyrule, awaiting your retrieval.",
@@ -35,8 +36,9 @@
         ]
     },
     {
-        "title": "Enhanced RPG Movement",
+        "title": "Enhanced RPG Mechanics",
         "description items": [
+            "Equip your gear strategically, only possible while resting at a campfire, requiring foresight in outfit planning for each leg of your journey.",
             "Introducing new RPG-style movement abilities: Double Jump, Double Dodge, Dodge Roll, and Air Dash.",
             "Master these agile maneuvers using DtgA's innovative control system.",
             "Experience an immersive over-shoulder camera perspective for heightened gameplay engagement."
@@ -60,105 +62,42 @@
         ]
     },
     {
-        "title": "Coming Soon",
+        "title": "Apocolypse Spell Package",
         "description items": [
-            "Coming Soon"
+        "Discover an ancient spellbook brimming with the secrets of Wizrobes and Bokoblins' arcane knowledge.",
+        "Delve into the mastery of Aero, Cryo, Electro, and Pyro elements to weave potent elemental spells.",
+        "Harness these formidable powers to cast a spectrum of elemental spells, empowering you to vanquish adversaries."
         ]
     },
     {
-        "title": "Coming Soon",
+        "title": "Night, Overhauled",
         "description items": [
-            "Coming Soon"
+            "Experience the shroud of darkness post-8:30, requiring a reliable light source for navigation.",
+            "Discover four distinct lantern varieties: a standard lantern and a fire-spitting variant, fueled by oil.",
+            "Uncover the Gerudo light-emitting rock lantern and the Ancient Tech lantern, offering infinite illumination."
         ]
     },
     {
-        "title": "Coming Soon",
+        "title": "Elemental Master Sword Enchantments",
         "description items": [
-            "Coming Soon"
+            "Empower The Master Sword by infusing elemental Chuchu Jellies: White (ice), Red (fire), and Yellow (lightning).",
+            "While wielding the sword, drop one of these jellies to briefly transform your blade, imbuing it with elemental prowess.",
+            "Experience the fleeting yet potent magic as your Master Sword takes on the essence of the dropped elemental jelly."
         ]
     },
     {
-        "title": "Coming Soon",
+        "title": "Expanded Hyrule: New NPCs & Explorable Areas",
         "description items": [
-            "Coming Soon"
+            "DtgA introduces an array of new structures across Hyrule, revitalizing once-empty regions and incentivizing exploration.",
+            "Embark on a journey encountering fresh NPCs offering unique wares, enriching your adventure with exclusive items.",
+            "Discover numerous DtgA items available in familiar stores, enriching the assortment of goods across Hyrule."
         ]
     },
     {
-        "title": "Coming Soon",
+        "title": "Item Rebalance: Elemental Arrows and Utility Items",
         "description items": [
-            "Coming Soon"
+            "You will discover that chests are no longer brimming with elemental arrows but instead containing diverse utility items like metal balloons and deployable paragliders.",
+            "Adapt your strategy by purchasing elemental arrows from stores, ensuring a stockpile of these crucial projectiles for your adventures."
         ]
-    },
-    {
-        "title": "Coming Soon",
-        "description items": [
-            "Coming Soon"
-        ]
-    },
-    {
-        "title": "Coming Soon",
-        "description items": [
-            "Coming Soon"
-        ]
-    },
-    {
-        "title": "Coming Soon",
-        "description items": [
-            "Coming Soon"
-        ]
-    },
-    {
-        "title": "Coming Soon",
-        "description items": [
-            "Coming Soon"
-        ]
-    },
-    {
-        "title": "Coming Soon",
-        "description items": [
-            "Coming Soon"
-        ]
-    },
-    {
-        "title": "Coming Soon",
-        "description items": [
-            "Coming Soon"
-        ]
-    },
-    {
-        "title": "Coming Soon",
-        "description items": [
-            "Coming Soon"
-        ]
-    },
-    {
-        "title": "Coming Soon",
-        "description items": [
-            "Coming Soon"
-        ]
-    },
-    {
-        "title": "Coming Soon",
-        "description items": [
-            "Coming Soon"
-        ]
-    },
-    {
-        "title": "Coming Soon",
-        "description items": [
-            "Coming Soon"
-        ]
-    },
-    {
-        "title": "Coming Soon",
-        "description items": [
-            "Coming Soon"
-        ]
-    },
-    {
-        "title": "Coming Soon",
-        "description items": [
-            "Coming Soon"
-        ]
-    }
+    }    
 ]
