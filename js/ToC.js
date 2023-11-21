@@ -21,12 +21,17 @@ function handleTableOfContents() {
         anchor.addEventListener('click', function (e) {
           e.preventDefault();
           const section = document.querySelector(this.getAttribute('href'));
-          const additionalSpace = 5;
+          let additionalSpace;
+          if (window.innerWidth < 991) {
+            additionalSpace = 15;
+          } else {
+            additionalSpace = 5;
+          }
           const top = section.getBoundingClientRect().top + window.pageYOffset - navbarHeight - additionalSpace;
           window.scrollTo({top: top, behavior: 'smooth'});
         });
       });
-    }
+     }
   
     // Call the functions on page load and whenever the window is resized
     window.addEventListener('load', function() {
