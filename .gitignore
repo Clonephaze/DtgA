@@ -44,3 +44,4 @@ Thumbs.db
 /node_modules/
 StartServer.bat
 Wiki/New Mechanics/List of stuff for New Mechanics Page.md
+.favorites.json
