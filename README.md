@@ -38,7 +38,9 @@ Accessibility was a top priority during the development phase. Titles and ARIA l
 The entire theme and design were meticulously curated and crafted by [@clonephaze](https://github.com/clonephaze). Every aspect of the visual experience, from color schemes to layout, was carefully considered and implemented to offer a visually appealing and coherent design.
 
 ### Dynamic Theme Color Selector
-One notable feature is the built-in color selector that enables users to personalize their experience by changing the entire site's theme color effortlessly. This dynamic functionality allows for a customizable and immersive browsing experience.
+One notable feature is the built-in color selector that enables users to personalize their experience by changing the entire site's theme color effortlessly. This dynamic functionality allows for a customizable and immersive browsing experience. 
+
+<img src=".git/ThemeExample.webp" style="width: 50%;">
 
 ### Custom Codebase
 To achieve the desired aesthetics and functionality, custom HTML, CSS, and JavaScript files were created by [@clonephaze](https://github.com/clonephaze). These files were made to ensure the website not only looks captivating but also functions seamlessly.
