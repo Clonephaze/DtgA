@@ -1,10 +1,26 @@
 :root {
     --DtgA-Border-Color: rgba(133, 255, 224, 0.5);
     --DtgA-Title-Text: rgba(133, 255, 224, 1) !important;
+    --DtgA-primary: 133, 255, 225;
+}
+
+.Home-main {
+    position: fixed;
 }
 
 #particles-js {
     height: calc(var(--vh, 1vh) * 100);
+}
+
+.HomeTitleContainer {
+    text-align: center;
+    padding-top: 5vh;
+    color: rbg(var(--DtgA-primary));
+}
+
+.HomeTitle {
+    font-family: "ZeldaFont";
+    color: rgb(var(--DtgA-primary));
 }
 
 .Home-body {
@@ -148,6 +164,11 @@
     .custom-navbar-dropdown {
         text-align: right;
         padding-right: 10px;
+    }
+    
+    .HomeButtons:target,
+    .HomeButtons:active {
+        background-color: rgba(133, 255, 224, 0.7) !important;
     }
 }
 
