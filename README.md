@@ -20,7 +20,7 @@ Welcome to the repository housing the website designed exclusively for the mod *
 - **Bootstrap 5.3 Integration**: Utilized for a responsive and adaptive design.
 - **Accessibility Considerations**: Titles and ARIA labels implemented for compatibility with screen readers.
 - **Multi-Device Compatibility**: Ensured the site's compatibility and aesthetics across various devices.
-- **Custom Theming and Design**: Crafted entirely by [@clonephaze](https://github.com/clonephaze) for a unique visual experience.
+- **Custom Theming and Design**: Crafted solely by [@clonephaze](https://github.com/clonephaze) for a unique visual experience.
 - **Dynamic Color Selector**: Empowers users to personalize the site's theme color.
 - **Custom Codebase**: Tailored HTML, CSS, and JavaScript files for a cohesive and functional design.
 
@@ -29,13 +29,13 @@ Feel free to explore the code and contribute to enhancing the website's function
 ## Technical Specifications
 
 ### Design Framework
-The website was meticulously developed from the ground up using **Bootstrap 5.3**, ensuring a robust and responsive design foundation. This framework facilitated the creation of a user-friendly interface that seamlessly adapts to various screen sizes, ensuring a consistent experience across desktop and mobile devices.
+The website was developed from the ground up using **Bootstrap 5.3**, ensuring a robust and responsive design foundation. This framework facilitated the creation of a user-friendly interface that seamlessly adapts to various screen sizes, ensuring a consistent experience across desktop and mobile devices.
 
 ### Accessibility Focus
 Accessibility was a top priority during the development phase. Titles and ARIA labels were implemented throughout the site, ensuring compatibility with screen reading technologies. This commitment to accessibility guarantees an inclusive experience for all users, regardless of their assistive technologies.
 
 ### Custom Theming and Design
-The entire theming and design were meticulously curated and crafted by [@clonephaze](https://github.com/clonephaze). Every aspect of the visual experience, from color schemes to layout, was carefully considered and implemented to offer a visually appealing and coherent design.
+The entire theme and design were meticulously curated and crafted by [@clonephaze](https://github.com/clonephaze). Every aspect of the visual experience, from color schemes to layout, was carefully considered and implemented to offer a visually appealing and coherent design.
 
 ### Dynamic Theme Color Selector
 One notable feature is the built-in color selector that enables users to personalize their experience by changing the entire site's theme color effortlessly. This dynamic functionality allows for a customizable and immersive browsing experience.
