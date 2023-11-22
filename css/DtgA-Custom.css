@@ -387,6 +387,10 @@
         color: rgba(var(--DtgA-primary), 1)
     }
 
+    .Theme-Menu-Btn:hover {
+        border-color: rgba(var(--DtgA-primary), .7);
+    }
+
     .item-card {
         transition: transform 0.2s ease-out, box-shadow 0.2s ease-in-out;
     }

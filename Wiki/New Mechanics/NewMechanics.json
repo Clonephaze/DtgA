@@ -99,5 +99,12 @@
             "You will discover that chests are no longer brimming with elemental arrows but instead containing diverse utility items like metal balloons and deployable paragliders.",
             "Adapt your strategy by purchasing elemental arrows from stores, ensuring a stockpile of these crucial projectiles for your adventures."
         ]
+    },
+    {
+        "title": "Champions Ride Again",
+        "description items": [
+            "Unearth the Twilight Mirror to reunite with 15 diverse companions from across Hyrule.",
+            "From stalwart allies like Paya and Sidon to enigmatic figures such as Beedle and Maz Koshia, call upon these friends to fight alongside you."
+        ]
     }    
 ]

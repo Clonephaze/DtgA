@@ -6,7 +6,7 @@ fetch('NewMechanics.json')
 function generateNewMechs(data) {
     const container = document.querySelector('.NewMech-List-Container');
     let row = document.createElement('div');
-    row.className = 'row row-cols-1 row-cols-lg-3 row-cols-md-2';
+    row.className = 'row row-cols-sm-1 row-cols-lg-3 row-cols-md-2';
 
     data.forEach(item => {
 
