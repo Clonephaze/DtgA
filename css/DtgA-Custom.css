@@ -342,6 +342,30 @@
     margin-top: 24px;
 }
 
+/*** Spell Page Specific ***/
+
+.Elementatal-card {
+    border-color: rgba(var(--DtgA-primary), 0.5) !important;
+    border-radius: 10px;
+    border-width: 2px;
+    box-shadow: 0 0 6px 4px rgba(var(--DtgA-primary), 0.1);
+    transition: box-shadow 0.2s ease;
+    align-items: center;
+}
+
+.Elementatal-card>.card-title {
+    font-family: "ZeldaFont";
+    text-transform: uppercase;
+    font-size: 22px;
+    font-weight: 400;
+    color: rgba(var(--DtgA-primary), 1);
+}
+
+.Elementatal-card>.card-text {
+    font-size: 14px;
+    font-weight: 400;
+}
+
 /*** Size Specific CSS ***/
 
 @media (min-width: 991px) {
