@@ -10,6 +10,9 @@
     --DtgA-Secondary: 33, 37, 41;
     --DtgA-Standard-Text: 185, 185, 185;
 
+    --white: 255, 255, 255;
+    --black: 0, 0, 0;
+
 }
 
 .navbar-brand {
@@ -359,7 +362,7 @@
     border-color: rgba(var(--DtgA-primary), 0.5) !important;
     border-radius: 10px;
     border-width: 2px;
-    box-shadow: 0 0 6px 4px rgba(var(--DtgA-primary), 0.1);
+    box-shadow: 0 0 6px 4px rgba(var(--DtgA-primary), 0.1), 0 0 5px 5px color-mix(in srgb, rgba(var(--DtgA-primary), 0.3) 40%, rgba(var(--white), 0.1) 60%)  inset;
     transition: box-shadow 0.2s ease;
 }
 
@@ -374,6 +377,13 @@
     color: color-mix(in srgb, rgb(var(--DtgA-primary)) 20%, rgb(var(--DtgA-Standard-Text)) 80%);
 }
 
+.ASP-Intro-card-cap {
+    font-family: "HyliaSerif";
+    font-size: 16px;
+    font-weight: 400;
+    color: color-mix(in srgb, rgb(var(--DtgA-primary)) 40%, rgb(var(--DtgA-Standard-Text)) 60%);
+}
+
 .ASP-Info-card {
     border-color: rgba(var(--DtgA-primary), 0.5) !important;
     border-radius: 10px;
@@ -381,6 +391,13 @@
     box-shadow: 0 0 6px 4px rgba(var(--DtgA-primary), 0.1);
     transition: box-shadow 0.2s ease;
     align-items: center;
+}
+
+.ASP-Intro-card-text {
+    font-family: "HyliaSerif";
+    font-size: 16px;
+    font-weight: 400;
+    color: color-mix(in srgb, rgb(var(--DtgA-primary)) 50%, rgb(var(--DtgA-Standard-Text)) 50%);
 }
 
 .ASP-Card-Title {
@@ -397,6 +414,7 @@
     font-weight: 400;
     color: color-mix(in srgb, rgb(var(--DtgA-primary)) 40%, rgb(var(--DtgA-Standard-Text)) 60%);
 }
+
 
 .ASP-Card-Image {
     width: 175px;
