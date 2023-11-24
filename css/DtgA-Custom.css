@@ -15,6 +15,10 @@
 
 }
 
+body {
+    font-family: 'Optima';
+}
+
 .navbar-brand {
     width: 175px;
     height: 67px;
@@ -65,9 +69,9 @@
 }
 
 .dropdown-item {
-    font-family: "ZeldaFont";
-    text-transform: uppercase;
+    font-family: "HyliaSerif";
     font-size: 14px;
+    font-weight: 400;
     background-image: transparent;
     background-color: transparent;
 }
@@ -82,9 +86,9 @@
 }
 
 .nav-link {
-    font-family: "ZeldaFont";
-    text-transform: uppercase;
-    font-weight: 500;
+    font-family: "HyliaSerif";
+    font-weight: 400;
+    font-size: 16px;
     z-index: 1000;
 }
 
@@ -212,8 +216,7 @@
     border-width: 2px;
     box-shadow: 0px 0px 0px 0px transparent;
     transition: box-shadow 0.2s ease, background-color 0.2s ease;
-    text-transform: uppercase;
-    font-family: "ZeldaFont";
+    font-family: "HyliaSerif";
     font-size: 16px;
 }
 
@@ -363,7 +366,7 @@
     border-radius: 10px;
     border-width: 2px;
     box-shadow: 0 0 6px 4px rgba(var(--DtgA-primary), 0.1), 0 0 5px 5px color-mix(in srgb, rgba(var(--DtgA-primary), 0.3) 40%, rgba(var(--white), 0.1) 60%)  inset;
-    transition: box-shadow 0.2s ease;
+    transition: box-shadow 0.2s ease-in, transform 0.2s ease-in;
 }
 
 .ASP-Intro-card-title {
@@ -377,7 +380,11 @@
     color: color-mix(in srgb, rgb(var(--DtgA-primary)) 20%, rgb(var(--DtgA-Standard-Text)) 80%);
 }
 
-.ASP-Intro-card-cap {
+.ASP-Intro-card-img {
+    background-image: radial-gradient(rgba(var(--DtgA-primary), 0.15) 8%, transparent 70%);
+}
+
+.ASP-Intro-card-figcap {
     font-family: "HyliaSerif";
     font-size: 16px;
     font-weight: 400;
@@ -388,8 +395,8 @@
     border-color: rgba(var(--DtgA-primary), 0.5) !important;
     border-radius: 10px;
     border-width: 2px;
-    box-shadow: 0 0 6px 4px rgba(var(--DtgA-primary), 0.1);
-    transition: box-shadow 0.2s ease;
+    box-shadow: 0 0 6px 4px rgba(var(--DtgA-primary), 0.1), 0 0 5px 3px color-mix(in srgb, rgba(var(--DtgA-primary), 0.3) 40%, rgba(var(--white), 0.1) 60%)  inset;
+    transition: box-shadow 0.2s ease-in, transform 0.2s ease-in;
     align-items: center;
 }
 
@@ -415,7 +422,6 @@
     color: color-mix(in srgb, rgb(var(--DtgA-primary)) 40%, rgb(var(--DtgA-Standard-Text)) 60%);
 }
 
-
 .ASP-Card-Image {
     width: 175px;
     background-image: radial-gradient(rgba(var(--DtgA-primary), 0.1) 8%, transparent 70%);
@@ -424,7 +430,7 @@
 .ASP-Subicon {
     width: 35px;
     height: 35px;
-    background-image: radial-gradient(rgba(var(--DtgA-primary), 0.25) 8%, transparent 70%);
+    background-image: radial-gradient(rgba(var(--DtgA-primary), 0.2) 8%, transparent 70%);
 }
 
 .ASP-card-text {
@@ -498,6 +504,16 @@
 
     #SnowFireHint:hover {
         filter: blur(0px);
+    }
+
+    .ASP-Intro-card:hover {
+        transform: translate(-1px, -1px);
+        box-shadow: 0 0 6px 4px rgba(var(--DtgA-primary), 0.3), 0 0 5px 5px color-mix(in srgb, rgba(var(--DtgA-primary), 0.3) 40%, rgba(var(--white), 0.1) 60%)  inset;
+    }
+
+    .ASP-Info-card:hover {
+        transform: translate(-1px, -1px);
+        box-shadow: 0 0 6px 4px rgba(var(--DtgA-primary), 0.3), 0 0 5px 5px color-mix(in srgb, rgba(var(--DtgA-primary), 0.3) 40%, rgba(var(--white), 0.1) 60%)  inset;
     }
 
 }
