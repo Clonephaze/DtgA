@@ -9,11 +9,20 @@
     },
     {
         "title": "Devine Vessel",
-        "description": "A vessel strong enough to contain a portion of Hylia's Light, allowing the Lost One (you) to journey off Hope's Rise. Fills a portion of your Yellow Stamina Wheel, allowing the Lost One (you) to regenerate Stamina. Starts with 5 uses and scales with Endurance.",
+        "description": "A vessel strong enough to contain a portion of Hylia's Light, allowing the Lost One (you) to journey off Hope's Rise.",
+        "imageSrc": [
+            "Icons/DivineVessel.png"
+        ],
+        "location": "Can be recieved from the Old Man after completing the 4 shrines on Hope's Rise."
+    },
+    {
+        "title": "Estus Flask",
+        "description": "After recieving the Divine vessel you will recieve 5 of these whenever you rest at a campfire. Use these to restore your health and stamina! (Amount scales with Vitality and Endurance respectively) <br>Use with Dpad-down <span style=\"font-family: 'PromptFont'; font-size: 20px;\">↡</span> + Activate<span style=\"font-family: 'PromptFont'; font-size: 20px;\">⇓</span>",
         "imageSrc": [
             "Icons/EstusFlask.png"
         ],
         "location": "Can be refilled by resting at a campfire after recivieving it from the Old Man."
+        
     },
     {
         "title": "Goron Powder Keg",
@@ -25,7 +34,7 @@
     },
     {
         "title": "Deployable Paraglider",
-        "description": "A temporary paraglider that can be dropped from your inventory, when you pick them up you can jump off a cliff and glide. Good for a few flights, but they break easy so be careful.",
+        "description": "A temporary paraglider that can be dropped from your inventory, when you pick them up you can jump off a cliff and glide. Good for a few flights, but they break when put down so be careful.",
         "imageSrc": [
             "Icons/Paraglider.png"
         ],
