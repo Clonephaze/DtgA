@@ -66,7 +66,7 @@ function generateCards(jsonFileName, containerId, sectionName) {
         
         let cardText = document.createElement('p');
         cardText.className = 'card-text DtgA-Standard-Text';
-        cardText.textContent = item.description;
+        cardText.innerHTML = item.description;
         
         let cardLocation = document.createElement('p');
         cardLocation.className = 'card-text';
