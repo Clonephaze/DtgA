@@ -365,7 +365,7 @@ body {
     border-color: rgba(var(--DtgA-primary), 0.5) !important;
     border-radius: 10px;
     border-width: 2px;
-    box-shadow: 0 0 6px 4px rgba(var(--DtgA-primary), 0.1), 0 0 5px 5px color-mix(in srgb, rgba(var(--DtgA-primary), 0.3) 40%, rgba(var(--white), 0.1) 60%)  inset;
+    box-shadow: 0 0 6px 4px rgba(var(--DtgA-primary), 0.1);
     transition: box-shadow 0.2s ease-in, transform 0.2s ease-in;
 }
 
