@@ -10,6 +10,7 @@
     - [Dynamic Theme Color Selector](#dynamic-theme-color-selector)
     - [Custom Codebase](#custom-codebase)
   - [Contributing](#contributing)
+  - [Credits](#credits)
 
 ## Introduction
 
@@ -48,3 +49,7 @@ To achieve the desired aesthetics and functionality, custom HTML, CSS, and JavaS
 ## Contributing
 
 Contributions are welcome! If you have suggestions, ideas, or want to report issues, please feel free to submit a pull request or open an issue.
+
+## Credits
+Controller Button Icons:
+- PromptFont by Yukari "Shinmera" Hafner, available at https://shinmera.com/promptfont

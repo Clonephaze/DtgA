@@ -16,7 +16,7 @@
 }
 
 body {
-    font-family: 'Optima';
+    font-family: 'Optima', sans-serif;
 }
 
 .navbar-brand {
@@ -438,6 +438,20 @@ body {
     font-weight: 400;
 }
 
+.ASP-Card-List-Title {
+    font-family: "HyliaSerif";
+    font-size: 16px;
+    font-weight: 400;
+    color: color-mix(in srgb, rgb(var(--DtgA-primary)) 40%, rgb(var(--DtgA-Standard-Text)) 60%);
+}
+
+.ASP-Card-List-Item {
+    font-family: "Optima", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: color-mix(in srgb, rgb(var(--DtgA-primary)) 50%, rgb(var(--DtgA-Standard-Text)) 50%);
+}
+
 /*** Size Specific CSS ***/
 
 @media (min-width: 991px) {
@@ -563,3 +577,7 @@ body {
     font-style: normal;
     font-weight: normal;
 }
+@font-face {
+    font-family: 'PromptFont';
+    src: url(../Fonts/promptfont.otf) format('opentype');
+   }

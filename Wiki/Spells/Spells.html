@@ -105,7 +105,7 @@
             <h2 class="text-center ASP-Intro-title" style="margin-top: 20px; margin-bottom: 15px;">Apocalypse Spell Package</h2>
         </div>
         <div class="row container-fluid m-auto justify-content-center" style="margin-top: 24px;">
-            <div class="card ASP-Intro-card">
+            <div class="card ASP-Intro-card ">
                 <div class="ASP-Intro-card-title text-center">Welcome to Apocalypse Spell Package, the largest module within the expansive mod of Dangerous to go Alone.</div>
                 <div class="card-body ASP-Intro-card-body">
                     <div class="row justify-content-center align-items-start">
@@ -113,19 +113,21 @@
                             <figure>
                                 <img class="ASP-Intro-card-img" src="../Items/Icons/SpellBook.png" alt="Spellbook icon">
                                 <figcaption class="ASP-Intro-card-figcap">Spellbook</figcaption>
+                                <figcaption class="ASP-Intro-card-figcap">Hold crouch<span style="font-family: 'PromptFont'; font-size: 20px;">↺</span> + press run<span style="font-family: 'PromptFont'; font-size: 20px;">⇒</span></figcaption>
                             </figure>
                         </div>
                         <div class="col col-lg-8 col-sm-1 text-center ASP-Intro-card-text">
                             <span><br><br> Discover your spellbook, the Grimoire Lorul, concealed within Kakariko Village, granting access to a repertoire of short and long-range elemental attacks. Once discovered summon
-                                your book by holding crouch(L3) + pressing run(B). You will need to summon your book whenever you wish to switch your active element type.<br><br><br>
+                                your book by holding crouch<span style="font-family: 'PromptFont'; font-size: 20px;">↺</span> + pressing run<span style="font-family: 'PromptFont'; font-size: 20px;">⇒</span>. You will need to summon your book whenever you wish to switch your active element type.<br><br><br>
                                 Wish you could switch your active element type, mid combat? Find the Cube of Zoey, lost in the expanse of Hyrule, and it will enable seamless elemental swaps without consulting the
-                                spellbook, offering true mastery over your new mystical arts. Once found you can switch your active element by holding run(B) + pressing dpad-down.<br><br><br>
+                                spellbook, offering true mastery over your new mystical arts. Once found you can switch your active element by holding run <span style="font-family: 'PromptFont'; font-size: 20px;">⇒</span> + pressing dpad-down <span style="font-family: 'PromptFont'; font-size: 20px;">↡</span>.<br><br><br>
                                 This page will serve as your guide to mastering the Elements and Casting types, unveiling the intricacies of each to empower your journey within this mystic realm.</span>
                         </div>
                         <div class="col col-lg-2 col-sm-1 text-center">
                             <figure>
                                 <img class="ASP-Intro-card-img" src="../Items/Icons/CubeOfZoe.png" alt="Cube of Zoe icon">
                                 <figcaption class="ASP-Intro-card-figcap">Cube of Zoey</figcaption>
+                                <figcaption class="ASP-Intro-card-figcap">Hold Run <span style="font-family: 'PromptFont'; font-size: 20px;">⇒</span> + press Dpad-Down <span style="font-family: 'PromptFont'; font-size: 20px;">↡</span></figcaption>
                             </figure>
                         </div>
                     </div>
@@ -136,11 +138,11 @@
                 <h2 class="text-center DtgA-section-title" style="margin-top: 20px; margin-bottom: 15px;">The Details</h2>
             </div>
             <div class="row container justify-content-center m-auto" style="margin-top: 24px;">
-                <div class="col-lg-4 col-sm-1">
-                    <div class="card ASP-Info-card ">
+                <div class="col-lg-4 col-sm-1 my-1">
+                    <div class="card ASP-Info-card h-100">
                         <div class="row">
                             <div class="col">
-                                <h6 class="card-title ASP-Card-Title my-1">Element Types</h6>
+                                <h6 class="card-title ASP-Card-Title my-1">Current Element Types</h6>
                             </div>
                         </div>
                         <div class="row">
@@ -151,7 +153,7 @@
                             </div>
                         </div>
                         <div class="row container m-1">
-                            <div class="col container"> <!-- TODO: add range, melee, and aeo spells -->
+                            <div class="col container">
                                 <div class="ASP-card-subtitle d-flex align-items-center"><img class="ASP-Subicon" src="Icons/Aero.png">Aero <small><small>&nbsp;Air</small></small></div>
                                 <div class="ASP-card-subtitle d-flex align-items-center"><img class="ASP-Subicon" src="Icons/Electro.png">Electro <small><small>&nbsp;Lightning</small></small></div>
                             </div>
@@ -162,24 +164,88 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-sm-1">
-                    <div class="card ASP-Info-card ">
+                <div class="col-lg-4 col-sm-1 my-1">
+                    <div class="card ASP-Info-card h-100">
                         <div class="row">
                             <div class="col">
                                 <h6 class="card-title ASP-Card-Title my-1">Casting Types</h6>
                             </div>
                         </div>
-
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-1">
-                    <div class="card ASP-Info-card ">
-                        <div class="row">
-                            <div class="col">
-                                <h6 class="card-title ASP-Card-Title my-1">Using Your Spells</h6>
+                        <div class="row container m-1">
+                            <div class="col container ASP-Card-List">
+                                <div class="ASP-Card-List-Title">Melee
+                                    <ul class="ASP-Card-List-Item">
+                                        <li>Adds a short range elemental weapon in your weapon slots
+                                            <ul>
+                                                <li>Hold Dpad-Down <span style="font-family: 'PromptFont'; font-size: 20px;">↡</span> + press Throw<span style="font-family: 'PromptFont'; font-size: 24px;">&nbsp;↙</span></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="ASP-Card-List-Title">Ranged
+                                    <ul class="ASP-Card-List-Item">
+                                        <li>Adds a long ranged elemental weapon in your weapon slots
+                                            <ul>
+                                                <li>Hold Dpad-Down <span style="font-family: 'PromptFont'; font-size: 20px;">↡</span> + press Bow<span style="font-family: 'PromptFont'; font-size: 20px;">↗</span></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="ASP-Card-List-Title">Area
+                                    <ul class="ASP-Card-List-Item">
+                                        <li>Will spawn a large damaging area of effect surrounding the caster
+                                            <ul>
+                                                <li>Hold Dpad-Down <span style="font-family: 'PromptFont'; font-size: 20px;">↡</span> + press Rune<span style="font-family: 'PromptFont'; font-size: 24px;">&nbsp;↘</span></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </div>
                             </div>
                         </div>
-
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-1 my-1">
+                    <div class="card ASP-Info-card h-100 d-flex justify-content-center align-items-center">
+                        <div class="row">
+                            <div class="col">
+                                <h6 class="card-title ASP-Card-Title my-1">Scaling Your Spell Power</h6>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col ASP-Card-List-Title">All spells in DtgA scale with your various attribute levels
+                            </div>
+                        </div>
+                        <div class="row container-fluid align-self-start mx-1">
+                            <div class="col">
+                                <div class="ASP-Card-List-Title"><br>Endurance
+                                    <ul class="ASP-Card-List-Item">
+                                        <li>Levels up Aero</li>
+                                    </ul>
+                                </div>
+                                <div class="ASP-Card-List-Title">Mana
+                                    <ul class="ASP-Card-List-Item">
+                                        <li>Levels up Cryo</li>
+                                    </ul>
+                                </div>
+                                <div class="ASP-Card-List-Title">Agility
+                                    <ul class="ASP-Card-List-Item">
+                                        <li>Levels up Electro</li>
+                                    </ul>
+                                </div>
+                                <div class="ASP-Card-List-Title">Vitality
+                                    <ul class="ASP-Card-List-Item">
+                                        <li>Levels up Pyro</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col d-flex justify-content-center align-items-center text-center">
+                                <figure>
+                                    <img class="text-center" src="../Items/Icons/CoiledSword.png" alt="Coiled Sword" style="width: 120px;">
+                                    <figcaption class="ASP-Intro-card-figcap text-center">Coiled Sword</figcaption>
+                                    <figcaption class="ASP-Intro-card-figcap text-center">Crouch <span style="font-family: 'PromptFont'; font-size: 20px;">↺</span> + Attack <span style="font-family: 'PromptFont'; font-size: 20px;">⇑</span></figcaption>
+                                </figure>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
