@@ -34,7 +34,7 @@
     },
     {
         "title": "Deployable Paraglider",
-        "description": "A temporary paraglider that can be dropped from your inventory, when you pick them up you can jump off a cliff and glide. Good for a few flights, but they break when put down so be careful.",
+        "description": "A temporary paraglider that can be dropped from your inventory, when you drop it from your inventory you can pick them up and can jump off a cliff and glide. Good for a few flights, but they break easily so be careful.",
         "imageSrc": [
             "Icons/Paraglider.png"
         ],
