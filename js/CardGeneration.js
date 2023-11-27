@@ -1,4 +1,5 @@
 function generateCards(jsonFileName, containerId, sectionName) {
+  let placeholderRow = document.getElementById('PlaceholderRow');
   fetch(jsonFileName)
     .then(response => response.json())
     .then(data => {
@@ -80,6 +81,10 @@ function generateCards(jsonFileName, containerId, sectionName) {
         row.appendChild(col);
       });
       
+      if (placeholderRow) {
+        placeholderRow.remove();
+      }
+
       itemsContainer.appendChild(row);
     })
     .catch(error => console.error('Error:', error));

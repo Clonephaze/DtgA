@@ -43,7 +43,7 @@ body {
 }
 
 .DtgA-Standard-Text {
-    color: rgb(var(--DtgA-Standard-Text))
+    color: color-mix(in srgb, rgb(var(--DtgA-primary)) 20%, rgb(var(--DtgA-Standard-Text)) 80%)
 }
 
 #navbar-icon {
@@ -450,6 +450,27 @@ body {
     font-size: 14px;
     font-weight: 400;
     color: color-mix(in srgb, rgb(var(--DtgA-primary)) 50%, rgb(var(--DtgA-Standard-Text)) 50%);
+}
+
+.placeholder-image {
+    background-image: radial-gradient(rgba(var(--DtgA-primary), 0.5) 8%, transparent 70%) !important; 
+    background-color: transparent !important;
+}
+
+.placeholder-title {
+    background-color: transparent !important;
+    background-image: linear-gradient(to right, transparent 20%, rgba(var(--DtgA-primary), 0.4) 50%, transparent 80%) !important;
+}
+
+.placeholder-body {
+	display: inline-block;
+	min-height: 5em;
+    min-width: 100%;
+	vertical-align: middle;
+	cursor: wait;
+    background-color: transparent !important;
+	background-image: linear-gradient(to right, transparent 0%, color-mix(in srgb, rgb(var(--DtgA-primary)) 20%, rgb(var(--DtgA-Standard-Text)) 80%) 5%, color-mix(in srgb, rgb(var(--DtgA-primary)) 20%, rgb(var(--DtgA-Standard-Text)) 80%) 95%, transparent 100%);
+	opacity: 0.5;
 }
 
 /*** Size Specific CSS ***/
