@@ -40,7 +40,29 @@
     },
     {
         "title": "Sword",
-        "description": "An unbreakable and upgradable sword. Visit the blacksmith in the castle ruins to upgrade it. Will degrade to previous upgrade after about 100 hits until upgraded with it's respective boss soul.",
+        "genDesc":"One handed swords for quick short range attacks.",
+        "description": [
+            {
+                "title":"Durable Rusty Sword",
+                "content":"This old sword seems stronger than most."
+            },
+            {
+                "title": "The Vagrant's Sword",
+                "content": "It's Dangerous To Go Alone. Those are the words the old man said when you awoke from your slumber. Though it isn't great company, you can feel the spirit that sleeps within this sword"
+            },
+            {
+                "title": "The Vagrant's Broad Sword",
+                "content": "It's Dangerous To Go Alone. Those are the words the old man said when you awoke from your slumber. After imbuing the sword with a stronger spirit, the comfort you feel with it in your grasp has grown."
+            },
+            {
+                "title": "The Vagrant Knight's Sword",
+                "content": "It's Dangerous To Go Alone. Like a true swordsman, your bond with this blade has become unbreakable. Emboldened by the spirit of a brave knight, you wield this weapon like part of your own body."
+            },
+            {
+                "title": "The Royal Knight's Sword",
+                "content": "Your faithful sword has now been honed with a special gold alloy. It deals remarkable damage, but it loses its edge rather quickly."
+            }
+        ],
         "imageSrc": [
             "Icons/Sword1.png",
             "Icons/Sword2.png",
