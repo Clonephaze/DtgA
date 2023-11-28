@@ -8,8 +8,8 @@
         "location": "Can be found in chests around Hyrule."
     },
     {
-        "title": "Devine Vessel",
-        "description": "A vessel strong enough to contain a portion of Hylia's Light, allowing the Lost One (you) to journey off Hope's Rise.",
+        "title": "Divine Vessel",
+        "description": "A vessel strong enough to contain a portion of Hylia's Light, allowing the Lost One (you) to journey off Hope's Rise. While not consumable itself, this item produces your Estus Flasks from Hylia's Light when resting at a campfire.",
         "imageSrc": [
             "Icons/DivineVessel.png"
         ],
