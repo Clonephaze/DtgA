@@ -1,7 +1,33 @@
 [
     {
         "title": "Axe",
-        "description": "An unbreakable and upgradable axe. Visit the blacksmith in the castle ruins to upgrade it. Will degrade to previous upgrade after about 100 hits until upgraded with it's respective boss soul.",
+        "genDesc":"These axes are great for all your chopping needs! ",
+        "description": [
+            {
+                "title": "Hatchet",
+                "content": "This little hatchet is only good for chopping trees. Base form."
+            },
+            {
+                "title": "Woodcutter's Greataxe",
+                "content": "This axe is heavy enough to serve as a weapon."
+            },
+            {
+                "title": "Double Axe",
+                "content": "This axe was once wielded on the battlefield. It was designed for combat, as evidenced by the notches in its blade."
+            },
+            {
+                "title": "Refined Axe",
+                "content": "This axe was once wielded on the battlefield. It was designed for combat, as evidenced by the notches in its blade. It has been fortified with a new coat of steel."
+            },
+            {
+                "title": "Executioner's Axe",
+                "content": "This axe was once wielded by a grizzly executioner... The heft is ideal for cleaving flesh from bone..."
+            },
+            {
+                "title": "Headsman",
+                "content": "This axe was once wielded by a grizzly executioner... The heft is ideal for cleaving flesh from bone... the new layer of dark steel makes it all the more intimidating."
+            }
+        ],
         "imageSrc": [
             "Icons/WoodAxe1.png",
             "Icons/WoodAxe2.png",

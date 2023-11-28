@@ -28,8 +28,8 @@ function generateCards(jsonFileName, containerId, sectionName) {
           let img = document.createElement('img');
           img.src = image;
           img.className = 'd-block w-100 mx-auto item-card-image';
-          img.alt = 'Item Image';
-          img.style = 'max-width: 235px;';
+          img.ariaLabel = 'Item Image';
+          img.style = 'max-width: 235px; min-height: 235px;';
           
           carouselItem.appendChild(img);
           carouselInner.appendChild(carouselItem);
@@ -65,16 +65,63 @@ function generateCards(jsonFileName, containerId, sectionName) {
         cardTitle.className = 'card-title item-card-title ';
         cardTitle.textContent = item.title;
         
-        let cardText = document.createElement('p');
-        cardText.className = 'card-text DtgA-Standard-Text';
-        cardText.innerHTML = item.description;
+        cardBody.appendChild(cardTitle);
+        
+        if (Array.isArray(item.description)) {
+          let genDesc = document.createElement('div');
+          genDesc.className = 'item-card-description';
+          genDesc.innerHTML = data[0].genDesc;
+
+          cardBody.appendChild(genDesc);
+
+          item.description.forEach((desc) => {
+           let idTitle = desc.title.replace(/ /g, "-").replace(/'/g, "");
+           let arrayItem = document.createElement('div');
+           arrayItem.className = 'item-card-array-title btn card-array-btn d-flex flex-column';
+           arrayItem.setAttribute('data-bs-toggle', 'collapse');
+                       
+           let arrayItemContent = document.createElement('div');
+           arrayItemContent.className = 'content item-card-array-content collapse';
+           arrayItemContent.innerHTML = desc.content;
+         
+           arrayItemContent.id = `item-card-array-${idTitle}`;
+           arrayItem.innerHTML = '<span>' + desc.title + '&nbsp;<i id="icon-' + idTitle + '" class="las la-caret-down"></i></span>';
+           arrayItem.setAttribute('href', `#${arrayItemContent.id}`);
+         
+           cardBody.appendChild(arrayItem);
+           cardBody.appendChild(arrayItemContent);
+
+           let iconElement = arrayItem.querySelector('i')
+           let parent = iconElement.parentElement;
+           let grandparent = parent.parentElement;
+
+           let observer = new MutationObserver(function(mutations) {
+            mutations.forEach(function(mutation) {
+              if (mutation.type === 'attributes' && mutation.attributeName === 'class') {
+                if (grandparent.classList.contains('collapsed')) {
+                  iconElement.style.transform = 'rotate(0deg)';
+                 } else {
+                  iconElement.style.transform = 'rotate(180deg)';
+                 }
+              }
+            });
+           });
+           
+           observer.observe(grandparent, { attributes: true });
+          });
+
+         } else {
+          // If it's not an array, handle it as a simple string
+          let cardText = document.createElement('p');
+          cardText.className = 'card-text DtgA-Standard-Text';
+          cardText.innerHTML = item.description;
+          cardBody.appendChild(cardText);
+         }
         
         let cardLocation = document.createElement('p');
         cardLocation.className = 'card-text';
         cardLocation.innerHTML = `<small class="text-body-secondary"><details><summary>Open to Reveal Location</summary> ${item.location}</details></small>`;
         
-        cardBody.appendChild(cardTitle);
-        cardBody.appendChild(cardText);
         cardBody.appendChild(cardLocation);
         card.appendChild(cardBody);
         col.appendChild(card);
