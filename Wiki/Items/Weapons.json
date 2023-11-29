@@ -74,7 +74,37 @@
     },
     {
         "title": "Claymore",
-        "description": "An unbreakable and upgradable claymore. Visit the blacksmith in the castle ruins to upgrade it. Will degrade to previous upgrade after about 100 hits until upgraded with it's respective boss soul.",
+        "genDesc":"Two handed swords for slow but powerful medium range attacks.",
+        "description": [
+            {
+                "title": "Sturdy Rusted Claymore",
+                "content": "A rusted sword, with battlescars running the lenght of its blade. Presumably left behind by a soldier at the time of the calamity. Seems sturdier than others."
+            },
+            {
+                "title": "Polished Claymore",
+                "content": "That same old rusted claymore, with the rust scraped off and a sharpened blade. The hanlde has been smoothed and wrapped as well."   
+            },
+            {
+                "title": "Bastard Sword",
+                "content": "The Traveler's Greatsword has been polished, sharpened, and enchanted with the soul of a fallen soldier. It can now be swung up to five times."   
+            },
+            {
+                "title": "Knight's Claymore",
+                "content": "After being reforged, repommeled, reweighted, and further enchanted by an even stronger soul, belonging to a long  forgotten knight, this weapon looks nothing like it once did."   
+            },
+            {
+                "title": "Radiant Claymore",
+                "content": "This claymore has been enhanced with a strange type of gold aloy. Its edge is supremely sharp, but since it was made of softer metal it will dull quickly."   
+            },
+            {
+                "title": "Guardian's Claymore",
+                "content": "This once humble weapon, storied, and tempered, is now without equal. Its razor sharp edge never dulls, owing to the daimond  coating, and the unbreakable spirit that dwells inside."   
+            },
+            {
+                "title": "Save The King",
+                "content": "Here lies the soul of the wolf, who guarded our king until the very end."   
+            }
+        ],
         "imageSrc": [
             "Icons/LargeSword1.png",
             "Icons/LargeSword2.png",
@@ -88,7 +118,37 @@
     },
     {
         "title": "Spear",
-        "description": "An unbreakable and upgradable spear. Visit the blacksmith in the castle ruins to upgrade it. Will degrade to previous upgrade after about 100 hits until upgraded with it's respective boss soul.",
+        "genDesc": "Two handed spears for quick long range attacks.",
+        "description": [
+            {
+                "title": "Rusted Iron Halberd",
+                "content": "A rusted halberd. While it doesn't do much damage, it's remarkably sturdy."
+            },
+            {
+                "title": "Adventurer's Spear",
+                "content": "The axehead is being refined. In the meantime, a simple spearhead has been affixed to this reinforced polearm."
+            },
+            {
+                "title": "Soldier's Spear",
+                "content": "This old spear has been reforged into same one used by the soldiers of Hyrule Castle. Easy to use but difficult to master. The iron tip is very sturdy, and the shaft will not burn when exposed to flame."
+            },
+            {
+                "title": "Knight's Halberd",
+                "content": "A weapon used by knights specifically for combat situations when facing multiple opponents. It has a wide sweeping moveset."
+            },
+            {
+                "title": "Royal Halberd",
+                "content": "This weapon was issued to the knights who guarded Hyrule Castle's throne room. Its ornate design could only have been applied by a craftsman in service to the royal family."
+            },
+            {
+                "title": "Royal Guard's Halberd",
+                "content": "This polearm has been reinforced with a diamond edge and an unbreakable spirit."
+            },
+            {
+                "title": "Save The Queen",
+                "content": "This once humble weapon has become more than a mere instrument. It is now imbued with a soul that rivals your own. In short, among other spears, it is peerless."
+            }
+        ],
         "imageSrc": [
             "Icons/Spear1.png",
             "Icons/Spear2.png",
@@ -102,7 +162,37 @@
     },
     {
         "title": "Bow",
-        "description": "An unbreakable and upgradable bow. Visit the blacksmith in the castle ruins to upgrade it. Will degrade to previous upgrade after about 100 hits until upgraded with it's respective boss soul.",
+        "genDesc": "A bow with unique potential, sturdier than other bows.",
+        "description": [
+            {
+                "title": "Practice Greatbow",
+                "content": "This huge wooden bow won't do much damage, but its simple design ensures that it won't break."
+            },
+            {
+                "title": "Traveler's Greatbow",
+                "content": "This oversized bow, sometimes used by travelers, doesn't do a lot of damage, but it won't consume arrows when fired."
+            },
+            {
+                "title": "Soldier's Greatbow",
+                "content": "This greatbow was designed for armed conflict. It inflicts more damage than The Traveler's bow, but it will still burn if it touches fire."
+            },
+            {
+                "title": "Knight's Greatbow",
+                "content": "The sturdy metal construction of this bow offers superior durability, while its lack of firing quirks makes it quite reliable. Once favored by the knights at Hyrule Castle."
+            },
+            {
+                "title": "Royal Greatbow",
+                "content": "A metal bow wrapped in ornate gold fillagree. What it lacks in durability, it makes up in sheer firepower."
+            },
+            {
+                "title": "Royal Guard's Greatbow",
+                "content": "A highly refined bow made with Sheikah technology. In terms of durability and power, this bow is unmatched."
+            },
+            {
+                "title": "Noblesse Strike",
+                "content": "A bow without equal wielded by the Queen's personal guard. It no longer loses durability, and fires 3 guard piercing arrows at once."
+            }
+        ],
         "imageSrc": [
             "Icons/Bow1.png",
             "Icons/Bow2.png",

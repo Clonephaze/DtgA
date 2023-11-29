@@ -86,7 +86,7 @@ function generateCards(jsonFileName, containerId, sectionName) {
           container.id = `container-${sectionName}-${index}`;
          
           let openAllButton = document.createElement('button');
-          openAllButton.textContent = '[Open All]';
+          openAllButton.textContent = 'Open All';
           openAllButton.className = 'btn open-all-btn';
           openAllButton.id = `open-all-${sectionName}-${index}`;
           container.appendChild(openAllButton);

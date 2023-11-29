@@ -341,7 +341,17 @@ body {
     top: 0;
     right: 0;
     border: transparent 0px;
-    background: transparent
+    background-color: transparent;
+    border-color: transparent;
+    background-image: radial-gradient(ellipse, rgba(var(--DtgA-primary), 0.08)15%, transparent 75%);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 0% 0%;
+    transition: background-size 0.4s ease;
+}
+
+.open-all-btn:hover {
+    background-size: 100% 100%;
 }
 
 .open-all-btn::after {
