@@ -220,7 +220,8 @@ body {
     box-shadow: 0px 0px 0px 0px transparent;
     transition: box-shadow 0.2s ease, background-color 0.2s ease;
     font-family: "HyliaSerif";
-    font-size: 16px;
+    font-weight: 300;
+    font-size: 14px;
 }
 
 .TOC-item:hover {
@@ -257,7 +258,10 @@ body {
     max-width: 130px;
 }
 
-
+.GetSta-downloads-container {
+    --bs-gutter-x: 0.5rem;
+    --bs-gutter-y: 0.5rem;
+}
 
 .GS-page .btn {
     text-decoration: none;
@@ -693,8 +697,6 @@ body {
 @font-face {
     font-family: 'HyliaSerif';
     src: url(../Fonts/HyliaSerifBeta-Regular.otf) format('opentype');
-    font-style: normal;
-    font-weight: normal;
 }
 @font-face {
     font-family: 'PromptFont';
