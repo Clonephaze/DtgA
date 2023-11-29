@@ -254,8 +254,10 @@ body {
 }
 
 .list-group-item>.GetSta-card-button,
-.list-group-item>.flex-column>.GetSta-card-button {
+.list-group-item>.flex-column>.col>.GetSta-card-button {
     max-width: 130px;
+    margin-top: 0.1rem;
+    margin-bottom: 0.1rem;
 }
 
 .GetSta-downloads-container {
@@ -610,12 +612,11 @@ body {
     }
 
     .NewMech-list-group-container {
-        transition: transform 0.2s ease-out, box-shadow 0.2s ease-in-out;
+        transition: box-shadow 0.2s ease-in-out;
     }
 
     .NewMech-list-group-container:hover {
         box-shadow: 1px 2px 7px 7px rgba(var(--DtgA-primary), 0.18), 0px 0px 8px 2px rgba(var(--DtgA-primary), 0.18) inset;
-        transform: translate(-1px, -2px);
     }
 
     .NewMech-Description-Container {

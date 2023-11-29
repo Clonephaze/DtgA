@@ -5,7 +5,7 @@ function generateCards(jsonFileName, containerId, sectionName) {
     .then(data => {
       let itemsContainer = document.getElementById(containerId);
       let row = document.createElement('div');
-      row.className = 'row row-cols-1 row-cols-lg-4 row-cols-md-2 g-4';
+      row.className = 'row justify-content-center row-cols-1 row-cols-lg-4 row-cols-md-2 g-4';
       
       data.forEach((item, index) => {
         let col = document.createElement('div');
