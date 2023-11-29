@@ -416,6 +416,7 @@ body {
 
 .NewMech-List-Container {
     margin-top: 20px;
+    max-width: 1610px;
 }
 
 .NewMech-List-Item-Title {
@@ -439,6 +440,11 @@ body {
 .NewMech-List-Item-Body {
     margin-top: 15px;
 }
+
+.NewMech-List-Item-Body>li {
+    padding-top: 0.2rem;
+}
+
 
 .NewMech-Cols {
     margin-top: 24px;
@@ -693,4 +699,8 @@ body {
 @font-face {
     font-family: 'PromptFont';
     src: url(../Fonts/promptfont.otf) format('opentype');
-   }
+}
+@font-face {
+    font-family: 'Line Awesome';
+    src: url(../Fonts/LineAwesome1.3.0/fonts/la-regular-400.ttf) format('truetype');
+}
