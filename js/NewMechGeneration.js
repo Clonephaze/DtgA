@@ -14,13 +14,13 @@ function generateNewMechs(data) {
         col.className = 'col-sm-4 NewMech-Cols';
 
         const listGroup = document.createElement('div');
-        listGroup.className = 'list-group NewMech-list-group h-100';
+        listGroup.className = 'list-group NewMech-list-group h-100 overflow-hidden';
 
         const listGroupItem = document.createElement('div');
-        listGroupItem.className = 'list-group-item NewMech-list-group-container DtgA-Title-Text h-100';
+        listGroupItem.className = 'list-group-item NewMech-list-group-container h-100 d-flex flex-column justify-content-between';
 
         const rowContainer = document.createElement('div');
-        rowContainer.className = 'row container';
+        rowContainer.className = 'row container-flex';
 
         const titleContainer = document.createElement('div');
         titleContainer.className = 'col NewMech-List-Item-Title-Container';
@@ -30,7 +30,7 @@ function generateNewMechs(data) {
         title.textContent = item.title;
 
         const bodyContainer = document.createElement('div');
-        bodyContainer.className = 'row NewMech-Description-Container';
+        bodyContainer.className = 'row NewMech-Description-Container flex-grow-1';
 
         const body = document.createElement('div');
         body.className = 'col';

@@ -30,7 +30,6 @@ body {
 }
 
 .DtgA-Title-Text,
-.NewMech-List-Item-Title,
 .item-card-title,
 .DtgA-section-title,
 .GetSta-title,
@@ -418,6 +417,16 @@ body {
     border-color: rgba(var(--DtgA-primary), 0.5) !important;
     border-width: 2px;
     transition: box-shadow 0.2s ease;
+    padding-bottom: 0%;
+    padding-left: 13px;
+    padding-right: 13px;
+}
+
+.NewMech-list-group-container>.container-flex {
+    background-image: linear-gradient(to top, rgba(var(--DtgA-primary), 0.07)25%, rgba(var(--DtgA-primary), 0.07), transparent 85%);
+    margin-right: calc(-0.7 * var(--bs-gutter-x));
+    margin-left: calc(-0.7 * var(--bs-gutter-x));
+    padding-bottom: 6px;
 }
 
 .NewMech-List-Container {
@@ -426,21 +435,21 @@ body {
 }
 
 .NewMech-List-Item-Title {
-    font-family: "ZeldaFont";
-    text-transform: uppercase;
+    font-family: "HyliaSerif";
     text-align: center;
-    padding-top: 5px;
-    font-size: 20px;
-    font-weight: 500;
+    padding-top: 8px;
+    padding-bottom: 5px;
+    font-size: 18px;
+    font-weight: 400;
     margin-top: 3px;
+    color: color-mix(in srgb, rgb(var(--DtgA-primary)) 50%, rgb(var(--DtgA-Standard-Text)));
 }
 
-.NewMech-List-Item-Title-Container {
-    border-width: 4px 0 4px 0;
-    border-style: outset;
-    border-color: transparent;
-    border-image: radial-gradient(rgba(var(--DtgA-primary), 0.8) 20%, transparent 80%);
-    border-image-slice: 1;
+.NewMech-Description-Container {
+    box-shadow: inset 0 0 6px 5px rgba(var(--black), 0.5);
+    border-bottom-left-radius: 11px;
+    border-bottom-right-radius: 11px;
+    
 }
 
 .NewMech-List-Item-Body {
@@ -448,9 +457,14 @@ body {
 }
 
 .NewMech-List-Item-Body>li {
-    padding-top: 0.2rem;
+    padding-top: 0.5rem;
 }
 
+.NewMech-List-Item-Body>li::marker {
+    content: "*  ";
+    font-family: "Triforce";
+    color: currentColor;
+}
 
 .NewMech-Cols {
     margin-top: 24px;
@@ -608,20 +622,17 @@ body {
     }
 
     .item-card:hover {
-        box-shadow: 1px 2px 7px 7px rgba(var(--DtgA-primary), 0.18), 0px 0px 8px 2px rgba(var(--DtgA-primary), 0.18) inset;
+        box-shadow: 1px 2px 7px 7px rgba(var(--DtgA-primary), 0.19), 0px 0px 8px 2px rgba(var(--DtgA-primary), 0.19) inset;
     }
 
-    .NewMech-list-group-container {
+    .NewMech-list-group {
         transition: box-shadow 0.2s ease-in-out;
     }
 
-    .NewMech-list-group-container:hover {
-        box-shadow: 1px 2px 7px 7px rgba(var(--DtgA-primary), 0.18), 0px 0px 8px 2px rgba(var(--DtgA-primary), 0.18) inset;
+    .NewMech-list-group:hover {
+        box-shadow: 1px 2px 7px 7px rgba(var(--DtgA-primary), 0.19), 0px 0px 8px 2px rgba(var(--DtgA-primary), 0.19) inset;
     }
 
-    .NewMech-Description-Container {
-        align-items: center;
-    }
 
     .GetSta-card:hover {
         box-shadow: 0 0 6px 4px rgba(var(--DtgA-primary), 0.19), 0px 0px 8px 2px rgba(var(--DtgA-primary), 0.13) inset;
@@ -706,4 +717,8 @@ body {
 @font-face {
     font-family: 'Line Awesome';
     src: url(../Fonts/LineAwesome1.3.0/fonts/la-regular-400.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'Triforce';
+    src: url(../Fonts/Triforce-y07d.ttf);
 }
