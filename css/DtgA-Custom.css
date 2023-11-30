@@ -423,7 +423,7 @@ body {
 }
 
 .NewMech-list-group-container>.container-flex {
-    background-image: linear-gradient(to top, rgba(var(--DtgA-primary), 0.07)25%, rgba(var(--DtgA-primary), 0.07), transparent 85%);
+    background-image: linear-gradient(to top, rgba(var(--DtgA-primary), 0.07)30%, rgba(var(--DtgA-primary), 0.07), transparent 90%);
     margin-right: calc(-0.7 * var(--bs-gutter-x));
     margin-left: calc(-0.7 * var(--bs-gutter-x));
     padding-bottom: 6px;
@@ -446,7 +446,7 @@ body {
 }
 
 .NewMech-Description-Container {
-    box-shadow: inset 0 0 6px 5px rgba(var(--black), 0.5);
+    box-shadow: inset 0 0 10px 3px rgba(var(--black), 0.35);
     border-bottom-left-radius: 11px;
     border-bottom-right-radius: 11px;
     
@@ -633,6 +633,13 @@ body {
         box-shadow: 1px 2px 7px 7px rgba(var(--DtgA-primary), 0.19), 0px 0px 8px 2px rgba(var(--DtgA-primary), 0.19) inset;
     }
 
+    .NewMech-Description-Container {
+        transition: box-shadow 0.3s cubic-bezier(0.370, -0.450, 0.590, 1.480);    
+    }
+
+    .NewMech-list-group:hover .NewMech-Description-Container {
+        box-shadow: inset 0 0 10px 2px rgba(var(--black), 0.2);
+    }
 
     .GetSta-card:hover {
         box-shadow: 0 0 6px 4px rgba(var(--DtgA-primary), 0.19), 0px 0px 8px 2px rgba(var(--DtgA-primary), 0.13) inset;
