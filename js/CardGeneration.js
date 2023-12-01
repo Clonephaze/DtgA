@@ -109,6 +109,7 @@ function generateCards(jsonFileName, containerId, sectionName) {
           openAllButton.textContent = 'Open All';
           openAllButton.className = 'btn open-all-btn';
           openAllButton.id = `open-all-${sectionName}-${index}`;
+          openAllButton.setAttribute('type', 'button');
           container.appendChild(openAllButton);
          
           let accordion = document.createElement('div');
@@ -219,7 +220,7 @@ function generateCards(jsonFileName, containerId, sectionName) {
         cardLocationDropdown.className = 'location-dropdown';
         cardLocationDropdown.setAttribute('data-bs-toggle', 'collapse');
         cardLocationDropdown.setAttribute('data-bs-target', `#card-location-${cardTitleID}`);
-        cardLocationDropdown.innerHTML = '<span>Click To Reveal location<i id="icon-Hatchet" class="las la-caret-down"></i></span>'
+        cardLocationDropdown.innerHTML = '<span>Click To Reveal location<i id="Location-' + cardTitleID + '" class="las la-caret-down"></i></span>'
         
         cardLocation.appendChild(cardLocationDropdown);
 
