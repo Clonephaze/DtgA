@@ -13,12 +13,19 @@ function generateCards(jsonFileName, containerId, sectionName) {
         
         let card = document.createElement('div');
         card.className = 'card item-card h-100 DtgA-Title-Text';
+
+        let cardItemRow = document.createElement('div');
+        cardItemRow.className = 'row';
+        card.appendChild(cardItemRow);
+
+        let cardItem = document.createElement('div');
+        cardItem.className = 'col';
+        cardItemRow.appendChild(cardItem);
         
         let carousel = document.createElement('div');
-        carousel.className = 'carousel slide';
+        carousel.className = 'carousel slide item-card-image-container';
         carousel.id = `carousel-${sectionName}-${index}`;
-
-        let carouselInstance = new bootstrap.Carousel(carousel);
+        cardItem.appendChild(carousel);
         
         let carouselInner = document.createElement('div');
         carouselInner.className = 'carousel-inner';
@@ -33,26 +40,26 @@ function generateCards(jsonFileName, containerId, sectionName) {
           img.src = image;
           img.className = 'd-block w-100 mx-auto item-card-image';
           img.ariaLabel = 'Item Image';
-          img.style = 'max-width: 235px; min-height: 235px;';
           
           carouselItem.appendChild(img);
           carouselInner.appendChild(carouselItem);
-
+          
           slideIndex++;
         });
         
         carousel.appendChild(carouselInner);
+        let carouselInstance = new bootstrap.Carousel(carousel);
         
         if (item.imageSrc.length > 1) {
           let prevControl = document.createElement('button');
-          prevControl.className = 'carousel-control-prev';
+          prevControl.className = 'carousel-control-prev carousel-btn-left';
           prevControl.type = 'button';
           prevControl.setAttribute('data-bs-target', `#carousel-${sectionName}-${index}`);
           prevControl.setAttribute('data-bs-slide', 'prev');
           prevControl.innerHTML = '<span class="carousel-control-prev-icon" aria-hidden="true"></span><span class="visually-hidden">Previous</span>';
           
           let nextControl = document.createElement('button');
-          nextControl.className = 'carousel-control-next';
+          nextControl.className = 'carousel-control-next carousel-btn-right';
           nextControl.type = 'button';
           nextControl.setAttribute('data-bs-target', `#carousel-${sectionName}-${index}`);
           nextControl.setAttribute('data-bs-slide', 'next');
@@ -60,26 +67,39 @@ function generateCards(jsonFileName, containerId, sectionName) {
           
           carousel.appendChild(prevControl);
           carousel.appendChild(nextControl);
-
-          
         }
         
-        card.appendChild(carousel);
+        cardItem.appendChild(carousel);
         
         let cardBody = document.createElement('div');
         cardBody.className = 'card-body';
+
+        let cardBodyRow1 = document.createElement('div');
+        cardBodyRow1.className = 'row';
+        cardBody.appendChild(cardBodyRow1);
+
+        let cardBodyCol1 = document.createElement('div');
+        cardBodyCol1.className = 'col';
+        cardBodyRow1.appendChild(cardBodyCol1);
         
         let cardTitle = document.createElement('h3');
         cardTitle.className = 'card-title item-card-title ';
         cardTitle.textContent = item.title;
-        
-        cardBody.appendChild(cardTitle);
+        cardBodyCol1.appendChild(cardTitle);
+
+        let cardBodyRow2 = document.createElement('div');
+        cardBodyRow2.className = 'row';
+        cardBody.appendChild(cardBodyRow2);
+
+        let cardBodyCol2 = document.createElement('div');
+        cardBodyCol2.className = 'col';
+        cardBodyRow2.appendChild(cardBodyCol2);
         
         if (Array.isArray(item.description)) {
           let genDesc = document.createElement('div');
           genDesc.className = 'item-card-description';
           genDesc.innerHTML = item.genDesc;
-          cardBody.appendChild(genDesc);
+          cardBodyCol2.appendChild(genDesc);
          
           let container = document.createElement('div');
           container.className = 'container item-card-array-container';
@@ -135,7 +155,7 @@ function generateCards(jsonFileName, containerId, sectionName) {
          });
            
          
-          cardBody.appendChild(container); // Append container to cardBody
+          cardBodyCol2.appendChild(container); 
 
           let slideIndex = 0;
           item.description.forEach((desc) => {
@@ -183,19 +203,52 @@ function generateCards(jsonFileName, containerId, sectionName) {
           slideIndex++;
           });
 
-         } else {
-          // If it's not an array, handle it as a simple string
+        } else {
           let cardText = document.createElement('p');
           cardText.className = 'card-text DtgA-Standard-Text';
           cardText.innerHTML = item.description;
-          cardBody.appendChild(cardText);
+          cardBodyCol2.appendChild(cardText);
          }
         
-        let cardLocation = document.createElement('p');
-        cardLocation.className = 'card-text';
-        cardLocation.innerHTML = `<small class="text-body-secondary"><details><summary>Open to Reveal Location</summary> ${item.location}</details></small>`;
+        let cardLocation = document.createElement('div');
+        cardLocation.className = 'row mt-auto';
+        cardBodyCol2.appendChild(cardLocation);
         
-        cardBody.appendChild(cardLocation);
+        let cardLocationDropdown = document.createElement('div');
+        let cardTitleID = item.title.replace(/ /g, "-").replace(/'/g, "").replace(/\(|\)/g, "");
+        cardLocationDropdown.className = 'location-dropdown';
+        cardLocationDropdown.setAttribute('data-bs-toggle', 'collapse');
+        cardLocationDropdown.setAttribute('data-bs-target', `#card-location-${cardTitleID}`);
+        cardLocationDropdown.innerHTML = '<span>Click To Reveal location<i id="icon-Hatchet" class="las la-caret-down"></i></span>'
+        
+        cardLocation.appendChild(cardLocationDropdown);
+
+        let iconElement = cardLocationDropdown.querySelector('i');
+        let parent = iconElement.parentElement;
+        let grandparent = parent.parentElement;
+
+        let observer = new MutationObserver(function(mutations) {
+        mutations.forEach(function(mutation) {
+          if (mutation.type === 'attributes' && mutation.attributeName === 'class') {
+            if (grandparent.classList.contains('collapsed')) {
+              iconElement.style.transform = 'rotate(0deg)';
+            } else {
+              iconElement.style.transform = 'rotate(180deg)';
+            }
+          }
+        });
+        });
+
+observer.observe(grandparent, { attributes: true, attributeFilter: ['class'] });
+
+        let cardLocationDropdownContent = document.createElement('div');
+        cardLocationDropdownContent.className = 'location-dropdown-content collapse';
+        cardLocationDropdownContent.setAttribute('id', `card-location-${cardTitleID}`);
+        cardLocationDropdownContent.innerHTML = item.location;
+
+        cardLocation.appendChild(cardLocationDropdownContent)
+
+        
         card.appendChild(cardBody);
         col.appendChild(card);
         row.appendChild(col);

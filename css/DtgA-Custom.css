@@ -9,6 +9,7 @@
     --DtgA-primary-rgb: rgb(var(--DtgA-primary));
     --DtgA-Secondary: 33, 37, 41;
     --DtgA-Standard-Text: 185, 185, 185;
+    --DtgA-Subtle-Text: 100, 100, 100;
 
     --white: 255, 255, 255;
     --black: 0, 0, 0;
@@ -306,16 +307,77 @@ body {
     border-radius: 20px;
     border-width: 3px;
     border-style: solid;
-    box-shadow: 0 0 7px 7px rgba(var(--DtgA-primary), 0.1);
-    background: transparent;
+    box-shadow: 0 0 7px 7px rgba(var(--DtgA-primary), 0.1), ;
+    background: color-mix(in srgb, rgba(var(--DtgA-primary), 0.1) 50%, rgb(var(--DtgA-Secondary)));
 }
 
 .item-card-image {
-    background-image: radial-gradient(rgba(var(--DtgA-primary), 0.1) 8%, transparent 70%);
+    display: inline;
+    max-width: 200px;
+   
+}
+
+.item-card-image-container {
+    margin-left: 14px;
+    margin-right: 14px;
+    flex-grow: 0;
+    margin-top: 15px;
+    margin-bottom: 8px;
+    height: 250px;
+    border-radius: 12px;
+    box-shadow: 0 0 6px 4px rgba(var(--DtgA-primary), 0.1), 0 0 4px 2px rgba(var(--DtgA-primary), 0.2) inset;
+    background-color: color-mix(in srgb, rgba(var(--DtgA-primary), 1), rgba(var(--DtgA-Secondary), 1) 99%);
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    background-image: radial-gradient(circle, rgba(var(--DtgA-primary), 0.12) 5%, transparent 60%);
 }
 
 .item-card-description {
     color: color-mix(in srgb, rgb(var(--DtgA-primary)) 20%, rgb(var(--DtgA-Standard-Text)));
+    
+}
+
+.item-card .card-body {
+    display: flex;
+    flex-direction: column;
+    margin: 14px;
+    box-shadow: inset 0 0 10px 6px rgba(var(--black), 0.12), 0 0 3px 2px rgba(var(--black), 0.12);
+    border-radius: 12px;
+    padding-top: 5px;
+    color: color-mix(in srgb, rgb(var(--DtgA-primary)) 20%, rgb(var(--DtgA-Standard-Text)));
+    padding-bottom: 5px;
+    background-color: color-mix(in srgb, rgba(var(--DtgA-primary), 0.15) 60%, rgb(var(--DtgA-Secondary)));
+    min-height: 235px;
+}
+
+.location-dropdown {
+    max-width: max-content;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 300;
+    color: color-mix(in srgb, rgb(var(--DtgA-primary)) 20%, rgb(var(--DtgA-Subtle-Text)));
+    transition: transform 0.3s ease;
+}
+
+.location-dropdown>span>i {
+    transition: transform 0.35s ease-in-out;
+}
+
+.location-dropdown-content {
+    transition: height 0.35s ease-in-out;
+    max-width: max-content;
+    padding-left: 0.8rem;
+    font-size: small;
+    color: color-mix(in srgb, rgb(var(--DtgA-primary)) 20%, rgb(var(--DtgA-Subtle-Text)));
+}
+
+.carousel-btn-left {
+    padding-left: 30px;
+}
+
+.carousel-btn-right {
+    padding-right: 30px;
 }
 
 .ItemsPage>.itemRows {
@@ -323,20 +385,26 @@ body {
 }
 
 .item-card-title {
-    font-family: "ZeldaFont";
-    text-transform: uppercase;
+    max-width: max-content;
+    color: color-mix(in srgb, rgb(var(--DtgA-primary)), rgb(var(--DtgA-Standard-Text)) 50%);
+    font-family: "hyliaSerif";
     font-size: 20px;
     font-weight: 500;
-    border-width: 4px 0 4px 0;
+    margin-top: 8px;
+    padding-left: 0.2rem;
+    padding-right: 3rem;
+    border-width: 0 0 4px 0;
     border-style: outset;
     border-color: transparent;
-    border-image: radial-gradient(ellipse, rgba(var(--DtgA-primary), 0.65) 20%, transparent 80%);
+    border-image: linear-gradient(to right, rgba(var(--DtgA-primary), 0.1)15%, transparent 90%);
     border-image-slice: 1;
-    text-align: center;
+    text-align: start;
 }
 
 .item-card-array-container {
     position: relative;
+    padding: 0px;
+    margin-left: -10px;
 }
 
 .open-all-btn {
@@ -345,6 +413,7 @@ body {
     position: absolute;
     top: 0;
     right: 0;
+    padding: 0;
     border: transparent 0px;
     background-color: transparent;
     border-color: transparent;
@@ -381,11 +450,12 @@ body {
 }
 
 .item-card-array-content {
+    padding: 4px;
     padding-left: 10px;
     border: var(--DtgA-Border-Color) 0px transparent;
     border-radius: 10px;
     max-width: max-content;
-    box-shadow: 0 0 6px 4px rgba(var(--DtgA-primary), 0.1);
+    box-shadow: 0 0 6px 4px rgba(var(--black), 0.1) inset;
     background-color: color-mix(in srgb, rgb(var(--DtgA-primary)) 10%, rgb(var(--DtgA-Secondary)));
     margin-left: 15px;
     margin-right: 15px;
@@ -623,6 +693,14 @@ body {
 
     .item-card:hover {
         box-shadow: 1px 2px 7px 7px rgba(var(--DtgA-primary), 0.19), 0px 0px 8px 2px rgba(var(--DtgA-primary), 0.19) inset;
+    }
+
+    .location-dropdown {
+        transition: color 0.2s ease-in-out;
+    }
+
+    .location-dropdown:hover {
+        color: color-mix(in srgb, rgb(var(--DtgA-primary)) 50%, rgb(var(--DtgA-Subtle-Text)))
     }
 
     .NewMech-list-group {
