@@ -815,6 +815,11 @@ body {
         margin-top: 10px;
     }
 
+    .ItemsPage>.itemRows,
+    .enemyRows {
+        max-width: initial;
+    }
+
 
 }
 
