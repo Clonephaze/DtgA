@@ -1,19 +1,19 @@
 [
     {
         "title": "Gibdo",
-        "description": "They need to be burned.",
+        "description": "",
         "imageSrc": ["Icons/Gibdo.png"],
         "location": "Can be found in the Hyrule Desert."
     },
     {
         "title": "ReDead",
-        "description": "Creepy shambling creatures that will try to hurt you.",
+        "description": "",
         "imageSrc": ["Icons/ReDead.png"],
         "location": "Can be found all around Hyrule."
     },
     {
         "title": "Skulltula",
-        "description": "Disturbing spiders that will crawl out of their homes just to mess up your day. Defintely aren't flying. They're on webs, duh.",
+        "description": "",
         "imageSrc": ["Icons/Skulltula.png"],
         "location": "Can be found all around Hyrule."
     }

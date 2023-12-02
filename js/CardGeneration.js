@@ -40,6 +40,14 @@ function generateCards(jsonFileName, containerId, sectionName) {
           img.src = image;
           img.className = 'd-block w-100 mx-auto item-card-image';
           img.ariaLabel = 'Item Image';
+
+          img.addEventListener('load', function() {
+            if (this.naturalWidth > 250) {
+              this.classList.replace('item-card-image', 'fullsize-card-image');
+              this.classList.remove('w-100');
+              carousel.classList.replace('item-card-image-container', 'fullsize-image-container');
+            }
+          });
           
           carouselItem.appendChild(img);
           carouselInner.appendChild(carouselItem);
