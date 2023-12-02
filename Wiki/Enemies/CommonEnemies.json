@@ -1,11 +1,5 @@
 [
     {
-        "title": "Gibdo",
-        "description": "",
-        "imageSrc": ["Icons/Gibdo.png"],
-        "location": "Can be found in the Hyrule Desert."
-    },
-    {
         "title": "ReDead",
         "description": "",
         "imageSrc": ["Icons/ReDead.png"],
@@ -16,5 +10,11 @@
         "description": "",
         "imageSrc": ["Icons/Skulltula.png"],
         "location": "Can be found all around Hyrule."
+    },
+    {
+        "title": "Gibdo",
+        "description": "",
+        "imageSrc": ["Icons/Gibdo.png"],
+        "location": "Can be found in the Hyrule Desert."
     }
 ]    
