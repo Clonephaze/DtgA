@@ -111,7 +111,17 @@
 }
 
 @media (min-width: 991px) {
+
+    .nav-item {
+        background-repeat: no-repeat;
+        background-position: center;
+        background-image: radial-gradient(ellipse closest-side, rgba(133, 255, 224, 0.12)40%, transparent 110%);
+        background-size: 0% 0%;
+        transition: background-size 0.2s ease-in-out;
+    }
+
     .nav-item:hover {
+        background-size: 100% 100%;
         background-image: radial-gradient(ellipse closest-side, rgba(133, 255, 224, 0.12)40%, transparent 110%);
     }
 }
