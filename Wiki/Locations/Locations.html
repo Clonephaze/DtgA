@@ -136,21 +136,32 @@
             </div>
         </div>
     </main>
+    <footer style="margin-top: 75px;">
+        <div class="mx-auto text-center">
+            <container class="DtgA-Title-Text">Dangerous To Go Alone</container>
+        </div>
+        <div class="social-media-buttons mx-auto text-center">
+            <a href="https://discord.gg/Zg2TgbAcTQ" class="lab la-discord" aria-label="Discord" target="_blank" data-bs-content="WildMods Discord"></a>
+            <a href="https://github.com/Clonephaze/DtgA" class="lab la-github" aria-label="GitHub" target="_blank"  data-bs-content="Clonephaze Github (Site Creator)" ></a>
+            <a href="https://www.patreon.com/ZoeyEule" class="lab la-patreon" aria-label="Patreon" target="_blank"  data-bs-content="Zoey's Patreon"></a>
+        </div>
+    </footer>
     <script src="../../js/bootstrap.bundle.min.js"></script>
+    <script>
+        const selectedElement = document.querySelectorAll('.social-media-buttons a')
+        const options = {
+            trigger: 'hover focus',
+            placement: 'top',
+            toggle: 'popover',
+            customClass: 'social-media-popover',
+            offset: [5, -10],
+            delay: { "show": 250, "hide": 100 }
+        }
+        selectedElement.forEach(element => {
+            const popover = new bootstrap.Popover(element, options)
+        })
+    </script>
     <script src="../../js/ThemeMenu.js"></script>
     <script src="../../js/iro.js"></script>
 </body>
-<footer style="margin-top: 75px;">
-    <div class="mx-auto text-center">
-        <container class="DtgA-Title-Text">Dangerous To Go Alone</container>
-    </div>
-    <div class="social-media-buttons mx-auto text-center">
-        <!-- GitHub, TODO change to Zoey's GitHub -->
-        <a href="https://github.com/Clonephaze/DtgA" class="lab la-github" target="_blank" rel="noopener"></a>
-        <!-- Discord -->
-        <a href="https://discord.gg/Zg2TgbAcTQ" class="lab la-discord" target="_blank" rel="noopener"></a>
-        <!-- Patreon -->
-        <a href="https://www.patreon.com/ZoeyEule" class="lab la-patreon" target="_blank" rel="noopener"></a>
-    </div>
-</footer>
 </html>

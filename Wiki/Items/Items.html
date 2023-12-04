@@ -243,7 +243,31 @@
         </div>
         <div id="Souls-Cards-generated"></div>
     </div>
+    <footer style="margin-top: 75px;">
+        <div class="mx-auto text-center">
+            <container class="DtgA-Title-Text">Dangerous To Go Alone</container>
+        </div>
+        <div class="social-media-buttons mx-auto text-center">
+            <a href="https://discord.gg/Zg2TgbAcTQ" class="lab la-discord" aria-label="Discord" target="_blank" data-bs-content="WildMods Discord"></a>
+            <a href="https://github.com/Clonephaze/DtgA" class="lab la-github" aria-label="GitHub" target="_blank"  data-bs-content="Clonephaze Github (Site Creator)" ></a>
+            <a href="https://www.patreon.com/ZoeyEule" class="lab la-patreon" aria-label="Patreon" target="_blank"  data-bs-content="Zoey's Patreon"></a>
+        </div>
+    </footer>
     <script src="../../js/bootstrap.bundle.js"></script>
+    <script>
+        const selectedElement = document.querySelectorAll('.social-media-buttons a')
+        const options = {
+            trigger: 'hover focus',
+            placement: 'top',
+            toggle: 'popover',
+            customClass: 'social-media-popover',
+            offset: [5, -10],
+            delay: { "show": 250, "hide": 100 }
+        }
+        selectedElement.forEach(element => {
+            const popover = new bootstrap.Popover(element, options)
+        })
+    </script>
     <script src="../../js/CardGeneration.js"></script>
     <script>
         generateCards('Gadgets.json', 'Gadget-Cards-generated', 'gadgets');
@@ -257,17 +281,4 @@
     <script src="../../js/ThemeMenu.js"></script>
     <script src="../../js/iro.js"></script>
 </body>
-<footer style="margin-top: 75px;">
-    <div class="mx-auto text-center">
-        <container class="DtgA-Title-Text">Dangerous To Go Alone</container>
-    </div>
-    <div class="social-media-buttons mx-auto text-center">
-        <!-- GitHub, TODO change to Zoey's GitHub -->
-        <a href="https://github.com/Clonephaze/DtgA" aria-label="GitHub" class="lab la-github"></a>
-        <!-- Discord -->
-        <a href="https://discord.gg/Zg2TgbAcTQ" aria-label="Discord" class="lab la-discord"></a>
-        <!-- Patreon -->
-        <a href="https:/Www.patreon.com/ZoeyEule" aria-label="Patreon" class="lab la-patreon"></a>
-    </div>
-</footer>
 </html>
