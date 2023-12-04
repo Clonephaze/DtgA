@@ -139,84 +139,91 @@
     background-color: rgba(133, 255, 224, 0.082);
 }
 
-@media (min-width: 991px) {
+/*** Size Specific CSS ***/
+    /*** Desktop ***/
+    @media (min-width: 991px) {
 
-    .nav-item {
-        background-repeat: no-repeat;
-        background-position: center;
-        background-image: radial-gradient(ellipse closest-side, rgba(133, 255, 224, 0.12)40%, transparent 110%);
-        background-size: 0% 0%;
-        transition: background-size 0.2s ease-in-out;
+        /*** Navbar ***/
+        .nav-item {
+            background-repeat: no-repeat;
+            background-position: center;
+            background-image: radial-gradient(ellipse closest-side, rgba(133, 255, 224, 0.12)40%, transparent 110%);
+            background-size: 0% 0%;
+            transition: background-size 0.2s ease-in-out;
+        }
+
+        .nav-item:hover {
+            background-size: 100% 100%;
+            background-image: radial-gradient(ellipse closest-side, rgba(133, 255, 224, 0.12)40%, transparent 110%);
+        }
+        
+        .home-dropdown-item {
+            background-image: radial-gradient(ellipse, rgba(133, 255, 224, 0.15)15%, transparent 75%);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: 0% 0%;
+            transition: background-size 0.15s linear;
+        }
+
+        .home-dropdown-item:hover {
+            color: var(--DtgA-Title-Text);
+            background-color: transparent;
+            background-size: 100% 100%;
+        }
+
+        /*** Buttons ***/
+        .HomeButtons {
+            --duration: 0.4s;
+            transition: transform var(--duration) ease, border-color var(--duration) ease, background-color var(--duration) ease, color var(--duration) ease, box-shadow var(--duration) ease, transform var(--duration) ease;
+        }
+
+        .HomeButtons:hover,
+        .HomeButtons:active {
+            background-color: rgba(133, 255, 224, 0.7);
+            border-color: transparent !important;
+            color: black !important;
+            border-width: 4px;
+            border-radius: 250px;
+            width: 220px;
+            height: 75px;
+            transform: scale(1.05) translate(-2px, -2px) rotateX(15deg);
+            box-shadow: 0px 0px 8px rgba(133, 255, 224, 0.5);
+        }
+    }
+    /*** Mobile ***/
+    @media (max-width: 991px) {
+
+        /*** Navbar ***/
+        .home-navbar-nav {
+            background-color: rgba(0, 0, 0, 0.85);
+            background-image: linear-gradient(to top, rgba(133, 255, 224, 0.08)60%, rgba(133, 255, 224, 0) 95%);
+            border-bottom-left-radius: 12px;
+            border-bottom-right-radius: 12px;
+            text-align: right;
+            padding-right: 10px;
+            box-shadow: 0 .4rem 1rem rgba(133, 255, 224, 0.04);
+        }
+
+        .home-dropdown-menu {
+            background-color: rgba(0, 0, 0, 0.05);
+            text-align: right;
+            padding-right: 10px;
+            margin-left: 10px;
+        }
+
+        .custom-navbar-dropdown {
+            text-align: right;
+            padding-right: 10px;
+        }
+
+        .HomeButtons:target,
+        .HomeButtons:active {
+            background-color: rgba(133, 255, 224, 0.7) !important;
+            color: #000000 !important;
+        }
     }
 
-    .nav-item:hover {
-        background-size: 100% 100%;
-        background-image: radial-gradient(ellipse closest-side, rgba(133, 255, 224, 0.12)40%, transparent 110%);
-    }
-
-    .HomeButtons {
-        --duration: 0.4s;
-        transition: transform var(--duration) ease, border-color var(--duration) ease, background-color var(--duration) ease, color var(--duration) ease, box-shadow var(--duration) ease, transform var(--duration) ease;
-    }
-
-    .HomeButtons:hover,
-    .HomeButtons:active {
-        background-color: rgba(133, 255, 224, 0.7);
-        border-color: transparent !important;
-        color: black !important;
-        border-width: 4px;
-        border-radius: 250px;
-        width: 220px;
-        height: 75px;
-        transform: scale(1.05) translate(-2px, -2px) rotateX(15deg);
-        box-shadow: 0px 0px 8px rgba(133, 255, 224, 0.5);
-    }
-
-    .home-dropdown-item {
-        background-image: radial-gradient(ellipse, rgba(133, 255, 224, 0.15)15%, transparent 75%);
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: 0% 0%;
-        transition: background-size 0.15s linear;
-    }
-
-    .home-dropdown-item:hover {
-        color: var(--DtgA-Title-Text);
-        background-color: transparent;
-        background-size: 100% 100%;
-    }
-}
-
-@media (max-width: 991px) {
-    .home-navbar-nav {
-        background-color: rgba(0, 0, 0, 0.85);
-        background-image: linear-gradient(to top, rgba(133, 255, 224, 0.08)60%, rgba(133, 255, 224, 0) 95%);
-        border-bottom-left-radius: 12px;
-        border-bottom-right-radius: 12px;
-        text-align: right;
-        padding-right: 10px;
-        box-shadow: 0 .4rem 1rem rgba(133, 255, 224, 0.04);
-    }
-
-    .home-dropdown-menu {
-        background-color: rgba(0, 0, 0, 0.05);
-        text-align: right;
-        padding-right: 10px;
-        margin-left: 10px;
-    }
-
-    .custom-navbar-dropdown {
-        text-align: right;
-        padding-right: 10px;
-    }
-
-    .HomeButtons:target,
-    .HomeButtons:active {
-        background-color: rgba(133, 255, 224, 0.7) !important;
-        color: #000000 !important;
-    }
-}
-
+/*** Fonts ***/
 @font-face {
     font-family: 'ZeldaFont';
     src: url(../Fonts/TheWildBreathOfZelda-15Lv.ttf) format('truetype');
