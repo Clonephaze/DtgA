@@ -4,27 +4,13 @@
     --DtgA-primary: 133, 255, 225;
 }
 
-.Home-main {
-    position: fixed;
-}
-
-#particles-js {
-    height: calc(var(--vh, 1vh) * 100);
-}
-
-.HomeTitleContainer {
-    text-align: center;
-    padding-top: 5vh;
-    color: rbg(var(--DtgA-primary));
-}
-
-.HomeTitle {
-    font-family: "ZeldaFont";
-    color: rgb(var(--DtgA-primary));
-}
-
+/*** Page Wide CSS ***/
 .Home-body {
     height: calc(var(--vh, 1vh) * 100);
+}
+
+.Home-main {
+    position: fixed;
 }
 
 .DtgA-Title-Text {
@@ -35,54 +21,12 @@
     color: #b9b9b9 !important;
 }
 
-.HomeLogoContainer {
-    width: 100%;
-    text-align: center;
+/*** Particles ***/
+#particles-js {
+    height: calc(var(--vh, 1vh) * 100);
 }
 
-.HomeLogo {
-    max-width: 100%;
-}
-
-@media (min-width: 1173px) {
-    .HomeLogo {
-        max-width: 1173px;
-    }
-}
-
-@font-face {
-    font-family: 'ZeldaFont';
-    src: url(../Fonts/TheWildBreathOfZelda-15Lv.ttf) format('truetype');
-    font-style: normal;
-    font-weight: normal;
-}
-
-.HomeButtons {
-    /* Custom button colors */
-    border-color: rgba(133, 255, 224, 0.7);
-    border-width: 4px;
-    border-radius: 250px;
-    height: 75px;
-    width: 220px;
-    font-family: "ZeldaFont";
-    font-size: 30px;
-    background-color: rgba(133, 255, 224, 0.082);
-    transition: transform 0.2s ease, border-color 0.2s ease, background-color 0.2s ease, -webkit-text-fill-color 0.2s ease, box-shadow 0.2s ease;
-}
-
-.HomeButtons:hover {
-    background-color: rgba(133, 255, 224, 0.7);
-    border-color: transparent !important;
-    -webkit-text-fill-color: black;
-    border-width: 4px;
-    border-radius: 250px;
-    width: 220px;
-    height: 75px;
-    transform: scale(1.05) translate(-2px, -2px);
-    box-shadow: 0px 0px 8px rgba(133, 255, 224, 0.5);
-
-}
-
+/*** Navbar ***/
 .navbar-height {
     max-height: 70px;
 }
@@ -102,28 +46,19 @@
     color: var(--DtgA-Title-Text);
 }
 
+.nav-toggler-icon {
+    color: #84ffe0;
+    font-size: 22px;
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+}
+
 .navbar-toggler {
     border-color: var(--DtgA-Border-Color);
     background-color: rgba(133, 255, 225, 0.05);
     border-width: 2px;
     border-radius: 10px;
     min-height: 4vh
-}
-
-@media (min-width: 991px) {
-
-    .nav-item {
-        background-repeat: no-repeat;
-        background-position: center;
-        background-image: radial-gradient(ellipse closest-side, rgba(133, 255, 224, 0.12)40%, transparent 110%);
-        background-size: 0% 0%;
-        transition: background-size 0.2s ease-in-out;
-    }
-
-    .nav-item:hover {
-        background-size: 100% 100%;
-        background-image: radial-gradient(ellipse closest-side, rgba(133, 255, 224, 0.12)40%, transparent 110%);
-    }
 }
 
 .navbar-toggler:focus {
@@ -145,11 +80,110 @@
     border-bottom: 0px solid #000000;
 }
 
+.navbar-toggler {
+    border-color: #84ffe050;
+}
+
+.dropdown-item {
+    font-family: "ZeldaFont";
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+/*** Icon ***/
+.HomeLogoContainer {
+    width: 100%;
+    text-align: center;
+}
+
+.HomeLogo {
+    max-width: 100%;
+}
+
+/*** Title Text ***/
+.HomeTitleContainer {
+    text-align: center;
+    padding-top: 5vh;
+    color: rbg(var(--DtgA-primary));
+}
+
+.HomeTitle {
+    font-family: "ZeldaFont";
+    color: rgb(var(--DtgA-primary));
+}
+
+/*** Social Media Buttons ***/
+.social-media-buttons a {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    left: -10px;
+}
+
+.social-media-buttons a:hover {
+    opacity: 0.7;
+}
+
+/*** Buttons ***/
+.HomeButtons {
+    /* Custom button colors */
+    border-color: rgba(133, 255, 224, 0.7);
+    border-width: 4px;
+    border-radius: 250px;
+    height: 75px;
+    width: 220px;
+    font-family: "ZeldaFont";
+    font-size: 30px;
+    background-color: rgba(133, 255, 224, 0.082);
+}
+
 @media (min-width: 991px) {
+
+    .nav-item {
+        background-repeat: no-repeat;
+        background-position: center;
+        background-image: radial-gradient(ellipse closest-side, rgba(133, 255, 224, 0.12)40%, transparent 110%);
+        background-size: 0% 0%;
+        transition: background-size 0.2s ease-in-out;
+    }
+
+    .nav-item:hover {
+        background-size: 100% 100%;
+        background-image: radial-gradient(ellipse closest-side, rgba(133, 255, 224, 0.12)40%, transparent 110%);
+    }
+
+    .HomeButtons {
+        --duration: 0.4s;
+        transition: transform var(--duration) ease, border-color var(--duration) ease, background-color var(--duration) ease, color var(--duration) ease, box-shadow var(--duration) ease, transform var(--duration) ease;
+    }
+
+    .HomeButtons:hover,
+    .HomeButtons:active {
+        background-color: rgba(133, 255, 224, 0.7);
+        border-color: transparent !important;
+        color: black !important;
+        border-width: 4px;
+        border-radius: 250px;
+        width: 220px;
+        height: 75px;
+        transform: scale(1.05) translate(-2px, -2px) rotateX(15deg);
+        box-shadow: 0px 0px 8px rgba(133, 255, 224, 0.5);
+    }
+
+    .home-dropdown-item {
+        background-image: radial-gradient(ellipse, rgba(133, 255, 224, 0.15)15%, transparent 75%);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 0% 0%;
+        transition: background-size 0.15s linear;
+    }
+
     .home-dropdown-item:hover {
         color: var(--DtgA-Title-Text);
-        background-image: radial-gradient(ellipse, rgba(133, 255, 224, 0.15)15%, transparent 75%);
         background-color: transparent;
+        background-size: 100% 100%;
     }
 }
 
@@ -175,35 +209,17 @@
         text-align: right;
         padding-right: 10px;
     }
-    
+
     .HomeButtons:target,
     .HomeButtons:active {
         background-color: rgba(133, 255, 224, 0.7) !important;
+        color: #000000 !important;
     }
 }
 
-.HomeBars {
-    color: #84ffe0;
-}
-
-.navbar-toggler {
-    border-color: #84ffe050;
-}
-
-.social-media-buttons a {
-    padding: 20px;
-    font-size: 30px;
-    width: 50px;
-    text-align: center;
-    text-decoration: none;
-}
-
-.social-media-buttons a:hover {
-    opacity: 0.7;
-}
-
-.dropdown-item {
-    font-family: "ZeldaFont";
-    text-transform: uppercase;
-    font-size: 14px;
+@font-face {
+    font-family: 'ZeldaFont';
+    src: url(../Fonts/TheWildBreathOfZelda-15Lv.ttf) format('truetype');
+    font-style: normal;
+    font-weight: normal;
 }
