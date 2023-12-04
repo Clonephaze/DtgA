@@ -74,6 +74,7 @@
     border-color: var(--DtgA-Border-Color);
     background-image: transparent;
     text-align: center;
+    left -43px !important;
 }
 
 .home-navbar-nav {
@@ -112,6 +113,19 @@
     color: rgb(var(--DtgA-primary));
 }
 
+/*** Buttons ***/
+.HomeButtons {
+    border-color: rgba(133, 255, 224, 0.7);
+    border-width: 4px;
+    border-radius: 250px;
+    border-style: solid;
+    height: 75px;
+    width: 220px;
+    font-family: "ZeldaFont";
+    font-size: 30px;
+    background-color: rgba(133, 255, 224, 0.082);
+}
+
 /*** Social Media Buttons ***/
 .social-media-buttons a {
     padding: 20px;
@@ -120,23 +134,26 @@
     text-align: center;
     text-decoration: none;
     left: -10px;
+    color: grey;
+    z-index: 1;
+    position: relative;
+    transition: all 0.2s ease;
 }
 
 .social-media-buttons a:hover {
     opacity: 0.7;
 }
 
-/*** Buttons ***/
-.HomeButtons {
-    /* Custom button colors */
-    border-color: rgba(133, 255, 224, 0.7);
-    border-width: 4px;
-    border-radius: 250px;
-    height: 75px;
-    width: 220px;
-    font-family: "ZeldaFont";
-    font-size: 30px;
-    background-color: rgba(133, 255, 224, 0.082);
+.social-media-buttons a:hover:nth-child(1) {
+    color: #3b5998;
+}
+
+.social-media-buttons a:hover:nth-child(2) {
+    color: whitesmoke;
+}
+
+.social-media-buttons a:hover:nth-child(3) {
+    color: #dd4b39;
 }
 
 /*** Size Specific CSS ***/
@@ -173,21 +190,16 @@
 
         /*** Buttons ***/
         .HomeButtons {
-            --duration: 0.4s;
-            transition: transform var(--duration) ease, border-color var(--duration) ease, background-color var(--duration) ease, color var(--duration) ease, box-shadow var(--duration) ease, transform var(--duration) ease;
+            transition: all 0.35s ease;
         }
 
         .HomeButtons:hover,
         .HomeButtons:active {
             background-color: rgba(133, 255, 224, 0.7);
-            border-color: transparent !important;
             color: black !important;
-            border-width: 4px;
-            border-radius: 250px;
-            width: 220px;
-            height: 75px;
-            transform: scale(1.05) translate(-2px, -2px) rotateX(15deg);
-            box-shadow: 0px 0px 8px rgba(133, 255, 224, 0.5);
+            border-width: 0px;
+            transform: scale(1.05);
+            box-shadow: 0px 0px 10px 5px rgba(133, 255, 224, 0.5);
         }
     }
     /*** Mobile ***/
