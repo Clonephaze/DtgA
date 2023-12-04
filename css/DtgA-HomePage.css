@@ -178,7 +178,7 @@
             background-image: radial-gradient(ellipse, rgba(133, 255, 224, 0.15)15%, transparent 75%);
             background-repeat: no-repeat;
             background-position: center;
-            background-size: 0% 0%;
+            background-size: 25% 0%;
             transition: background-size 0.15s linear;
         }
 
