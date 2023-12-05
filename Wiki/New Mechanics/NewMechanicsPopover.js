@@ -12,7 +12,7 @@ elementSM.forEach(element => {
 })
 
 let items = [];
-const urls = ['../Items/Consumables.json', '../Items/gadgets.json', '../Items/Souls.json', '../Items/Weapons.json', '../Items/Weapons.json', '../Items/KeyItems.json', '../Enemies/CommonEnemies.json', '../NPCs/Vendors.json']; // Add more URLs as needed
+const urls = ['../Items/Consumables.json', '../Items/Gadgets.json', '../Items/Souls.json', '../Items/Weapons.json', '../Items/Weapons.json', '../Items/KeyItems.json', '../Enemies/CommonEnemies.json', '../NPCs/Vendors.json']; // Add more URLs as needed
 
 Promise.all(urls.map(url => fetch(url)))
    .then(responses => Promise.all(responses.map(response => response.json())))
