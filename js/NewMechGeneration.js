@@ -40,7 +40,7 @@ function generateNewMechs(data) {
 
         item['description items'].forEach(description => {
             const listItem = document.createElement('li');
-            listItem.textContent = description;
+            listItem.innerHTML = description;
             list.appendChild(listItem);
         });
 
