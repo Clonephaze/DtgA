@@ -3,7 +3,7 @@
         "title": "Magic Pouch",
         "description": "The Magic Pouch is a way of keeping all your gadgets on you without wasting inventory slots. Call it with Crouch <span style=\"font-family: 'PromptFont'; font-size: 20px;\">↺</span> + Activate <span style=\"font-family: 'PromptFont'; font-size: 20px;\">⇓</span>.",
         "imageSrc": [
-            "Icons/MagicPouch.png"
+            "Icons/MagicPouch.webp"
         ],
         "directory": "Items",
         "location": "Can be found in the Northern Shrine on Hope's Rise."
@@ -12,7 +12,7 @@
         "title": "Coiled Sword",
         "description": "This mysterious sword is constantly glowing, as if it had just been pulled from a forge. There's an inscription: The Siphon of Souls. Trade rupees to upgrade your stats. Call it with Crouch <span style=\"font-family: 'PromptFont'; font-size: 20px;\">↺</span> + Attack <span style=\"font-family: 'PromptFont'; font-size: 20px;\">⇐</span>.",
         "imageSrc": [
-            "Icons/CoiledSword.png"
+            "Icons/CoiledSword.webp"
         ],
         "directory": "Items",
         "location": "Can be found in the Western Shrine on Hope's Rise"
@@ -21,7 +21,7 @@
         "title": "Spellbook",
         "description": "This spellbook contains the magic kept secret by Wizzrobes and Bokoblins. By memorizing the passages, I can call upon the same power as the Yiga Clan. Read it (switch your active spell crystal) with Activate <span style=\"font-family: 'PromptFont'; font-size: 20px;\">⇓</span> + Dpad Down.",
         "imageSrc": [
-            "Icons/SpellBook.png"
+            "Icons/SpellBook.webp"
         ],
         "directory": "Items",
         "location": "Can be found in the Eastern Shrine on Hope's Rise"
@@ -30,7 +30,7 @@
         "title": "Twilight Mirror",
         "description": "This mysterious stone mirror gives off a strange light. The reflections cast in it look eerily like people I've met in my travels. Can be used to summon all npc characters that have decided to join you on your journey. Call it with Crouch <span style=\"font-family: 'PromptFont'; font-size: 20px;\">↺</span> + Jump <span style=\"font-family: 'PromptFont'; font-size: 20px;\">⇑</span>.",
         "imageSrc": [
-            "Icons/TwilightMirror.png"
+            "Icons/TwilightMirror.webp"
         ],
         "directory": "Items",
         "location": "Can be found in the Southern Shrine on Hope's Rise"

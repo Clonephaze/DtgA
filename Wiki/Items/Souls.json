@@ -3,7 +3,7 @@
         "title": "Soul of a Frightened Soldier",
         "description": "The lingering essence of a Hylian soldier who met their end in a lightly guarded area. Their fear and determination are palpable.",
         "imageSrc": [
-            "Icons/SoulOfAFrightenedSoldier.png"
+            "Icons/SoulOfAFrightenedSoldier.webp"
         ],
         
         "directory": "Items",
@@ -13,7 +13,7 @@
         "title": "Soul of a Brave Knight",
         "description": "This soul holds the bravery and valor of a fallen Hylian Knight who met their end in moderately guarded areas. It radiates an aura of courage.",
         "imageSrc": [
-            "Icons/SoulOfABraveKnight.png"
+            "Icons/SoulOfABraveKnight.webp"
         ],
         
         "directory": "Items",
@@ -23,7 +23,7 @@
         "title": "Soul of a Royal Guard",
         "description": "Imbued with the strength and loyalty of a member of the Hylian Royal Soldiers, this soul is obtained in heavily guarded areas and fortresses.",
         "imageSrc": [
-            "Icons/SoulOfARoyalGuard.png"
+            "Icons/SoulOfARoyalGuard.webp"
         ],
         
         "directory": "Items",
@@ -33,7 +33,7 @@
         "title": "Soul of a Would Be Champion",
         "description": "This soul represents the aspirations of a Hylian Royal Guard who faced the greatest dangers. It embodies the spirit of those who dared to become champions.",
         "imageSrc": [
-            "Icons/SoulOfAWouldBeChampion.png"
+            "Icons/SoulOfAWouldBeChampion.webp"
         ],
         
         "directory": "Items",
@@ -43,7 +43,7 @@
         "title": "Soul of an Enlightened One",
         "description": "The remnants of prospective champions who fell short in impressing the Sword that Seals the Darkness. These souls are scattered across Hyrule, usually in areas heavily guarded.",
         "imageSrc": [
-            "Icons/SoulOfAnEnlightenedOne.png"
+            "Icons/SoulOfAnEnlightenedOne.webp"
         ],
         
         "directory": "Items",
@@ -53,7 +53,7 @@
         "title": "Soul of the Hero's Shade",
         "description": "This soul is a memento from the first boss encounter the Lost One faces on Hope's Rise. It contains the essence of a valiant warrior who stood their ground.",
         "imageSrc": [
-            "Icons/SoulBoss.png"
+            "Icons/SoulBoss.webp"
         ],
         
         "directory": "Items",
@@ -63,7 +63,7 @@
         "title": "Soul of Darknut the Executioner",
         "description": "This soul embodies the strength and determination of Darknut, the formidable adversary at the Hyrule Castle Town Cathedral.",
         "imageSrc": [
-            "Icons/SoulBoss.png"
+            "Icons/SoulBoss.webp"
         ],
         
         "directory": "Items",
@@ -73,7 +73,7 @@
         "title": "Soul of Gallahad the Mighty",
         "description": "A testament to the might of Sir Gallahad, this soul exudes power and resilience after his defeat at Fort Hateno.",
         "imageSrc": [
-            "Icons/SoulBoss.png"
+            "Icons/SoulBoss.webp"
         ],
         
         "directory": "Items",
@@ -83,7 +83,7 @@
         "title": "Soul of Robin the Swift",
         "description": "This soul carries the swiftness and agility of Sir Robin, earned by overcoming him at the ruined Hateno shooting range.",
         "imageSrc": [
-            "Icons/SoulBoss.png"
+            "Icons/SoulBoss.webp"
         ],
         
         "directory": "Items",
@@ -93,7 +93,7 @@
         "title": "Soul of Lancelot the Brave",
         "description": "Imbued with the bravery and valor of Sir Lancelot, this soul reflects the courage he displayed near the shrine of courage.",
         "imageSrc": [
-            "Icons/SoulBoss.png"
+            "Icons/SoulBoss.webp"
         ],
         
         "directory": "Items",
@@ -103,7 +103,7 @@
         "title": "Soul of King Rhoam",
         "description": "#",
         "imageSrc": [
-            "Icons/SoulBoss.png"
+            "Icons/SoulBoss.webp"
         ],
         
         "directory": "Items",
@@ -113,7 +113,7 @@
         "title": "Soul of Queen Rhoam",
         "description": "#",
         "imageSrc": [
-            "Icons/SoulBoss.png"
+            "Icons/SoulBoss.webp"
         ],
         
         "directory": "Items",
@@ -123,7 +123,7 @@
         "title": "Twinsouls of Miko and Sibyl",
         "description": "These intertwined souls represent the combined strength and unity of Miko and Sibyl. They are obtained after defeating them at Sanindin Park Ruins.",
         "imageSrc": [
-            "Icons/SoulBoss.png"
+            "Icons/SoulBoss.webp"
         ],
         
         "directory": "Items",

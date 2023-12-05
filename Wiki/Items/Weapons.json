@@ -29,12 +29,12 @@
             }
         ],
         "imageSrc": [
-            "Icons/WoodAxe1.png",
-            "Icons/WoodAxe2.png",
-            "Icons/WoodAxe3.png",
-            "Icons/WoodAxe4.png",
-            "Icons/WoodAxe5.png",
-            "Icons/WoodAxe7.png"
+            "Icons/WoodAxe1.webp",
+            "Icons/WoodAxe2.webp",
+            "Icons/WoodAxe3.webp",
+            "Icons/WoodAxe4.webp",
+            "Icons/WoodAxe5.webp",
+            "Icons/WoodAxe7.webp"
         ],
         "directory": "Items",
         "location": "Can be found the eastern shrine of Hope's Rise. (The Great Plateau Bomb Shrine)."
@@ -65,11 +65,11 @@
             }
         ],
         "imageSrc": [
-            "Icons/Sword1.png",
-            "Icons/Sword2.png",
-            "Icons/Sword3.png",
-            "Icons/Sword4.png",
-            "Icons/Sword5.png"
+            "Icons/Sword1.webp",
+            "Icons/Sword2.webp",
+            "Icons/Sword3.webp",
+            "Icons/Sword4.webp",
+            "Icons/Sword5.webp"
         ],
         "directory": "Items",
         "location": "Can be found in the southern shrine of Hope's Rise. (The Great Plateau Stasis Shrine)."
@@ -108,13 +108,13 @@
             }
         ],
         "imageSrc": [
-            "Icons/LargeSword1.png",
-            "Icons/LargeSword2.png",
-            "Icons/LargeSword3.png",
-            "Icons/LargeSword4.png",
-            "Icons/LargeSword5.png",
-            "Icons/LargeSword6.png",
-            "Icons/LargeSword7.png"
+            "Icons/LargeSword1.webp",
+            "Icons/LargeSword2.webp",
+            "Icons/LargeSword3.webp",
+            "Icons/LargeSword4.webp",
+            "Icons/LargeSword5.webp",
+            "Icons/LargeSword6.webp",
+            "Icons/LargeSword7.webp"
         ],
         "directory": "Items",
         "location": "Can be found in the western shrine of Hope's Rise. (The Great Plateau Cryonis Shrine)."
@@ -154,13 +154,13 @@
         ],
         "directory": "Items",
         "imageSrc": [
-            "Icons/Spear1.png",
-            "Icons/Spear2.png",
-            "Icons/Spear3.png",
-            "Icons/Spear4.png",
-            "Icons/Spear5.png",
-            "Icons/Spear6.png",
-            "Icons/Spear7.png"
+            "Icons/Spear1.webp",
+            "Icons/Spear2.webp",
+            "Icons/Spear3.webp",
+            "Icons/Spear4.webp",
+            "Icons/Spear5.webp",
+            "Icons/Spear6.webp",
+            "Icons/Spear7.webp"
         ],
         "location": "Can be found in the northern shrine of Hope's Rise. (The Great Plateau Magnesis Shrine)."
     },
@@ -199,13 +199,13 @@
         ],
         "directory": "Items",
         "imageSrc": [
-            "Icons/Bow1.png",
-            "Icons/Bow2.png",
-            "Icons/Bow3.png",
-            "Icons/Bow4.png",
-            "Icons/Bow5.png",
-            "Icons/Bow6.png",
-            "Icons/Bow7.png"
+            "Icons/Bow1.webp",
+            "Icons/Bow2.webp",
+            "Icons/Bow3.webp",
+            "Icons/Bow4.webp",
+            "Icons/Bow5.webp",
+            "Icons/Bow6.webp",
+            "Icons/Bow7.webp"
         ],
         "location": "Can be found in the Temple of Time of Hope's Rise. (The Great Plateau)."
     }

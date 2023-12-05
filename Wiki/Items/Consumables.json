@@ -3,7 +3,7 @@
         "title": "Heart Piece",
         "description": "Can be exchanged 5 at a time with the goddess statues around Hyrule for more health.",
         "imageSrc": [
-            "Icons/HeartPiece.png"
+            "Icons/HeartPiece.webp"
         ],
         "directory": "Items",
         "location": "Can be found in chests around Hyrule."
@@ -12,7 +12,7 @@
         "title": "Divine Vessel",
         "description": "A vessel strong enough to contain a portion of Hylia's Light, allowing the Lost One (you) to journey off Hope's Rise. While not consumable itself, this item produces your Estus Flasks from Hylia's Light when resting at a campfire.",
         "imageSrc": [
-            "Icons/DivineVessel.png"
+            "Icons/DivineVessel.webp"
         ],
         "directory": "Items",
         "location": "Can be recieved from the Old Man after completing the 4 shrines on Hope's Rise."
@@ -21,7 +21,7 @@
         "title": "Estus Flask",
         "description": "After recieving the Divine vessel you will recieve 5 of these whenever you rest at a campfire. Use these to restore your health and stamina! (Amount scales with Vitality and Endurance respectively) <br>Use with Dpad-down <span style=\"font-family: 'PromptFont'; font-size: 20px;\">↡</span> + Activate<span style=\"font-family: 'PromptFont'; font-size: 20px;\">⇓</span>",
         "imageSrc": [
-            "Icons/EstusFlask.png"
+            "Icons/EstusFlask.webp"
         ],
         "directory": "Items",
         "location": "Can be refilled by resting at a campfire after recivieving it from the Old Man."
@@ -31,7 +31,7 @@
         "title": "Goron Powder Keg",
         "description": "Portable exploding barrels! Drop them from your inventory to pick them up to place or throw them. Can be exploded with the Slingshot.",
         "imageSrc": [
-            "Icons/PowderKeg.png"
+            "Icons/PowderKeg.webp"
         ],
         "directory": "Items",
         "location": "Can be found in chests around Hyrule."
@@ -40,7 +40,7 @@
         "title": "Deployable Paraglider",
         "description": "A temporary paraglider that can be dropped from your inventory, when you drop it from your inventory you can pick them up and can jump off a cliff and glide. Good for a few flights, but they break easily so be careful.",
         "imageSrc": [
-            "Icons/Paraglider.png"
+            "Icons/Paraglider.webp"
         ],
         "directory": "Items",
         "location": "Can be found in chests around Hyrule."
@@ -49,7 +49,7 @@
         "title": "Metal Balloon",
         "description": "These balloons act like Octo Balloons, but these don't pop! Make your flying dreams come true.",
         "imageSrc": [
-            "Icons/Balloon.png"
+            "Icons/Balloon.webp"
         ],
         "directory": "Items",
         "location": "Can be found in chests around Hyrule."
@@ -58,7 +58,7 @@
         "title": "Cracked Pyro Pot",
         "description": "This pot has been filled with the magics home to Death Mountain; namely fire.",
         "imageSrc": [
-            "Icons/CrackedPot(Fire).png"
+            "Icons/CrackedPot(Fire).webp"
         ],
         "directory": "Items",
         "location": "Can be crafted at the alchemy tables found in towns and the Shrine of Resurrection. Needs: 1 Pot, 1 Red Chuchu Jelly, 1 Ruby, and 100 Rupees."
@@ -67,7 +67,7 @@
         "title": "Cracked Hydro Pot",
         "description": "The Zora use these pots to stay hydrated. Particularly useful on Death Mountain.",
         "imageSrc": [
-            "Icons/CrackedPot(Water).png"
+            "Icons/CrackedPot(Water).webp"
         ],
         "directory": "Items",
         "location": "Can be crafted at the alchemy tables found in towns and the Shrine of Resurrection. Needs: 1 Pot, 1 Blue Chuchu Jelly, 1 Opal, and 100 Rupees."
@@ -76,7 +76,7 @@
         "title": "Cracked Cryo Pot",
         "description": "The dragon Naydra's breath has blessed the water in this jar. Treasured in Gerudo.",
         "imageSrc": [
-            "Icons/CrackedPot(Ice).png"
+            "Icons/CrackedPot(Ice).webp"
         ],
         "directory": "Items",
         "location": "Can be crafted at the alchemy tables found in towns and the Shrine of Resurrection. Needs: 1 Pot, 1 White Chuchu Jelly, 1 Sapphire, and 100 Rupees."
@@ -85,7 +85,7 @@
         "title": "Cracked Dendro Pot",
         "description": "This isn't exactly a pot, but rather, a magical seed. Creats a wall of thorns.",
         "imageSrc": [
-            "Icons/CrackedPot(Earth).png"
+            "Icons/CrackedPot(Earth).webp"
         ],
         "directory": "Items",
         "location": "Can be crafted at the alchemy tables found in towns and the Shrine of Resurrection. "
@@ -94,7 +94,7 @@
         "title": "Cracked Aero Pot",
         "description": "This pot houses the gusts of Tabantha Plains. Break to release several updrafts.",
         "imageSrc": [
-            "Icons/CrackedPot(Air).png"
+            "Icons/CrackedPot(Air).webp"
         ],
         "directory": "Items",
         "location": "Can be crafted at the alchemy tables found in towns and the Shrine of Resurrection. Needs: 1 Pot, 1 Blue Chuchu Jelly, 1 Opal, and 100 Rupees."
@@ -103,7 +103,7 @@
         "title": "Cracked Electro Pot",
         "description": "This pot contains the fury of Faron's ever-lasting storm. It has a delayed effect.",
         "imageSrc": [
-            "Icons/CrackedPot(Shock).png"
+            "Icons/CrackedPot(Shock).webp"
         ],
         "directory": "Items",
         "location": "Can be crafted at the alchemy tables found in towns and the Shrine of Resurrection. Needs: 1 Pot, 1 Yellow Chuchu Jelly, 1 Topaz, and 100 Rupees."
@@ -112,7 +112,7 @@
         "title": "Cracked Magno Pot",
         "description": "This metalic pot was made by an expert craftsman. Breaking it seems a shame. (WARNING: This will send giant metal spiked balls flying in all directions. Be careful.)",
         "imageSrc": [
-            "Icons/CrackedPot(Metal).png"
+            "Icons/CrackedPot(Metal).webp"
         ],
         "directory": "Items",
         "location": "Can be crafted at the alchemy tables found in towns and the Shrine of Resurrection. Needs: 1 Pot, 1 Blue Chuchu Jelly, 1 Diamond, and 100 Rupees."
@@ -121,7 +121,7 @@
         "title": "Cracked Geo Pot",
         "description": "A cracked pot filled with the power of Geo. (WARNING: This will send giant stone boulders flying in all directions. Be careful.)",
         "imageSrc": [
-            "Icons/CrackedPot(Wood).png"
+            "Icons/CrackedPot(Wood).webp"
         ],
         "directory": "Items",
         "location": "Can be crafted at the alchemy tables found in towns and the Shrine of Resurrection."
@@ -130,7 +130,7 @@
         "title": "Cracked Deo Pot",
         "description": "This strange pot seems to house the power of Hylia. Has a 25% chance to duplicate.",
         "imageSrc": [
-            "Icons/CrackedPot(Holy).png"
+            "Icons/CrackedPot(Holy).webp"
         ],
         "directory": "Items",
         "location": "Can be crafted at the alchemy tables found in towns and the Shrine of Resurrection. Needs: 1 Pot, 1 Blue Chuchu Jelly, 1 Star Fragment, and 250 Rupees."
@@ -139,7 +139,7 @@
         "title": "Cracked Entro Pot",
         "description": "A cracked pot imbued with the power of Entro",
         "imageSrc": [
-            "Icons/CrackedPot(Dark).png"
+            "Icons/CrackedPot(Dark).webp"
         ],
         "directory": "Items",
         "location": "Can be crafted at the alchemy tables found in towns and the Shrine of Resurrection. Needs: 1 Pot, 1 Blue Chuchu Jelly, 25 Fairy, and 1,000 Rupees."
