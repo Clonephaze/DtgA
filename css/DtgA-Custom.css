@@ -931,8 +931,6 @@ body {
 @font-face {
     font-family: 'ZeldaFont';
     src: url(../Fonts/TheWildBreathOfZelda-15Lv.ttf) format('truetype');
-    font-style: normal;
-    font-weight: normal;
 }
 @font-face {
     font-family: 'HyliaSerif';
