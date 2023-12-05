@@ -2,49 +2,49 @@
     {
         "title": "The Hero's Shade",
         "description": "The first boss enemy encountered in DtgA.",
-        "imageSrc": ["Icons/HerosShade.png"],
+        "imageSrc": ["Icons/HerosShade.webp"],
         "location": "Can be found on Hope's Rise near the eastern shrine."
     },
     {
         "title": "Cursed Puppets",
         "description": "It's like thunderblight with more magic. Theres 4 versions so it won't be the same fight every time. Will appear when the sky turns pale blue.",
-        "imageSrc": ["Icons/CursedPuppets.png"],
+        "imageSrc": ["Icons/CursedPuppets.webp"],
         "location": "Can be found in the forests around Hyrule."
     },
     {
         "title": "Argorok",
         "description": "Currently a WIP. You can climb on him if you have stasis. He WILL break halfway through the fight.",
-        "imageSrc": ["Icons/Argorok.png"],
+        "imageSrc": ["Icons/Argorok.webp"],
         "location": "Found at the top of the Dueling Peaks."
     },
     {
         "title": "Darknut",
         "description": "Currently a WIP. You can't kill him yet as the fight will require the megaton hammer.",
-        "imageSrc": ["Icons/Darknut.png"],
+        "imageSrc": ["Icons/Darknut.webp"],
         "location": "Found at Castle Town Cathedral."
     },
     {
         "title": "Galahad",
         "description": "Pretty straightforward, just stay close and nail your parries.",
-        "imageSrc": ["Icons/Galahad.png"],
+        "imageSrc": ["Icons/Galahad.webp"],
         "location": "Found at Fort Hateno."
     },
     {
         "title": "Lancelot",
         "description": "Currently a WIP. He'll seem like he's stuck in an animation, but stagger him out of it and then stay far away from his spear.",
-        "imageSrc": ["Icons/Lancelot.png"],
+        "imageSrc": ["Icons/Lancelot.webp"],
         "location": "Found at the Shrine of Courage."
     },
     {
         "title": "Robin",
         "description": "Can be a challenge, but you'll be fine if you take care of the adds and shoot well.",
-        "imageSrc": ["Icons/Robin.png"],
+        "imageSrc": ["Icons/Robin.webp"],
         "location": "Found at the Heteno shooting range."
     },
     {
         "title": "Miko and Sibyl",
         "description": "These are fast, hit hard, and deal a TON of aoe damage. The arena is basicaly made of fire so bring some Fireproof potions or a flamebreaker set.",
-        "imageSrc": ["Icons/MikoAndSibyl.png"],
+        "imageSrc": ["Icons/MikoAndSibyl.webp"],
         "location": "Found in the Sanindin park."
     }
 ]

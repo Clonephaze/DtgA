@@ -2,7 +2,7 @@
     {
         "title": "ReDead",
         "description": "", 
-        "imageSrc": ["Icons/ReDead.png"],
+        "imageSrc": ["Icons/ReDead.webp"],
         "imageType": "fullsize",
         "directory": "Enemies",
         "location": "Can be found all around Hyrule."
@@ -10,7 +10,7 @@
     {
         "title": "Skulltula",
         "description": "",
-        "imageSrc": ["Icons/Skulltula.png"],
+        "imageSrc": ["Icons/Skulltula.webp"],
         "imageType": "fullsize",
         "directory": "Enemies",
         "location": "Can be found all around Hyrule."
@@ -18,7 +18,7 @@
     {
         "title": "Gibdo",
         "description": "",
-        "imageSrc": ["Icons/Gibdo.png"],
+        "imageSrc": ["Icons/Gibdo.webp"],
         "imageType": "fullsize",
         "directory": "Enemies",
         "location": "Can be found in the Hyrule Desert."
