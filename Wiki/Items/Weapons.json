@@ -36,6 +36,7 @@
             "Icons/WoodAxe5.png",
             "Icons/WoodAxe7.png"
         ],
+        "directory": "Items",
         "location": "Can be found the eastern shrine of Hope's Rise. (The Great Plateau Bomb Shrine)."
     },
     {
@@ -70,6 +71,7 @@
             "Icons/Sword4.png",
             "Icons/Sword5.png"
         ],
+        "directory": "Items",
         "location": "Can be found in the southern shrine of Hope's Rise. (The Great Plateau Stasis Shrine)."
     },
     {
@@ -114,6 +116,7 @@
             "Icons/LargeSword6.png",
             "Icons/LargeSword7.png"
         ],
+        "directory": "Items",
         "location": "Can be found in the western shrine of Hope's Rise. (The Great Plateau Cryonis Shrine)."
     },
     {
@@ -149,6 +152,7 @@
                 "content": "This once humble weapon has become more than a mere instrument. It is now imbued with a soul that rivals your own. In short, among other spears, it is peerless."
             }
         ],
+        "directory": "Items",
         "imageSrc": [
             "Icons/Spear1.png",
             "Icons/Spear2.png",
@@ -193,6 +197,7 @@
                 "content": "A bow without equal wielded by the Queen's personal guard. It no longer loses durability, and fires 3 guard piercing arrows at once."
             }
         ],
+        "directory": "Items",
         "imageSrc": [
             "Icons/Bow1.png",
             "Icons/Bow2.png",

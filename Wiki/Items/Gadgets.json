@@ -5,6 +5,7 @@
         "imageSrc": [
             "Icons/ItemFlintStrike.png"
         ],
+        "directory": "Items",
         "location": "Can be found in the Old Man's Hut on Hope's Rise (the plateau)."
     },
     {
@@ -13,6 +14,7 @@
         "imageSrc": [
             "Icons/Slingshot.png"
         ],
+        "directory": "Items",
         "location": "Can be found at the newly added ruins below the shrine in the snowy mountains on Hope's Rise."
     },
     {
@@ -21,6 +23,7 @@
         "imageSrc": [
             "Icons/Cannon.png"
         ],
+        "directory": "Items",
         "location": "Can be found in the newly added cave next to the Woodland Stable pond."
     },
     {
@@ -29,6 +32,7 @@
         "imageSrc": [
             "Icons/SilverGauntlents.png"
         ],
+        "directory": "Items",
         "location": "Can be found in the Lanayru Promenade."
     },
     {
@@ -37,6 +41,7 @@
         "imageSrc": [
             "Icons/GoldenGauntlents.png"
         ],
+        "directory": "Items",
         "location": "<!-- TODO -->"
     },
     {
@@ -45,6 +50,7 @@
         "imageSrc": [
             "Icons/TwilightSpinner.png"
         ],
+        "directory": "Items",
         "location": "Can be found in the newly added farthest west ruins in Gerudo Desert."
     },
     {
@@ -53,6 +59,7 @@
         "imageSrc": [
             "Icons/IronBoots.png"
         ],
+        "directory": "Items",
         "location": "Can be found at the Hylian Waterworks, a new structure built at the Lake Hylia Inlet."
     },
     {
@@ -61,6 +68,7 @@
         "imageSrc": [
             "Icons/DiveBoots.png"
         ],
+        "directory": "Items",
         "location": "CANNOT YET BE FOUND"
     },
     {
@@ -69,6 +77,7 @@
         "imageSrc": [
             "Icons/HoverBoots.png"
         ],
+        "directory": "Items",
         "location": "Can be found at the Hylian Royal Crypt at Saninindindin Park, located atop Safula Hill in the Hyrule Ridge."
     },
     {
@@ -77,6 +86,7 @@
         "imageSrc": [
             "Icons/HookShot.png"
         ],
+        "directory": "Items",
         "location": "Can be found atop Dueling Peaks, in the newly added Dueling Monastery."
     },
     {
@@ -85,6 +95,7 @@
         "imageSrc": [
             "Icons/Generator.png"
         ],
+        "directory": "Items",
         "location": "Can be found outside of the gate to Fort Hateno Keep."
     },
     {
@@ -93,6 +104,7 @@
         "imageSrc": [
             "Icons/GustJar.png"
         ],
+        "directory": "Items",
         "location": "Can be found at the newly added Hebra Mansion on the Hebra Frozen River"
     }
 ]

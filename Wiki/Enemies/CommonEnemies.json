@@ -1,20 +1,26 @@
 [
     {
         "title": "ReDead",
-        "description": "",
+        "description": "", 
         "imageSrc": ["Icons/ReDead.png"],
+        "imageType": "fullsize",
+        "directory": "Enemies",
         "location": "Can be found all around Hyrule."
     },
     {
         "title": "Skulltula",
         "description": "",
         "imageSrc": ["Icons/Skulltula.png"],
+        "imageType": "fullsize",
+        "directory": "Enemies",
         "location": "Can be found all around Hyrule."
     },
     {
         "title": "Gibdo",
         "description": "",
         "imageSrc": ["Icons/Gibdo.png"],
+        "imageType": "fullsize",
+        "directory": "Enemies",
         "location": "Can be found in the Hyrule Desert."
     }
 ]    

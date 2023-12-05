@@ -5,6 +5,8 @@
         "imageSrc": [
             "Icons/SoulOfAFrightenedSoldier.png"
         ],
+        
+        "directory": "Items",
         "location": "Given to the Lost One by fallen Hylian Soldiers in lightly guarded areas, and around Hope's Rise."
     },
     {
@@ -13,6 +15,8 @@
         "imageSrc": [
             "Icons/SoulOfABraveKnight.png"
         ],
+        
+        "directory": "Items",
         "location": "Given to the Lost One by fallen Hylian Knights in moderately guarded areas, and around HC."
     },
     {
@@ -21,6 +25,8 @@
         "imageSrc": [
             "Icons/SoulOfARoyalGuard.png"
         ],
+        
+        "directory": "Items",
         "location": "Given to the Lost One by members of the Hylian Royal Soldiers in heavily guarded areas and fortresses."
     },
     {
@@ -29,6 +35,8 @@
         "imageSrc": [
             "Icons/SoulOfAWouldBeChampion.png"
         ],
+        
+        "directory": "Items",
         "location": "Given to the Lost One by members of the Hylian Royal Guard, only in the most dangerous areas."
     },
     {
@@ -37,6 +45,8 @@
         "imageSrc": [
             "Icons/SoulOfAnEnlightenedOne.png"
         ],
+        
+        "directory": "Items",
         "location": "Given to the Lost One by prospective champions who failed to impress the Sword that Seals the Darkness. These souls scattered after their failure and can be found all over Hyrule, usually heavily guarded."
     },
     {
@@ -45,6 +55,8 @@
         "imageSrc": [
             "Icons/SoulBoss.png"
         ],
+        
+        "directory": "Items",
         "location": "Dropped by the first boss the Lost One faces on Hope's Rise. Used to upgrade the first level of special swords added by ReForged."
     },
     {
@@ -53,6 +65,8 @@
         "imageSrc": [
             "Icons/SoulBoss.png"
         ],
+        
+        "directory": "Items",
         "location": "Acquired by defeating Darknut at the Hyrule Castle Town Cathedral."
     },
     {
@@ -61,6 +75,8 @@
         "imageSrc": [
             "Icons/SoulBoss.png"
         ],
+        
+        "directory": "Items",
         "location": "Acquired by defeating Sir Gallahad at Fort Hateno."
     },
     {
@@ -69,6 +85,8 @@
         "imageSrc": [
             "Icons/SoulBoss.png"
         ],
+        
+        "directory": "Items",
         "location": "Acquired by defeating Sir Robin at the ruined Hateno shooting range."
     },
     {
@@ -77,6 +95,8 @@
         "imageSrc": [
             "Icons/SoulBoss.png"
         ],
+        
+        "directory": "Items",
         "location": "Acquired by defeating Sir Lancelot near the shrine of courage."
     },
     {
@@ -85,6 +105,8 @@
         "imageSrc": [
             "Icons/SoulBoss.png"
         ],
+        
+        "directory": "Items",
         "location": "Acquired by [Please provide additional information on how to acquire this soul.]"
     },
     {
@@ -93,6 +115,8 @@
         "imageSrc": [
             "Icons/SoulBoss.png"
         ],
+        
+        "directory": "Items",
         "location": "Acquired by [Please provide additional information on how to acquire this soul.]"
     },
     {
@@ -101,6 +125,8 @@
         "imageSrc": [
             "Icons/SoulBoss.png"
         ],
+        
+        "directory": "Items",
         "location": "Acquired by defeating Miko and Sibyl at Sanindin Park Ruins."
     }
 ]

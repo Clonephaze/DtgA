@@ -5,6 +5,7 @@
         "imageSrc": [
             "Icons/MagicPouch.png"
         ],
+        "directory": "Items",
         "location": "Can be found in the Northern Shrine on Hope's Rise."
     },
     {
@@ -13,6 +14,7 @@
         "imageSrc": [
             "Icons/CoiledSword.png"
         ],
+        "directory": "Items",
         "location": "Can be found in the Western Shrine on Hope's Rise"
     },
     {
@@ -21,6 +23,7 @@
         "imageSrc": [
             "Icons/SpellBook.png"
         ],
+        "directory": "Items",
         "location": "Can be found in the Eastern Shrine on Hope's Rise"
     },
     {
@@ -29,6 +32,7 @@
         "imageSrc": [
             "Icons/TwilightMirror.png"
         ],
+        "directory": "Items",
         "location": "Can be found in the Southern Shrine on Hope's Rise"
     }
 ]

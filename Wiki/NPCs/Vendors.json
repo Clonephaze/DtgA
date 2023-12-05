@@ -5,6 +5,7 @@
         "imageSrc": [
             ""
         ],
+        "directory": "NPCs",
         "location": "Can be found around the south-east section of the Castle Town ruins."
     },
     {
@@ -13,6 +14,7 @@
         "imageSrc": [
             ""
         ],
+        "directory": "NPCs",
         "location": "Can be found in the Black Market (And eventually all over hyrule)"
     },
     {
@@ -21,6 +23,7 @@
         "imageSrc": [
             ""
         ],
+        "directory": "NPCs",
         "location": "TODO"
     }
 ]
