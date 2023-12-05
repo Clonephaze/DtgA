@@ -46,6 +46,10 @@ body {
     color: color-mix(in srgb, rgb(var(--DtgA-primary)) 20%, rgb(var(--DtgA-Standard-Text)) 80%)
 }
 
+.popover {
+    z-index: 1005 !important;
+}
+
 #navbar-icon {
     width: 100px;
     height: 50px;
@@ -274,6 +278,18 @@ body {
 .DtgA-hyperlink:hover {
     text-decoration: underline;
     color: rgba(var(--DtgA-primary), 0.8);
+}
+
+.DtgA-popover-link {
+    text-decoration: none;
+    color: rgb(var(--DtgA-primary));
+    font-weight: 525;
+}
+
+.DtgA-popover-link:hover {
+    text-decoration: none;
+    color: rgba(var(--DtgA-primary), 0.8);
+    cursor: help;
 }
 
 /*** Getting Started Page Specific ***/
@@ -576,6 +592,53 @@ body {
     margin-top: 24px;
 }
 
+.item-popover-content {
+    border-radius: 20px;
+    max-width: 18em;
+    max-height: 30em;
+    background-color: color-mix(in srgb, rgba(var(--DtgA-primary), 0.8) 5%, rgba(var(--DtgA-Secondary), 0.94))
+}
+
+.item-card-popover {
+    border-color: rgba(var(--DtgA-primary), 0.5);
+    border-radius: 20px;
+    border-width: 3px;
+    border-style: solid;
+    box-shadow: 0 0 7px 7px rgba(var(--DtgA-primary), 0.1), ;
+    background: color-mix(in srgb, rgba(var(--DtgA-primary), 0.1) 50%, rgb(var(--DtgA-Secondary)));
+}
+
+.item-card-popover .item-card-image-container {
+    margin-left: 7px;
+    margin-right: 7px;
+    margin-top: 8px;
+    margin-bottom: 4px;
+    height: 125px;
+    background-image: radial-gradient(circle, rgba(var(--DtgA-primary), 0.12) 5%, transparent 45%);
+}
+
+.item-card-popover .item-card-image {
+    max-width: 50%;
+}
+
+.item-card-popover .card-body {
+    padding-top: 3px;
+}
+
+.item-popover-content .popover-body {
+    padding: 4px;
+}
+
+.fullsize-popover-container {
+    height: 80% !important;
+}
+
+.fullsize-popover-image {
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+}
+
 /*** Spell Page Specific ***/
 
 .ASP-Intro-title {
@@ -730,6 +793,11 @@ body {
     justify-content: center;
 }
 
+/*** NPC Page Specific CSS ***/
+.npc-rows {
+    max-width: 80vw;
+}
+
 /*** Size Specific CSS ***/
 
 @media (min-width: 991px) {
@@ -786,6 +854,7 @@ body {
     .NewMech-list-group:hover .NewMech-Description-Container {
         box-shadow: inset 0 0 10px 2px rgba(var(--black), 0.2);
     }
+
 
     .GetSta-card:hover {
         box-shadow: 0 0 6px 4px rgba(var(--DtgA-primary), 0.19), 0px 0px 8px 2px rgba(var(--DtgA-primary), 0.13) inset;
@@ -851,7 +920,8 @@ body {
     }
 
     .ItemsPage>.itemRows,
-    .enemyRows {
+    .enemyRows,
+    .npc-rows {
         max-width: initial;
     }
 

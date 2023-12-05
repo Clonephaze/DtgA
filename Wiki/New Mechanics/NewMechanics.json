@@ -3,15 +3,15 @@
         "title": "Hopes Rise: A New Journey Begins",
         "description items": [
             "You, the hero, have transitioned from the lands of Hyrule and find yourself in Hopes Rise.",
-            "Discover the Divine Vessel, gifted by the old man, to harness portions of Hylia's light, represented by your yellow stamina wheel.",
+            "Discover the <a class=\"item-popover DtgA-popover-link\" id=\"Divine Vessel\">Divine Vessel</a>, gifted by the old man, to harness portions of Hylia's light, represented by your yellow stamina wheel.",
             "This vessel, replacing the paraglider as a reward from the old man, empowers you to traverse the expanse of Hyrule once more.",
-            "Regain your former strength by leveling up attributes such as Vitality, Endurance, Mana, Strength, Dexterity, Agility, Wisdom, Courage, Grudge, and Faith."
+            "Regain your former strength by <a class=\"item-popover DtgA-popover-link\" id=\"Coiled Sword\">leveling up</a> attributes such as Vitality, Endurance, Mana, Strength, Dexterity, Agility, Wisdom, Courage, Grudge, and Faith."
         ]
     },
     {
         "title": "Revamped Game Progression",
         "description items": [
-        "Embark on a revitalized journey where  DtgA challenges you to earn your abilities.",
+        "Embark on a revitalized journey where DtgA challenges you to earn your abilities.",
         "Climbing is only possible upon discovering the Kakriko climbing claws, transforming your traversal.",
         "Unlock the map only after calming the Devine Beast Vah Ruta, marking a milestone in your conquest.",
         "Sheikah slate runes are now scattered across the corners of Hyrule, awaiting your retrieval.",
@@ -21,7 +21,7 @@
     {
         "title": "New and Classic Enemies",
         "description items": [
-            "Classic adversaries like ReDeads, Gibdos, and Skulltulas make their return.",
+            "Classic adversaries like <a class=\"item-popover DtgA-popover-link\" id=\"ReDead\">ReDeads</a>, <a class=\"item-popover DtgA-popover-link\" id=\"Skulltula\">Skulltulas</a>, and <a class=\"item-popover DtgA-popover-link\" id=\"Gibdo\">Gibdos</a> are now available in DtgA, making their return to Hyrule.",
             "Encounter new, custom-designed bosses who bestow unique souls upon defeat.",
             "Prepare for tougher enemies, as all have had their health pools increased in DtgA.",
             "All enemies now yield Rupees upon their demise, offering rewards for your triumphs."
@@ -32,7 +32,7 @@
         "description items": [
           "With all enemies having increased health pools, you will need some tougher weapons than those you just find lying about.",
           "Discover DtgA's collection of five unbreakable, and up-gradeable weapons. Spanning from mighty axes to versatile bows, this arsenal caters to any playstyle.",
-          "Enhance these weapons through a unique upgrade system via the Blacksmith. Utilize regular souls to enhance your weapons, albeit temporarily, while boss souls bestow permanent enhancements to your chosen weapon."
+          "Enhance these weapons through a unique upgrade system via the <a class=\"item-popover DtgA-popover-link\" id=\"The Castle Town Blacksmith\">Blacksmith</a>. Utilize regular souls to enhance your weapons, albeit temporarily, while boss souls bestow permanent enhancements to your chosen weapon."
         ]
     },
     {
@@ -47,7 +47,7 @@
     {
         "title": "New Items and Classic Gadgets",
         "description items": [
-            "Dtga brings back nostalgic gadgets from past Zelda adventures, some slightly reimagined for BotW.",
+            "DtgA brings back nostalgic gadgets from past Zelda adventures, some slightly reimagined for BotW.",
             "Discover an array of new additions, from elemental bombs harnessing the forces of nature to ingenious metal unpoppable balloons.",
             "Explore a diverse inventory of custom items, each designed to enhance your journey with unique abilities and functions."
         ]
@@ -64,7 +64,7 @@
     {
         "title": "Apocolypse Spell Package",
         "description items": [
-        "Discover an ancient spellbook brimming with the secrets of Wizrobes and Bokoblins' arcane knowledge.",
+        "Discover an ancient <a class=\"item-popover DtgA-popover-link\" id=\"Spellbook\">Spellbook</a> brimming with the secrets of Wizrobes and Bokoblins' arcane knowledge.",
         "Delve into the mastery of Aero, Cryo, Electro, and Pyro elements to weave potent elemental spells.",
         "Harness these formidable powers to cast a spectrum of elemental spells, empowering you to vanquish adversaries."
         ]
@@ -96,14 +96,14 @@
     {
         "title": "Item Rebalance: Elemental Arrows and Utility Items",
         "description items": [
-            "You will discover that chests are no longer brimming with elemental arrows but instead containing diverse utility items like metal balloons and deployable paragliders.",
+            "You will discover that chests are no longer brimming with elemental arrows but instead containing diverse utility items like <a class=\"item-popover DtgA-popover-link\" id=\"Metal Balloon\">Metal Balloons</a>, and <a class=\"item-popover DtgA-popover-link\" id=\"Goron Powder Keg\">Goron Powder Kegs</a>.",
             "Adapt your strategy by purchasing elemental arrows from stores, ensuring a stockpile of these crucial projectiles for your adventures."
         ]
     },
     {
         "title": "Champions Ride Again",
         "description items": [
-            "Unearth the Twilight Mirror to reunite with 15 diverse companions from across Hyrule.",
+            "Unearth the <a class=\"item-popover DtgA-popover-link\" id=\"Twilight Mirror\">Twilight Mirror</a> to reunite with 15 diverse companions from across Hyrule.",
             "From stalwart allies like Paya and Sidon to enigmatic figures such as Beedle and Maz Koshia, call upon these friends to fight alongside you."
         ]
     }    
