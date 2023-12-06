@@ -338,6 +338,12 @@ body {
 
 }
 
+.list-group-item p::before {
+    content: "* ";
+    color: var(--DtgA-Standard-Text);
+    font-family: 'Triforce';
+}
+
 .GetSta-downloads-container {
     --bs-gutter-x: 0.5rem;
     --bs-gutter-y: 0.5rem;
@@ -622,6 +628,7 @@ body {
 
 .NewMech-List-Item-Body>li {
     padding-top: 0.5rem;
+    word-wrap: break-word;
 }
 
 .NewMech-List-Item-Body>li::marker {
