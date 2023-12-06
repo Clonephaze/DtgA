@@ -1262,7 +1262,7 @@
                   var result = inputHandler(x, y, 0 /* Start */);
                   if (result !== false) {
                       SECONDARY_EVENTS.forEach(function (event) {
-                          document.addEventListener(event, this$1, { passive: false });
+                          document.addEventListener(event, this$1, { passive: true });
                       });
                   }
                   break;
@@ -1274,7 +1274,7 @@
               case "touchend" /* TouchEnd */:
                   inputHandler(x, y, 2 /* End */);
                   SECONDARY_EVENTS.forEach(function (event) {
-                      document.removeEventListener(event, this$1, { passive: false });
+                      document.removeEventListener(event, this$1, { passive: true });
                   });
                   break;
           }
