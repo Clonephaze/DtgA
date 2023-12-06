@@ -199,9 +199,9 @@ function generateCards(jsonFileName, containerId, sectionName) {
             mutations.forEach(function(mutation) {
               if (mutation.type === 'attributes' && mutation.attributeName === 'class') {
                 if (grandparent.classList.contains('collapsed')) {
-                  iconElement.style.transform = 'rotate(0deg)';
+                  iconElement.style.transform = 'rotateX(0deg)';
                 } else {
-                  iconElement.style.transform = 'rotate(180deg)';
+                  iconElement.style.transform = 'rotateX(180deg)';
                 }
               }
             });
@@ -240,15 +240,15 @@ function generateCards(jsonFileName, containerId, sectionName) {
         mutations.forEach(function(mutation) {
           if (mutation.type === 'attributes' && mutation.attributeName === 'class') {
             if (grandparent.classList.contains('collapsed')) {
-              iconElement.style.transform = 'rotate(0deg)';
+              iconElement.style.transform = 'rotateX(0deg)';
             } else {
-              iconElement.style.transform = 'rotate(180deg)';
+              iconElement.style.transform = 'rotateX(180deg)';
             }
           }
         });
         });
 
-observer.observe(grandparent, { attributes: true, attributeFilter: ['class'] });
+        observer.observe(grandparent, { attributes: true, attributeFilter: ['class'] });
 
         let cardLocationDropdownContent = document.createElement('div');
         cardLocationDropdownContent.className = 'location-dropdown-content collapse';

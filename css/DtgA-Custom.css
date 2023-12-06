@@ -408,7 +408,7 @@ body {
     cursor: pointer;
     font-size: 15px;
     font-weight: 300;
-    color: color-mix(in srgb, rgb(var(--DtgA-primary)) 20%, rgb(var(--DtgA-Subtle-Text)));
+    color: color-mix(in srgb, rgb(var(--DtgA-primary)) 25%, rgb(var(--DtgA-Subtle-Text)));
     transition: transform 0.3s ease;
 }
 
@@ -421,7 +421,7 @@ body {
     max-width: max-content;
     padding-left: 0.8rem;
     font-size: small;
-    color: color-mix(in srgb, rgb(var(--DtgA-primary)) 20%, rgb(var(--DtgA-Subtle-Text)));
+    color: color-mix(in srgb, rgb(var(--DtgA-primary)) 25%, rgb(var(--DtgA-Subtle-Text)));
 }
 
 .carousel-btn-left {
@@ -798,6 +798,7 @@ body {
     max-width: 80vw;
 }
 
+
 /*** Size Specific CSS ***/
 
 @media (min-width: 991px) {
@@ -833,10 +834,11 @@ body {
 
     .location-dropdown {
         transition: color 0.2s ease-in-out;
+        color: color-mix(in srgb, rgb(var(--DtgA-primary)) 25%, rgb(var(--DtgA-Subtle-Text)));
     }
 
     .location-dropdown:hover {
-        color: color-mix(in srgb, rgb(var(--DtgA-primary)) 50%, rgb(var(--DtgA-Subtle-Text)))
+        color: color-mix(in srgb, rgb(var(--DtgA-primary)) 50%, rgb(var(--DtgA-Subtle-Text)));
     }
 
     .NewMech-list-group {
