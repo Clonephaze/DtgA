@@ -33,7 +33,6 @@ body {
 .DtgA-Title-Text,
 .item-card-title,
 .DtgA-section-title,
-.GetSta-title,
 .Theme-Menu-Btn,
 .nav-item,
 .nav-link,
@@ -308,30 +307,40 @@ body {
 
 /*** Getting Started Page Specific ***/
 
-.GetSta-card-button {
-    background-color: rgba(var(--DtgA-Secondary), 0.1);
+.GetSta-download-button,
+.GetSta-download-button:active,
+.GetSta-download-button:focus {
     border-color: rgba(var(--DtgA-primary), 0.5);
-    border-radius: 10px;
+    border-radius: 12px;
+    border: 2px solid rgba(var(--DtgA-primary), 0.5);
+    background-color: var(--DtgA-Background-Color);
+    color: rgb(var(--DtgA-primary));
     box-shadow: none;
     transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in;
     min-height: 38px;
-    padding-top: 9px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    text-decoration: none;
+    cursor: pointer;
+    max-width: max-content;
+    margin-left: 0.2rem;
+    margin-right: 0.2rem;
 }
 
-.list-group-item>.GetSta-card-button,
-.list-group-item>.flex-column>.col>.GetSta-card-button {
+.list-group-item>.GetSta-download-button,
+.list-group-item>.flex-column>.col>.GetSta-download-button {
     max-width: 130px;
     margin-top: 0.1rem;
     margin-bottom: 0.1rem;
+    padding: 0.2rem;
+
 }
 
 .GetSta-downloads-container {
     --bs-gutter-x: 0.5rem;
     --bs-gutter-y: 0.5rem;
-}
-
-.GS-page .btn {
-    text-decoration: none;
 }
 
 .GetSta-card {
@@ -343,10 +352,11 @@ body {
 }
 
 .GetSta-title {
-    font-family: "ZeldaFont";
-    text-transform: uppercase;
-    font-size: 22px;
+    color: rgb(var(--DtgA-primary));
+    font-family: "HyliaSerif";
+    font-size: 20px;
     font-weight: 400;
+    padding-bottom: 0.2rem;
 }
 
 /*** Item/NPC/Enemy Card Style ***/
@@ -895,11 +905,11 @@ body {
         box-shadow: 0 0 6px 4px rgba(var(--DtgA-primary), 0.19), 0px 0px 8px 2px rgba(var(--DtgA-primary), 0.13) inset;
     }
 
-    .GetSta-card-button:hover {
+    .GetSta-download-button:hover {
         border-color: rgba(var(--DtgA-primary), 0.5);
         background-color: rgba(var(--DtgA-Secondary), 0.1);
         transform: scale(1.02) translate(0px, -2px);
-        color: rgba(var(--DtgA-primary), 0.9);
+        color: rgb(var(--DtgA-primary));
         box-shadow: 1px 2px 3px 6px rgba(var(--DtgA-primary), 0.1);
     }
 

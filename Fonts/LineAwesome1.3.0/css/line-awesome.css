@@ -968,8 +968,8 @@ readers do not read off random characters that represent icons */
 .la-cloud:before {
   content: "\f0c2"; }
 
-.la-cloud-download-alt:before {
-  content: "\f381"; }
+.la-cloud-download-alt:after {
+  content: " \f381"; }
 
 .la-cloud-meatball:before {
   content: "\f73b"; }
