@@ -1,8 +1,13 @@
 document.addEventListener('DOMContentLoaded', (event) => {
+    var screenWidth = window.innerWidth;
     var colorValue = localStorage.getItem('DtgA-primary') || '133, 255, 225';
     document.documentElement.style.setProperty('--DtgA-primary', colorValue);
+  
+    // Set the width based on the screen width
+    var width = screenWidth < 992 ? 150 : 200;
+  
     var colorPicker = new iro.ColorPicker("#ThemeWheel", {
-        width: 200,
+        width: width,
         color: "rgb(" + colorValue + ")",
         layout: [
             {
@@ -11,17 +16,26 @@ document.addEventListener('DOMContentLoaded', (event) => {
             }
         ]
     });
-
+  
     colorPicker.on("color:change", function (color) {
         var rgb = color.rgb;
         var colorValue = rgb.r + ',' + rgb.g + ',' + rgb.b;
         document.documentElement.style.setProperty('--DtgA-primary', colorValue);
         localStorage.setItem('DtgA-primary', colorValue);
     });
- }); 
- 
-    
-
+  
+    window.addEventListener('resize', function() {
+        var screenWidth = window.innerWidth;
+  
+        // Update the width based on the new screen width
+        var width = screenWidth < 992 ? 150 : 200;
+  
+        colorPicker.setOptions({
+            width: width
+        });
+    });
+  });
+  
 function toggleThemeColors() {
     const themeDtgA = document.getElementById('ThemeDtgA')
     const themeBlue = document.getElementById('ThemeBlue')

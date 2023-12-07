@@ -130,11 +130,12 @@ body {
 
 }
 
-.theme-menu-container {
+.theme-menu-container,
+.offcanvas.offcanvas-end {
     z-index: 999;
     position: fixed;
-    top: 80px !important;
-    right: 10px !important;
+    top: 80px;
+    right: 10px;
     max-width: 270px;
     height: fit-content;
     border-radius: 20px;
@@ -546,7 +547,7 @@ body {
 
 .item-card-title {
     max-width: max-content;
-    color: var(--DtgA-text-color-mix-4);
+    color: var(--DtgA-text-color-mix-2);
     font-family: "hyliaSerif";
     font-size: 20px;
     font-weight: 500;
@@ -762,8 +763,7 @@ body {
     border-color: rgba(var(--DtgA-primary), 0.5) !important;
     border-radius: 10px;
     border-width: 2px;
-    box-shadow: 0 0 6px 4px rgba(var(--DtgA-primary), 0.1);
-    transition: box-shadow 0.2s ease-in, transform 0.2s ease-in;
+    box-shadow: 0 0 6px 4px rgba(var(--DtgA-primary), 0.1), 0 0 4px 2px color-mix(in srgb, rgba(var(--DtgA-primary), 0.3) 40%, rgba(var(--white), 0.1) 60%)  inset;
 }
 
 .ASP-Intro-card-title {
@@ -785,15 +785,14 @@ body {
     font-family: "HyliaSerif";
     font-size: 16px;
     font-weight: 400;
-    color: color-mix(in srgb, rgb(var(--DtgA-primary)) 40%, rgb(var(--DtgA-Standard-Text)) 60%);
+    color: var(--DtgA-text-color-mix-3);
 }
 
 .ASP-Info-card {
     border-color: rgba(var(--DtgA-primary), 0.5) !important;
     border-radius: 10px;
     border-width: 2px;
-    box-shadow: 0 0 6px 4px rgba(var(--DtgA-primary), 0.1), 0 0 5px 3px color-mix(in srgb, rgba(var(--DtgA-primary), 0.3) 40%, rgba(var(--white), 0.1) 60%)  inset;
-    transition: box-shadow 0.2s ease-in, transform 0.2s ease-in;
+    box-shadow: 0 0 6px 4px rgba(var(--DtgA-primary), 0.1), 0 0 4px 2px color-mix(in srgb, rgba(var(--DtgA-primary), 0.3) 40%, rgba(var(--white), 0.1) 60%)  inset;
     align-items: center;
 }
 
@@ -801,7 +800,7 @@ body {
     font-family: "HyliaSerif";
     font-size: 16px;
     font-weight: 400;
-    color: color-mix(in srgb, rgb(var(--DtgA-primary)) 50%, rgb(var(--DtgA-Standard-Text)) 50%);
+    color: rgb(var(--DtgA-Standard-Text));
 }
 
 .ASP-Card-Title {
@@ -809,14 +808,21 @@ body {
     text-transform: uppercase;
     font-size: 20px;
     font-weight: 500;
-    color: color-mix(in srgb, rgb(var(--DtgA-primary)) 70%, rgb(var(--DtgA-Standard-Text)) 30%);
+    color: var(--DtgA-text-color-mix-2);
+}
+
+.ASP-Card-Title-Sub {
+    font-family: "HyliaSerif";
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--DtgA-text-color-mix-2);
 }
 
 .ASP-card-subtitle {
     font-family: "HyliaSerif";
     font-size: 16px;
     font-weight: 400;
-    color: color-mix(in srgb, rgb(var(--DtgA-primary)) 40%, rgb(var(--DtgA-Standard-Text)) 60%);
+    color: var(--DtgA-text-color-mix-3)
 }
 
 .ASP-Card-Image {
@@ -839,14 +845,14 @@ body {
     font-family: "HyliaSerif";
     font-size: 16px;
     font-weight: 400;
-    color: color-mix(in srgb, rgb(var(--DtgA-primary)) 40%, rgb(var(--DtgA-Standard-Text)) 60%);
+    color: var(--DtgA-text-color-mix-3);
 }
 
 .ASP-Card-List-Item {
     font-family: "Optima", sans-serif;
     font-size: 14px;
     font-weight: 400;
-    color: color-mix(in srgb, rgb(var(--DtgA-primary)) 50%, rgb(var(--DtgA-Standard-Text)) 50%);
+    color: rgb(var(--DtgA-Standard-Text));
 }
 
 .placeholder-image {
@@ -1006,14 +1012,21 @@ body {
         filter: blur(0px);
     }
 
+    .ASP-Intro-card {
+        transition: all 0.1s ease-in;
+    }
+
     .ASP-Intro-card:hover {
-        transform: translate(-1px, -1px);
-        box-shadow: 0 0 6px 4px rgba(var(--DtgA-primary), 0.3), 0 0 5px 5px color-mix(in srgb, rgba(var(--DtgA-primary), 0.3) 40%, rgba(var(--white), 0.1) 60%)  inset;
+        transition: all 0.2s ease-out;
+        box-shadow: 0 0 6px 4px rgba(var(--DtgA-primary), 0.3), 0 0 5px 2px rgba(0, 0, 0, 0.12)  inset;
+    }
+
+    .ASP-Info-card {
+        transition: all 0.1s ease-in;
     }
 
     .ASP-Info-card:hover {
-        transform: translate(-1px, -1px);
-        box-shadow: 0 0 6px 4px rgba(var(--DtgA-primary), 0.3), 0 0 5px 5px color-mix(in srgb, rgba(var(--DtgA-primary), 0.3) 40%, rgba(var(--white), 0.1) 60%)  inset;
+        box-shadow: 0 0 6px 4px rgba(var(--DtgA-primary), 0.3), 0 0 3px 2px rgba(0, 0, 0, 0.2)  inset;
     }
 
 }
@@ -1039,9 +1052,25 @@ body {
         max-width: 90vw;
     }
 
-    .theme-menu-container {
+    .theme-menu-container,
+    .offcanvas.offcanvas-end {
         z-index: 1020;
-        background-image: color-mix(in srgb, rgba(var(--DtgA-primary), 0.15) 10%, rgba(var(--DtgA-Secondary), 0.15) 90%);
+        top: 82px;
+        right: 148px;
+        width: 230px;
+        overflow: hidden;
+    }
+
+    .theme-menu-container .btn-group {
+       left: -12px;
+    }
+
+    .offcanvas-body {
+        padding-top: 0;
+    }
+
+    .offcanvas-body .btn {
+        font-size: 12px;
     }
 
     .NewMech-Cols {
