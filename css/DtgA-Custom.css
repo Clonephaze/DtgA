@@ -1055,14 +1055,20 @@ body {
     .theme-menu-container,
     .offcanvas.offcanvas-end {
         z-index: 1020;
-        top: 82px;
-        right: 148px;
+        top: 91px;
+        right: 158px;
         width: 230px;
         overflow: hidden;
     }
 
     .theme-menu-container .btn-group {
        left: -12px;
+    }
+
+    .offcanvas-header .btn-close {
+        position: absolute;
+        left: 5px;
+        top: 14px;
     }
 
     .offcanvas-body {
