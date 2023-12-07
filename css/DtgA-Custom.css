@@ -1,16 +1,34 @@
 :root {
-    --DtgA-Border-Color: rgba(133, 255, 225, 0.5);
-    --DtgA-Title-Text: var(--DtgA-primary) !important;
+    --DtgA-primary: 133, 255, 225; /*hsl(165, 100%, 76%)*/
+    --DtgA-Secondary: 33, 37, 41;
     --bs-body-bg: color-mix(in srgb, rgba(var(--DtgA-primary), 0.3) 10%, rgba(var(--DtgA-Secondary), 0.9) 90%);
     --DtgA-Background-Color: var(--bs-body-bg);
-    --DtgA-primary: 133, 255, 225; /*hsl(165, 100%, 76%)*/
-    --DtgA-primary-rgb: rgb(var(--DtgA-primary));
-    --DtgA-Secondary: 33, 37, 41;
-    --DtgA-Standard-Text: 185, 185, 185;
-    --DtgA-Subtle-Text: 100, 100, 100;
+    --DtgA-Border-Color: rgba(133, 255, 225, 0.5);
     --white: 255, 255, 255;
     --black: 0, 0, 0;
-    
+    /*** Text Colors ***/
+    --DtgA-Title-Text: var(--DtgA-primary) !important;
+    --DtgA-Standard-Text: 215, 215, 215;
+    --DtgA-Subtle-Text: 100, 100, 100;
+    --DtgA-text-color-mix-1: color-mix(in srgb, rgb(var(--DtgA-primary)) 90%, rgb(var(--DtgA-Standard-Text)));
+    --DtgA-text-color-mix-2: color-mix(in srgb, rgb(var(--DtgA-primary)) 80%, rgb(var(--DtgA-Standard-Text)));
+    --DtgA-text-color-mix-3: color-mix(in srgb, rgb(var(--DtgA-primary)) 70%, rgb(var(--DtgA-Standard-Text)));
+    --DtgA-text-color-mix-4: color-mix(in srgb, rgb(var(--DtgA-primary)) 60%, rgb(var(--DtgA-Standard-Text)));
+    --DtgA-text-color-mix-5: color-mix(in srgb, rgb(var(--DtgA-primary)) 50%, rgb(var(--DtgA-Standard-Text)));
+    --DtgA-text-color-mix-6: color-mix(in srgb, rgb(var(--DtgA-primary)) 40%, rgb(var(--DtgA-Standard-Text)));
+    --DtgA-text-color-mix-7: color-mix(in srgb, rgb(var(--DtgA-primary)) 30%, rgb(var(--DtgA-Standard-Text)));
+    --DtgA-text-color-mix-8: color-mix(in srgb, rgb(var(--DtgA-primary)) 20%, rgb(var(--DtgA-Standard-Text)));
+    --DtgA-text-color-mix-9: color-mix(in srgb, rgb(var(--DtgA-primary)) 10%, rgb(var(--DtgA-Standard-Text)));
+    /*** Primary and Secondary mixes ***/
+    --DtgA-color-mix-1: color-mix(in srgb, rgb(var(--DtgA-primary)) 90%, rgb(var(--DtgA-Secondary)));
+    --DtgA-color-mix-2: color-mix(in srgb, rgb(var(--DtgA-primary)) 80%, rgb(var(--DtgA-Secondary)));
+    --DtgA-color-mix-3: color-mix(in srgb, rgb(var(--DtgA-primary)) 70%, rgb(var(--DtgA-Secondary)));
+    --DtgA-color-mix-4: color-mix(in srgb, rgb(var(--DtgA-primary)) 60%, rgb(var(--DtgA-Secondary)));
+    --DtgA-color-mix-5: color-mix(in srgb, rgb(var(--DtgA-primary)) 50%, rgb(var(--DtgA-Secondary)));
+    --DtgA-color-mix-6: color-mix(in srgb, rgb(var(--DtgA-primary)) 40%, rgb(var(--DtgA-Secondary)));
+    --DtgA-color-mix-7: color-mix(in srgb, rgb(var(--DtgA-primary)) 30%, rgb(var(--DtgA-Secondary)));
+    --DtgA-color-mix-8: color-mix(in srgb, rgb(var(--DtgA-primary)) 20%, rgb(var(--DtgA-Secondary)));
+    --DtgA-color-mix-9: color-mix(in srgb, rgb(var(--DtgA-primary)) 10%, rgb(var(--DtgA-Secondary)));
 }
 
 /*** Common CSS for all pages ***/
@@ -30,16 +48,12 @@ body {
 
 .DtgA-Title-Text,
 .item-card-title,
-.Theme-Menu-Btn,
-.nav-item,
-.nav-link,
-.nav-link:focus {
-    color: rgb(var(--DtgA-primary))
+.Theme-Menu-Btn{
+    color: rgb(var(--DtgA-Standard-Text));
 }
 
 .DtgA-Standard-Text {
-    color: color-mix(in srgb, rgb(var(--DtgA-primary)) 20%, rgb(var(--DtgA-Standard-Text)) 80%);
-    color: color;
+    color: rgb(185, 185, 185);
 }
 
 .popover {
@@ -68,11 +82,11 @@ body {
     transition: all 0.2s ease;
 }
 
-.dropdown-item {
+.custom-navbar-dropdown .dropdown-item {
     font-family: "HyliaSerif";
     font-size: 14px;
     font-weight: 400;
-    color: rgb(var(--DtgA-primary));
+    color: rgb(var(--DtgA-text-color-mix-9));
     background-color: transparent;
 }
 
@@ -89,7 +103,12 @@ body {
     font-family: "HyliaSerif";
     font-weight: 400;
     font-size: 16px;
-    z-index: 1000;
+    color: var(--DtgA-text-color-mix-3);
+    transition: all 0.2s ease-out;
+}
+.nav-link.active,
+.nav-link.show {
+    color: var(--DtgA-text-color-mix-1) !important;
 }
 
 #tableOfContents {
@@ -241,7 +260,7 @@ body {
     text-transform: uppercase;
     font-size: 26px;
     font-weight: 500;
-    color: rgb(var(--DtgA-primary));
+    color: var(--DtgA-text-color-mix-1);
 }
 
 .TOC-container {
@@ -254,51 +273,44 @@ body {
     border-color: rgba(var(--DtgA-primary), 0.5);
     border-width: 2px;
     box-shadow: 0px 0px 0px 0px transparent;
-    transition: box-shadow 0.2s ease;
     font-family: "HyliaSerif";
-    color: rgb(var(--DtgA-primary));
+    color: var(--DtgA-text-color-mix-3);
     font-weight: 300;
     font-size: 14px;
     background-color: var(--DtgA-Background-Color);
-}
-
-.TOC-item:hover {
-    color: rgba(var(--DtgA-primary), 1);
-    background-color: transparent;
-    background-image: transparent;
-    box-shadow: 1px 2px 4px 5px rgba(var(--DtgA-primary), 0.10), 0px 0px 8px 2px rgba(var(--DtgA-primary), 0.13) inset;
+    transition: all 0.2s ease-out !important;
 }
 
 .TOC-item:active,
-.TOC-item:focus {
-    border-color: rgba(var(--DtgA-primary), 0.5);
-    box-shadow: 0px 0px 0px 0px transparent;
-    transition: box-shadow 0.2s ease;
-    font-family: "HyliaSerif";
-    color: rgb(var(--DtgA-primary));
-    font-weight: 300;
-    font-size: 14px;
-    background-color: var(--DtgA-Background-Color);
+.TOC-item:focus,
+.TOC-item:hover {
+    color: var(--DtgA-text-color-mix-1);
+    background-color: transparent;
+    box-shadow: 1px 2px 4px 5px rgba(var(--DtgA-primary), 0.10), 0px 0px 8px 2px rgba(var(--DtgA-primary), 0.13) inset;
+    transition: all 0.1s ease-in !important;
 }
 
+
 .DtgA-hyperlink {
+    font-weight: 600;
     text-decoration: none;
-    color: rgb(var(--DtgA-primary));
+    color: var(--DtgA-text-color-mix-3);
 }
 
 .DtgA-hyperlink:hover {
     text-decoration: underline;
-    color: rgba(var(--DtgA-primary), 0.8);
+    color: var(--DtgA-text-color-mix-2);
 }
 
 .DtgA-popover-link {
     text-decoration: none;
-    color: rgb(var(--DtgA-primary));
+    color: var(--DtgA-text-color-mix-1);
     font-weight: 525;
 }
 
 .DtgA-popover-link:hover {
-    text-decoration: none;
+    text-decoration-line: underline;
+    text-decoration-style: dotted;
     color: rgba(var(--DtgA-primary), 0.8);
     cursor: help;
 }
@@ -312,7 +324,7 @@ body {
     text-align: center;
     font-family: "HyliaSerif";
     font-size: 20px;
-    color: color-mix(in srgb, rgb(var(--DtgA-primary)) 70%, rgb(var(--DtgA-Standard-Text)) 30%);
+    color: var(--DtgA-text-color-mix-1);
     background-image: linear-gradient(to top, rgba(var(--DtgA-primary), 0.07)30%, rgba(var(--DtgA-primary), 0.07), transparent 90%);
 }
 
@@ -346,13 +358,13 @@ body {
 
 .about-card-content li {
     padding: 0.2rem;
+    color: rgb(var(--DtgA-Standard-Text));
 }
 
 .about-card-content li::marker {
     content: "* ";
     font-family: "Triforce";
-    color: currentColor;
-
+    color: var(--DtgA-color-mix-2)
 }
 
 /*** Getting Started Page Specific ***/
@@ -430,11 +442,11 @@ body {
     border-color: rgba(var(--DtgA-primary), 0.5);
     border-radius: 10px;
     border-width: 3px;
-    background-color: color-mix(in srgb, rgb(var(--DtgA-primary)) 10%, rgb(var(--DtgA-Secondary)));
+    background-color: var(--DtgA-color-mix-9);
     box-shadow: 0 0 6px 4px rgba(var(--DtgA-primary), 0.1), 0 0 6px 4px rgba(var(--DtgA-primary), 0.1);
     transition: box-shadow 0.2s ease;
     font-family: "HyliaSerif";
-    color: color-mix(in srgb, rgb(var(--DtgA-primary)) 20%, rgb(var(--DtgA-Standard-Text)) 80%);
+    color: var(--DtgA-text-color-mix-8);
 }
 
 .item-section-card::before,
@@ -536,7 +548,7 @@ body {
 
 .item-card-title {
     max-width: max-content;
-    color: color-mix(in srgb, rgb(var(--DtgA-primary)), rgb(var(--DtgA-Standard-Text)) 50%);
+    color: var(--DtgA-text-color-mix-4);
     font-family: "hyliaSerif";
     font-size: 20px;
     font-weight: 500;
@@ -901,14 +913,31 @@ body {
 /*** Size Specific CSS ***/
 
 @media (min-width: 991px) {
-    .dropdown-item:hover {
-        color: rgb(var(--DtgA-primary));
+    .custom-navbar-dropdown .dropdown-item {
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 25% 0%;
         background-image: radial-gradient(ellipse, rgba(var(--DtgA-primary), 0.08)15%, transparent 75%);
         background-color: transparent;
+        transition: all 0.2s ease;
+    }
+
+    .custom-navbar-dropdown .dropdown-item:hover {
+        color: var(--DtgA-text-color-mix-3);
+        background-size: 100% 100%;
+        
+    }
+
+    .nav-item {
+        background-position: center;
+        background-repeat: no-repeat;
+        background-image: radial-gradient(ellipse closest-side, rgba(var(--DtgA-primary), 0.08)40%, transparent 90%);
+        background-size: 25% 0%;
+        transition: all 0.2s ease;
     }
 
     .nav-item:hover {
-        background-image: radial-gradient(ellipse closest-side, rgba(var(--DtgA-primary), 0.08)40%, transparent 90%);
+        background-size: 100% 100%;
     }
 
     #DtgA-Navbar {
@@ -916,7 +945,7 @@ body {
     }
 
     .nav-link:hover {
-        color: rgba(var(--DtgA-primary), 1)
+        color: var(--DtgA-text-color-mix-1)
     }
 
     .Theme-Menu-Btn:hover {
