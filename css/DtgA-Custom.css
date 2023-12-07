@@ -338,6 +338,7 @@ body {
 }
 
 .about-card-content ul {
+    padding-top: 0.5rem;
     padding-right: 0.2rem;
     text-align: center;
     list-style-position: inside;
@@ -1026,6 +1027,9 @@ body {
         max-width: initial;
     }
 
+    .about-card-content ul {
+        padding-left: 0.2rem;
+    }
 
 }
 
