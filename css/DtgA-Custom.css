@@ -46,14 +46,12 @@ body {
     height: 100%;
 }
 
-.DtgA-Title-Text,
-.item-card-title,
 .Theme-Menu-Btn{
     color: rgb(var(--DtgA-Standard-Text));
 }
 
 .DtgA-Standard-Text {
-    color: rgb(185, 185, 185);
+    color: rgb(var(--DtgA-Standard-Text));
 }
 
 .popover {
@@ -400,9 +398,9 @@ body {
 
 }
 
-.list-group-item p::before {
+.NewMech-list-group-container p::before {
     content: "* ";
-    color: var(--DtgA-Standard-Text);
+    color: var(--DtgA-text-color-mix-1);
     font-family: 'Triforce';
 }
 
@@ -456,7 +454,7 @@ body {
     max-width: max-content;
     content: " * ";
     font-family: "Triforce";
-    color: currentColor;
+    color: var(--DtgA-text-color-mix-1);
     padding-top: 5px;
     padding-left: 1em;
     padding-right: 1em;
