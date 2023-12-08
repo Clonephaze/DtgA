@@ -115,7 +115,7 @@
         font-family: "HyliaSerif";
         font-size: 14px;
         font-weight: 400;
-        color: rgb(var(--DtgA-text-color-mix-9));
+        color: var(--DtgA-text-color-mix-4);
         background-color: transparent;
     }
 
@@ -877,6 +877,8 @@
         font-size: 16px;
         font-weight: 400;
         color: var(--DtgA-text-color-mix-2);
+        white-space: break-spaces;
+        text-align: center;
     }
 
     .ASP-card-subtitle {
