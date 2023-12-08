@@ -363,7 +363,7 @@ body {
 .about-card-content li::marker {
     content: "* ";
     font-family: "Triforce";
-    color: var(--DtgA-color-mix-2)
+    color: var(--DtgA-color-mix-2) /*rgb(177, 156, 0);*/
 }
 
 /*** Getting Started Page Specific ***/
