@@ -1051,6 +1051,11 @@
             max-width: initial;
         }
 
+        .DtgA-popover-link {
+            text-decoration-line: underline;
+            text-decoration-style: dotted;
+        }
+
         /****** Navbar ******/
         #DtgA-navbar {
             max-height: -moz-fit-content;
@@ -1095,6 +1100,11 @@
 
         .offcanvas-body .btn {
             font-size: 12px;
+        }
+
+        /****** Getting Started Page ******/
+        .hint-popover {
+            background-color: color-mix(in srgb, rgb(var(--DtgA-primary)) 4%, rgb(var(--DtgA-Secondary)) 95%)
         }
 
         /****** New Mechanic Page ******/
