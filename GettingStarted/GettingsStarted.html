@@ -300,7 +300,7 @@
                                         <li>You can't climb anymore! Not until you get the climbing claws from Kakariko
                                             Village anyways.</li>
                                         <li>The cold areas of Hopes Rise are hard to access, but yes there is a
-                                            solution. Hint: <small><small id="SnowFireHint">snow can't snuff fire</small></small></li>
+                                            solution. <span class="DtgA-popover-link" id="hint-popover" data-bs-toggle="popover" data-bs-content="Snow is cold, but it can't put out fire.">Hint</span>
                                         <li>The paraglider is now a mid-game item. Deployable paragliders can be found
                                             in chests all over Hyrule. Plan your routes.</li>
                                     </ul>
@@ -325,6 +325,7 @@
     <script src="../js/bootstrap.bundle.min.js"></script>
     <script>
         const selectedElement = document.querySelectorAll('.social-media-buttons a')
+        const hintElement = document.querySelector('#hint-popover')
         const options = {
             trigger: 'hover focus',
             placement: 'top',
@@ -336,6 +337,16 @@
         selectedElement.forEach(element => {
             const popover = new bootstrap.Popover(element, options)
         })
+        
+        const hintOptions = {
+        trigger: 'click focus',
+        placement: 'right',
+        toggle: 'popover',
+        customClass: 'hint-popover',
+        delay: { "show": 250, "hide": 100 }
+        }
+
+        const hintPopover = new bootstrap.Popover(hintElement, hintOptions)
     </script>
     <script src="../js/Custom-NavBarToggler.js"></script>
     <script src="../js/ToC.js"></script>
