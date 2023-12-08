@@ -17,7 +17,7 @@ function handleTableOfContents() {
   
     // Function to smoothly scroll to the clicked section
     function smoothScrollToSection() {
-      document.querySelectorAll('.list-group-item').forEach(anchor => {
+      document.querySelectorAll('.TOC-item').forEach(anchor => {
         anchor.addEventListener('click', function (e) {
           e.preventDefault();
           const section = document.querySelector(this.getAttribute('href'));
