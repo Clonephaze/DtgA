@@ -964,6 +964,7 @@
         --bs-accordion-btn-focus-box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
         --bs-accordion-btn-icon-transform: rotateX(-180deg);
         --bs-accordion-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, border-radius 0.2s ease;
+        --bs-accordion-inner-border-radius: 22px;
         
     }
 
@@ -983,23 +984,18 @@
         content: "\f0d7";
     }
 
-    #known-issues-accordion .accordion-item:first-of-type .accordion-button {
-        border-top-left-radius: 22px;
-        border-top-right-radius: 22px;
-    }
-
-    #known-issues-accordion .accordion-item:last-of-type .accordion-button.collapsed {
-        border-bottom-left-radius: 25px;
-        border-bottom-right-radius: 25px;
-    }
-
     #known-issues-accordion .accordion-body {
         background-color: color-mix(in srgb, rgb(var(--DtgA-primary)) 2%, rgb(var(--DtgA-Secondary)));
     }
 
+    #known-issues-accordion .accordion-item:last-of-type .accordion-body {
+        border-bottom-left-radius: 22px;
+        border-bottom-right-radius: 22px;
+    }
+
     .known-issues-popover {
         font-size: smaller;
-        background-color: color-mix(in srgb, rgba(var(--DtgA-primary), 0.5) 10%, rgb(var(--DtgA-Secondary)));
+        background-color: color-mix(in srgb, rgba(var(--DtgA-primary), 0.5) 7%, rgb(var(--DtgA-Secondary)));
         border: 1px solid rgba(var(--DtgA-primary), 0.5);
     }
 
@@ -1008,6 +1004,14 @@
         padding-top: 0.3em;
         padding-bottom: 0.3em;
         font-weight: 700;
+    }
+
+    code {
+        --DtgA-code-color: var(--DtgA-text-color-mix-3);
+        background-color: rgb(15, 15, 15);
+        padding: 0.15rem;
+        border-radius: 4px;
+        color: var(--DtgA-code-color);
     }
 /****** Size Specific CSS ******/
 

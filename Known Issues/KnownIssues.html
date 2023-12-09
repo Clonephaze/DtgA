@@ -153,7 +153,7 @@
                                     <li>Delete your BCML <a class="DtgA-popover-link" data-bs-toggle="popover" data-bs-trigger="hover" data-bs-placement="auto" data-bs-content="Can be found by entering <code>%localappdata%\bcml</code> in your explorer window">Merged Folder</a></li>
                                     <li>Open a command propt window</li>
                                     <li>Enter <code>pip uninstall bcml --yes</code></li>
-                                    <li>Enter <code>pip install bcml</code></li>
+                                    <li>Enter <code>pip install bcml==3.10.4</code></li>
                                     <li>Open bcml and remerge your mods</li>
                                     <li>Launch and play your game, if the issue persists start again at step 1 until it clears up</li>
                                 </ol>
@@ -229,7 +229,7 @@
         const optionsKnownIssues = {
             ...options,
             customClass: 'known-issues-popover',
-            placement: 'right',
+            placement: 'auto',
             html: true,
             offset: [0, 0]
         }
