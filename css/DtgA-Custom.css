@@ -979,7 +979,7 @@
         --bs-accordion-btn-active-icon: none;
         font-family: 'Line Awesome';
         font-weight: 400;
-        font-size: 14px;
+        font-size: 18px;
         content: "\f0d7";
     }
 
@@ -995,6 +995,19 @@
 
     #known-issues-accordion .accordion-body {
         background-color: color-mix(in srgb, rgb(var(--DtgA-primary)) 2%, rgb(var(--DtgA-Secondary)));
+    }
+
+    .known-issues-popover {
+        font-size: smaller;
+        background-color: color-mix(in srgb, rgba(var(--DtgA-primary), 0.5) 10%, rgb(var(--DtgA-Secondary)));
+        border: 1px solid rgba(var(--DtgA-primary), 0.5);
+    }
+
+    .known-issues-popover .popover-body {
+        color: color-mix(in srgb, rgb(var(--DtgA-primary)) 20%, rgb(var(--DtgA-Standard-Text)) 80%);
+        padding-top: 0.3em;
+        padding-bottom: 0.3em;
+        font-weight: 700;
     }
 /****** Size Specific CSS ******/
 
