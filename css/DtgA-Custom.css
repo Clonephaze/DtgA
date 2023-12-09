@@ -948,6 +948,54 @@
         white-space: break-spaces;
     }
 
+/****** Known Issues Page Specific CSS ******/
+    #known-issues-accordion {
+        --bs-accordion-color: var(--DtgA-Standard-Text);
+        --bs-accordion-active-color: rgb(var(--DtgA-Standard-Text));
+        --bs-accordion-bg: color-mix(in srgb, rgb(var(--DtgA-primary)) 5%, rgb(var(--DtgA-Secondary)));
+        --bs-accordion-active-bg: var(--DtgA-color-mix-8);
+        --bs-accordion-border-color: rgba(var(--DtgA-primary), 0.5) !important;
+        --bs-accordion-border-radius: 24px;
+        --bs-accordion-border-width: 2px;
+        border-radius: 24px;
+        box-shadow: 0 0 6px 4px rgba(var(--DtgA-primary), 0.1);
+        overflow: hidden;
+        --bs-accordion-btn-focus-border-color: rgba(var(--DtgA-primary), 0.75);
+        --bs-accordion-btn-focus-box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+        --bs-accordion-btn-icon-transform: rotateX(-180deg);
+        --bs-accordion-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, border-radius 0.2s ease;
+        
+    }
+
+    #known-issues-accordion .accordion-button {
+        font-family: "HyliaSerif";
+        font-size: 18px;
+        font-weight: 400;
+        color: var(--DtgA-text-color-mix-5);
+    }
+
+    [data-bs-theme="dark"] .accordion-button::after {
+        --bs-accordion-btn-icon: none;
+        --bs-accordion-btn-active-icon: none;
+        font-family: 'Line Awesome';
+        font-weight: 400;
+        font-size: 14px;
+        content: "\f0d7";
+    }
+
+    #known-issues-accordion .accordion-item:first-of-type .accordion-button {
+        border-top-left-radius: 22px;
+        border-top-right-radius: 22px;
+    }
+
+    #known-issues-accordion .accordion-item:last-of-type .accordion-button.collapsed {
+        border-bottom-left-radius: 25px;
+        border-bottom-right-radius: 25px;
+    }
+
+    #known-issues-accordion .accordion-body {
+        background-color: color-mix(in srgb, rgb(var(--DtgA-primary)) 2%, rgb(var(--DtgA-Secondary)));
+    }
 /****** Size Specific CSS ******/
 
     /****** Desktop ******/
@@ -1157,7 +1205,21 @@
 
 @font-face {
     font-family: 'Line Awesome';
+    src: url(../Fonts/LineAwesome1.3.0/fonts/la-regular-400.eot) format('embedded-opentype');
     src: url(../Fonts/LineAwesome1.3.0/fonts/la-regular-400.ttf) format('truetype');
+    src: url(../Fonts/LineAwesome1.3.0/fonts/la-regular-400.svg) format('svg');
+    src: url(../Fonts/LineAwesome1.3.0/fonts/la-regular-400.woff) format('woff');
+    src: url(../Fonts/LineAwesome1.3.0/fonts/la-regular-400.woff2) format('woff2');
+    src: url(../Fonts/LineAwesome1.3.0/fonts/la-brands-400.eot) format('embedded-opentype');
+    src: url(../Fonts/LineAwesome1.3.0/fonts/la-brands-400.ttf) format('truetype');
+    src: url(../Fonts/LineAwesome1.3.0/fonts/la-brands-400.svg) format('svg');
+    src: url(../Fonts/LineAwesome1.3.0/fonts/la-brands-400.woff) format('woff');
+    src: url(../Fonts/LineAwesome1.3.0/fonts/la-brands-400.woff2) format('woff2');
+    src: url(../Fonts/LineAwesome1.3.0/fonts/la-solid-900.eot) format('embedded-opentype');
+    src: url(../Fonts/LineAwesome1.3.0/fonts/la-solid-900.ttf) format('truetype');
+    src: url(../Fonts/LineAwesome1.3.0/fonts/la-solid-900.svg) format('svg');
+    src: url(../Fonts/LineAwesome1.3.0/fonts/la-solid-900.woff) format('woff');
+    src: url(../Fonts/LineAwesome1.3.0/fonts/la-solid-900.woff2) format('woff2');
 }
 
 @font-face {
