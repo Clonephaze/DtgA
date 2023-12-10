@@ -1,4 +1,6 @@
+// Select all social media buttons
 const elementSM = document.querySelectorAll('.social-media-buttons a')
+// Options for social media popover
 const optionsSM = {
     trigger: 'hover focus',
     placement: 'top',
@@ -7,19 +9,22 @@ const optionsSM = {
     offset: [5, -10],
     delay: { "show": 250, "hide": 100 }
 }
+// Initialize popover for each social media button
 elementSM.forEach(element => {
     const popover = new bootstrap.Popover(element, optionsSM)
 })
-
+// Initialize variables
 let items = [];
+// URLs for data files
 const urls = ['../Items/Consumables.json', '../Items/Gadgets.json', '../Items/Souls.json', '../Items/Weapons.json', '../Items/Weapons.json', '../Items/KeyItems.json', '../Enemies/CommonEnemies.json', '../NPCs/Vendors.json']; // Add more as needed
-
+// Fetch data from URLs and process them
 Promise.all(urls.map(url => fetch(url)))
    .then(responses => Promise.all(responses.map(response => response.json())))
    .then(dataArrays => {
        items = dataArrays.flat();
-
+        // Select all item popovers
         const elementNM = document.querySelectorAll('.item-popover')
+        // Options for item popover
         const optionsNM = {
             content: '',
             trigger: 'click',
@@ -29,16 +34,17 @@ Promise.all(urls.map(url => fetch(url)))
             sanitize: false,
             html: true
         }
+        // Initialize popover for each item
         elementNM.forEach(element => {
             const id = element.id;
             const item = items.find(item => item.title === id);
             if (item) {
                 const carouselId = `carousel-${item.title.replace(/ /g, "-").replace(/'/g, "").replace(/\(|\)/g, "")}`;
                 const locationId = `card-location-${item.title.replace(/ /g, "-").replace(/'/g, "").replace(/\(|\)/g, "")}`;
-                
+                // Determine container and image classes based on item properties
                 const containerClass = item.imageType === 'fullsize' ? 'carousel slide fullsize-image-container fullsize-popover-container' : 'carousel slide item-card-image-container';
                 const imageClass = item.imageType === 'fullsize' ? 'd-block mx-auto fullsize-popover-image' : 'd-block w-100 mx-auto item-card-image';
-
+                // Set popover content
                 optionsNM.content = `
                     <div class="card item-card-popover h-100 DtgA-Title-Text" style="max-width: 18em; max-height: 30em;">
                         <div class="row">
@@ -69,10 +75,12 @@ Promise.all(urls.map(url => fetch(url)))
                     </div>
                 `;
             } else {
+                 // Log an error message if item is not found in the JSON files
                 console.error('Item with ID "${id}" not found in json files');
             }
             const popover = new bootstrap.Popover(element, optionsNM)
         })
+        // Hide popovers when click event is triggered outside of the popover
         document.addEventListener('click', function (event) {
            // Check if the click event's target is the popover
            if (!elementNM[0].contains(event.target) ) {
