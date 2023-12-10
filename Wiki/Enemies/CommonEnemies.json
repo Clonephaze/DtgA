@@ -1,7 +1,7 @@
 [
     {
         "title": "ReDead",
-        "description": "", 
+        "description": "The haunting return of a classic adversary! Undead and enduring, these foes withstand relentless assaults. Persistence is key, but victory is within reach! <br>Drop rupees and claw weapons upon death.", 
         "imageSrc": ["Icons/ReDead.webp"],
         "imageType": "fullsize",
         "directory": "Enemies",
@@ -9,7 +9,7 @@
     },
     {
         "title": "Skulltula",
-        "description": "",
+        "description": "Back in Hyrule with renewed menace, these eight-armed fiends are relentless. They swarm in numbers and boast formidable strength, demanding top-notch gear for a chance to conquer them. <br>Drop rupees upon death.",
         "imageSrc": ["Icons/Skulltula.webp"],
         "imageType": "fullsize",
         "directory": "Enemies",
@@ -17,7 +17,7 @@
     },
     {
         "title": "Gibdo",
-        "description": "",
+        "description": "Beware the Gibdo, ancient guardians of cursed tombs. These formidable foes endure strikes and wield dark arcane powers allowing them to warp around like the yiga. Approach with caution and arm yourself well for their relentless onslaught.",
         "imageSrc": ["Icons/Gibdo.webp"],
         "imageType": "fullsize",
         "directory": "Enemies",
