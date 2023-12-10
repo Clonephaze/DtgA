@@ -3,7 +3,7 @@
         "title": "Infinite Loading Screen",
         "description": "If you're experiencing an infinite loading screen, you have a bug with BCML. It's an easy enough fix, but it may take a couple of tries to clear it up.",
         "steps": [
-            "Delete your BCML <a class=\"DtgA-popover-link\" tabindex=\"0\" data-bs-toggle=\"popover\" data-bs-trigger=\"hover\" data-bs-placement=\"auto\" data-bs-content=\"Can be found by entering <code>%localappdata%\bcml</code> in your explorer window\">Merged Folder</a>",
+            "Delete your BCML <a class=\"DtgA-popover-link\" tabindex=\"0\" data-bs-toggle=\"popover\" data-bs-trigger=\"hover\" data-bs-placement=\"auto\" data-bs-content=\"Can be found by entering <code>%localappdata%&#92;bcml</code> in your explorer window\">Merged Folder</a>",
             "Open a command prompt window", 
             "Enter <code>pip uninstall bcml --yes</code>", 
             "Enter <code>pip install bcml==3.10.4</code>", 
