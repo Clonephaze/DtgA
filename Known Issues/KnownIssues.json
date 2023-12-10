@@ -1,0 +1,31 @@
+[
+    {
+        "title": "Infinite Loading Screen",
+        "description": "If you're experiencing an infinite loading screen, you have a bug with BCML. It's an easy enough fix, but it may take a couple of tries to clear it up.",
+        "steps": [
+            "Delete your BCML <a class=\"DtgA-popover-link\" tabindex=\"0\" data-bs-toggle=\"popover\" data-bs-trigger=\"hover\" data-bs-placement=\"auto\" data-bs-content=\"Can be found by entering <code>%localappdata%\bcml</code> in your explorer window\">Merged Folder</a>",
+            "Open a command prompt window", 
+            "Enter <code>pip uninstall bcml --yes</code>", 
+            "Enter <code>pip install bcml==3.10.4</code>", 
+            "Open bcml and remerge your mods",
+            "Launch and play your game, if the issue persists start again at step 1 until it clears up"],
+            "descriptionEnd": ""
+        },
+        {
+            "title": "Missing Walls/Floors/Textures",
+            "description": "If you walk into a shrine and find you have no textures on any of the floors or anywhere else, you're missing the collision actors mod or have a mod priority issue.",
+            "steps": [
+                "Download the mod from <a class=\"DtgA-hyperlink\" href=\"https://gamebanana.com/mods/307644\">Here</a>",
+                "Install it using BCML",
+                "Ensure you place it above all Dangerous to go Alone mods to avoid priority issues",
+                "Launch and play your game"
+            ] 
+        },
+        {
+            "title": "Second Wind Compatibility",
+            "description": "As of right now Second wind <i>SHOULD</i> work with DtgA. However, things change a lot in DtgA and sometimes new inconsistencies can be introduced. If you are experiencing issues it is recommended to turn this mod off for now and see if your issues go away.",
+            "steps": [
+                
+            ]
+        }
+    ]

@@ -139,67 +139,7 @@
         <div class="row justify-content-center">
             <div class="col-lg-8 col-11">
                 <div class="accordion" id="known-issues-accordion">
-                    <div class="accordion-item">
-                        <h2 class="accordion-header">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1" aria-expanded="true" aria-controls="collapse1">Infinite Loading Screen
-                            </button>
-                            
-                        </h2>
-                        <div class="accordion-collapse collapse" id="collapse1" data-bs-parent="#known-issues-accordion">
-                            <div class="accordion-body">
-                                <p>If you're experiencing an infinite loading screen, you have a bug with BCML. It's an easy enough fix, but it may take a couple of tries to clear it up.
-                                </p>
-                                <ol>
-                                    <li>Delete your BCML <a class="DtgA-popover-link" data-bs-toggle="popover" data-bs-trigger="hover" data-bs-placement="auto" data-bs-content="Can be found by entering <code>%localappdata%\bcml</code> in your explorer window">Merged Folder</a></li>
-                                    <li>Open a command propt window</li>
-                                    <li>Enter <code>pip uninstall bcml --yes</code></li>
-                                    <li>Enter <code>pip install bcml==3.10.4</code></li>
-                                    <li>Open bcml and remerge your mods</li>
-                                    <li>Launch and play your game, if the issue persists start again at step 1 until it clears up</li>
-                                </ol>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="accordion-item">
-                        <h2 class="accordion-header">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2" aria-expanded="false" aria-controls="collapse2">other problems</button>
-                        </h2>
-                        <div class="accordion-collapse collapse" id="collapse2" data-bs-parent="#known-issues-accordion">
-                            <div class="accordion-body">
-                                <p>other solutions</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="accordion-item">
-                        <h2 class="accordion-header">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3" aria-expanded="false" aria-controls="collapse3">other problems</button>
-                        </h2>
-                        <div class="accordion-collapse collapse" id="collapse3" data-bs-parent="#known-issues-accordion">
-                            <div class="accordion-body">
-                                <p>other solutions</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="accordion-item">
-                        <h2 class="accordion-header">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4" aria-expanded="false" aria-controls="collapse4">other problems</button>
-                        </h2>
-                        <div class="accordion-collapse collapse" id="collapse4" data-bs-parent="#known-issues-accordion">
-                            <div class="accordion-body">
-                                <p>other solutions</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="accordion-item">
-                        <h2 class="accordion-header">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse5" aria-expanded="false" aria-controls="collapse5">other problems</button>
-                        </h2>
-                        <div class="accordion-collapse collapse" id="collapse5" data-bs-parent="#known-issues-accordion">
-                            <div class="accordion-body">
-                                <p>other solutions</p>
-                            </div>
-                        </div>
-                    </div>
+                    
                 </div>
             </div>
         </div>
@@ -215,10 +155,11 @@
         </div>
     </footer>
     <script src="../js/bootstrap.bundle.min.js"></script>
+    <script src="KnownIssuesGenerator.js"></script>
     <script>
         const selectedElement = document.querySelectorAll('.social-media-buttons a, .DtgA-popover-link')
         const options = {
-            trigger: 'hover focus click',
+            trigger: 'click hover focus',
             placement: 'top',
             toggle: 'popover',
             customClass: 'social-media-popover',
@@ -228,6 +169,7 @@
      
         const optionsKnownIssues = {
             ...options,
+            trigger: 'focus',
             customClass: 'known-issues-popover',
             placement: 'auto',
             html: true,
