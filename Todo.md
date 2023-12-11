@@ -30,7 +30,9 @@
 6. Add fact that the gadgets need to be found in order
 7. Restructure Gadgets sections to be in find order
 8. Add Neko-Te item to Key Items
-9. Add Golden Scale to Key Items
+   
+   ** These have no icons  yet **
+9.  Add Golden Scale to Key Items
 10. Add Phantom Hourglass to Key Items
 11. Add Billowing Numbus to Key Items
 12. Add Broken Wing to Key Items
@@ -67,7 +69,7 @@
 
 ## Locations Page
 1. Get icons and names for all gadget locations
-2. Get icon temple of silence
+2. Get icon for temple of silence
 3. Get icon for shinobi village
 
 ## Known Issues Page
