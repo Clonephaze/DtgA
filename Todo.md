@@ -8,6 +8,7 @@
   - [NPC Page](#npc-page)
   - [Locations Page](#locations-page)
   - [Known Issues Page](#known-issues-page)
+  - [Other](#other)
 
 # Todo List
 
@@ -75,3 +76,6 @@
 
 ## Known Issues Page
 1. Add more issues as remembered
+
+## Other
+1. Consider what to do about quests; possibly add a quest page with walkthroughs for each one
