@@ -24,22 +24,23 @@
 ## Items page
 1. Add missing location information for gadgets
 2. Restructure Gadgets section when c-button system is added
-3. Possibly add an armors section?
-4. Add missing consumable items; rafts, sails, eggs, arrow items (ask zoey what this is), hat armor
-5. Add ReDead claws to weapons seciton
-6. Add fact that the gadgets need to be found in order
-7. Restructure Gadgets sections to be in find order
-8. Add Neko-Te item to Key Items
+3. Add crafting requirments/materials to weapons
+4. Possibly add an armors section?
+5. Add missing consumable items; rafts, sails, eggs, arrow items (ask zoey what this is), hat armor
+6. Add ReDead claws to weapons seciton
+7. Add fact that the gadgets need to be found in order
+8. Restructure Gadgets sections to be in find order
+9. Add Neko-Te item to Key Items
    
    ** These have no icons  yet **
-9.  Add Golden Scale to Key Items
-10. Add Phantom Hourglass to Key Items
-11. Add Billowing Numbus to Key Items
-12. Add Broken Wing to Key Items
-13. Add Cube of Zoey to Key Items
-14. Add Knight's Crest to Key items
-15. Add Triforce of Courage to Key Items
-16. Add Winged Shoes to Key Items
+10. Add Golden Scale to Key Items
+11. Add Phantom Hourglass to Key Items
+12. Add Billowing Numbus to Key Items
+13. Add Broken Wing to Key Items
+14. Add Cube of Zoey to Key Items
+15. Add Knight's Crest to Key items
+16. Add Triforce of Courage to Key Items
+17. Add Winged Shoes to Key Items
 
 ## Spellcasting Page
 1. Replace cube of Zoey Picture with actual picture once added
