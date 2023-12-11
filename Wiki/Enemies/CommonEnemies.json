@@ -9,7 +9,7 @@
     },
     {
         "title": "Skulltula",
-        "description": "Back in Hyrule with renewed menace, these eight-armed fiends are relentless. They swarm in numbers and boast formidable strength, demanding top-notch gear for a chance to conquer them. <br>Drop rupees upon death.",
+        "description": "Back in Hyrule with renewed menace, these eight-armed fiends are relentless. They swarm in numbers and boast formidable strength, demanding top-notch gear for a chance to conquer them. They are extremely weak to sources of fire. <br>Drop rupees upon death.",
         "imageSrc": ["Icons/Skulltula.webp"],
         "imageType": "fullsize",
         "directory": "Enemies",
