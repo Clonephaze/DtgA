@@ -1,6 +1,8 @@
 [
     {
         "title": "Frightened Soildiers",
+        "imageType": "fullsize",
+        "directory": "NPCs",
         "description": "Ghosts of soldiers who cowered or fled during the calamity, who give the Lost One (you) in hopes it may help in battle against Ganon.",
         "imageSrc": [
             ""
@@ -9,6 +11,8 @@
     },
     {
         "title": "Brave Knights",
+        "imageType": "fullsize",
+        "directory": "NPCs",
         "description": "Ghosts of soldiers who sacrificed themselves to save others during the calamity, who give the Lost One (you) in hopes it may help in battle against Ganon.",
         "imageSrc": [
             ""
@@ -17,14 +21,18 @@
     },
     {
         "title": "Royal Knights",
+        "imageType": "fullsize",
+        "directory": "NPCs",
         "description": "Ghosts of distinguished knights who served under the Royal Guard, who give the Lost One (you) in hopes it may help in battle against Ganon.",
         "imageSrc": [
-            ""
+            "Icons/RoyalKnight.webp"
         ],
         "location": "Can be found all around Hyrule."
     },
     {
         "title": "Royal Guardsmen",
+        "imageType": "fullsize",
+        "directory": "NPCs",
         "description": "Ghosts of who served at the side of the royal family, who give the Lost One (you) in hopes it may help in battle against Ganon.",
         "imageSrc": [
             ""
@@ -33,6 +41,8 @@
     },
     {
         "title": "Would be Champions",
+        "imageType": "fullsize",
+        "directory": "NPCs",
         "description": "Ghosts of former rivals and prospective heroes, who give the Lost One (you) in hopes it may help in battle against Ganon.",
         "imageSrc": [
             ""
