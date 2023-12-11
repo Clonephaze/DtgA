@@ -1,49 +1,65 @@
 [
     {
         "title": "The Hero's Shade",
-        "description": "The first boss enemy encountered in DtgA.",
+        "description": "Once a candidate for the Hero's title, he now tests you when you first wake. You'll find him in front of the first tower, and in each of the four shrines on Hope's Rise ready for battle. Prove your Hero's title, and he'll reward you with 4 weapons of unique potential.",
+        "imageType": "fullsize",
+        "directory": "Enemies",
         "imageSrc": ["Icons/HerosShade.webp"],
         "location": "Can be found on Hope's Rise near the eastern shrine."
     },
     {
         "title": "Cursed Puppets",
         "description": "It's like thunderblight with more magic. Theres 4 versions so it won't be the same fight every time. Will appear when the sky turns pale blue.",
-        "imageSrc": ["Icons/CursedPuppets.webp"],
+        "imageType": "fullsize",
+        "directory": "Enemies",
+        "imageSrc": ["Icons/CursedPuppet1.webp"],
         "location": "Can be found in the forests around Hyrule."
     },
     {
         "title": "Argorok",
         "description": "Currently a WIP. You can climb on him if you have stasis. He WILL break halfway through the fight.",
+        "imageType": "fullsize",
+        "directory": "Enemies",
         "imageSrc": ["Icons/Argorok.webp"],
         "location": "Found at the top of the Dueling Peaks."
     },
     {
         "title": "Darknut",
         "description": "Currently a WIP. You can't kill him yet as the fight will require the megaton hammer.",
+        "imageType": "fullsize",
+        "directory": "Enemies",
         "imageSrc": ["Icons/Darknut.webp"],
         "location": "Found at Castle Town Cathedral."
     },
     {
         "title": "Galahad",
         "description": "Pretty straightforward, just stay close and nail your parries.",
+        "imageType": "fullsize",
+        "directory": "Enemies",
         "imageSrc": ["Icons/Galahad.webp"],
         "location": "Found at Fort Hateno."
     },
     {
         "title": "Lancelot",
         "description": "Currently a WIP. He'll seem like he's stuck in an animation, but stagger him out of it and then stay far away from his spear.",
+        "imageType": "fullsize",
+        "directory": "Enemies",
         "imageSrc": ["Icons/Lancelot.webp"],
         "location": "Found at the Shrine of Courage."
     },
     {
         "title": "Robin",
         "description": "Can be a challenge, but you'll be fine if you take care of the adds and shoot well.",
+        "imageType": "fullsize",
+        "directory": "Enemies",
         "imageSrc": ["Icons/Robin.webp"],
         "location": "Found at the Heteno shooting range."
     },
     {
         "title": "Miko and Sibyl",
         "description": "These are fast, hit hard, and deal a TON of aoe damage. The arena is basicaly made of fire so bring some Fireproof potions or a flamebreaker set.",
+        "imageType": "fullsize",
+        "directory": "Enemies",
         "imageSrc": ["Icons/MikoAndSibyl.webp"],
         "location": "Found in the Sanindin park."
     }
