@@ -11,10 +11,9 @@
   - [Other](#other)
 
 # Todo List
+<span style="color:red">Red Text</span>- I can't do these, I crash and can't get the info/picture or can't get the thing to spawn
 
 ## Home page
-1. Add popovers to social media buttons on home page
-2. Fix white text on dropdown on home page
    
 ## About page
 1. Add Zoey's about me section
@@ -23,25 +22,21 @@
 1. Add more popovers to new mechanics page as other pages content is filled out
 
 ## Items page
-1. Add missing location information for gadgets
+1. <span style="color:red">Add crafting requirements/materials to weapons</span>
 2. Restructure Gadgets section when c-button system is added
-3. Add crafting requirments/materials to weapons
-4. Possibly add an armors section?
-5. Add missing consumable items; rafts, sails, eggs, arrow items (ask zoey what this is), hat armor
-6. Add ReDead claws to weapons seciton
-7. Add fact that the gadgets need to be found in order
-8. Restructure Gadgets sections to be in find order
-9. Add Neko-Te item to Key Items
+3. Possibly add an armors section? Add Hat armor
+4. Add missing consumable items; eggs, arrows, fishing spear items (don't know what these are, don't know what they do)
    
-   ** These have no icons  yet **
-10. Add Golden Scale to Key Items
-11. Add Phantom Hourglass to Key Items
-12. Add Billowing Numbus to Key Items
-13. Add Broken Wing to Key Items
-14. Add Cube of Zoey to Key Items
-15. Add Knight's Crest to Key items
-16. Add Triforce of Courage to Key Items
-17. Add Winged Shoes to Key Items
+   -- These have no icons  yet --
+5. Add ReDead claws to weapons section
+6.  Add Golden Scale to Key Items
+7.  Add Phantom Hourglass to Key Items
+8.  Add Billowing Nimbus to Key Items
+9.  Add Broken Wing to Key Items
+10. Add Cube of Zoey to Key Items
+11. Add Knight's Crest to Key items
+12. Add Triforce of Courage to Key Items
+13. Add Winged Shoes to Key Items
 
 ## Spellcasting Page
 1. Replace cube of Zoey Picture with actual picture once added
@@ -50,16 +45,16 @@
 ## Enemies Page
 1. Add other cursed puppet pictures if they look different
 2. Get icon for Argorok
-3. Get icon for Darknut
-4. Get icon for Galahad
+3. <span style="color:red">Get icon for Darknut</span>
+4. <span style="color:red">Get icon for Galahad</span>
 5. Get Icon for Lancelot
-6. Get Icond for Miko and Sibyl
+6. <span style="color:red">Get Icon for Miko and Sibyl</span>
 7. Ask Zoey what boss appearing conditions are
 
 ## NPC Page
 1. Get new icons for all companions
 2. Add locations for where you get companion tokens
-3. Get icon for Castle town blacksmith
+3. <span style="color:red">Get icon for Castle town blacksmith</span>
 4. Get icon for the Pheobist
 5. Get icon for the Alchemist Qosmo
 6. Add locations for NPCs

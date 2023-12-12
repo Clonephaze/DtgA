@@ -156,6 +156,24 @@
     color: #dd4b39;
 }
 
+.social-media-popover {
+    font-size: smaller;
+    background-color: color-mix(in srgb, rgba(var(--DtgA-primary), 0.5) 10%, rgb(var(--DtgA-Secondary)));
+    border: 1px solid rgba(var(--DtgA-primary), 0.5);
+}
+
+.social-media-popover .popover-body {
+    color: color-mix(in srgb, rgb(var(--DtgA-primary)) 20%, rgb(var(--DtgA-Standard-Text)) 80%);
+    padding-top: 0.3em;
+    padding-bottom: 0.3em;
+    font-weight: 700;
+}
+
+.social-media-popover .popover-arrow {
+    padding-left: 10px;
+}
+
+
 /*** Size Specific CSS ***/
     /*** Desktop ***/
     @media (min-width: 991px) {
@@ -175,6 +193,7 @@
         }
         
         .home-dropdown-item {
+            color: var(--DtgA-Title-Text);
             background-image: radial-gradient(ellipse, rgba(133, 255, 224, 0.15)15%, transparent 75%);
             background-repeat: no-repeat;
             background-position: center;

@@ -92,14 +92,28 @@
                     </div>
                 </div>
                 <div class="social-media-buttons mx-auto text-center">
-                    <a href="https://discord.gg/Zg2TgbAcTQ" title="WildMods Discord" class="lab la-discord" aria-label="Discord" target= "_blank" rel="noopener noreferrer"></a>
-                    <a href="https://github.com/Clonephaze/DtgA" title="Clonephaze Github (Site Creator)" class="lab la-github" aria-label="GitHub" target= "_blank" rel="noopener noreferrer"></a>
-                    <a href="https://www.patreon.com/ZoeyEule" title="Zoey's Patreon" class="lab la-patreon" aria-label="Patreon" target= "_blank" rel="noopener noreferrer"></a>
+                    <a href="https://discord.gg/Zg2TgbAcTQ" class="lab la-discord" aria-label="Discord" target= "_blank" rel="noopener noreferrer" data-bs-content="WildMods Discord"></a>
+                    <a href="https://github.com/Clonephaze/DtgA" class="lab la-github" aria-label="GitHub" target= "_blank" rel="noopener noreferrer"  data-bs-content="Clonephaze Github (Site Creator)" ></a>
+                    <a href="https://www.patreon.com/ZoeyEule" class="lab la-patreon" aria-label="Patreon" target= "_blank" rel="noopener noreferrer"  data-bs-content="Zoey's Patreon"></a>
                 </div>
             </div>
         </div>
     </main>
     <script src="js/bootstrap.bundle.min.js"></script>
+    <script>
+        const selectedElement = document.querySelectorAll('.social-media-buttons a')
+        const options = {
+            trigger: 'hover focus',
+            placement: 'bottom',
+            toggle: 'popover',
+            customClass: 'social-media-popover',
+            offset: [5, -10],
+            delay: { "show": 250, "hide": 100 }
+        }
+        selectedElement.forEach(element => {
+            const popover = new bootstrap.Popover(element, options)
+        })
+    </script>
     <script src="js/Custom-NavBarToggler.js"></script>
     <script src="js/particles.min.js"></script>
     <script src="js/CustomParticles.js"></script>

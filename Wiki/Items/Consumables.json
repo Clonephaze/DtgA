@@ -55,6 +55,24 @@
         "location": "Can be found in chests around Hyrule."
     },
     {
+        "title": "Raft Kit",
+        "description": "This kit has everything one would need to build a makeshift wooden raft. It doesn't come with a sail, unfortunately. To deploy, hold the item from your inventory screen and throw the item into the water.",
+        "imageSrc": [
+            "Icons/WoodRaft.webp"
+        ],
+        "directory": "Items",
+        "location": "Can be found in chests and shops all around Hyrule."
+    },
+    {
+        "title": "Magnetic Sail",
+        "description": "Unlike most sails, this one has a metal base. Any raft with this attached would be subject to the power of magnetism... To set sail, place beside any large object and stand clear.",
+        "imageSrc": [
+            "Icons/SwiftSail.webp"
+        ],
+        "directory": "Items",
+        "location": "Can be found in chests and shops all around Hyrule."
+    },
+    {
         "title": "Cracked Pyro Pot",
         "description": "This pot has been filled with the magics home to Death Mountain; namely fire.",
         "imageSrc": [

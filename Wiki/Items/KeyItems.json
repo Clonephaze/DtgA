@@ -34,5 +34,14 @@
         ],
         "directory": "Items",
         "location": "Can be found in the Southern Shrine on Hope's Rise"
+    },
+    {
+        "title": "Neko-Te",
+        "description": "Unleash your inner feline with Neko-Te, climbing claws that gift the hero the agility to conquer any ascent. Master sheer cliffs and ancient structures, scaling heights with unmatched ease, unveiling hidden realms and vistas with nimble prowess. Before you can climb anywhere with DtgA, you will need to find these claws.",
+        "imageSrc": [
+            "Icons/Neko-Te.webp"
+        ],
+        "directory": "Items",
+        "location": "Can be recieved from 'Joon' in Kakariko Village."
     }
 ]
