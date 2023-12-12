@@ -82,6 +82,7 @@
             <a href="#KeyItems" class="list-group-item list-group-item-action TOC-item">Key Items</a>
             <a href="#Gadgets" class="list-group-item list-group-item-action TOC-item">Gadgets</a>
             <a href="#Weapons" class="list-group-item list-group-item-action TOC-item">Weapons</a>
+            <a href="#Armor" class="list-group-item list-group-item-action TOC-item">Armors</a>
             <a href="#Consumables" class="list-group-item list-group-item-action TOC-item">Consumables</a>
             <a href="#Souls" class="list-group-item list-group-item-action TOC-item">Souls</a>
         </div>
@@ -230,6 +231,17 @@
         </div>
         <div id="Gadget-Cards-generated"></div>
     </div>
+    <div id="Armor">
+        <h2 class="text-center DtgA-section-title" style="margin-top: 20px; margin-bottom: 15px;">Armors</h2>
+    </div>
+    <div class="container itemRows" style="margin-top: 24px;">
+        <div class="row">
+            <div class="col">
+                <div class="card item-section-card text-center">These Armors can be found in their respective city shops, offering the armor effects of their Armor Set counterparts.</div>
+            </div>
+        </div>
+        <div id="Armor-cards-generated"></div>
+    </div>
     <div id="Weapons">
         <h2 class="text-center DtgA-section-title" style="margin-top: 20px; margin-bottom: 15px;">Weapons</h2>
     </div>
@@ -294,6 +306,7 @@
         generateCards('KeyItems.json', 'KeyItem-Cards-generated', 'key-items');
         generateCards('Souls.json', 'Souls-Cards-generated', 'souls');
         generateCards('Weapons.json', 'Weapon-Cards-generated', 'weapons');
+        generateCards('Armors.json', 'Armor-cards-generated', 'armor');
         generateCards('Consumables.json', 'Consumable-Cards-generated', 'consumables');</script>
     <script src="../../js/Custom-NavBarToggler.js"></script>
     <script src="../../js/CustomCarouselBehavior.js"></script>

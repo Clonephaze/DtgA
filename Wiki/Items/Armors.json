@@ -1,0 +1,42 @@
+[
+    {
+       "title": "Old Cap",
+       "description": "This hat has been sitting in a chest for who who knows how long. Still- it's a nice fit.",
+       "imageSrc": [
+           "Icons/OldCap.webp"
+       ],
+       "imageType": "",
+       "directory": "Items",
+       "location": "Can be found in the Cave of Awakening."
+    },
+    {
+       "title": "Blue Cap",
+       "description": "According to legend, this cap was crafted for a hero who aided the Zora in their hour of need. It allows the wearer to swim with great speed. Gives the entire Zora armor effects.",
+       "imageSrc": [
+           "Icons/BlueCap.webp"
+       ],
+       "imageType": "",
+       "directory": "Items",
+       "location": "Can be found in the Zora City Shop."
+    },
+    {
+       "title": "Green Cap",
+       "description": "The forest children found this cap, clutched in the hands of a stalfos who'd stopped moving. It makes the wearer feel lighter than air. Gives the entire Climbing Gear armor effects.",
+       "imageSrc": [
+           "Icons/GreenCap.webp"
+       ],
+       "imageType": "",
+       "directory": "Items",
+       "location": "Can be found in the Great Deku tree shop."
+    },
+    {
+       "title": "Red Cap",
+       "description": "According to legend, this cap was crafted for a hero who aided the Gorons in their hour of need. It provides superb protection from heat. Gives the entire Flamebreaker armor effects.",
+       "imageSrc": [
+           "Icons/RedCap.webp"
+       ],
+       "imageType": "",
+       "directory": "Items",
+       "location": "Can be found in the Goron City Shop."
+    }
+]
