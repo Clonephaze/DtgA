@@ -9,7 +9,7 @@
     },
     {
         "title": "Cursed Puppets",
-        "description": "It's like thunderblight with more magic. Theres 4 versions so it won't be the same fight every time. Will appear when the sky turns pale blue.",
+        "description": "They're like thunderblight, but with more magic. Theres 4 versions so it won't be the same fight every time, each one having a couple of spells to attack you with along with their innate speed. Will appear when the sky turns pale blue.",
         "imageType": "fullsize",
         "directory": "Enemies",
         "imageSrc": ["Icons/CursedPuppet1.webp"],

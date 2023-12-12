@@ -11,7 +11,7 @@
   - [Other](#other)
 
 # Todo List
-<span style="color:red">Red Text</span>- I can't do these, I crash and can't get the info/picture or can't get the thing to spawn
+🚩- I can't do these, I crash and can't get the info/picture or can't get the thing to spawn
 
 ## Home page
    
@@ -22,10 +22,10 @@
 1. Add more popovers to new mechanics page as other pages content is filled out
 
 ## Items page
-1. <span style="color:red">Add crafting requirements/materials to weapons</span>
-2. Restructure Gadgets section when c-button system is added
+1. 🚩Add crafting requirements/materials to weapons
+2. Add new relevant information to Gadgets section when c-button system is added
 3. Possibly add an armors section? Add Hat armor
-4. Add missing consumable items; eggs, arrows, fishing spear items (don't know what these are, don't know what they do)
+4. Add missing consumable items; eggs, arrows, fishing spear items (don't know what these are/don't know what they do)
    
    -- These have no icons  yet --
 5. Add ReDead claws to weapons section
@@ -39,30 +39,26 @@
 13. Add Winged Shoes to Key Items
 
 ## Spellcasting Page
-1. Replace cube of Zoey Picture with actual picture once added
-2. Add other powers once added
 
 ## Enemies Page
-1. Add other cursed puppet pictures if they look different
-2. Get icon for Argorok
-3. <span style="color:red">Get icon for Darknut</span>
-4. <span style="color:red">Get icon for Galahad</span>
-5. Get Icon for Lancelot
-6. <span style="color:red">Get Icon for Miko and Sibyl</span>
-7. Ask Zoey what boss appearing conditions are
+1. 🚩Get icon for Darknut
+2. 🚩Get icon for Galahad
+3. 🚩Get Icon for Miko and Sibyl
+4. Ask Zoey what boss appearing conditions are, cant get the above to spawn
 
 ## NPC Page
 1. Get new icons for all companions
-2. Add locations for where you get companion tokens
-3. <span style="color:red">Get icon for Castle town blacksmith</span>
-4. Get icon for the Pheobist
-5. Get icon for the Alchemist Qosmo
-6. Add locations for NPCs
-7. Esure correct picture for Royal Knights
-8. Get icon for Frightened Soilders
-9. Get icon for Brave Knights
-10. Get icon for Royal Guardsmen 
-11. Get icon for Would be Champions
+2. Ask Zoey if there should be more companions in the mirror. Currently only see 10, thought there should be 15
+3. Add locations for where you get companion tokens
+4. 🚩Get icon for Castle town blacksmith
+5. 🚩Get icon for the Pheobist
+6. 🚩Get icon for the Alchemist Qosmo
+7. Add locations for NPCs
+8. Esure correct picture for Royal Knights
+9. Get icon for Frightened Soilders
+10. Get icon for Brave Knights
+11. Get icon for Royal Guardsmen 
+12. Get icon for Would be Champions
 
 ## Locations Page
 1. Get icons and names for all gadget locations
@@ -71,6 +67,7 @@
 
 ## Known Issues Page
 1. Add more issues as remembered
+2. Add note about getting stuck in an animation and that you can fix it with clicking both sticks
 
 ## Other
 1. Consider what to do about quests; possibly add a quest page with walkthroughs for each one
