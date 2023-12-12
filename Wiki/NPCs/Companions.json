@@ -1,43 +1,11 @@
 [
     {
-        "title": "Mipha",
-        "description": "One of the many who have decided to join you on your adventure. Summon them with the Twilight Mirror!",
-        "imageSrc": [
-            "Icons/Mipha.webp"
-        ],
-        "location": "TODO"
-    },
-    {
-        "title": "Daruk",
-        "description": "One of the many who have decided to join you on your adventure. Summon them with the Twilight Mirror!",
-        "imageSrc": [
-            "Icons/Daruk.webp"
-        ],
-        "location": "TODO"
-    },
-    {
-        "title": "Urbosa",
-        "description": "One of the many who have decided to join you on your adventure. Summon them with the Twilight Mirror!",
-        "imageSrc": [
-            "Icons/Urbosa.webp"
-        ],
-        "location": "TODO"
-    },
-    {
-        "title": "Revali",
-        "description": "One of the many who have decided to join you on your adventure. Summon them with the Twilight Mirror!",
-        "imageSrc": [
-            "Icons/Revali.webp"
-        ],
-        "location": "TODO"
-    },
-    {
         "title": "Sidon",
         "description": "One of the many who have decided to join you on your adventure. Summon them with the Twilight Mirror!",
         "imageSrc": [
             "Icons/Sidon.webp"
         ],
-        "location": "TODO"
+        "location": "Currently recieved upon recieving the Twilight Mirror"
     },
     {
         "title": "Riju",
@@ -45,7 +13,7 @@
         "imageSrc": [
             "Icons/Riju.webp"
         ],
-        "location": "TODO"
+        "location": "Currently recieved upon recieving the Twilight Mirror"
     },
     {
         "title": "Teba",
@@ -53,7 +21,7 @@
         "imageSrc": [
             "Icons/Teba.webp"
         ],
-        "location": "TODO"
+        "location": "Currently recieved upon recieving the Twilight Mirror"
     },
     {
         "title": "Yunobo",
@@ -61,7 +29,7 @@
         "imageSrc": [
             "Icons/Yunobo.webp"
         ],
-        "location": "TODO"
+        "location": "Currently recieved upon recieving the Twilight Mirror"
     },
     {
         "title": "Paya",
@@ -69,7 +37,7 @@
         "imageSrc": [
             "Icons/Paya.webp"
         ],
-        "location": "TODO"
+        "location": "Currently recieved upon recieving the Twilight Mirror"
     },
     {
         "title": "Rhoam",
@@ -77,7 +45,7 @@
         "imageSrc": [
             "Icons/Rhoam.webp"
         ],
-        "location": "TODO"
+        "location": "Currently recieved upon recieving the Twilight Mirror"
     },
     {
         "title": "Purah",
@@ -85,15 +53,7 @@
         "imageSrc": [
             "Icons/Purah.webp"
         ],
-        "location": "TODO"
-    },
-    {
-        "title": "Robbie",
-        "description": "One of the many who have decided to join you on your adventure. Summon them with the Twilight Mirror!",
-        "imageSrc": [
-            "Icons/Robbie.webp"
-        ],
-        "location": "TODO"
+        "location": "Currently recieved upon recieving the Twilight Mirror"
     },
     {
         "title": "Hestu",
@@ -101,7 +61,7 @@
         "imageSrc": [
             "Icons/Hestu.webp"
         ],
-        "location": "TODO"
+        "location": "Currently recieved upon recieving the Twilight Mirror"
     },
     {
         "title": "Beedle",
@@ -109,7 +69,7 @@
         "imageSrc": [
             "Icons/Beedle.webp"
         ],
-        "location": "TODO"
+        "location": "Currently recieved upon recieving the Twilight Mirror"
     },
     {
         "title": "Maz Koshia",
@@ -117,6 +77,6 @@
         "imageSrc": [
             "Icons/MazKoshia.webp"
         ],
-        "location": "TODO"
+        "location": "Currently recieved upon recieving the Twilight Mirror"
     }
 ]
