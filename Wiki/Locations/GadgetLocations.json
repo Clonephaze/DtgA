@@ -1,0 +1,42 @@
+[
+    {
+        "title": "Old Man's Cabin",
+        "description": "The old man's cabin in Hope's Rise, now hiding away the flint strike gadget.",
+        "imageSrc": [
+            "Icons/OldMansCabin.webp"
+        ],
+        "imageType": "fullsize",
+        "directory": "Locations",
+        "location": "Hopes Rise, east of the southern shrine."
+    },
+    {
+       "title": "Frozen Ruins",
+       "description": "Newly added ruins below the western shrine on Hope's Rise, hiding away the slingshot gadget.",
+       "imageSrc": [
+           "Icons/FrozenRuins.webp"
+       ],
+       "imageType": "fullsize",
+       "directory": "Locations",
+       "location": "Hopes Rise, below the western shrine."
+    },
+    {
+       "title": "Cannon Cave",
+       "description": "Newly added cave, here to offer the Cannon gadget and give you your first place to test it.",
+       "imageSrc": [
+           "Icons/CannonCave.webp"
+       ],
+       "imageType": "fullsize",
+       "directory": "Locations",
+       "location": "Behind the Woodland stable."
+    },
+    {
+       "title": "Lanayru Waterfall",
+       "description": "The waterfall in Lanayru's Promenade, hiding away the Silver Gauntlets.",
+       "imageSrc": [
+           "Icons/LanayruWaterfall.webp"
+       ],
+       "imageType": "fullsize",
+       "directory": "Locations",
+       "location": "Lanayru Promenade, east of Kakariko Village."
+    }
+]

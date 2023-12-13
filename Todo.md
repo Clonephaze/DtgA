@@ -48,9 +48,10 @@
 6.  Get icon for Would be Champions
 
 ## Locations Page
-1. Get icons and names for all gadget locations
-2. Get icon for temple of silence
-3. Get icon for shinobi village
+1. Get icons and names for all missing gadget locations
+2. 🚩The Twilight Spinner is located at the farthest west ruins in Gerudo Desert.
+3. Get icon for temple of silence
+4. Get icon for shinobi village
 
 ## Known Issues Page
 1. ⏰Add more issues as remembered
