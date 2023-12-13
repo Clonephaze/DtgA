@@ -487,7 +487,7 @@
     .item-card-image {
         display: inline;
         max-width: 200px;
-        /* filter: drop-shadow(0 0 0.75rem rgba(var(--DtgA-primary), 0.5)); */
+        /* filter: drop-shadow(0 0 8px rgba(var(--DtgA-primary), 0.5)); */
         
 
     }
@@ -511,7 +511,6 @@
 
     .item-card-description {
         color: color-mix(in srgb, rgb(var(--DtgA-primary)) 20%, rgb(var(--DtgA-Standard-Text)));
-
     }
 
     .item-card .card-body {
