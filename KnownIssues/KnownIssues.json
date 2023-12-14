@@ -23,6 +23,18 @@
         "descriptionEnd": "" 
     },
     {
+        "title": "Character stuck in an animation/frozen still",
+        "description": "If your character gets stuck or frozen in an animation, you can click both sticks at once and your character will be freed from whatever animation got it stuck.",
+        "steps": [],
+        "descriptionEnd": ""
+    },
+    {
+        "title": "The Iron Boots are stuck and I can't get them off!",
+        "description": "If you've just gotten the Iron boots and find that you can't get them off:",
+        "steps": ["Get the Hover Boots from the Sanadin Park Ruins", "Summon the Magic Pouch", "Take out a new Gadget"],
+        "descriptionEnd": "This is a known issue and is being looked into."
+    },
+    {
         "title": "Second Wind Compatibility",
         "description": "As of right now Second wind <i>SHOULD</i> work with DtgA if placed lower in priority than DtgA mods. However, things change a lot in DtgA and sometimes new inconsistencies can be introduced. If you are experiencing issues it is recommended to turn this mod off for now and see if your issues go away.",
         "steps": [],
