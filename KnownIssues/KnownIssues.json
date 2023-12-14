@@ -35,6 +35,12 @@
         "descriptionEnd": "This is a known issue and is being looked into."
     },
     {
+        "title": "The game freezes mid-way through the boss fight!",
+        "description": "This is a known issue, and is being looked into. In the meantime you can do the following:",
+        "steps": ["Open your bcml merged folder at <code>%localappdata%&#92;bcml</code>", "Find <code>merged%&#92;aoc%&#92;0010%&#92;Pack%&#92;Remains{Element of boss battle in question}.pack</code>", "After you have ensured you've found the two seperate estus flask upgrades in that particular devine beast, delete the .pack file", "Re-launch your game and do the boss battle now, it will no longer hang halfway through the fight"],
+        "descriptionEnd": ""
+    },
+    {
         "title": "Second Wind Compatibility",
         "description": "As of right now Second wind <i>SHOULD</i> work with DtgA if placed lower in priority than DtgA mods. However, things change a lot in DtgA and sometimes new inconsistencies can be introduced. If you are experiencing issues it is recommended to turn this mod off for now and see if your issues go away.",
         "steps": [],
