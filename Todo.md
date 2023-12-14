@@ -37,12 +37,10 @@
 2. ⏰Get Icon for Miko and Sibyl (when added)
 
 ## NPC Page
-1.  Get icon for Royal Guardsmen 
-2.  Get icon for Would be Champions
-3. 🚩Get icon for Castle town blacksmith (crash when near blacksmith)
-4. ⏰Add other companions when added to mod
-5. ⏰Get icon for the Pheobist
-6. ⏰Get icon for the Alchemist Qosmo
+1. 🚩Get icon for Castle town blacksmith (crash when near blacksmith)
+2. ⏰Add other companions when added to mod
+3. ⏰Get icon for the Pheobist
+4. ⏰Get icon for the Alchemist Qosmo
 
 ## Locations Page
 2. ⏰Get icon for temple of silence
