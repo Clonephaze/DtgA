@@ -6,7 +6,7 @@
             "Icons/ItemFlintStrike.webp"
         ],
         "directory": "Items",
-        "location": "Can be found in the Old Man's Hut on Hope's Rise (the plateau)."
+        "location": "Can be found in the <a class=\"location-popover DtgA-popover-link\" id=\"Old Man's Cabin\">Old Man's Hut</a> on Hope's Rise (the plateau)."
     },
     {
         "title": "Slingshot",
@@ -15,7 +15,7 @@
             "Icons/Slingshot.webp"
         ],
         "directory": "Items",
-        "location": "Can be found at the newly added ruins below the shrine in the snowy mountains on Hope's Rise."
+        "location": "Can be found at the newly added <a class=\"location-popover DtgA-popover-link\" id=\"Frozen Ruins\">Frozen Ruins</a> below the shrine in the snowy mountains on Hope's Rise."
     },
     {
         "title": "Cannon",
@@ -24,7 +24,7 @@
             "Icons/Cannon.webp"
         ],
         "directory": "Items",
-        "location": "Can be found in the newly added cave next to the Woodland Stable pond."
+        "location": "Can be found in the newly added <a class=\"location-popover DtgA-popover-link\" id=\"Cannon Cave\">Cannon Cave</a> next to the Woodland Stable pond."
     },
     {
         "title": "Silver Gauntlents",
@@ -33,7 +33,7 @@
             "Icons/SilverGauntlents.webp"
         ],
         "directory": "Items",
-        "location": "Can be found in the Lanayru Promenade."
+        "location": "Can be found in the <a class=\"location-popover DtgA-popover-link\" id=\"Lanayru Waterfall\">Lanayru Waterfall</a> in Lanayru's Promenade."
     },
     {
         "title": "Golden Gauntlents",
@@ -51,7 +51,7 @@
             "Icons/TwilightSpinner.webp"
         ],
         "directory": "Items",
-        "location": "Can be found in the newly added farthest west ruins in Gerudo Desert."
+        "location": "Can be found in the newly added <a class=\"location-popover DtgA-popover-link\" id=\"Desert Ruins\">Desert Ruins</a> in Gerudo Desert."
     },
     {
         "title": "Iron Boots",
@@ -60,7 +60,7 @@
             "Icons/IronBoots.webp"
         ],
         "directory": "Items",
-        "location": "Can be found at the Hylian Waterworks, a new structure built at the Lake Hylia Inlet."
+        "location": "Can be found at the newly added <a class=\"location-popover DtgA-popover-link\" id=\"Hylian Waterworks\">Hylian Waterworks</a>, a new structure built at the Lake Hylia Inlet."
     },
     {
         "title": "Dive Boots (Unimplemented)",
@@ -78,7 +78,7 @@
             "Icons/HoverBoots.webp"
         ],
         "directory": "Items",
-        "location": "Can be found at the Hylian Royal Crypt at Saninindindin Park, located atop Safula Hill in the Hyrule Ridge."
+        "location": "Can be found at the <a class=\"location-popover DtgA-popover-link\" id=\"Hylian Royal Crypt\">Hylian Royal Crypt</a>, at Saninindindin Park, located atop Safula Hill in the Hyrule Ridge."
     },
     {
         "title": "Hookshot",
@@ -87,7 +87,7 @@
             "Icons/HookShot.webp"
         ],
         "directory": "Items",
-        "location": "Can be found atop Dueling Peaks, in the newly added Dueling Monastery."
+        "location": "Can be found atop Dueling Peaks, in the newly added <a class=\"location-popover DtgA-popover-link\" id=\"Dueling Monastery\">Dueling Monastery</a>."
     },
     {
         "title": "Generator",
@@ -96,7 +96,7 @@
             "Icons/Generator.webp"
         ],
         "directory": "Items",
-        "location": "Can be found outside of the gate to Fort Hateno Keep."
+        "location": "Can be found at the newly added <a class=\"location-popover DtgA-popover-link\" id=\"Fort Hateno Keep\">Fort Hateno Keep</a>."
     },
     {
         "title": "Gust Jar",
@@ -105,6 +105,6 @@
             "Icons/GustJar.webp"
         ],
         "directory": "Items",
-        "location": "Can be found at the newly added Hebra Mansion on the Hebra Frozen River"
+        "location": "Can be found at the newly added <a class=\"location-popover DtgA-popover-link\" id=\"Hebra Mansion\">Hebra Mansion</a>, on the Hebra Frozen River"
     }
 ]

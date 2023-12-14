@@ -286,20 +286,7 @@
         </div>
     </footer>
     <script src="../../js/bootstrap.bundle.min.js"></script>
-    <script>
-        const selectedElement = document.querySelectorAll('.social-media-buttons a')
-        const options = {
-            trigger: 'hover focus',
-            placement: 'top',
-            toggle: 'popover',
-            customClass: 'social-media-popover',
-            offset: [5, -10],
-            delay: { "show": 250, "hide": 100 }
-        }
-        selectedElement.forEach(element => {
-            const popover = new bootstrap.Popover(element, options)
-        })
-    </script>
+    <script src="ItemsPopovers.js"></script>
     <script src="../../js/CardGeneration.js"></script>
     <script>
         generateCards('Gadgets.json', 'Gadget-Cards-generated', 'gadgets');
