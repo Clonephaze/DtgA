@@ -27,35 +27,29 @@
 1. 🚩Add crafting requirements/materials to weapons (Crashing when near blacksmith)
 2. ⏰Add new relevant information to Gadgets section when c-button system is added
 3. ⏰Add missing consumable items; eggs, arrows, fishing spear items (don't know what these are/don't know what they do)
-   
-   -- These have no icons yet --
-4. ⏰Add ReDead claws to weapons section
-5. ⏰Add: Golden Scale, Phantom Hourglass, Billowing Nimbus, Broken Wing, Cube of Zoey, Knight's Crest, Triforce of Courage, Winged Shoes to Key Items
+4. ⏰Add ReDead claws to weapons section (When Icons added)
+5. ⏰Add: Golden Scale, Phantom Hourglass, Billowing Nimbus, Broken Wing, Cube of Zoey, Knight's Crest, Triforce of Courage, Winged Shoes to Key Items (When Icons added)
 
 ## Spellcasting Page
 
 ## Enemies Page
-1. 🚩Get icon for Galahad (cant find)
-2. 🚩Get Icon for Miko and Sibyl (cant find)
-3. Ask Zoey what boss appearing conditions are, cant get the above to spawn
+1. ⏰Get icon for Galahad (when added)
+2. ⏰Get Icon for Miko and Sibyl (when added)
 
 ## NPC Page
-1. Ask Zoey if there should be more companions in the mirror. Currently missing Robbie and Champions
-2. 🚩Get icon for Castle town blacksmith (crash when near blacksmith)
-3. 🚩Get icon for the Pheobist (lumberjack dialogue stuck)
-4. 🚩Get icon for the Alchemist Qosmo (lumberjack dialogue stuck)
-5.  Get icon for Royal Guardsmen 
-6.  Get icon for Would be Champions
+1.  Get icon for Royal Guardsmen 
+2.  Get icon for Would be Champions
+3. 🚩Get icon for Castle town blacksmith (crash when near blacksmith)
+4. ⏰Add other companions when added to mod
+5. ⏰Get icon for the Pheobist
+6. ⏰Get icon for the Alchemist Qosmo
 
 ## Locations Page
-1. Get icons and names for all missing gadget locations
-2. 🚩The Twilight Spinner is located at the farthest west ruins in Gerudo Desert.
-3. Get icon for temple of silence
-4. Get icon for shinobi village
+2. ⏰Get icon for temple of silence
+3. ⏰Get icon for shinobi village
 
 ## Known Issues Page
 1. ⏰Add more issues as remembered
-2. Add note about getting stuck in an animation and that you can fix it with clicking both sticks
 
 ## Other
-1. Consider what to do about quests; possibly add a quest page with walkthroughs for each one
+1. ⏰Consider what to do about quests; possibly add a quest page with walkthroughs for each one

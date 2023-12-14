@@ -38,5 +38,65 @@
        "imageType": "fullsize",
        "directory": "Locations",
        "location": "Lanayru Promenade, east of Kakariko Village."
+    },
+    {
+       "title": "Desert Ruins",
+       "description": "Newly added Desert Ruins in the westernmost reaches of the Gerudo desert, hiding away the Twilight Spinner.",
+       "imageSrc": [
+           "Icons/DesertRuins.webp"
+       ],
+       "imageType": "fullsize",
+       "directory": "Locations" ,
+       "location": "Just south-west of the Kema Zoos shrine, or the entrance to the valley leading to the Yiga Hideout."
+    },
+    {
+       "title": "Hylian Waterworks",
+       "description": "Newly added Hylian Waterworks, hiding away the Iron Boots.",
+       "imageSrc": [
+           "Icons/HylianWaterworks.webp"
+       ],
+       "imageType": "fullsize",
+       "directory": "Locations",
+       "location": "The very entrance of the Hylia Lake inlet, just south of Scout's Hill."
+    },
+    {
+       "title": "Hylian Royal Crypt",
+       "description": "Resting underneath the Sanidin Park Ruins, the Royal Crypt hides away the Hover Boots.",
+       "imageSrc": [
+           "Icons/HylianRoyalCrypt.webp"
+       ],
+       "imageType": "fullsize",
+       "directory": "Locations",
+       "location": "Underneath the horse fountain in the Sanidin Park Ruins."
+    },
+    {
+       "title": "Dueling Monastery",
+       "description": "Newly added Dueling Monastery, hiding away the Hookshot.",
+       "imageSrc": [
+           "Icons/DuelingMonastery.webp"
+       ],
+       "imageType": "fullsize",
+       "directory": "Locations",
+       "location": "Atop the Dueling Peaks, on the Southern peak."
+    },
+    {
+       "title": "Hebra Mansion",
+       "description": "Newly added structure in the Hebra Mountains, hiding away the Gust Jar.",
+       "imageSrc": [
+           "Icons/HebraMansion.webp"
+       ],
+       "imageType": "fullsize",
+       "directory": "Locations",
+       "location": "Rest's atop the northernmost part of the Hebra Headspring."
+    },
+    {
+       "title": "Fort Hateno Keep",
+       "description": "The newly added Keep structure, towering over the Fort Hateno gates, hides away the Generator.",
+       "imageSrc": [
+           "Icons/FortHatenoKeep.webp"
+       ],
+       "imageType": "fullsize",
+       "directory": "Locations",
+       "location": "On the cliff just to the north and behind the Fort Hateno gates."
     }
 ]
