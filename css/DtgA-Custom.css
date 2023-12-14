@@ -699,6 +699,19 @@
         opacity: 0.5;
     }
 
+/****** Items Page Specific ******/
+
+    .location-popover-content {
+        border-radius: 20px;
+        max-width: 18em;
+        max-height: 30em;
+        background-color: color-mix(in srgb, rgba(var(--DtgA-primary), 0.8) 5%, rgba(var(--DtgA-Secondary), 0.94))
+    }  
+    
+    .location-popover-content .popover-body {
+        padding: 0.5rem
+    }
+
 /****** New Mechanics Page ******/
 
     .NewMech-list-group {
