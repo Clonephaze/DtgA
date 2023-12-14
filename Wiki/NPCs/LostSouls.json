@@ -35,7 +35,7 @@
         "directory": "NPCs",
         "description": "Ghosts of who served at the side of the royal family, who give the Lost One their soul in hopes it may help in battle against Ganon.",
         "imageSrc": [
-            ""
+            "Icons/RoyalGuard.webp"
         ],
         "location": "Can be found all around Hyrule."
     },
@@ -45,7 +45,7 @@
         "directory": "NPCs",
         "description": "Ghosts of former rivals and prospective heroes, who give the Lost One their soul in hopes it may help in battle against Ganon.",
         "imageSrc": [
-            ""
+            "Icons/WouldBeChampion.webp"
         ],
         "location": "Can be found all around Hyrule."
     }
