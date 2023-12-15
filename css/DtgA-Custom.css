@@ -1221,7 +1221,7 @@
 /****** Fonts ******/
 @font-face {
     font-family: 'ZeldaFont';
-    src: url(../Fonts/TheWildBreathOfZelda-15Lv.ttf) format('truetype');
+    src: url(../Fonts/TheWildBreathofZelda.otf) format('opentype');
 }
 
 @font-face {
@@ -1254,6 +1254,6 @@
 }
 
 @font-face {
-    font-family: 'Triforce';
+    font-family: 'Triforce' format('truetype');
     src: url(../Fonts/Triforce-y07d.ttf);
 }
