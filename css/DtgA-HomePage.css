@@ -4,6 +4,10 @@
     --DtgA-primary: 133, 255, 225;
 }
 
+main {
+    pointer-events: none;
+}
+
 /*** Page Wide CSS ***/
 .Home-body {
     height: calc(var(--vh, 1vh) * 100);
@@ -74,7 +78,7 @@
     border-color: var(--DtgA-Border-Color);
     background-image: transparent;
     text-align: center;
-    left -43px !important;
+    left: -43px !important;
 }
 
 .home-navbar-nav {
@@ -95,10 +99,12 @@
 .HomeLogoContainer {
     width: 100%;
     text-align: center;
+    pointer-events: none;
 }
 
 .HomeLogo {
     max-width: 100%;
+    pointer-events: none;
 }
 
 /*** Title Text ***/
@@ -124,9 +130,14 @@
     font-family: "ZeldaFont";
     font-size: 30px;
     background-color: rgba(133, 255, 224, 0.082);
+    pointer-events: all;
 }
 
 /*** Social Media Buttons ***/
+.social-media-buttons {
+    pointer-events: all;
+}
+
 .social-media-buttons a {
     padding: 20px;
     font-size: 30px;
@@ -257,7 +268,7 @@
 /*** Fonts ***/
 @font-face {
     font-family: 'ZeldaFont';
-    src: url(../Fonts/TheWildBreathOfZelda-15Lv.ttf) format('truetype');
+    src: url(../Fonts/TheWildBreathofZelda.otf) format('opentype');
     font-style: normal;
     font-weight: normal;
 }
