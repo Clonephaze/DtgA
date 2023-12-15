@@ -345,6 +345,7 @@
 
     .about-card-body {
         box-shadow: inset 0 0 10px 3px rgba(var(--black), 0.35);
+        border-radius: 0 0 12px 12px;
     }
 
     .about-card-content ul {
