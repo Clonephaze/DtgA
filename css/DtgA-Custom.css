@@ -149,17 +149,18 @@
         border-color: #84ffe050;
         border-radius: 10px;
         border-width: 2px;
-        width: 3rem;
+        width: 3.4rem;
         height: 2.3rem;
         display: flex;
         justify-content: center;
         align-items: center;
         position: relative;
         overflow: hidden;
+        box-sizing: border-box;
     }
     
     .hamburger {
-        position: fixed;
+        position: relative;
         width: 1.5rem;
         height: 3px;
         background: rgb(var(--DtgA-primary));
