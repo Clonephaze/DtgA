@@ -146,18 +146,63 @@
     }
 
     .navbar-toggler {
-        border-color: rgba(var(--DtgA-primary), 0.5);
+        border-color: #84ffe050;
         border-radius: 10px;
-        min-height: 4vh
+        border-width: 2px;
+        width: 3rem;
+        height: 2.3rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        overflow: hidden;
+    }
+    
+    .hamburger {
+        position: fixed;
+        width: 1.5rem;
+        height: 3px;
+        background: rgb(var(--DtgA-primary));
+        border-radius: 3px;
+        transition: all 225ms linear, background-color 225ms linear;
+    }
+    
+    .hamburger::before,
+    .hamburger::after {
+        position: absolute;
+        content: '';
+        width: 1.5rem;
+        height: 3px;
+        background: rgb(var(--DtgA-primary));
+        border-radius: 3px;
+        transition: all 250ms linear;
+    }
+    
+    .hamburger::before {
+        transform: translate(-12px, -7px);
+    }
+    
+    .hamburger::after {
+        transform: translate(-12px, 7px);
+    }
+    
+    .navbar-toggler:not(.collapsed) .hamburger {
+        transform: translate(-12px);
+        background-color: transparent;
+        transition: all 250ms linear, background-color 125ms linear;
+    }
+    
+    .navbar-toggler:not(.collapsed) .hamburger::before {
+        transform: rotate(45deg)
+    }
+    
+    .navbar-toggler:not(.collapsed) .hamburger::after {
+        transform: rotate(-45deg)
     }
 
     .navbar-toggler:focus {
         outline: none;
         box-shadow: none;
-    }
-
-    .navbar-toggler {
-        border-color: rgba(var(--DtgA-primary), 0.5);
     }
 
     .Theme-Menu-Btn {
