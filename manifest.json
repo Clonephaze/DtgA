@@ -5,8 +5,7 @@
         {
             "src": "SiteResources/SiteIcons/DtgA-Icon-vector.svg",
             "type": "image/svg+xml",
-            "sizes": "512x512",
-            "purpose": "maskable"
+            "sizes": "512x512"
         },
         {
             "src": "SiteResources/SiteIcons/DtgA-Icon-192.png",
@@ -27,6 +26,6 @@
         }
     ],
     "start_url": "https://clonephaze.github.io/DtgA/index.html",
-    "display_override": ["window-control-overlay", "minimal-ui"],
-    "display": "standalone"
+    "display_override": ["standalone","window-control-overlay", "minimal-ui"],
+    "display": "fullscreen"
 }
