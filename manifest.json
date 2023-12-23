@@ -17,8 +17,7 @@
         {
             "src": "SiteResources/SiteIcons/DtgA-Icon-256.png",
             "type": "image/png",
-            "sizes": "256x256",
-            "purpose": "maskable"
+            "sizes": "256x256"
         },
         {
             "src": "SiteResources/SiteIcons/DtgA-Icon-512.png",
