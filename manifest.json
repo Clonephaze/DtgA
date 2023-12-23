@@ -27,8 +27,7 @@
             "purpose": "maskable"
         }
     ],
-    "start_url": "http://127.0.0.1:3002/index.html",
-    "theme_color": "rgb(133, 255, 225)",
+    "start_url": "https://clonephaze.github.io/DtgA/index.html",
     "display_override": ["window-control-overlay", "minimal-ui"],
     "display": "standalone"
 }
