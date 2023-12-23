@@ -5,17 +5,26 @@
         {
             "src": "SiteResources/SiteIcons/DtgA-Icon-vector.svg",
             "type": "image/svg+xml",
-            "sizes": "512x512"
+            "sizes": "512x512",
+            "purpose": "maskable"
         },
         {
             "src": "SiteResources/SiteIcons/DtgA-Icon-192.png",
             "type": "image/png",
-            "sizes": "192x192"
+            "sizes": "192x192",
+            "purpose": "maskable"
+        },
+        {
+            "src": "SiteResources/SiteIcons/DtgA-Icon-256.png",
+            "type": "image/png",
+            "sizes": "256x256",
+            "purpose": "maskable"
         },
         {
             "src": "SiteResources/SiteIcons/DtgA-Icon-512.png",
             "type": "image/png",
-            "sizes": "512x512"
+            "sizes": "512x512",
+            "purpose": "maskable"
         }
     ],
     "start_url": "http://127.0.0.1:3002/index.html",
