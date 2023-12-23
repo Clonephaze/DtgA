@@ -3,9 +3,10 @@
     "name": "Dangerous to go Alone | Wiki",
     "icons": [
         {
-            "src": "SiteResources/SiteIcons/DtgA-Icon-vector.svg",
-            "type": "image/svg+xml",
-            "sizes": "512x512"
+            "src": "SiteResources/SiteIcons/DtgA-Icon-512.png",
+            "type": "image/png",
+            "sizes": "512x512",
+            "purpose": "maskable"
         },
         {
             "src": "SiteResources/SiteIcons/DtgA-Icon-192.png",
@@ -19,13 +20,14 @@
             "sizes": "256x256"
         },
         {
-            "src": "SiteResources/SiteIcons/DtgA-Icon-512.png",
-            "type": "image/png",
-            "sizes": "512x512",
-            "purpose": "maskable"
+            "src": "SiteResources/SiteIcons/DtgA-Icon-vector.svg",
+            "type": "image/svg+xml",
+            "sizes": "512x512"
         }
     ],
     "start_url": "https://clonephaze.github.io/DtgA/index.html",
     "display_override": ["standalone","window-control-overlay", "minimal-ui"],
-    "display": "fullscreen"
+    "display": "fullscreen",
+    "theme_color": "hsl(198, 12%, 16%)",
+    "background_color": "hsl(198, 12%, 16%)"
 }
