@@ -51,6 +51,7 @@ function generateCards(jsonFileName, containerId, sectionName) {
 
           // Create a new image element
           let img = document.createElement('img');
+          img.loading = 'lazy';
           img.src = image;
           img.className = 'd-block w-100 mx-auto item-card-image';
           img.ariaLabel = 'Item Image';
