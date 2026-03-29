@@ -1,3 +1,6 @@
+> [!NOTE]
+> This version of the site has been archived, the new site can be found here: https://clonephaze.github.io/DtgA-Redone/
+
 # Dangerous to go Alone Website
 
 - [Dangerous to go Alone Website](#dangerous-to-go-alone-website)
